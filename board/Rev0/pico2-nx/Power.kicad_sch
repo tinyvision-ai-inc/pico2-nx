@@ -5,6 +5,195 @@
 	(uuid "bc76d55f-e489-42de-b2fa-237f9683c31a")
 	(paper "A3")
 	(lib_symbols
+		(symbol "Power_Management:TPS22917DBV"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -6.35 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TPS22917DBV"
+				(at 2.54 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+				(at 0 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps22917.pdf"
+				(at 1.27 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1V to 5.5V, 2A, 80mΩ Ultra-Low Leakage Load Switch, SOT23-6"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "high-side power distribution switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TPS22917DBV_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TPS22917DBV_1_1"
+				(pin power_in line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "ON"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "CT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "QOD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "UPduino_v3.0:Device_R"
 			(pin_numbers hide)
 			(pin_names
@@ -108,107 +297,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "pico2-nx-altium-import:EN_CIRCLE"
-			(power)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "EN"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name 'EN'"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "EN_CIRCLE_0_0"
-				(circle
-					(center 0 -1.905)
-					(radius 0.635)
-					(stroke
-						(width 0.127)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 0)
-					(length 0) hide
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1709,126 +1797,12 @@
 				)
 			)
 		)
-		(symbol "power:+3V3"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3V3"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3V3\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3V3_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3V3_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0) hide
-					(name "+3V3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
+	)
+	(junction
+		(at 162.56 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "01557901-0401-488f-89b3-4451ee07437f")
 	)
 	(junction
 		(at 118.11 152.4)
@@ -1861,16 +1835,16 @@
 		(uuid "2823d5b5-c024-4dbc-bc02-67ec25f80804")
 	)
 	(junction
+		(at 120.65 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2af38f31-bd63-4996-9181-29a08f595432")
+	)
+	(junction
 		(at 125.73 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "39f2a37a-acc5-4c84-8530-91175d1a76c5")
-	)
-	(junction
-		(at 45.72 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4076d431-a505-4d3a-a0ae-41ef48dba1d2")
 	)
 	(junction
 		(at 95.25 152.4)
@@ -1957,6 +1931,12 @@
 		(uuid "ca7228ca-aae3-455e-a252-bb09343384f7")
 	)
 	(junction
+		(at 36.83 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc1a4459-dc05-4f82-be55-da288e18b8be")
+	)
+	(junction
 		(at 45.72 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1993,6 +1973,16 @@
 			(type default)
 		)
 		(uuid "05bfcc22-b6b5-438c-a290-cb488828bc4f")
+	)
+	(wire
+		(pts
+			(xy 120.65 58.42) (xy 142.24 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05ceda5b-6f2d-40a6-969b-02ee03de574e")
 	)
 	(wire
 		(pts
@@ -2043,6 +2033,16 @@
 			(type default)
 		)
 		(uuid "0eddd1e4-469f-4202-b744-75197922491d")
+	)
+	(wire
+		(pts
+			(xy 48.26 120.65) (xy 48.26 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fc26d99-e381-445a-8e4b-2223126c5a0f")
 	)
 	(wire
 		(pts
@@ -2117,16 +2117,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 109.22) (xy 45.72 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "311b0d17-83a4-404b-bc5b-50fabf1b9883")
-	)
-	(wire
-		(pts
 			(xy 63.5 91.44) (xy 76.2 91.44)
 		)
 		(stroke
@@ -2164,6 +2154,16 @@
 			(type default)
 		)
 		(uuid "495b6acc-008f-463a-b246-8891228fc1a1")
+	)
+	(wire
+		(pts
+			(xy 139.7 63.5) (xy 142.24 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fdd73ee-9437-4244-8cac-0c3c41d6eb11")
 	)
 	(wire
 		(pts
@@ -2224,6 +2224,26 @@
 			(type default)
 		)
 		(uuid "5f02b7c8-a94e-4e6d-a1d5-8cdce349145d")
+	)
+	(wire
+		(pts
+			(xy 22.86 120.65) (xy 36.83 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f94d5f6-865d-4376-a99d-d8256f1042b6")
+	)
+	(wire
+		(pts
+			(xy 162.56 58.42) (xy 162.56 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61488691-ff16-45d9-880c-64ff554170b9")
 	)
 	(wire
 		(pts
@@ -2297,7 +2317,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 109.22) (xy 45.72 68.58)
+			(xy 45.72 68.58) (xy 45.72 162.56)
 		)
 		(stroke
 			(width 0)
@@ -2488,13 +2508,13 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 109.22) (xy 45.72 109.22)
+			(xy 162.56 58.42) (xy 166.37 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d16db1dd-fbd2-47d1-9ed5-b7bf59174ac3")
+		(uuid "dfc5e9df-399c-431c-a00c-59c7f67100f7")
 	)
 	(wire
 		(pts
@@ -2536,6 +2556,16 @@
 			(color 0 0 0 1)
 		)
 		(uuid "e37c4420-4cfd-4309-a3f0-f10f63874b2f")
+	)
+	(wire
+		(pts
+			(xy 36.83 120.65) (xy 48.26 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e394dddd-ce4b-48c8-84db-ec5cbfc31e56")
 	)
 	(wire
 		(pts
@@ -2589,8 +2619,8 @@
 	)
 	(text_box "Power Modes:\nOFF: EN < 0.9V, uA level current\nPWM Mode: 0.91 (type) < EN < P5V-200mV\nPFM Mode: P5V-200mV < EN < P5V"
 		(exclude_from_sim no)
-		(at 201.93 77.47 0)
-		(size -46.99 16.51)
+		(at 41.91 194.31 0)
+		(size 46.99 16.51)
 		(stroke
 			(width 0)
 			(type default)
@@ -2621,7 +2651,7 @@
 	)
 	(text "R1 = (Vout/0.6 - 1)*R2"
 		(exclude_from_sim no)
-		(at 85.09 166.37 0)
+		(at 83.82 165.354 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2643,7 +2673,7 @@
 	)
 	(text "R1 = (Vout/0.6 - 1)*R2"
 		(exclude_from_sim no)
-		(at 86.36 76.2 0)
+		(at 83.82 71.628 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2670,6 +2700,7 @@
 		(effects
 			(font
 				(size 1.778 1.778)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
@@ -2693,6 +2724,7 @@
 		(effects
 			(font
 				(size 1.778 1.778)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
@@ -2704,6 +2736,7 @@
 		(effects
 			(font
 				(size 1.778 1.778)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
@@ -2722,7 +2755,7 @@
 	)
 	(text "Setpoint: 1.8V"
 		(exclude_from_sim no)
-		(at 105.41 57.15 0)
+		(at 104.14 57.912 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2756,7 +2789,7 @@
 	)
 	(text "R1 = (Vout/0.6 - 1)*R2"
 		(exclude_from_sim no)
-		(at 92.71 119.38 0)
+		(at 93.98 117.348 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2776,77 +2809,51 @@
 		)
 		(uuid "f876ea5b-d044-4863-9ef1-b17be8a7d009")
 	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 157.48 152.4 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0643f548-8b4d-4e2f-85b2-32af68cb7adb")
-		(property "Reference" "#PWR06"
-			(at 157.48 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
+	(label "FPGA_EN"
+		(at 139.7 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right bottom)
 		)
-		(property "Value" "+3V3_FPGA"
-			(at 157.099 148.0058 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+		(uuid "b89d48a2-24ec-44d4-878d-e41a94d11897")
+	)
+	(label "FPGA_EN"
+		(at 30.48 120.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left bottom)
 		)
-		(property "Footprint" ""
-			(at 157.48 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
+		(uuid "dc1062dc-b3e0-4cd1-988e-1b9b2e81244e")
+	)
+	(hierarchical_label "PWR_EN"
+		(shape input)
+		(at 33.02 170.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
-		(property "Datasheet" ""
-			(at 157.48 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
+		(uuid "2e245a0d-0b8c-438f-ab4c-a592a34c5f84")
+	)
+	(hierarchical_label "FPGA_EN"
+		(shape input)
+		(at 22.86 120.65 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
-		(property "Description" ""
-			(at 157.48 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fbd13f84-d6d9-4ea6-9d91-81acb38c9798")
-		)
-		(instances
-			(project "pico2-nx"
-				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/259c5351-60de-47b4-bd20-37b3e3d7393a"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-			(project "pico2-nx"
-				(path "/bc76d55f-e489-42de-b2fa-237f9683c31a"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "d9905ee4-3131-4717-b12e-857b52e094aa")
 	)
 	(symbol
 		(lib_id "UPduino_v3.0:Device_R")
@@ -2922,9 +2929,83 @@
 					(unit 1)
 				)
 			)
+		)
+	)
+	(symbol
+		(lib_id "Power_Management:TPS22917DBV")
+		(at 152.4 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a71045d-c74f-48ec-8f8d-fc278027b515")
+		(property "Reference" "U6"
+			(at 152.4 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS22917DBV"
+			(at 152.4 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 152.4 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps22917.pdf"
+			(at 153.67 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1V to 5.5V, 2A, 80mΩ Ultra-Low Leakage Load Switch, SOT23-6"
+			(at 152.4 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "033e2874-2533-4c12-9be1-784dbfb8b0fb")
+		)
+		(pin "2"
+			(uuid "6e4595ee-ce4f-448e-b7ba-211ec7190797")
+		)
+		(pin "1"
+			(uuid "fd8c4774-3d84-4221-8b5b-f3a2ebde467b")
+		)
+		(pin "5"
+			(uuid "6cb66db1-741c-4b35-95eb-ea225834815b")
+		)
+		(pin "3"
+			(uuid "3957bbf4-6e85-411c-b0fb-43360f9a128a")
+		)
+		(pin "6"
+			(uuid "d1f590a8-0458-4469-9bb4-00eecb8850e6")
+		)
+		(instances
 			(project "pico2-nx"
-				(path "/bc76d55f-e489-42de-b2fa-237f9683c31a"
-					(reference "SJ1")
+				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/259c5351-60de-47b4-bd20-37b3e3d7393a"
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -3102,12 +3183,6 @@
 		(instances
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/259c5351-60de-47b4-bd20-37b3e3d7393a"
-					(reference "C36")
-					(unit 1)
-				)
-			)
-			(project "pico2-nx"
-				(path "/bc76d55f-e489-42de-b2fa-237f9683c31a"
 					(reference "C36")
 					(unit 1)
 				)
@@ -3290,12 +3365,6 @@
 					(unit 1)
 				)
 			)
-			(project "pico2-nx"
-				(path "/bc76d55f-e489-42de-b2fa-237f9683c31a"
-					(reference "C35")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -3358,12 +3427,6 @@
 		(instances
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/259c5351-60de-47b4-bd20-37b3e3d7393a"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-			(project "pico2-nx"
-				(path "/bc76d55f-e489-42de-b2fa-237f9683c31a"
 					(reference "#PWR?")
 					(unit 1)
 				)
@@ -3517,12 +3580,6 @@
 					(unit 1)
 				)
 			)
-			(project "pico2-nx"
-				(path "/bc76d55f-e489-42de-b2fa-237f9683c31a"
-					(reference "R30")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -3650,12 +3707,6 @@
 		(instances
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/259c5351-60de-47b4-bd20-37b3e3d7393a"
-					(reference "PS2")
-					(unit 1)
-				)
-			)
-			(project "pico2-nx"
-				(path "/bc76d55f-e489-42de-b2fa-237f9683c31a"
 					(reference "PS2")
 					(unit 1)
 				)
@@ -3809,12 +3860,6 @@
 					(unit 1)
 				)
 			)
-			(project "pico2-nx"
-				(path "/bc76d55f-e489-42de-b2fa-237f9683c31a"
-					(reference "R24")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -3877,12 +3922,6 @@
 		(instances
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/259c5351-60de-47b4-bd20-37b3e3d7393a"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-			(project "pico2-nx"
-				(path "/bc76d55f-e489-42de-b2fa-237f9683c31a"
 					(reference "#PWR?")
 					(unit 1)
 				)
@@ -3953,12 +3992,6 @@
 					(unit 1)
 				)
 			)
-			(project "pico2-nx"
-				(path "/bc76d55f-e489-42de-b2fa-237f9683c31a"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -4025,12 +4058,6 @@
 					(unit 1)
 				)
 			)
-			(project "pico2-nx"
-				(path "/bc76d55f-e489-42de-b2fa-237f9683c31a"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -4093,12 +4120,6 @@
 		(instances
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/259c5351-60de-47b4-bd20-37b3e3d7393a"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-			(project "pico2-nx"
-				(path "/bc76d55f-e489-42de-b2fa-237f9683c31a"
 					(reference "#PWR?")
 					(unit 1)
 				)
@@ -4212,9 +4233,152 @@
 					(unit 1)
 				)
 			)
+		)
+	)
+	(symbol
+		(lib_id "pico2-nx-altium-import:root_1_mirrored_Res_10K_1%_0402")
+		(at 39.37 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6f5ba634-7e54-40c6-ada1-6a4985e26dbd")
+		(property "Reference" "R28"
+			(at 37.592 125.476 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 37.592 128.016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "RESC1005X40USR"
+			(at 39.37 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 200K OHM 1% 1/16W 0402"
+			(at 39.37 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "RMCF0402FT200KTR-ND"
+			(at 36.068 120.142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Stackpole Electronics Inc"
+			(at 36.068 120.142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART #" ""
+			(at 36.068 120.142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "0402"
+			(at 36.068 120.142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" "RMCF0402FT200K"
+			(at 36.068 120.142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" "0.4mm"
+			(at 36.068 120.142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" "Digi-Key"
+			(at 36.068 120.142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "200K"
+			(at 36.068 120.142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "78354304-81e3-46ef-b9e4-cd44f06d3fd4")
+		)
+		(pin "1"
+			(uuid "64004bbf-d809-4c4a-a8d6-4338f092b156")
+		)
+		(instances
 			(project "pico2-nx"
-				(path "/bc76d55f-e489-42de-b2fa-237f9683c31a"
-					(reference "L3")
+				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/259c5351-60de-47b4-bd20-37b3e3d7393a"
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -4279,12 +4443,6 @@
 		(instances
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/259c5351-60de-47b4-bd20-37b3e3d7393a"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-			(project "pico2-nx"
-				(path "/bc76d55f-e489-42de-b2fa-237f9683c31a"
 					(reference "#PWR?")
 					(unit 1)
 				)
@@ -4434,12 +4592,6 @@
 		(instances
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/259c5351-60de-47b4-bd20-37b3e3d7393a"
-					(reference "R22")
-					(unit 1)
-				)
-			)
-			(project "pico2-nx"
-				(path "/bc76d55f-e489-42de-b2fa-237f9683c31a"
 					(reference "R22")
 					(unit 1)
 				)
@@ -4671,12 +4823,6 @@
 					(unit 1)
 				)
 			)
-			(project "pico2-nx"
-				(path "/bc76d55f-e489-42de-b2fa-237f9683c31a"
-					(reference "T2")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -4826,12 +4972,6 @@
 					(unit 1)
 				)
 			)
-			(project "pico2-nx"
-				(path "/bc76d55f-e489-42de-b2fa-237f9683c31a"
-					(reference "R25")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -4894,12 +5034,6 @@
 		(instances
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/259c5351-60de-47b4-bd20-37b3e3d7393a"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-			(project "pico2-nx"
-				(path "/bc76d55f-e489-42de-b2fa-237f9683c31a"
 					(reference "#PWR?")
 					(unit 1)
 				)
@@ -5053,84 +5187,6 @@
 					(unit 1)
 				)
 			)
-			(project "pico2-nx"
-				(path "/bc76d55f-e489-42de-b2fa-237f9683c31a"
-					(reference "R26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pico2-nx-altium-import:EN_CIRCLE")
-		(at 33.02 170.18 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8c28cbb7-4060-47f0-a020-321b4a67380c")
-		(property "Reference" "#PWR?"
-			(at 33.02 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "EN"
-			(at 29.21 170.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 33.02 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 33.02 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 33.02 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "7bf72c4c-e5d1-463b-8ead-6020aa4c36f9")
-		)
-		(instances
-			(project "pico2-nx"
-				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/259c5351-60de-47b4-bd20-37b3e3d7393a"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-			(project "pico2-nx"
-				(path "/bc76d55f-e489-42de-b2fa-237f9683c31a"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -5197,12 +5253,6 @@
 					(unit 1)
 				)
 			)
-			(project "pico2-nx"
-				(path "/bc76d55f-e489-42de-b2fa-237f9683c31a"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -5265,12 +5315,6 @@
 		(instances
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/259c5351-60de-47b4-bd20-37b3e3d7393a"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-			(project "pico2-nx"
-				(path "/bc76d55f-e489-42de-b2fa-237f9683c31a"
 					(reference "#PWR?")
 					(unit 1)
 				)
@@ -5402,12 +5446,6 @@
 		(instances
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/259c5351-60de-47b4-bd20-37b3e3d7393a"
-					(reference "PS1")
-					(unit 1)
-				)
-			)
-			(project "pico2-nx"
-				(path "/bc76d55f-e489-42de-b2fa-237f9683c31a"
 					(reference "PS1")
 					(unit 1)
 				)
@@ -5561,12 +5599,6 @@
 					(unit 1)
 				)
 			)
-			(project "pico2-nx"
-				(path "/bc76d55f-e489-42de-b2fa-237f9683c31a"
-					(reference "R21")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -5629,12 +5661,6 @@
 		(instances
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/259c5351-60de-47b4-bd20-37b3e3d7393a"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-			(project "pico2-nx"
-				(path "/bc76d55f-e489-42de-b2fa-237f9683c31a"
 					(reference "#PWR?")
 					(unit 1)
 				)
@@ -5788,12 +5814,6 @@
 					(unit 1)
 				)
 			)
-			(project "pico2-nx"
-				(path "/bc76d55f-e489-42de-b2fa-237f9683c31a"
-					(reference "R31")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -5943,12 +5963,6 @@
 					(unit 1)
 				)
 			)
-			(project "pico2-nx"
-				(path "/bc76d55f-e489-42de-b2fa-237f9683c31a"
-					(reference "R32")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -6015,9 +6029,69 @@
 					(unit 1)
 				)
 			)
+		)
+	)
+	(symbol
+		(lib_id "pico2-nx-altium-import:GND_POWER_GROUND")
+		(at 152.4 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bce4b4d1-1934-4bf3-8938-ae2e376af4ba")
+		(property "Reference" "#PWR079"
+			(at 152.4 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 152.4 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "acce4f5b-aad4-4b2c-ba7d-10173d7d4374")
+		)
+		(instances
 			(project "pico2-nx"
-				(path "/bc76d55f-e489-42de-b2fa-237f9683c31a"
-					(reference "#PWR?")
+				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/259c5351-60de-47b4-bd20-37b3e3d7393a"
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -6248,12 +6322,6 @@
 					(unit 1)
 				)
 			)
-			(project "pico2-nx"
-				(path "/bc76d55f-e489-42de-b2fa-237f9683c31a"
-					(reference "T22")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -6432,9 +6500,69 @@
 					(unit 1)
 				)
 			)
+		)
+	)
+	(symbol
+		(lib_id "pico2-nx-altium-import:P3V3D_CIRCLE")
+		(at 157.48 152.4 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d2f80b95-4e9e-414b-bfd2-0bf031b719cf")
+		(property "Reference" "#PWR081"
+			(at 157.48 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "P3V3D_FPGA"
+			(at 153.162 148.336 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "5b53d330-194c-4ee1-84d3-34c378c1d80b")
+		)
+		(instances
 			(project "pico2-nx"
-				(path "/bc76d55f-e489-42de-b2fa-237f9683c31a"
-					(reference "C33")
+				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/259c5351-60de-47b4-bd20-37b3e3d7393a"
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -6612,12 +6740,6 @@
 		(instances
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/259c5351-60de-47b4-bd20-37b3e3d7393a"
-					(reference "C34")
-					(unit 1)
-				)
-			)
-			(project "pico2-nx"
-				(path "/bc76d55f-e489-42de-b2fa-237f9683c31a"
 					(reference "C34")
 					(unit 1)
 				)
@@ -6800,12 +6922,6 @@
 					(unit 1)
 				)
 			)
-			(project "pico2-nx"
-				(path "/bc76d55f-e489-42de-b2fa-237f9683c31a"
-					(reference "C4")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -6951,12 +7067,6 @@
 		(instances
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/259c5351-60de-47b4-bd20-37b3e3d7393a"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-			(project "pico2-nx"
-				(path "/bc76d55f-e489-42de-b2fa-237f9683c31a"
 					(reference "R12")
 					(unit 1)
 				)
@@ -7139,12 +7249,6 @@
 					(unit 1)
 				)
 			)
-			(project "pico2-nx"
-				(path "/bc76d55f-e489-42de-b2fa-237f9683c31a"
-					(reference "C37")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -7211,9 +7315,69 @@
 					(unit 1)
 				)
 			)
+		)
+	)
+	(symbol
+		(lib_id "pico2-nx-altium-import:P1V8D_CIRCLE")
+		(at 166.37 58.42 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e00ed5b3-6db5-4d2f-9e6d-dd9843002633")
+		(property "Reference" "#PWR045"
+			(at 166.37 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "P1V8D_FPGA"
+			(at 162.306 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 166.37 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "63933d3a-e858-4f92-918c-83ecb8951cf1")
+		)
+		(instances
 			(project "pico2-nx"
-				(path "/bc76d55f-e489-42de-b2fa-237f9683c31a"
-					(reference "#PWR?")
+				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/259c5351-60de-47b4-bd20-37b3e3d7393a"
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -7237,7 +7401,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "P5V"
+		(property "Value" "V_{in}"
 			(at 25.4 52.07 0)
 			(effects
 				(font
@@ -7278,12 +7442,6 @@
 		(instances
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/259c5351-60de-47b4-bd20-37b3e3d7393a"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-			(project "pico2-nx"
-				(path "/bc76d55f-e489-42de-b2fa-237f9683c31a"
 					(reference "#PWR?")
 					(unit 1)
 				)
@@ -7515,9 +7673,69 @@
 					(unit 1)
 				)
 			)
+		)
+	)
+	(symbol
+		(lib_id "pico2-nx-altium-import:GND_POWER_GROUND")
+		(at 36.83 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ec44c178-f809-4c0e-86dc-a9823e12d880")
+		(property "Reference" "#PWR080"
+			(at 36.83 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 36.83 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 36.83 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "55b824fd-572c-470b-9897-27aad291f242")
+		)
+		(instances
 			(project "pico2-nx"
-				(path "/bc76d55f-e489-42de-b2fa-237f9683c31a"
-					(reference "T1")
+				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/259c5351-60de-47b4-bd20-37b3e3d7393a"
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -7630,17 +7848,11 @@
 					(unit 1)
 				)
 			)
-			(project "pico2-nx"
-				(path "/bc76d55f-e489-42de-b2fa-237f9683c31a"
-					(reference "L2")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
 		(lib_id "pico2-nx-altium-import:P1V8D_CIRCLE")
-		(at 120.65 58.42 90)
+		(at 120.65 58.42 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7656,8 +7868,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "P1V8D_FPGA"
-			(at 124.46 58.42 90)
+		(property "Value" "P1V8D"
+			(at 118.872 54.356 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7698,12 +7910,6 @@
 		(instances
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/259c5351-60de-47b4-bd20-37b3e3d7393a"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-			(project "pico2-nx"
-				(path "/bc76d55f-e489-42de-b2fa-237f9683c31a"
 					(reference "#PWR?")
 					(unit 1)
 				)
@@ -7770,12 +7976,6 @@
 		(instances
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/259c5351-60de-47b4-bd20-37b3e3d7393a"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-			(project "pico2-nx"
-				(path "/bc76d55f-e489-42de-b2fa-237f9683c31a"
 					(reference "#PWR?")
 					(unit 1)
 				)
@@ -7885,12 +8085,6 @@
 		(instances
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/259c5351-60de-47b4-bd20-37b3e3d7393a"
-					(reference "L1")
-					(unit 1)
-				)
-			)
-			(project "pico2-nx"
-				(path "/bc76d55f-e489-42de-b2fa-237f9683c31a"
 					(reference "L1")
 					(unit 1)
 				)
@@ -8022,12 +8216,6 @@
 		(instances
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/259c5351-60de-47b4-bd20-37b3e3d7393a"
-					(reference "PS3")
-					(unit 1)
-				)
-			)
-			(project "pico2-nx"
-				(path "/bc76d55f-e489-42de-b2fa-237f9683c31a"
 					(reference "PS3")
 					(unit 1)
 				)
@@ -8181,12 +8369,6 @@
 					(unit 1)
 				)
 			)
-			(project "pico2-nx"
-				(path "/bc76d55f-e489-42de-b2fa-237f9683c31a"
-					(reference "R23")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -8208,7 +8390,7 @@
 			)
 		)
 		(property "Value" "P3V3D"
-			(at 125.73 148.59 0)
+			(at 123.444 148.336 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8249,12 +8431,6 @@
 		(instances
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/259c5351-60de-47b4-bd20-37b3e3d7393a"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-			(project "pico2-nx"
-				(path "/bc76d55f-e489-42de-b2fa-237f9683c31a"
 					(reference "#PWR?")
 					(unit 1)
 				)
@@ -8321,12 +8497,6 @@
 		(instances
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/259c5351-60de-47b4-bd20-37b3e3d7393a"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-			(project "pico2-nx"
-				(path "/bc76d55f-e489-42de-b2fa-237f9683c31a"
 					(reference "#PWR?")
 					(unit 1)
 				)

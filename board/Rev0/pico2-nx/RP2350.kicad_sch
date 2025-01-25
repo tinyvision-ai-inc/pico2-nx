@@ -5446,6 +5446,9 @@
 			)
 		)
 	)
+	(bus_alias "HSTX"
+		(members "L0_P" "L0_N" "L1_P" "L1_N" "L2_P" "L2_N" "L3_P" "L3_N")
+	)
 	(bus_alias "QSPI"
 		(members "D0" "D1" "D2" "D3" "CLK" "SSn0" "SSn1")
 	)
@@ -5806,76 +5809,76 @@
 		(uuid "5de078a4-7947-428f-88a1-09482c3e0ba3")
 	)
 	(bus_entry
-		(at 288.29 121.92)
-		(size 2.54 2.54)
+		(at 290.83 134.62)
+		(size -2.54 -2.54)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0777789e-db06-4c3e-b191-77ce88499eaf")
+		(uuid "1e1000c8-d2df-416a-8772-f4595308fd87")
 	)
 	(bus_entry
-		(at 288.29 124.46)
-		(size 2.54 2.54)
+		(at 290.83 127)
+		(size -2.54 -2.54)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0b970cc9-ab86-43df-8fd3-74955a3b7096")
+		(uuid "22aeb697-0d7a-41e3-a0bb-a31e5b84c92b")
 	)
 	(bus_entry
-		(at 288.29 127)
-		(size 2.54 2.54)
+		(at 290.83 129.54)
+		(size -2.54 -2.54)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "30b7605d-8b7a-44e6-8e3f-9a73b6baad47")
+		(uuid "23386365-df2c-4fac-94fb-2173eff31074")
 	)
 	(bus_entry
-		(at 288.29 116.84)
-		(size 2.54 2.54)
+		(at 290.83 119.38)
+		(size -2.54 -2.54)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "435214cd-c9c9-4077-809f-c3a9c634a4ec")
+		(uuid "4d9b2cf0-4ecc-496b-913d-37da80214cd4")
 	)
 	(bus_entry
-		(at 288.29 129.54)
-		(size 2.54 2.54)
+		(at 290.83 132.08)
+		(size -2.54 -2.54)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5048f06e-3163-4046-a155-36952fef0547")
+		(uuid "63ba2141-141d-465e-9e0d-c596928d348e")
 	)
 	(bus_entry
-		(at 288.29 119.38)
-		(size 2.54 2.54)
+		(at 290.83 121.92)
+		(size -2.54 -2.54)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "59a3b12d-54e8-4701-8ebe-ca8f6a7af9a3")
+		(uuid "7b9d913b-81c1-4ff9-b558-40dffeaad784")
 	)
 	(bus_entry
-		(at 288.29 114.3)
-		(size 2.54 2.54)
+		(at 290.83 124.46)
+		(size -2.54 -2.54)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5bc02ad0-2403-4613-9fff-1efbfe7695b2")
+		(uuid "8aec84f7-4e6d-47a0-91a4-03315de43939")
 	)
 	(bus_entry
-		(at 288.29 129.54)
-		(size 2.54 2.54)
+		(at 290.83 116.84)
+		(size -2.54 -2.54)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b5985056-4276-434e-bf1e-4738b1a6edc7")
+		(uuid "a7831624-e24b-4640-bb61-f3489df64135")
 	)
 	(wire
 		(pts
@@ -6077,19 +6080,9 @@
 		)
 		(uuid "12e99515-8558-46e5-9c88-fa4255c2a280")
 	)
-	(bus
-		(pts
-			(xy 290.83 119.38) (xy 290.83 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "138ec9ef-7c7f-4adf-a060-e983196dc797")
-	)
 	(wire
 		(pts
-			(xy 278.13 127) (xy 275.59 127)
+			(xy 275.59 127) (xy 288.29 127)
 		)
 		(stroke
 			(width 0)
@@ -6147,16 +6140,6 @@
 		)
 		(uuid "176725bd-a6fd-40f2-adbe-ea6b0a3c0c35")
 	)
-	(bus
-		(pts
-			(xy 290.83 129.54) (xy 290.83 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19bf6f72-575b-431f-b0a2-4b2a79ed1ce2")
-	)
 	(wire
 		(pts
 			(xy 148.59 67.31) (xy 186.69 67.31)
@@ -6189,7 +6172,7 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 124.46) (xy 275.59 124.46)
+			(xy 275.59 124.46) (xy 288.29 124.46)
 		)
 		(stroke
 			(width 0)
@@ -6367,16 +6350,6 @@
 		)
 		(uuid "35014626-708c-4320-9ed8-f38b41a1cf6c")
 	)
-	(bus
-		(pts
-			(xy 290.83 127) (xy 290.83 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35b28bf7-f601-497c-bf66-f9d1b0ca38e5")
-	)
 	(wire
 		(pts
 			(xy 323.85 219.71) (xy 330.2 219.71)
@@ -6469,7 +6442,7 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 114.3) (xy 275.59 114.3)
+			(xy 275.59 114.3) (xy 288.29 114.3)
 		)
 		(stroke
 			(width 0)
@@ -6526,16 +6499,6 @@
 			(type default)
 		)
 		(uuid "456368ce-68cf-4488-9f29-66ac8109c79c")
-	)
-	(bus
-		(pts
-			(xy 290.83 124.46) (xy 290.83 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4652cace-c95f-42bf-a45e-05768662fd42")
 	)
 	(wire
 		(pts
@@ -6767,16 +6730,6 @@
 		)
 		(uuid "54cb28ac-75ad-4360-87c4-a972c83596dd")
 	)
-	(bus
-		(pts
-			(xy 290.83 121.92) (xy 290.83 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56e9e423-07bf-48cc-ba46-982e394a4bd3")
-	)
 	(wire
 		(pts
 			(xy 255.27 250.19) (xy 256.54 250.19)
@@ -6947,16 +6900,6 @@
 		)
 		(uuid "620073ac-6bee-4751-b843-d3be523e271d")
 	)
-	(bus
-		(pts
-			(xy 312.42 132.08) (xy 290.83 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "626e8267-4e8c-4e5e-9243-9d1b77e40e30")
-	)
 	(wire
 		(pts
 			(xy 275.59 86.36) (xy 278.13 86.36)
@@ -7099,7 +7042,7 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 119.38) (xy 275.59 119.38)
+			(xy 275.59 119.38) (xy 288.29 119.38)
 		)
 		(stroke
 			(width 0)
@@ -7306,6 +7249,16 @@
 			(type default)
 		)
 		(uuid "882d2b65-57df-4fbe-b134-e53dd6534794")
+	)
+	(bus
+		(pts
+			(xy 290.83 127) (xy 290.83 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88410140-31f2-40da-b5d3-848af7ad15a2")
 	)
 	(wire
 		(pts
@@ -7727,6 +7680,16 @@
 		)
 		(uuid "b19d7f07-105a-41cb-8a0d-c718923510b9")
 	)
+	(bus
+		(pts
+			(xy 290.83 119.38) (xy 290.83 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b609de28-dcb6-4375-b222-2c76c4b2653d")
+	)
 	(wire
 		(pts
 			(xy 275.59 76.2) (xy 287.02 76.2)
@@ -7869,7 +7832,7 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 121.92) (xy 275.59 121.92)
+			(xy 275.59 121.92) (xy 288.29 121.92)
 		)
 		(stroke
 			(width 0)
@@ -7957,6 +7920,16 @@
 		)
 		(uuid "c5ce9c96-faaf-4e83-ab23-bdce376f63b8")
 	)
+	(bus
+		(pts
+			(xy 290.83 116.84) (xy 304.8 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c61a9ccf-a03f-4410-aa37-193a3c7b3120")
+	)
 	(wire
 		(pts
 			(xy 148.59 67.31) (xy 148.59 76.2)
@@ -7989,7 +7962,7 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 116.84) (xy 275.59 116.84)
+			(xy 275.59 116.84) (xy 288.29 116.84)
 		)
 		(stroke
 			(width 0)
@@ -8029,23 +8002,13 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 132.08) (xy 275.59 132.08)
+			(xy 275.59 132.08) (xy 288.29 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d1e12d20-5382-4cf1-8489-ea18ecc1dc0f")
-	)
-	(bus
-		(pts
-			(xy 290.83 116.84) (xy 290.83 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2b55c92-958a-4726-8127-d55d7484a1ea")
 	)
 	(wire
 		(pts
@@ -8157,6 +8120,16 @@
 		)
 		(uuid "db1cfefc-c661-42b4-9636-73af49c54fc3")
 	)
+	(bus
+		(pts
+			(xy 290.83 124.46) (xy 290.83 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db376c38-9be8-4fb7-ba4f-018587f0b7a4")
+	)
 	(wire
 		(pts
 			(xy 274.32 29.21) (xy 274.32 27.94)
@@ -8179,7 +8152,7 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 129.54) (xy 275.59 129.54)
+			(xy 275.59 129.54) (xy 288.29 129.54)
 		)
 		(stroke
 			(width 0)
@@ -8226,6 +8199,16 @@
 			(type default)
 		)
 		(uuid "e1ca4fe8-9340-45e2-9376-4401a471cb96")
+	)
+	(bus
+		(pts
+			(xy 290.83 132.08) (xy 290.83 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e371bc9c-c06d-471d-ab5c-73bbb0ace94c")
 	)
 	(wire
 		(pts
@@ -8397,6 +8380,16 @@
 		)
 		(uuid "f27e16b6-2c56-4de2-a6f4-71774449f2f4")
 	)
+	(bus
+		(pts
+			(xy 290.83 129.54) (xy 290.83 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f281d7da-cb59-4763-b30f-b5416e11d763")
+	)
 	(wire
 		(pts
 			(xy 83.82 44.45) (xy 83.82 45.72)
@@ -8406,6 +8399,16 @@
 			(type default)
 		)
 		(uuid "f45c52ef-cdd2-411f-a1a7-e74f42915337")
+	)
+	(bus
+		(pts
+			(xy 290.83 121.92) (xy 290.83 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5095d68-9219-4817-aaca-49ef8fc22120")
 	)
 	(wire
 		(pts
@@ -8426,6 +8429,16 @@
 			(type default)
 		)
 		(uuid "f7e81791-0ea4-4493-b787-8d0a86078c59")
+	)
+	(bus
+		(pts
+			(xy 290.83 116.84) (xy 290.83 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8383894-eb13-40f7-acf5-2fe0a0c33c4c")
 	)
 	(wire
 		(pts
@@ -9265,6 +9278,16 @@
 		)
 		(uuid "1d2609e1-1aa3-4756-b6f2-0554f329f2ed")
 	)
+	(label "L0_P"
+		(at 288.29 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "21789b7a-a3e8-43cb-bd71-4f31242855cd")
+	)
 	(label "QSPI_SD3"
 		(at 170.18 262.89 180)
 		(fields_autoplaced yes)
@@ -9331,6 +9354,16 @@
 		)
 		(uuid "3ae43daf-bb65-4721-ab32-742f38b503c6")
 	)
+	(label "L0_N"
+		(at 288.29 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3b2a8680-d01e-4b6e-9278-e2691d8ceeb2")
+	)
 	(label "QSPI_SCLK"
 		(at 193.04 110.49 0)
 		(fields_autoplaced yes)
@@ -9352,6 +9385,16 @@
 			(justify left bottom)
 		)
 		(uuid "40df1040-b0fc-45c4-8515-6fe1af971dbd")
+	)
+	(label "L2_P"
+		(at 288.29 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4151e57d-c1e4-4fbb-9727-ac2cf66818dc")
 	)
 	(label "ICE_27"
 		(at 278.13 134.62 0)
@@ -9485,8 +9528,18 @@
 		)
 		(uuid "6076fef0-9370-4f1c-990b-10b08d1ff161")
 	)
-	(label "Lane1_P"
-		(at 278.13 124.46 0)
+	(label "L2_N"
+		(at 288.29 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "62cb654c-812d-457b-929d-eeb94d6eb133")
+	)
+	(label "{HSTX}"
+		(at 294.64 116.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9494,7 +9547,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "64206495-1de1-4dfb-8f16-51f06a8c836a")
+		(uuid "650861a4-0a93-4f33-8cf0-5203c073233d")
 	)
 	(label "LED_B"
 		(at 224.79 257.81 0)
@@ -9562,17 +9615,6 @@
 		)
 		(uuid "7bff04e5-f089-4464-8e35-6da9ce1543bf")
 	)
-	(label "Lane1_N"
-		(at 278.13 127 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7e3d32c9-6e0b-4ce0-ba8f-b854f30e3cd8")
-	)
 	(label "PICO_PMOD_A1"
 		(at 278.13 167.64 0)
 		(fields_autoplaced yes)
@@ -9616,28 +9658,6 @@
 			(justify left bottom)
 		)
 		(uuid "88a2c648-2cf6-487d-aab9-241bb2918bf7")
-	)
-	(label "Lane2_N"
-		(at 278.13 116.84 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8a3b3d21-d69f-41c7-ae1f-33796ee8da9c")
-	)
-	(label "Lane2_P"
-		(at 278.13 114.3 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "90ed0acf-29a1-49e5-a6e1-d32486bdcc39")
 	)
 	(label "~{USB_BOOT}"
 		(at 251.46 250.19 180)
@@ -9683,16 +9703,15 @@
 		)
 		(uuid "9d7d2e07-499c-49aa-bbaf-b0b2e4efbaeb")
 	)
-	(label "Lane0_P"
-		(at 278.13 129.54 0)
-		(fields_autoplaced yes)
+	(label "L3_P"
+		(at 288.29 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "a420b161-b44f-47c4-900c-5f2d7efd62fa")
+		(uuid "a1e785b3-def5-40fe-b47a-4e1d1e4d007b")
 	)
 	(label "ICE_9"
 		(at 278.13 154.94 0)
@@ -9737,17 +9756,6 @@
 			(justify left bottom)
 		)
 		(uuid "acf11e6a-66a8-45e6-9f2c-aa22856bf6d9")
-	)
-	(label "Clock_P"
-		(at 278.13 119.38 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b000da53-26bc-4145-b7ad-cfeb7dd90098")
 	)
 	(label "ICE_SSN"
 		(at 278.13 96.52 0)
@@ -9815,16 +9823,15 @@
 		)
 		(uuid "ba941e00-28e0-4fc4-9d8e-56c8b662b3f3")
 	)
-	(label "Clock_N"
-		(at 278.13 121.92 0)
-		(fields_autoplaced yes)
+	(label "L1_P"
+		(at 288.29 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "c03678c6-f3cd-4f27-b411-b23b24612158")
+		(uuid "bde55abc-65a0-4c7d-a49d-db683a0c9f4b")
 	)
 	(label "QSPI_SCLK"
 		(at 116.84 260.35 0)
@@ -9870,16 +9877,15 @@
 		)
 		(uuid "c94c3e3d-62c6-4f7d-853d-3fc3e610934b")
 	)
-	(label "Lane0_N"
-		(at 278.13 132.08 0)
-		(fields_autoplaced yes)
+	(label "L1_N"
+		(at 288.29 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "cb9222d1-eee1-4216-93dc-886910e457d1")
+		(uuid "cc2d78a9-7afa-4e8a-97b9-a0f0f2011375")
 	)
 	(label "~{USB_BOOT}"
 		(at 93.98 255.27 180)
@@ -9947,6 +9953,16 @@
 		)
 		(uuid "ede2fc55-5bb0-46dd-a5ea-6ca2c6351262")
 	)
+	(label "L3_N"
+		(at 288.29 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "efc9f9bd-b390-4b8c-a3d0-de113bc8a383")
+	)
 	(label "SDA_GPIO2"
 		(at 278.13 88.9 0)
 		(fields_autoplaced yes)
@@ -10001,6 +10017,18 @@
 			(justify right bottom)
 		)
 		(uuid "fedeccf3-1abe-40fd-8e99-ce849761a3b1")
+	)
+	(hierarchical_label "HSTX"
+		(shape output)
+		(at 304.8 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b4f54cf2-6666-4863-aa0e-98f1dfdb7584")
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
@@ -10090,12 +10118,6 @@
 		)
 		(instances
 			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "D1")
 					(unit 1)
@@ -10161,12 +10183,6 @@
 		)
 		(instances
 			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "#PWR024")
 					(unit 1)
@@ -10192,7 +10208,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "P3V3D"
 			(at 255.651 238.1758 0)
 			(effects
 				(font
@@ -10232,12 +10248,6 @@
 		)
 		(instances
 			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "#PWR018")
 					(unit 1)
@@ -10263,7 +10273,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "P3V3D"
 			(at 193.421 236.9058 0)
 			(effects
 				(font
@@ -10302,12 +10312,6 @@
 			(uuid "a8f43e6f-5990-40b0-b4ef-2946f818fbb3")
 		)
 		(instances
-			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "#PWR012")
@@ -10413,12 +10417,6 @@
 		)
 		(instances
 			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "R24")
-					(unit 1)
-				)
-			)
-			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "R24")
 					(unit 1)
@@ -10444,7 +10442,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+1V1"
+		(property "Value" "P1V1D"
 			(at 160.401 69.2658 0)
 			(effects
 				(font
@@ -10483,12 +10481,6 @@
 			(uuid "6b184d4b-9a62-404f-a211-ed265e6ed26e")
 		)
 		(instances
-			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "#PWR06")
@@ -10593,12 +10585,6 @@
 		)
 		(instances
 			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "R20")
-					(unit 1)
-				)
-			)
-			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "R20")
 					(unit 1)
@@ -10663,12 +10649,6 @@
 			(uuid "1131bd42-4cba-4087-84e5-d59266064cd1")
 		)
 		(instances
-			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "#PWR072")
-					(unit 1)
-				)
-			)
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "#PWR072")
@@ -10775,12 +10755,6 @@
 		)
 		(instances
 			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "C15")
-					(unit 1)
-				)
-			)
-			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "C15")
 					(unit 1)
@@ -10868,12 +10842,6 @@
 		)
 		(instances
 			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "C5")
 					(unit 1)
@@ -10939,12 +10907,6 @@
 		)
 		(instances
 			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "#PWR027")
 					(unit 1)
@@ -10970,7 +10932,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "P3V3D"
 			(at 176.911 57.8358 0)
 			(effects
 				(font
@@ -11009,12 +10971,6 @@
 			(uuid "ebe773a2-3923-4592-a26e-b90854118493")
 		)
 		(instances
-			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "#PWR09")
@@ -11119,12 +11075,6 @@
 		)
 		(instances
 			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "R5")
 					(unit 1)
@@ -11189,12 +11139,6 @@
 			(uuid "13f9c7f1-d713-4e92-aea4-595c7dcb4e3e")
 		)
 		(instances
-			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "#PWR015")
@@ -11301,12 +11245,6 @@
 		)
 		(instances
 			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "C17")
-					(unit 1)
-				)
-			)
-			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "C17")
 					(unit 1)
@@ -11381,12 +11319,6 @@
 		)
 		(instances
 			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "JP1")
-					(unit 1)
-				)
-			)
-			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "JP1")
 					(unit 1)
@@ -11451,12 +11383,6 @@
 			(uuid "dc1ad438-52d3-4cd9-b54e-1fd40d1ce4a3")
 		)
 		(instances
-			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "#PWR073")
-					(unit 1)
-				)
-			)
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "#PWR073")
@@ -11563,12 +11489,6 @@
 		)
 		(instances
 			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "C19")
-					(unit 1)
-				)
-			)
-			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "C19")
 					(unit 1)
@@ -11594,7 +11514,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "P3V3D"
 			(at 287.401 23.5458 0)
 			(effects
 				(font
@@ -11633,12 +11553,6 @@
 			(uuid "4d3172f3-5372-4fe4-9a30-be21d55125c2")
 		)
 		(instances
-			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "#PWR022")
-					(unit 1)
-				)
-			)
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "#PWR022")
@@ -11745,12 +11659,6 @@
 		)
 		(instances
 			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "C3")
 					(unit 1)
@@ -11855,12 +11763,6 @@
 			(uuid "502dcd06-2ef1-4705-a2a5-2cd2ba1690a9")
 		)
 		(instances
-			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "C8")
-					(unit 1)
-				)
-			)
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "C8")
@@ -11967,12 +11869,6 @@
 		)
 		(instances
 			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "C42")
-					(unit 1)
-				)
-			)
-			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "C42")
 					(unit 1)
@@ -12050,12 +11946,6 @@
 			(uuid "9fd353f6-fbf2-47ce-b540-57662c70cf72")
 		)
 		(instances
-			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "R18")
-					(unit 1)
-				)
-			)
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "R18")
@@ -12162,12 +12052,6 @@
 		)
 		(instances
 			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "C20")
-					(unit 1)
-				)
-			)
-			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "C20")
 					(unit 1)
@@ -12232,12 +12116,6 @@
 			(uuid "c2c2069b-d013-4f20-9848-4ab98a9bc55f")
 		)
 		(instances
-			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "#PWR028")
-					(unit 1)
-				)
-			)
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "#PWR028")
@@ -12344,12 +12222,6 @@
 		)
 		(instances
 			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "C1")
 					(unit 1)
@@ -12453,12 +12325,6 @@
 		)
 		(instances
 			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "R13")
 					(unit 1)
@@ -12535,12 +12401,6 @@
 		)
 		(instances
 			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "SJ1")
-					(unit 1)
-				)
-			)
-			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "SJ1")
 					(unit 1)
@@ -12605,12 +12465,6 @@
 			(uuid "f8dda1a1-353e-4279-a2da-1eb7670f6a0b")
 		)
 		(instances
-			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "#PWR026")
@@ -12718,12 +12572,6 @@
 		)
 		(instances
 			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "C16")
-					(unit 1)
-				)
-			)
-			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "C16")
 					(unit 1)
@@ -12829,12 +12677,6 @@
 		)
 		(instances
 			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "C11")
-					(unit 1)
-				)
-			)
-			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "C11")
 					(unit 1)
@@ -12910,12 +12752,6 @@
 			(uuid "ca8050b1-f340-4e51-9c64-8b48fe31c707")
 		)
 		(instances
-			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "U3")
-					(unit 1)
-				)
-			)
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "U3")
@@ -13029,12 +12865,6 @@
 		)
 		(instances
 			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "U1")
 					(unit 1)
@@ -13140,12 +12970,6 @@
 		)
 		(instances
 			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "C21")
-					(unit 1)
-				)
-			)
-			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "C21")
 					(unit 1)
@@ -13210,12 +13034,6 @@
 			(uuid "fd14f986-f168-4e24-ac9d-d059839573e7")
 		)
 		(instances
-			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "#PWR020")
@@ -13303,12 +13121,6 @@
 			(uuid "d0cdd9f6-7897-452d-8cdb-26a569cfdd43")
 		)
 		(instances
-			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "R21")
-					(unit 1)
-				)
-			)
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "R21")
@@ -13413,12 +13225,6 @@
 		)
 		(instances
 			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "R1")
 					(unit 1)
@@ -13521,12 +13327,6 @@
 			(uuid "f1d9d845-cff4-4561-8852-280067f2fe42")
 		)
 		(instances
-			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "R2")
-					(unit 1)
-				)
-			)
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "R2")
@@ -13632,12 +13432,6 @@
 		)
 		(instances
 			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "R25")
-					(unit 1)
-				)
-			)
-			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "R25")
 					(unit 1)
@@ -13702,12 +13496,6 @@
 			(uuid "227a20d8-f1a9-468d-9336-8a5b7ab7b791")
 		)
 		(instances
-			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "#PWR08")
@@ -13815,12 +13603,6 @@
 		)
 		(instances
 			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "C13")
-					(unit 1)
-				)
-			)
-			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "C13")
 					(unit 1)
@@ -13925,12 +13707,6 @@
 			(uuid "b9a6603c-d261-4f20-99d9-78efa5a542ce")
 		)
 		(instances
-			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "C7")
-					(unit 1)
-				)
-			)
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "C7")
@@ -14037,12 +13813,6 @@
 		)
 		(instances
 			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "C9")
-					(unit 1)
-				)
-			)
-			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "C9")
 					(unit 1)
@@ -14107,12 +13877,6 @@
 			(uuid "6bad889a-b24a-436d-b601-b917473ab714")
 		)
 		(instances
-			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "#PWR075")
-					(unit 1)
-				)
-			)
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "#PWR075")
@@ -14191,12 +13955,6 @@
 			(uuid "10fbd17a-393b-457f-bb54-08aa8d631a4b")
 		)
 		(instances
-			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "R8")
-					(unit 1)
-				)
-			)
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "R8")
@@ -14292,12 +14050,6 @@
 		)
 		(instances
 			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "D3")
 					(unit 1)
@@ -14362,12 +14114,6 @@
 			(uuid "78189751-0282-418a-95ef-53bb19e54b62")
 		)
 		(instances
-			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "#PWR02")
@@ -14472,12 +14218,6 @@
 		)
 		(instances
 			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "R3")
 					(unit 1)
@@ -14542,12 +14282,6 @@
 			(uuid "bf9551ff-c887-4fba-bf94-85991a75880d")
 		)
 		(instances
-			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "#PWR077")
-					(unit 1)
-				)
-			)
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "#PWR077")
@@ -14651,12 +14385,6 @@
 			(uuid "1bef89ad-669b-4581-a3dd-baf83e71e2ef")
 		)
 		(instances
-			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "R15")
-					(unit 1)
-				)
-			)
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "R15")
@@ -14762,12 +14490,6 @@
 		)
 		(instances
 			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "R23")
-					(unit 1)
-				)
-			)
-			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "R23")
 					(unit 1)
@@ -14793,7 +14515,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "P3V3D"
 			(at 141.351 230.5558 0)
 			(effects
 				(font
@@ -14832,12 +14554,6 @@
 			(uuid "47108e89-4808-4296-93a1-1dd226aaabc1")
 		)
 		(instances
-			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "#PWR01")
@@ -14917,12 +14633,6 @@
 		)
 		(instances
 			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "R16")
-					(unit 1)
-				)
-			)
-			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "R16")
 					(unit 1)
@@ -14988,12 +14698,6 @@
 		)
 		(instances
 			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "#PWR010")
 					(unit 1)
@@ -15058,12 +14762,6 @@
 			(uuid "bdcb9cfc-639f-4985-b1c7-75e65c99aed7")
 		)
 		(instances
-			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "#PWR04")
@@ -15153,12 +14851,6 @@
 		)
 		(instances
 			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "L1")
-					(unit 1)
-				)
-			)
-			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "L1")
 					(unit 1)
@@ -15224,12 +14916,6 @@
 		)
 		(instances
 			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "#PWR017")
 					(unit 1)
@@ -15255,7 +14941,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "P3V3D"
 			(at 297.561 48.9458 0)
 			(effects
 				(font
@@ -15295,12 +14981,6 @@
 		)
 		(instances
 			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "#PWR025")
 					(unit 1)
@@ -15326,7 +15006,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+1V1"
+		(property "Value" "P1V1D"
 			(at 213.741 43.8658 0)
 			(effects
 				(font
@@ -15365,12 +15045,6 @@
 			(uuid "9d66a456-6e1b-48ec-9e65-8fbe3106eed2")
 		)
 		(instances
-			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "#PWR016")
@@ -15476,12 +15150,6 @@
 			(uuid "13d032cb-022a-4813-ab53-851f255be6cd")
 		)
 		(instances
-			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "C2")
-					(unit 1)
-				)
-			)
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "C2")
@@ -15592,12 +15260,6 @@
 		)
 		(instances
 			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "D2")
 					(unit 1)
@@ -15662,12 +15324,6 @@
 			(uuid "26122ec0-88a1-439d-95f1-8ea5c4953777")
 		)
 		(instances
-			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "#PWR013")
@@ -15774,12 +15430,6 @@
 		)
 		(instances
 			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "C12")
-					(unit 1)
-				)
-			)
-			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "C12")
 					(unit 1)
@@ -15884,12 +15534,6 @@
 		)
 		(instances
 			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "R11")
 					(unit 1)
@@ -15982,12 +15626,6 @@
 			(uuid "ae13811d-b758-4032-a7ee-92d83ddc38d7")
 		)
 		(instances
-			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "Y1")
-					(unit 1)
-				)
-			)
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "Y1")
@@ -16092,12 +15730,6 @@
 		)
 		(instances
 			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "R14")
-					(unit 1)
-				)
-			)
-			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "R14")
 					(unit 1)
@@ -16162,12 +15794,6 @@
 			(uuid "e12007bb-b992-4a04-8a38-30537c2d1d83")
 		)
 		(instances
-			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "#PWR014")
@@ -16234,12 +15860,6 @@
 			(uuid "a667944c-90ac-4cf3-be64-975ec0c97547")
 		)
 		(instances
-			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "#PWR019")
@@ -16346,12 +15966,6 @@
 		)
 		(instances
 			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "C6")
 					(unit 1)
@@ -16418,12 +16032,6 @@
 		)
 		(instances
 			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "#PWR021")
 					(unit 1)
@@ -16488,12 +16096,6 @@
 			(uuid "dbb55ae5-c126-44aa-9e52-a121d706cd38")
 		)
 		(instances
-			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "#PWR07")
@@ -16597,12 +16199,6 @@
 			(uuid "f3d271f5-fb3c-4924-8c3e-073cadc0dec7")
 		)
 		(instances
-			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "PTC1")
-					(unit 1)
-				)
-			)
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "PTC1")
@@ -16744,12 +16340,6 @@
 		)
 		(instances
 			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "J2")
 					(unit 1)
@@ -16814,12 +16404,6 @@
 			(uuid "c74a65c3-2e1e-4b4d-96f4-babe3463b252")
 		)
 		(instances
-			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "#PWR03")
@@ -16886,12 +16470,6 @@
 		)
 		(instances
 			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "#PWR076")
-					(unit 1)
-				)
-			)
-			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "#PWR076")
 					(unit 1)
@@ -16956,12 +16534,6 @@
 			(uuid "91b965b5-328e-4f30-ba8a-8d776f34d322")
 		)
 		(instances
-			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "#PWR011")
@@ -17067,12 +16639,6 @@
 		)
 		(instances
 			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "R22")
-					(unit 1)
-				)
-			)
-			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "R22")
 					(unit 1)
@@ -17176,12 +16742,6 @@
 		)
 		(instances
 			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "R10")
 					(unit 1)
@@ -17255,12 +16815,6 @@
 			(uuid "008bfa65-0932-4c99-99b7-3ebc956635b4")
 		)
 		(instances
-			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "JP2")
-					(unit 1)
-				)
-			)
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "JP2")
@@ -17357,12 +16911,6 @@
 		)
 		(instances
 			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "J1")
 					(unit 1)
@@ -17427,12 +16975,6 @@
 			(uuid "5b08d4cd-1cc4-4329-8f29-e3a3f403c3dc")
 		)
 		(instances
-			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "#PWR023")
-					(unit 1)
-				)
-			)
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "#PWR023")
@@ -17537,12 +17079,6 @@
 		)
 		(instances
 			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "R7")
 					(unit 1)
@@ -17607,12 +17143,6 @@
 			(uuid "3d685e82-1347-42d9-8e6a-4b873677eeac")
 		)
 		(instances
-			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "#PWR078")
-					(unit 1)
-				)
-			)
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "#PWR078")
@@ -17719,12 +17249,6 @@
 		)
 		(instances
 			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "C14")
-					(unit 1)
-				)
-			)
-			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "C14")
 					(unit 1)
@@ -17811,12 +17335,6 @@
 			(uuid "62ce15a6-c44b-4689-bd53-a2920f34122c")
 		)
 		(instances
-			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "C4")
-					(unit 1)
-				)
-			)
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "C4")
@@ -17923,12 +17441,6 @@
 		)
 		(instances
 			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "R4")
 					(unit 1)
@@ -17993,12 +17505,6 @@
 			(uuid "01778c82-2390-44b2-963d-bdc9dd99f92b")
 		)
 		(instances
-			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "#PWR074")
-					(unit 1)
-				)
-			)
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "#PWR074")
@@ -18102,12 +17608,6 @@
 			(uuid "11167d96-7bf4-4d1f-bb5a-235b5548c9ed")
 		)
 		(instances
-			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "R19")
-					(unit 1)
-				)
-			)
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "R19")
@@ -18214,12 +17714,6 @@
 		)
 		(instances
 			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "C18")
-					(unit 1)
-				)
-			)
-			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "C18")
 					(unit 1)
@@ -18322,12 +17816,6 @@
 			(uuid "9a26b55f-9cb4-4c2d-8785-156004f6af9d")
 		)
 		(instances
-			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "R12")
-					(unit 1)
-				)
-			)
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "R12")
@@ -18434,12 +17922,6 @@
 		)
 		(instances
 			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "C10")
-					(unit 1)
-				)
-			)
-			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "C10")
 					(unit 1)
@@ -18544,12 +18026,6 @@
 		)
 		(instances
 			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "R9")
 					(unit 1)
@@ -18652,12 +18128,6 @@
 			(uuid "144a2e28-bc5d-452e-9724-6d6d0d11876d")
 		)
 		(instances
-			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "R6")
-					(unit 1)
-				)
-			)
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "R6")
@@ -18778,12 +18248,6 @@
 		)
 		(instances
 			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "SW1")
 					(unit 1)
@@ -18848,12 +18312,6 @@
 			(uuid "9b55e801-6351-4967-9360-049676ec66eb")
 		)
 		(instances
-			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "#PWR05")
@@ -19162,12 +18620,6 @@
 		)
 		(instances
 			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "U2")
 					(unit 1)
@@ -19232,12 +18684,6 @@
 			(uuid "ac44c19c-02c1-4fc8-a71c-5322ea3c13eb")
 		)
 		(instances
-			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "#PWR071")
-					(unit 1)
-				)
-			)
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "#PWR071")
@@ -19316,12 +18762,6 @@
 			(uuid "b633d939-a9e1-4f0e-8938-72ce17484d07")
 		)
 		(instances
-			(project "pico2-nx"
-				(path "/1be83e9b-79ea-400e-a55c-b599454f2553/93dd895b-a838-4df4-af9a-91c408d1d49d"
-					(reference "R17")
-					(unit 1)
-				)
-			)
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "R17")
