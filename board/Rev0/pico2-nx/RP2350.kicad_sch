@@ -9280,6 +9280,7 @@
 	)
 	(label "L0_P"
 		(at 288.29 114.3 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9356,6 +9357,7 @@
 	)
 	(label "L0_N"
 		(at 288.29 116.84 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9388,6 +9390,7 @@
 	)
 	(label "L2_P"
 		(at 288.29 124.46 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9530,6 +9533,7 @@
 	)
 	(label "L2_N"
 		(at 288.29 127 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9705,6 +9709,7 @@
 	)
 	(label "L3_P"
 		(at 288.29 129.54 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9825,6 +9830,7 @@
 	)
 	(label "L1_P"
 		(at 288.29 119.38 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9879,6 +9885,7 @@
 	)
 	(label "L1_N"
 		(at 288.29 121.92 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9955,6 +9962,7 @@
 	)
 	(label "L3_N"
 		(at 288.29 132.08 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
