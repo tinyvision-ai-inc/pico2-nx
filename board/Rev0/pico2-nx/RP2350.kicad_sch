@@ -5559,10 +5559,10 @@
 		(uuid "14a208df-c605-4163-b83e-53461afd7491")
 	)
 	(junction
-		(at 372.11 200.66)
+		(at 372.11 194.31)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1df92aca-d4d5-4bde-b524-e2d0f8c366de")
+		(uuid "167ffd69-8489-4a7d-aa99-ebe64d6cf131")
 	)
 	(junction
 		(at 168.91 102.87)
@@ -5865,6 +5865,12 @@
 		(uuid "c4e754cb-d5e6-4a8e-b9cc-c884f2178819")
 	)
 	(junction
+		(at 381 194.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d046636a-7f0c-4f17-b8df-df0ad5f34d19")
+	)
+	(junction
 		(at 91.44 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5929,12 +5935,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ee357cb3-f3ef-4271-8ac0-ea24df062449")
-	)
-	(junction
-		(at 381 200.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "efe08f9b-93dc-494a-8b08-4f46dfe51dd2")
 	)
 	(junction
 		(at 227.33 86.36)
@@ -6612,7 +6612,7 @@
 	)
 	(wire
 		(pts
-			(xy 360.68 200.66) (xy 372.11 200.66)
+			(xy 360.68 194.31) (xy 372.11 194.31)
 		)
 		(stroke
 			(width 0)
@@ -7112,16 +7112,6 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 200.66) (xy 381 200.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38449b92-4725-4636-b072-1808feb4187a")
-	)
-	(wire
-		(pts
 			(xy 295.91 35.56) (xy 295.91 34.29)
 		)
 		(stroke
@@ -7612,6 +7602,16 @@
 	)
 	(wire
 		(pts
+			(xy 372.11 194.31) (xy 381 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "576cd71d-117a-4667-9ec1-aaf26730c6c3")
+	)
+	(wire
+		(pts
 			(xy 219.71 44.45) (xy 213.36 44.45)
 		)
 		(stroke
@@ -7779,16 +7779,6 @@
 			(type default)
 		)
 		(uuid "5efccfec-0c04-4e1f-8473-f760278028c8")
-	)
-	(wire
-		(pts
-			(xy 381 199.39) (xy 381 200.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f144731-62a7-493d-841d-ec76141e84e1")
 	)
 	(wire
 		(pts
@@ -8149,16 +8139,6 @@
 			(type default)
 		)
 		(uuid "738824cb-adf0-48e9-97cb-1f506cd984be")
-	)
-	(wire
-		(pts
-			(xy 372.11 200.66) (xy 372.11 201.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "748437bf-0d1d-438e-b10c-603b41bdd725")
 	)
 	(wire
 		(pts
@@ -8972,7 +8952,7 @@
 	)
 	(wire
 		(pts
-			(xy 381 200.66) (xy 381 201.93)
+			(xy 381 194.31) (xy 381 201.93)
 		)
 		(stroke
 			(width 0)
@@ -9762,7 +9742,7 @@
 	)
 	(wire
 		(pts
-			(xy 360.68 200.66) (xy 360.68 201.93)
+			(xy 360.68 194.31) (xy 360.68 201.93)
 		)
 		(stroke
 			(width 0)
@@ -10285,7 +10265,7 @@
 	)
 	(text "Multi-Function IO"
 		(exclude_from_sim no)
-		(at 355.854 192.786 0)
+		(at 356.108 189.23 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -12843,7 +12823,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 381 199.39 0)
+		(at 381 194.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12851,7 +12831,7 @@
 		(dnp no)
 		(uuid "1a1cad11-2cf0-4bb1-9f1a-c5012c72b479")
 		(property "Reference" "#PWR0100"
-			(at 381 199.39 0)
+			(at 381 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12860,7 +12840,7 @@
 			)
 		)
 		(property "Value" "P3V3D"
-			(at 381 195.834 0)
+			(at 381 190.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12868,7 +12848,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 381 199.39 0)
+			(at 381 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12877,7 +12857,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 381 199.39 0)
+			(at 381 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12886,7 +12866,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 381 199.39 0)
+			(at 381 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14628,82 +14608,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 347.98 99.06 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "44e61eeb-1c81-4aca-88ec-d861d3b1079f")
-		(property "Reference" "SJ2"
-			(at 344.17 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SHORT"
-			(at 342.9 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
-			(at 349.758 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 347.98 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 347.98 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "DNP"
-			(at 347.98 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "33ada09d-1a8e-433a-854c-ff4891b06ebd")
-		)
-		(pin "2"
-			(uuid "c0663c15-6e9b-4282-a773-42e2a55c19af")
-		)
-		(instances
-			(project "pico2-nx"
-				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
-					(reference "SJ2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 270.51 39.37 0)
 		(unit 1)
@@ -15291,6 +15195,74 @@
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 347.98 99.06 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "542badf7-1966-4b74-9904-41e8b353d89d")
+		(property "Reference" "JP11"
+			(at 351.536 98.806 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Bridged"
+			(at 344.17 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 347.98 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 347.98 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 347.98 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1acdb122-6155-465b-89e6-4e804bda87ae")
+		)
+		(pin "2"
+			(uuid "0cd7983f-f97b-4962-aca0-3d349ee45f88")
+		)
+		(instances
+			(project "pico2-nx"
+				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
+					(reference "JP11")
 					(unit 1)
 				)
 			)
@@ -21319,6 +21291,74 @@
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "#PWR082")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 372.11 198.12 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "f0d45378-3387-4554-b625-3f0427ad585d")
+		(property "Reference" "JP10"
+			(at 375.666 197.866 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Bridged"
+			(at 368.3 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 372.11 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 372.11 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 372.11 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f324c996-87b8-4e44-8e46-1a2c78e3e7d4")
+		)
+		(pin "2"
+			(uuid "2b4d1560-fc45-451c-9636-4a9babf42491")
+		)
+		(instances
+			(project "pico2-nx"
+				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
+					(reference "JP10")
 					(unit 1)
 				)
 			)

@@ -400,127 +400,6 @@
 				)
 			)
 		)
-		(symbol "Device:R"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:R_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -1960,7 +1839,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 43.18) (xy 186.69 43.18)
+			(xy 180.34 43.18) (xy 185.42 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2151,7 +2030,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 43.18) (xy 196.85 43.18)
+			(xy 193.04 43.18) (xy 196.85 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3101,82 +2980,6 @@
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/259c5351-60de-47b4-bd20-37b3e3d7393a"
 					(reference "#FLG013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 185.42 137.16 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0809f406-65ca-4a4f-ac0f-e33c991704e1")
-		(property "Reference" "SJ1"
-			(at 185.42 131.9022 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SHORT"
-			(at 185.42 134.2136 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
-			(at 185.42 135.382 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 185.42 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 185.42 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "DNP"
-			(at 185.42 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5985fb28-9d8a-4c3c-bfad-4e92a2ebafb7")
-		)
-		(pin "2"
-			(uuid "f157d591-706d-47c7-8b48-03c394e30929")
-		)
-		(instances
-			(project "pico2-nx"
-				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/259c5351-60de-47b4-bd20-37b3e3d7393a"
-					(reference "SJ1")
 					(unit 1)
 				)
 			)
@@ -4197,6 +4000,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 167.64 83.82 180)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5277b2f4-fddb-4e73-9aab-19d7f6ee1612")
+		(property "Reference" "JP13"
+			(at 167.64 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Bridged"
+			(at 168.91 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 167.64 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 167.64 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ba6f1248-790f-4055-9104-9792f74151f1")
+		)
+		(pin "1"
+			(uuid "b89b477b-e3e7-4e28-bc60-d47f6c798100")
+		)
+		(instances
+			(project "pico2-nx"
+				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/259c5351-60de-47b4-bd20-37b3e3d7393a"
+					(reference "JP13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 185.42 109.22 0)
 		(unit 1)
@@ -4766,82 +4639,6 @@
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/259c5351-60de-47b4-bd20-37b3e3d7393a"
 					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 167.64 83.82 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6dd25843-140e-479d-a67b-0f2b1a0f9a9a")
-		(property "Reference" "SJ3"
-			(at 167.64 78.5622 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SHORT"
-			(at 167.64 80.8736 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
-			(at 167.64 82.042 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 167.64 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 167.64 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "DNP"
-			(at 167.64 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4306270b-d196-484b-ae3d-638facc6b3ec")
-		)
-		(pin "2"
-			(uuid "16ace6a6-6d59-49db-b90c-01ebad8785b9")
-		)
-		(instances
-			(project "pico2-nx"
-				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/259c5351-60de-47b4-bd20-37b3e3d7393a"
-					(reference "SJ3")
 					(unit 1)
 				)
 			)
@@ -6669,82 +6466,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 190.5 43.18 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c934ec18-1a42-4bc9-9b84-155f02115a41")
-		(property "Reference" "SJ4"
-			(at 190.5 37.9222 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SHORT"
-			(at 190.5 40.2336 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
-			(at 190.5 41.402 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 190.5 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 190.5 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "DNP"
-			(at 190.5 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ecbc02d3-1ad9-4978-80f7-6062fd3a8fd6")
-		)
-		(pin "2"
-			(uuid "0d9ce6c0-5169-448c-9575-ae089f6327a8")
-		)
-		(instances
-			(project "pico2-nx"
-				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/259c5351-60de-47b4-bd20-37b3e3d7393a"
-					(reference "SJ4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 142.24 137.16 0)
 		(unit 1)
@@ -7033,6 +6754,146 @@
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/259c5351-60de-47b4-bd20-37b3e3d7393a"
 					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 189.23 43.18 180)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf3b06a1-3363-45e7-8318-aaf800b177ac")
+		(property "Reference" "JP14"
+			(at 189.23 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Bridged"
+			(at 190.5 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 189.23 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 189.23 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 189.23 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fb0f013f-18f2-4a82-b7bf-e0bd03844c9d")
+		)
+		(pin "1"
+			(uuid "370c66bf-5c9f-479b-a734-1260d8785dee")
+		)
+		(instances
+			(project "pico2-nx"
+				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/259c5351-60de-47b4-bd20-37b3e3d7393a"
+					(reference "JP14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 185.42 137.16 180)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d19e0a2c-0a23-47b0-9e79-d22cc9a7677a")
+		(property "Reference" "JP12"
+			(at 185.42 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Bridged"
+			(at 186.69 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 185.42 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 185.42 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 185.42 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e37e6b8b-a4f1-4770-b1d2-c4667dfb2c14")
+		)
+		(pin "1"
+			(uuid "06e7201a-fdac-4d2d-845b-dbc8809a1b71")
+		)
+		(instances
+			(project "pico2-nx"
+				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/259c5351-60de-47b4-bd20-37b3e3d7393a"
+					(reference "JP12")
 					(unit 1)
 				)
 			)
