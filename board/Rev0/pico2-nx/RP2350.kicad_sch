@@ -7522,6 +7522,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 152.4) (xy 215.9 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5362efe4-1a5e-43b7-a3a3-1d4e7a352370")
+	)
+	(wire
+		(pts
 			(xy 370.84 105.41) (xy 368.3 105.41)
 		)
 		(stroke
@@ -7739,16 +7749,6 @@
 			(type default)
 		)
 		(uuid "5c2a4bbb-ce54-4ee3-9859-2e1f34127d1e")
-	)
-	(wire
-		(pts
-			(xy 215.9 152.4) (xy 201.93 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c339ec5-37ae-4672-a31d-4d75cd39f619")
 	)
 	(wire
 		(pts
@@ -10180,7 +10180,7 @@
 		)
 		(uuid "1280a1f0-77bf-43a5-8e71-afa2feae3c2d")
 	)
-	(text "This LED can be used for\nany purpose but it can\nnot illuminate unless the\nFPGA is in user mode."
+	(text "This LED can be used for\nany purpose but it cannot\nilluminate unless the\nFPGA is in user mode."
 		(exclude_from_sim no)
 		(at 359.918 175.26 0)
 		(effects
@@ -10790,13 +10790,13 @@
 		(uuid "fc536816-e1e2-4155-869b-d928acc63de0")
 	)
 	(label "XOUT"
-		(at 207.01 152.4 180)
+		(at 204.47 152.4 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "008fb7b6-8795-4db9-9d4b-4442e711b1d3")
 	)
@@ -10878,13 +10878,13 @@
 		(uuid "1c795078-d294-432f-a136-8fd832a0a739")
 	)
 	(label "XIN"
-		(at 207.01 147.32 180)
+		(at 204.47 147.32 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "1d2609e1-1aa3-4756-b6f2-0554f329f2ed")
 	)

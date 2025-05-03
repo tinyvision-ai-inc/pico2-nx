@@ -3425,7 +3425,7 @@
 			)
 			(uuid "92e4ac1e-39bb-40dd-a64e-b5da91e8ce50")
 		)
-		(pin "FPC_IO{PWR_EN LED_EN}" input
+		(pin "FPC_IO_1V8{PWR_EN LED_EN}" input
 			(at 259.08 95.25 180)
 			(effects
 				(font
@@ -3435,7 +3435,7 @@
 			)
 			(uuid "f75b905f-9280-4a1e-bb17-cca5fcd8bc03")
 		)
-		(pin "FPC_IO_1V8{PWR_EN LED_EN}" input
+		(pin "FPC_IO{PWR_EN LED_EN}" input
 			(at 309.88 125.73 270)
 			(effects
 				(font

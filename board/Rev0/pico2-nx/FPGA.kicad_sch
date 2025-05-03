@@ -7573,6 +7573,12 @@
 		(uuid "1ffdc2e3-f606-431a-bcb6-f4a7e78dff43")
 	)
 	(junction
+		(at 243.84 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2290561f-ec69-4742-8be0-b31695434ed7")
+	)
+	(junction
 		(at 365.76 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7751,12 +7757,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6997a2f5-5ba9-4418-8422-0fbd7e51ddc5")
-	)
-	(junction
-		(at 232.41 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6ed9524f-f466-4f53-9c7a-82c459b82849")
 	)
 	(junction
 		(at 321.31 114.3)
@@ -12475,6 +12475,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 92.71) (xy 232.41 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1a9d8ce-ce80-43d9-9991-8c84909745c0")
+	)
+	(wire
+		(pts
 			(xy 107.95 182.88) (xy 121.92 182.88)
 		)
 		(stroke
@@ -12857,7 +12867,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 96.52) (xy 232.41 99.06)
+			(xy 232.41 97.79) (xy 232.41 99.06)
 		)
 		(stroke
 			(width 0)
@@ -15498,7 +15508,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 232.41 91.44 0)
+		(at 243.84 91.44 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15507,7 +15517,7 @@
 		(dnp no)
 		(uuid "0e500de0-71c8-43a6-98b0-fad895ddbd96")
 		(property "Reference" "#PWR0155"
-			(at 232.41 91.44 0)
+			(at 243.84 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15516,7 +15526,7 @@
 			)
 		)
 		(property "Value" "P3V3D_FPGA"
-			(at 232.41 87.884 0)
+			(at 243.84 87.884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15524,7 +15534,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 232.41 91.44 0)
+			(at 243.84 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15533,7 +15543,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 91.44 0)
+			(at 243.84 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15542,7 +15552,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 232.41 91.44 0)
+			(at 243.84 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22417,7 +22427,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 232.41 93.98 0)
+		(at 232.41 95.25 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22426,7 +22436,7 @@
 		(dnp no)
 		(uuid "82841368-3b40-49a8-9bd2-356602a1ad66")
 		(property "Reference" "R59"
-			(at 237.744 93.218 0)
+			(at 237.744 94.488 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22435,7 +22445,7 @@
 			)
 		)
 		(property "Value" "4.7K"
-			(at 237.744 95.758 0)
+			(at 237.744 97.028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22444,7 +22454,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 232.41 93.98 0)
+			(at 232.41 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22453,7 +22463,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 232.41 93.98 0)
+			(at 232.41 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22462,7 +22472,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 232.41 93.98 0)
+			(at 232.41 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
