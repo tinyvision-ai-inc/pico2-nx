@@ -2879,7 +2879,7 @@
 			)
 			(uuid "3a7a6a14-41a5-4b7d-ba5b-30692b0b0360")
 		)
-		(pin "UJTAG{PRESENTn TCK TMS TDI TDO}" input
+		(pin "JTAG{PRESENTn TCK TMS TDI TDO}" input
 			(at 78.74 123.19 270)
 			(effects
 				(font
@@ -3137,7 +3137,7 @@
 			)
 			(uuid "ba139faa-38b9-4a13-bd8f-1ff356a9422e")
 		)
-		(pin "UJTAG{PRESENTn TCK TMS TDI TDO}" input
+		(pin "JTAG{PRESENTn TCK TMS TDI TDO}" input
 			(at 78.74 177.8 90)
 			(effects
 				(font

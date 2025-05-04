@@ -8949,6 +8949,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 173.99) (xy 241.3 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10889f0d-7fa0-4e36-926a-e868172e1058")
+	)
+	(wire
+		(pts
 			(xy 107.95 154.94) (xy 135.89 154.94)
 		)
 		(stroke
@@ -10822,16 +10832,6 @@
 			(type default)
 		)
 		(uuid "7f70fdb3-0352-4a78-ba1d-d7becefa7fdc")
-	)
-	(wire
-		(pts
-			(xy 227.33 173.99) (xy 241.3 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f8c6ae1-2f4e-46b0-a5b6-37b8fdba6cfb")
 	)
 	(wire
 		(pts
@@ -13070,7 +13070,7 @@
 		)
 		(uuid "77cd3717-64a5-441c-8d6d-2e53f9cc0f42")
 	)
-	(text "Upduino JTAG"
+	(text "JTAG"
 		(exclude_from_sim no)
 		(at 195.58 93.726 0)
 		(effects
@@ -13399,7 +13399,7 @@
 		)
 		(uuid "351ed806-fae1-4bc7-acd9-6f943994d078")
 	)
-	(label "UJTAG.TMS"
+	(label "JTAG.TMS"
 		(at 227.33 135.89 0)
 		(fields_autoplaced yes)
 		(effects
@@ -13564,7 +13564,7 @@
 		)
 		(uuid "56895c61-ab9a-48b7-904f-2118edecf640")
 	)
-	(label "UJTAG.TDO"
+	(label "JTAG.TDO"
 		(at 227.33 161.29 0)
 		(fields_autoplaced yes)
 		(effects
@@ -14015,7 +14015,7 @@
 		)
 		(uuid "ae08063b-19b7-4225-971f-4f101f4c8073")
 	)
-	(label "UJTAG.PRESENTn"
+	(label "JTAG.PRESENTn"
 		(at 227.33 128.27 0)
 		(fields_autoplaced yes)
 		(effects
@@ -14213,7 +14213,7 @@
 		)
 		(uuid "d8c58e34-2dfd-4007-886a-56f87618f23a")
 	)
-	(label "UJTAG.TDI"
+	(label "JTAG.TDI"
 		(at 227.33 148.59 0)
 		(fields_autoplaced yes)
 		(effects
@@ -14411,7 +14411,7 @@
 		)
 		(uuid "f045d87a-13ef-4d3c-b362-92092ad68c83")
 	)
-	(label "UJTAG.TCK"
+	(label "JTAG.TCK"
 		(at 227.33 173.99 0)
 		(fields_autoplaced yes)
 		(effects
@@ -14511,7 +14511,7 @@
 		)
 		(uuid "018ee359-8d95-4d2f-9d9d-f7f313b4a230")
 	)
-	(hierarchical_label "UJTAG{PRESENTn TCK TMS TDI TDO}"
+	(hierarchical_label "JTAG{PRESENTn TCK TMS TDI TDO}"
 		(shape input)
 		(at 243.84 187.96 180)
 		(fields_autoplaced yes)
@@ -28557,73 +28557,6 @@
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/aeac0197-4f5a-41ee-82b2-d6af8244c5d3"
 					(reference "C33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 224.79 173.99 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "eb4b655c-758c-4d48-8d98-7294f5ed028f")
-		(property "Reference" "R72"
-			(at 224.79 171.958 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 224.79 176.022 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 224.79 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 224.79 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 224.79 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "20015714-4b91-4d16-a17a-64b63f763684")
-		)
-		(pin "1"
-			(uuid "755158ff-2d5f-4291-a72c-84bda3e7b7ea")
-		)
-		(instances
-			(project "pico2-nx"
-				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/aeac0197-4f5a-41ee-82b2-d6af8244c5d3"
-					(reference "R72")
 					(unit 1)
 				)
 			)
