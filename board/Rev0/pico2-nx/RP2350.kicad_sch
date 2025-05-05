@@ -903,175 +903,6 @@
 				)
 			)
 		)
-		(symbol "Device:LED"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_0_1"
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -5607,12 +5438,6 @@
 		(uuid "33ce02bd-b1b2-4bf2-ae49-6fbebeb8dbf0")
 	)
 	(junction
-		(at 360.68 224.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3686eb69-1cb2-4fca-b845-4be735346160")
-	)
-	(junction
 		(at 68.58 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5671,6 +5496,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4fe59ac8-184e-4693-acef-c85fc6a5a37e")
+	)
+	(junction
+		(at 354.33 224.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5168d6d2-d5e1-42a8-a36e-e6a3a1e9d19f")
 	)
 	(junction
 		(at 314.96 45.72)
@@ -6522,6 +6353,16 @@
 	)
 	(wire
 		(pts
+			(xy 354.33 224.79) (xy 370.84 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0858536f-df71-4713-abbe-98926e0477f2")
+	)
+	(wire
+		(pts
 			(xy 284.48 165.1) (xy 306.07 165.1)
 		)
 		(stroke
@@ -6612,7 +6453,7 @@
 	)
 	(wire
 		(pts
-			(xy 360.68 194.31) (xy 372.11 194.31)
+			(xy 354.33 194.31) (xy 372.11 194.31)
 		)
 		(stroke
 			(width 0)
@@ -6992,7 +6833,7 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 224.79) (xy 360.68 224.79)
+			(xy 349.25 224.79) (xy 354.33 224.79)
 		)
 		(stroke
 			(width 0)
@@ -7169,16 +7010,6 @@
 			(type default)
 		)
 		(uuid "3fc7c32b-a31e-4e8e-979a-59e40ef57bbb")
-	)
-	(wire
-		(pts
-			(xy 360.68 224.79) (xy 370.84 224.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "400d395c-0426-44a6-bfba-c41d25d39eaa")
 	)
 	(wire
 		(pts
@@ -7932,7 +7763,7 @@
 	)
 	(wire
 		(pts
-			(xy 360.68 207.01) (xy 360.68 224.79)
+			(xy 354.33 207.01) (xy 354.33 224.79)
 		)
 		(stroke
 			(width 0)
@@ -9742,7 +9573,7 @@
 	)
 	(wire
 		(pts
-			(xy 360.68 194.31) (xy 360.68 201.93)
+			(xy 354.33 194.31) (xy 354.33 201.93)
 		)
 		(stroke
 			(width 0)
@@ -11551,7 +11382,7 @@
 		(uuid "d77f14a9-af08-4900-b45b-987cfc45364c")
 	)
 	(label "RESETn"
-		(at 355.6 224.79 180)
+		(at 349.25 224.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12822,6 +12653,111 @@
 		)
 	)
 	(symbol
+		(lib_id "UPduino_v3.0:Device_LED_ALT")
+		(at 372.11 210.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "19c93aec-7b85-4541-8901-aa7fbe0bf56d")
+		(property "Reference" "D3"
+			(at 355.854 209.7786 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LTST-C191KGKT"
+			(at 355.854 212.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 372.11 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 372.11 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED GREEN CLEAR SMD"
+			(at 372.11 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key Part Number" ""
+			(at 372.11 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LTST-C191KGKT"
+			(at 372.11 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Lite-On"
+			(at 372.11 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 372.11 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df52a485-2b5a-4fe2-a092-447ba264a9fd")
+		)
+		(pin "2"
+			(uuid "1ba5227c-3d55-4493-99db-b4fbc6ff3711")
+		)
+		(instances
+			(project "pico2-nx"
+				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 381 194.31 0)
 		(unit 1)
@@ -13365,7 +13301,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 360.68 204.47 180)
+		(at 354.33 204.47 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13373,7 +13309,7 @@
 		(dnp no)
 		(uuid "2586fdb8-f19b-45e9-b2a4-9872726c0924")
 		(property "Reference" "R40"
-			(at 357.124 203.708 0)
+			(at 350.774 203.708 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13381,7 +13317,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 357.378 205.74 0)
+			(at 351.028 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13389,7 +13325,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 360.68 204.47 0)
+			(at 354.33 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13398,7 +13334,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 360.68 204.47 0)
+			(at 354.33 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13407,7 +13343,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 360.68 204.47 0)
+			(at 354.33 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14707,75 +14643,6 @@
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "C64")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 372.11 210.82 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4715b3f3-575a-4f08-8793-806c4a30033d")
-		(property "Reference" "D3"
-			(at 367.03 210.058 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 367.03 212.598 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 372.11 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 372.11 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 372.11 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8624e13a-2f5e-474c-aa1d-6ddd2f45cacf")
-		)
-		(pin "2"
-			(uuid "b0d89b9d-9e74-4913-b375-2ac45f36ab3d")
-		)
-		(instances
-			(project "pico2-nx"
-				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
-					(reference "D3")
 					(unit 1)
 				)
 			)
