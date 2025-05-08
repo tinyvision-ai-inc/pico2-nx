@@ -10042,7 +10042,7 @@
 		)
 		(uuid "1acdc1a9-847c-42ac-a85d-6d6ba2d9ef97")
 	)
-	(text "P3V3A_VREF can be\nconnected to an\nexternal voltage\nreference."
+	(text "PxVA_VREF can be\nconnected to an\nexternal voltage\nreference."
 		(exclude_from_sim no)
 		(at 272.034 57.912 0)
 		(effects
@@ -13891,7 +13891,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "10u"
 			(at 169.545 110.49 0)
 			(effects
 				(font
@@ -14558,7 +14558,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "10u"
 			(at 271.145 41.91 0)
 			(effects
 				(font
@@ -15282,7 +15282,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "P3V3A_VREF"
+		(property "Value" "PxVA_VREF"
 			(at 284.988 64.262 0)
 			(effects
 				(font
@@ -15675,7 +15675,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "10u"
 			(at 203.835 97.79 0)
 			(effects
 				(font
@@ -17267,7 +17267,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "10u"
 			(at 158.115 110.49 0)
 			(effects
 				(font
@@ -17842,7 +17842,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "2.2u"
 			(at 295.275 82.55 0)
 			(effects
 				(font
@@ -18967,7 +18967,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "10u"
 			(at 89.789 133.223 0)
 			(effects
 				(font
@@ -19636,7 +19636,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "10u"
 			(at 243.205 41.91 0)
 			(effects
 				(font
@@ -20628,7 +20628,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "10u"
 			(at 219.71 41.91 0)
 			(effects
 				(font

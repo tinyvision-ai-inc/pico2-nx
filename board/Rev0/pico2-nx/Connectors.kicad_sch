@@ -9289,6 +9289,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 41.91) (xy 157.48 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8781834f-ad16-40e3-b9eb-d291c166df79")
+	)
+	(wire
+		(pts
 			(xy 377.19 50.8) (xy 377.19 62.23)
 		)
 		(stroke
@@ -11710,7 +11720,7 @@
 		)
 		(uuid "7aa98978-9d49-4a40-ae4a-09267c770d04")
 	)
-	(text "All connectors, LEDs and buttons on top.\n\nThese 100 mil pitch female right angle headers are all a\nmultiple of 100 mils apart on pin centers, so the\nfootprint is easy to replicate.\n\nThe connectors can be relocated to aid routing.\nHighlighted adjacent PMODs should remain adjacent,\nsharing the same board edge. The shared PMODs follow\nthe layout requirements noted in the PMOD Specification\nversion 1.2.\n\nThe connectors are flush with the edge of the board or\nprotrude over it all by the same distance."
+	(text "All connectors, LEDs and buttons on top.\n\nThese 100 mil pitch female right angle headers are all a\nmultiple of 100 mils apart on pin centers, so the\nfootprint is easy to replicate.\n\nThe connectors can be relocated to aid routing.\nHighlighted adjacent PMODs should remain adjacent,\nsharing the same board edge. The shared PMODs follow\nthe layout requirements noted in PMOD Specification\nversion 1.2.\n\nThe connectors are flush with the edge of the board or\nprotrude over it all by the same distance."
 		(exclude_from_sim no)
 		(at 182.88 28.956 0)
 		(effects
@@ -14107,7 +14117,7 @@
 				)
 			)
 		)
-		(property "Value" "200"
+		(property "Value" "100"
 			(at 305.054 174.244 90)
 			(effects
 				(font
@@ -16141,7 +16151,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "10u"
 			(at 85.471 45.593 0)
 			(effects
 				(font
@@ -16547,7 +16557,7 @@
 				)
 			)
 		)
-		(property "Value" "200"
+		(property "Value" "100"
 			(at 305.054 169.164 90)
 			(effects
 				(font
@@ -24259,7 +24269,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 157.48 41.91 270)
+		(at 162.56 41.91 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -24268,7 +24278,7 @@
 		(dnp no)
 		(uuid "f1ed7b31-fb6d-4717-b10f-8a53d5361397")
 		(property "Reference" "#PWR091"
-			(at 153.67 41.91 0)
+			(at 158.75 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24276,8 +24286,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "P3V3A_VREF"
-			(at 172.974 41.91 90)
+		(property "Value" "PxVA_VREF"
+			(at 176.784 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24286,7 +24296,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 41.91 0)
+			(at 162.56 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24295,7 +24305,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 41.91 0)
+			(at 162.56 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24304,7 +24314,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 157.48 41.91 0)
+			(at 162.56 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
