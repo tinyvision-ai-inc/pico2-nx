@@ -24278,7 +24278,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "27"
 			(at 218.44 74.168 90)
 			(effects
 				(font
@@ -28442,8 +28442,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
-			(at 183.642 71.374 0)
+		(property "Value" "4.7u"
+			(at 184.912 71.374 0)
 			(effects
 				(font
 					(size 1.27 1.27)
