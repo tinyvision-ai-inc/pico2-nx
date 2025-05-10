@@ -16661,8 +16661,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "P3V3D_FPGA"
-			(at 130.302 50.8 90)
+		(property "Value" "P3V3D"
+			(at 133.35 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
