@@ -12657,7 +12657,7 @@
 		(dnp no)
 		(uuid "19c93aec-7b85-4541-8901-aa7fbe0bf56d")
 		(property "Reference" "D3"
-			(at 380.746 202.1586 90)
+			(at 369.316 202.184 90)
 			(effects
 				(font
 					(size 1.27 1.27)

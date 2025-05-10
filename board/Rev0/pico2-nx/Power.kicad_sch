@@ -2879,7 +2879,7 @@
 	)
 	(text "Setpoint: 1.01V"
 		(exclude_from_sim no)
-		(at 142.24 73.66 0)
+		(at 146.558 82.804 0)
 		(effects
 			(font
 				(size 1.27 1.27)

@@ -17552,7 +17552,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "P3V3D_FPGA"
+		(property "Value" "P3V3D"
 			(at 107.95 134.874 0)
 			(effects
 				(font
@@ -18412,7 +18412,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "P3V3D_FPGA"
+		(property "Value" "P3V3D"
 			(at 107.95 171.704 0)
 			(effects
 				(font
