@@ -3371,7 +3371,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "170d468b-c56a-46f9-9427-b82b68018a07")
 		(property "Reference" "C88"
 			(at 128.778 47.2186 0)
@@ -3596,7 +3596,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "1c2d5082-484d-468d-be2f-1453aa1d203d")
 		(property "Reference" "C86"
 			(at 130.048 90.3986 0)
@@ -7519,7 +7519,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "e5c29ba1-839b-463f-80f4-0b712c861778")
 		(property "Reference" "C87"
 			(at 128.778 141.1986 0)

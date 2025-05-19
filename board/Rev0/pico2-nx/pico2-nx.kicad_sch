@@ -657,16 +657,6 @@
 	)
 	(bus
 		(pts
-			(xy 309.88 251.46) (xy 118.11 251.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2939604c-1066-48e4-8d27-b1d4c68fdf69")
-	)
-	(bus
-		(pts
 			(xy 63.5 123.19) (xy 63.5 144.78)
 		)
 		(stroke
@@ -1155,16 +1145,6 @@
 		)
 		(uuid "9e9fc474-4596-4ec0-9492-cc539a9a0165")
 	)
-	(bus
-		(pts
-			(xy 118.11 95.25) (xy 259.08 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a02c4564-6a0e-4513-950b-2f57ed1b8664")
-	)
 	(wire
 		(pts
 			(xy 157.48 60.96) (xy 175.26 60.96)
@@ -1334,6 +1314,16 @@
 			(type default)
 		)
 		(uuid "c2d2ac29-94ae-4179-ba9c-058e29431873")
+	)
+	(bus
+		(pts
+			(xy 82.55 123.19) (xy 82.55 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c367d56f-978f-4d5f-aa32-18588a104e12")
 	)
 	(wire
 		(pts
@@ -1524,16 +1514,6 @@
 			(type default)
 		)
 		(uuid "f7e0842d-69c4-4795-8d2b-6b070abf4b0b")
-	)
-	(bus
-		(pts
-			(xy 309.88 125.73) (xy 309.88 251.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa99353d-79be-43b9-9c02-c3b2214a1379")
 	)
 	(bus
 		(pts
@@ -2863,15 +2843,15 @@
 			)
 			(uuid "9f65903d-a6c8-44ee-967a-da7b20d60ccb")
 		)
-		(pin "FPC_IO_1V8{PWR_EN LED_EN}" input
-			(at 118.11 95.25 0)
+		(pin "FPC_IO{PWR_EN LED_EN}" input
+			(at 82.55 123.19 270)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
-			(uuid "674faaad-3c08-4bbf-9b93-ad8ae18e3cf5")
+			(uuid "dc819f5f-4c73-4bf8-9b7c-d9f0a35bfd62")
 		)
 		(instances
 			(project "pico2-nx"
@@ -3132,14 +3112,14 @@
 			(uuid "d0087415-c525-49de-b81d-71e0aefd21d1")
 		)
 		(pin "FPC_IO{PWR_EN LED_EN}" input
-			(at 118.11 251.46 0)
+			(at 82.55 177.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "e3106a84-1d98-4a97-842e-2d5defe20a7d")
+			(uuid "b9e9d1dd-0760-47c3-8282-c51135a0c423")
 		)
 		(instances
 			(project "pico2-nx"
@@ -3378,26 +3358,6 @@
 				(justify left)
 			)
 			(uuid "92e4ac1e-39bb-40dd-a64e-b5da91e8ce50")
-		)
-		(pin "FPC_IO_1V8{PWR_EN LED_EN}" input
-			(at 259.08 95.25 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "f75b905f-9280-4a1e-bb17-cca5fcd8bc03")
-		)
-		(pin "FPC_IO{PWR_EN LED_EN}" input
-			(at 309.88 125.73 270)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "852c1294-5ed3-4b0f-8fb6-ecb6a8cc95d5")
 		)
 		(instances
 			(project "pico2-nx"

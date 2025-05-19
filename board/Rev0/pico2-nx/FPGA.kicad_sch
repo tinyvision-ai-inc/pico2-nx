@@ -13006,7 +13006,7 @@
 	)
 	(text "FPGA Bank 0"
 		(exclude_from_sim no)
-		(at 43.18 34.29 0)
+		(at 47.498 28.702 0)
 		(effects
 			(font
 				(size 1.778 1.778)
@@ -13454,7 +13454,7 @@
 		)
 		(uuid "3cf38986-46b4-494a-9c8c-7c5f1703aad6")
 	)
-	(label "FPC_IO_1V8.PWR_EN"
+	(label "FPC_IO.PWR_EN"
 		(at 114.3 152.4 0)
 		(fields_autoplaced yes)
 		(effects
@@ -13839,7 +13839,7 @@
 		)
 		(uuid "8606e165-bc40-4f7f-a7a5-f96b4548a528")
 	)
-	(label "FPC_IO_1V8.LED_EN"
+	(label "FPC_IO.LED_EN"
 		(at 114.3 154.94 0)
 		(fields_autoplaced yes)
 		(effects
@@ -14571,7 +14571,7 @@
 		)
 		(uuid "3c02c2b0-d468-48b2-b537-f45e043f60de")
 	)
-	(hierarchical_label "FPC_IO_1V8{PWR_EN LED_EN}"
+	(hierarchical_label "FPC_IO{PWR_EN LED_EN}"
 		(shape input)
 		(at 138.43 144.78 90)
 		(fields_autoplaced yes)
@@ -20556,7 +20556,7 @@
 		(dnp no)
 		(uuid "74c6f2a6-239b-472a-bc3f-5f1a4e367f3f")
 		(property "Reference" "U3"
-			(at 43.18 35.56 0)
+			(at 43.434 32.258 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20565,13 +20565,12 @@
 			)
 		)
 		(property "Value" "LIFCL-17-7MG121C"
-			(at 44.45 68.58 0)
+			(at 43.434 34.544 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
