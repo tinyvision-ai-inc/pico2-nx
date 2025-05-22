@@ -3382,7 +3382,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DNF"
+		(property "Value" "33p"
 			(at 128.778 49.53 0)
 			(effects
 				(font
@@ -3607,7 +3607,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DNF"
+		(property "Value" "33p"
 			(at 130.048 92.71 0)
 			(effects
 				(font
@@ -7530,7 +7530,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DNF"
+		(property "Value" "33p"
 			(at 128.778 143.51 0)
 			(effects
 				(font

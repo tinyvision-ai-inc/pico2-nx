@@ -12960,17 +12960,6 @@
 		)
 		(uuid "379aa229-28e0-4a1b-b29b-e6b523219384")
 	)
-	(text "Hot socketing\nI_{OFF} < 1uA"
-		(exclude_from_sim no)
-		(at 195.326 132.842 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3c976b35-678b-435b-b254-f491755c2533")
-	)
 	(text "FPGA Bank 3"
 		(exclude_from_sim no)
 		(at 51.562 143.51 0)
