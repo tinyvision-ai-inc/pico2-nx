@@ -4229,6 +4229,327 @@
 				)
 			)
 		)
+		(symbol "Diode:BAS40-04"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0.635 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BAS40-04"
+				(at -6.35 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at -6.35 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.vishay.com/docs/85701/bas40v.pdf"
+				(at -3.048 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "40V 0.2A Dual Small Signal Schottky Diodes"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Schottky, Diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BAS40-04_0_1"
+				(polyline
+					(pts
+						(xy -3.81 2.54) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 1.27) (xy -3.175 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -3.175 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -2.54 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 3.81) (xy -1.905 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 2.54) (xy 1.905 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 3.81) (xy -1.905 3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 1.27) (xy 3.175 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.27) (xy 3.175 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.27) (xy 3.81 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 3.81) (xy 4.445 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 3.81) (xy 4.445 3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 3.81) (xy -4.445 1.27) (xy -2.54 2.54) (xy -4.445 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 3.81) (xy 1.905 1.27) (xy 3.81 2.54) (xy 1.905 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 2.54)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "BAS40-04_1_1"
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Jumper:SolderJumper_2_Bridged"
 			(pin_numbers hide)
 			(pin_names
@@ -5300,373 +5621,6 @@
 				)
 			)
 		)
-		(symbol "Power_Protection:PRTR5V0U2X"
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 2.794 8.636 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "PRTR5V0U2X"
-				(at 8.128 -9.398 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-143"
-				(at 1.524 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PRTR5V0U2X.pdf"
-				(at 1.524 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Ultra low capacitance double rail-to-rail ESD protection diode, SOT-143"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "ESD protection diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?143*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PRTR5V0U2X_0_1"
-				(rectangle
-					(start -7.62 -7.62)
-					(end 7.62 7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center -2.54 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -2.54 6.35)
-					(end 2.54 -6.35)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -6.35)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -7.62 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 -2.794) (xy -3.556 -2.794)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 4.826) (xy -3.556 4.826)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -7.62) (xy 0 7.62)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 -2.794) (xy 3.556 -2.794)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 4.826) (xy 3.556 4.826)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 1.016) (xy -1.016 1.016) (xy -1.016 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.556 -4.826) (xy -1.524 -4.826) (xy -2.54 -2.794) (xy -3.556 -4.826)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.556 2.794) (xy -1.524 2.794) (xy -2.54 4.826) (xy -3.556 2.794)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 -1.016) (xy 1.016 -1.016) (xy 0 1.016) (xy -1.016 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.556 -4.826) (xy 1.524 -4.826) (xy 2.54 -2.794) (xy 3.556 -4.826)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.556 2.794) (xy 1.524 2.794) (xy 2.54 4.826) (xy 3.556 2.794)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 6.35)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "PRTR5V0U2X_1_1"
-				(pin passive line
-					(at 0 -12.7 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 0 0)
-					(length 5.08)
-					(name "I/O1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 0 180)
-					(length 5.08)
-					(name "I/O2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 12.7 270)
-					(length 5.08)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Transistor_FET:2N7002"
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -6582,12 +6536,6 @@
 		(uuid "468efa9a-fd44-473f-a562-4d327dd094c5")
 	)
 	(junction
-		(at 264.16 175.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4baf309a-50c3-4074-b2e9-aa09a8ef3393")
-	)
-	(junction
 		(at 372.11 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6720,12 +6668,6 @@
 		(uuid "ace061fb-bb8a-4663-a349-4b295075ff30")
 	)
 	(junction
-		(at 289.56 170.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b27fc602-8f62-47c4-bab7-382fb04081bd")
-	)
-	(junction
 		(at 170.18 181.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6756,6 +6698,12 @@
 		(uuid "c398b118-c5b5-4ab7-b13d-03c36ada1410")
 	)
 	(junction
+		(at 297.18 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8089c40-604e-4963-9da7-7e8e0bb2fecd")
+	)
+	(junction
 		(at 105.41 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6772,6 +6720,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cd5804ee-9369-4be1-9ae0-5d43b5ada24d")
+	)
+	(junction
+		(at 297.18 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf66971a-bcf8-4608-9eeb-fd638f89d0e5")
 	)
 	(junction
 		(at 388.62 50.8)
@@ -6962,7 +6916,7 @@
 		(uuid "1a692a3d-00ba-4f84-bb84-d6a4907a0eb5")
 	)
 	(bus_entry
-		(at 318.77 167.64)
+		(at 314.96 162.56)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -7439,7 +7393,7 @@
 		(uuid "d1dbfb00-02ec-456b-9a3a-709c5e69b2d5")
 	)
 	(bus_entry
-		(at 318.77 172.72)
+		(at 314.96 171.45)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -7577,6 +7531,16 @@
 			(type default)
 		)
 		(uuid "03508a32-ca69-4f3b-a8b0-c67d6de87f60")
+	)
+	(wire
+		(pts
+			(xy 297.18 173.99) (xy 312.42 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04e91d2e-09a3-453f-9712-7b60c34e8dbb")
 	)
 	(wire
 		(pts
@@ -7747,16 +7711,6 @@
 			(type default)
 		)
 		(uuid "0cb90a1e-f8c4-479e-bd41-38291bd1285e")
-	)
-	(wire
-		(pts
-			(xy 264.16 175.26) (xy 295.91 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d365c4d-d505-49d2-9d58-9d4c1b2adea0")
 	)
 	(wire
 		(pts
@@ -8308,6 +8262,16 @@
 		)
 		(uuid "2a4a8710-1fa9-4a9f-8db5-333a69925be9")
 	)
+	(wire
+		(pts
+			(xy 289.56 152.4) (xy 289.56 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b218dca-6cf8-4db3-8951-2fe45a152f71")
+	)
 	(polyline
 		(pts
 			(xy 222.377 119.38) (xy 222.377 123.19)
@@ -8347,6 +8311,16 @@
 			(type default)
 		)
 		(uuid "2fc7511d-4ae3-4fd3-9bda-a8ea940431d0")
+	)
+	(wire
+		(pts
+			(xy 297.18 160.02) (xy 297.18 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30619885-a5ac-4014-9d52-83892bd680bc")
 	)
 	(wire
 		(pts
@@ -8517,16 +8491,6 @@
 			(type default)
 		)
 		(uuid "3d5950c4-2779-44e2-96a2-ce4d4015465e")
-	)
-	(wire
-		(pts
-			(xy 264.16 152.4) (xy 264.16 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e32cade-beaf-4a99-b7b4-626c33d5fca4")
 	)
 	(wire
 		(pts
@@ -8730,6 +8694,16 @@
 	)
 	(wire
 		(pts
+			(xy 283.21 165.1) (xy 297.18 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c726ac3-9d16-47e9-a863-34a461907aa0")
+	)
+	(wire
+		(pts
 			(xy 60.96 143.51) (xy 43.18 143.51)
 		)
 		(stroke
@@ -8927,16 +8901,6 @@
 			(type default)
 		)
 		(uuid "56be519b-3e29-4940-975e-95e766152b87")
-	)
-	(wire
-		(pts
-			(xy 289.56 170.18) (xy 295.91 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57032a45-13bf-40d5-ae95-0cabba6138c1")
 	)
 	(wire
 		(pts
@@ -9450,7 +9414,7 @@
 	)
 	(bus
 		(pts
-			(xy 318.77 167.64) (xy 318.77 172.72)
+			(xy 314.96 162.56) (xy 314.96 171.45)
 		)
 		(stroke
 			(width 0)
@@ -9810,6 +9774,16 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 173.99) (xy 275.59 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bc105fc-d6f3-4552-9905-9e114d5c80c8")
+	)
+	(wire
+		(pts
 			(xy 267.97 87.63) (xy 262.89 87.63)
 		)
 		(stroke
@@ -9900,16 +9874,6 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 175.26) (xy 264.16 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93c97438-4814-4cbf-81ad-5588594c7689")
-	)
-	(wire
-		(pts
 			(xy 365.76 133.35) (xy 372.11 133.35)
 		)
 		(stroke
@@ -9917,6 +9881,16 @@
 			(type default)
 		)
 		(uuid "93d38082-0e79-4d93-81d4-03e8f987b73d")
+	)
+	(wire
+		(pts
+			(xy 297.18 165.1) (xy 312.42 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94af7e00-b764-4bbe-bbd1-dff4ef04265e")
 	)
 	(wire
 		(pts
@@ -10137,16 +10111,6 @@
 			(type default)
 		)
 		(uuid "9f1b639d-9466-41e1-aa3b-6ce8c0768526")
-	)
-	(wire
-		(pts
-			(xy 303.53 170.18) (xy 316.23 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0ab6bb8-fc9a-4386-8197-2c5daa895c15")
 	)
 	(wire
 		(pts
@@ -10790,6 +10754,16 @@
 	)
 	(wire
 		(pts
+			(xy 283.21 173.99) (xy 297.18 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c46b5f00-0844-4fbf-89ae-e8d31655f23c")
+	)
+	(wire
+		(pts
 			(xy 341.63 160.02) (xy 364.49 160.02)
 		)
 		(stroke
@@ -11108,6 +11082,16 @@
 		)
 		(uuid "d374f03f-e366-445b-9531-a69f10747a7f")
 	)
+	(wire
+		(pts
+			(xy 251.46 173.99) (xy 260.35 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3d96947-c1b5-4016-927a-0abbf0d2a481")
+	)
 	(polyline
 		(pts
 			(xy 291.465 60.325) (xy 291.465 75.565)
@@ -11200,16 +11184,6 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 170.18) (xy 289.56 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d79e42e1-0c0b-4207-ac63-6eb2bafae89a")
-	)
-	(wire
-		(pts
 			(xy 55.88 39.37) (xy 57.15 39.37)
 		)
 		(stroke
@@ -11238,9 +11212,19 @@
 		)
 		(uuid "d8ff4562-e100-49ee-bdab-a28a322c3591")
 	)
+	(wire
+		(pts
+			(xy 289.56 180.34) (xy 289.56 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dae1b307-2e98-430d-934c-e6dcd32cb890")
+	)
 	(bus
 		(pts
-			(xy 318.77 163.83) (xy 318.77 167.64)
+			(xy 314.96 158.75) (xy 314.96 162.56)
 		)
 		(stroke
 			(width 0)
@@ -11368,6 +11352,16 @@
 		)
 		(uuid "e2dd8c7e-393c-4534-9732-6dfb297cdf16")
 	)
+	(wire
+		(pts
+			(xy 297.18 173.99) (xy 297.18 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e484165c-328a-4a7d-b7b2-a0eda5e1d5b2")
+	)
 	(bus
 		(pts
 			(xy 172.72 219.71) (xy 181.61 219.71)
@@ -11487,16 +11481,6 @@
 			(type default)
 		)
 		(uuid "e8234790-41fb-4170-9a8d-3a769ab25f4a")
-	)
-	(wire
-		(pts
-			(xy 289.56 152.4) (xy 289.56 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e997d904-46fe-4d6b-8cc6-7f36f2be0c95")
 	)
 	(wire
 		(pts
@@ -11630,6 +11614,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 165.1) (xy 260.35 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f18fb2f3-9462-458d-81b0-eb92d8e010b9")
+	)
+	(wire
+		(pts
 			(xy 182.88 179.07) (xy 199.39 179.07)
 		)
 		(stroke
@@ -11687,16 +11681,6 @@
 			(type default)
 		)
 		(uuid "f61ce9dd-2e63-4480-abb0-b7fad1015139")
-	)
-	(wire
-		(pts
-			(xy 303.53 175.26) (xy 316.23 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f63f06cc-b5a2-4e1b-bd98-8b91d78be1e0")
 	)
 	(wire
 		(pts
@@ -11817,6 +11801,16 @@
 			(type default)
 		)
 		(uuid "fcd18876-a887-4c8f-b15c-2e13fd3f3994")
+	)
+	(wire
+		(pts
+			(xy 267.97 165.1) (xy 275.59 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fce55dd0-62bd-489f-96e8-0becc214924e")
 	)
 	(wire
 		(pts
@@ -12097,7 +12091,7 @@
 	)
 	(text "ADC"
 		(exclude_from_sim no)
-		(at 275.59 131.826 0)
+		(at 277.368 140.716 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -12557,7 +12551,7 @@
 		(uuid "27e2b52a-4fda-49d8-b99b-2a8f2450ea22")
 	)
 	(label "ADC1"
-		(at 314.96 175.26 180)
+		(at 311.15 173.99 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12788,7 +12782,7 @@
 		(uuid "42ed6058-98cb-4a56-8813-358a0a17aa30")
 	)
 	(label "ADC0_PROT"
-		(at 257.81 170.18 180)
+		(at 251.46 165.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12942,7 +12936,7 @@
 		(uuid "5b1a17f1-1755-4762-9b4b-c0b063507824")
 	)
 	(label "ADC0"
-		(at 314.96 170.18 180)
+		(at 311.15 165.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12953,7 +12947,7 @@
 		(uuid "5cd7071e-bc67-478e-b4d4-0b53e3996b04")
 	)
 	(label "ADC1_PROT"
-		(at 257.81 175.26 180)
+		(at 251.46 173.99 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14132,7 +14126,7 @@
 	)
 	(hierarchical_label "ADC[0..1]"
 		(shape output)
-		(at 318.77 163.83 90)
+		(at 314.96 158.75 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14533,32 +14527,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 299.72 175.26 270)
+		(lib_id "power:GND")
+		(at 304.8 154.94 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "036efcb3-af68-467e-8a87-660d40cd410a")
-		(property "Reference" "R69"
-			(at 294.894 174.244 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 305.054 174.244 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 299.72 173.482 90)
+		(uuid "03c1233a-2b09-4735-b83d-f9984b6f1dee")
+		(property "Reference" "#PWR0210"
+			(at 304.8 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14566,8 +14545,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 299.72 175.26 0)
+		(property "Value" "GND"
+			(at 304.8 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14575,8 +14554,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 299.72 175.26 0)
+		(property "Footprint" ""
+			(at 304.8 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14584,8 +14563,8 @@
 				(hide yes)
 			)
 		)
-		(property "Digi-Key Part Number" ""
-			(at 299.72 175.26 0)
+		(property "Datasheet" ""
+			(at 304.8 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14593,26 +14572,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0402FR-0727RL"
-			(at 299.72 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 299.72 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 299.72 175.26 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 304.8 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14621,15 +14582,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "e95b5c53-100c-4214-b431-c79f47d244d5")
-		)
-		(pin "2"
-			(uuid "9bdb2f15-2273-443e-8e92-75e7bdc55c7d")
+			(uuid "ad237807-7763-450b-9aa2-a766a52b26ce")
 		)
 		(instances
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/c34cce34-097a-49d0-bf75-c153e8f13cae"
-					(reference "R69")
+					(reference "#PWR0210")
 					(unit 1)
 				)
 			)
@@ -15066,80 +15024,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Power_Protection:PRTR5V0U2X")
-		(at 276.86 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0e6588b7-0ab3-4bf3-92df-4211512679e0")
-		(property "Reference" "D10"
-			(at 292.1 145.9798 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PRTR5V0U2X"
-			(at 292.1 148.5198 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-143"
-			(at 278.384 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PRTR5V0U2X.pdf"
-			(at 278.384 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Ultra low capacitance double rail-to-rail ESD protection diode, SOT-143"
-			(at 276.86 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b3932c21-99c6-402a-8989-d6ac11e4fa22")
-		)
-		(pin "3"
-			(uuid "c32d64ce-810e-4030-a621-30babd4ef44f")
-		)
-		(pin "4"
-			(uuid "d8ecc490-96c4-41ea-821f-df1779553537")
-		)
-		(pin "1"
-			(uuid "fcb63641-b2b2-408d-9e8d-d752d84ff893")
-		)
-		(instances
-			(project ""
-				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/c34cce34-097a-49d0-bf75-c153e8f13cae"
-					(reference "D10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 170.18 181.61 270)
 		(mirror x)
@@ -15446,6 +15330,72 @@
 			(project ""
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/c34cce34-097a-49d0-bf75-c153e8f13cae"
 					(reference "JP15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 304.8 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "12153aad-9c8e-45fd-bbb4-665386a87c91")
+		(property "Reference" "#PWR0135"
+			(at 304.8 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 304.8 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 304.8 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 304.8 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 304.8 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3be4b534-5c96-49bc-ad58-f4c7d5abdc7f")
+		)
+		(instances
+			(project "pico2-nx"
+				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/c34cce34-097a-49d0-bf75-c153e8f13cae"
+					(reference "#PWR0135")
 					(unit 1)
 				)
 			)
@@ -16404,6 +16354,109 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 279.4 165.1 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "22c7478f-f54e-4c42-959c-1beda56d7230")
+		(property "Reference" "R82"
+			(at 279.4 162.814 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 279.146 167.386 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 279.4 163.322 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 279.4 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 279.4 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key Part Number" ""
+			(at 279.4 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402FR-0727RL"
+			(at 279.4 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 279.4 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 279.4 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f344b94-1162-4182-b140-65c088ee26b4")
+		)
+		(pin "2"
+			(uuid "73eecbb7-00d8-400e-a4dd-45b418d33cb0")
+		)
+		(instances
+			(project "pico2-nx"
+				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/c34cce34-097a-49d0-bf75-c153e8f13cae"
+					(reference "R82")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 388.62 50.8 0)
 		(unit 1)
@@ -17190,109 +17243,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 299.72 170.18 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3c55df79-5490-4df9-a0c6-146fb2403e64")
-		(property "Reference" "R68"
-			(at 294.894 169.164 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 305.054 169.164 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 299.72 168.402 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 299.72 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 299.72 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digi-Key Part Number" ""
-			(at 299.72 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RC0402FR-0727RL"
-			(at 299.72 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 299.72 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 299.72 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "464b3c1c-08a1-450e-9cb5-30677acd3bc3")
-		)
-		(pin "2"
-			(uuid "7da193a2-b700-4978-884d-495597155fcd")
-		)
-		(instances
-			(project "pico2-nx"
-				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/c34cce34-097a-49d0-bf75-c153e8f13cae"
-					(reference "R68")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 139.7 50.8 90)
 		(unit 1)
@@ -17883,7 +17833,8 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 276.86 139.7 0)
+		(at 289.56 152.4 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17891,7 +17842,7 @@
 		(dnp no)
 		(uuid "47fbcf81-c733-427d-bbc7-6d0703623339")
 		(property "Reference" "#PWR0134"
-			(at 276.86 143.51 0)
+			(at 289.56 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17900,7 +17851,7 @@
 			)
 		)
 		(property "Value" "P1V8D"
-			(at 277.241 135.3058 0)
+			(at 289.179 148.0058 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17908,7 +17859,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 276.86 139.7 0)
+			(at 289.56 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17917,7 +17868,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 276.86 139.7 0)
+			(at 289.56 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17926,7 +17877,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 276.86 139.7 0)
+			(at 289.56 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18177,72 +18128,6 @@
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/c34cce34-097a-49d0-bf75-c153e8f13cae"
 					(reference "#PWR0136")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 276.86 165.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4c35c757-6e9f-4b9d-b6d5-27f8c9a61a82")
-		(property "Reference" "#PWR0135"
-			(at 276.86 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 276.86 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 276.86 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 276.86 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 276.86 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ad2a91d1-1a9f-4166-8c49-41a0cf66c885")
-		)
-		(instances
-			(project "pico2-nx"
-				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/c34cce34-097a-49d0-bf75-c153e8f13cae"
-					(reference "#PWR0135")
 					(unit 1)
 				)
 			)
@@ -18701,6 +18586,109 @@
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/c34cce34-097a-49d0-bf75-c153e8f13cae"
 					(reference "#PWR0142")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 264.16 165.1 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "54a4e60b-472d-4846-8c37-aa0a30bd8309")
+		(property "Reference" "R68"
+			(at 264.16 162.814 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 263.906 167.386 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 264.16 163.322 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 264.16 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 264.16 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key Part Number" ""
+			(at 264.16 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402FR-0727RL"
+			(at 264.16 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 264.16 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 264.16 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b0ec992-e18d-4557-87ad-581d5697f19a")
+		)
+		(pin "2"
+			(uuid "fd98b1ba-a516-4fbd-946d-401cfc191569")
+		)
+		(instances
+			(project "pico2-nx"
+				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/c34cce34-097a-49d0-bf75-c153e8f13cae"
+					(reference "R68")
 					(unit 1)
 				)
 			)
@@ -19272,6 +19260,71 @@
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/c34cce34-097a-49d0-bf75-c153e8f13cae"
 					(reference "#PWR0125")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 289.56 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5d75d1d9-fe35-44f6-a57f-ac499ba5d47f")
+		(property "Reference" "#PWR0211"
+			(at 289.56 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "P1V8D"
+			(at 289.941 175.9458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 289.56 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 289.56 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 289.56 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8226e67a-d949-4dd9-93fa-0d52c0f7bd57")
+		)
+		(instances
+			(project "pico2-nx"
+				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/c34cce34-097a-49d0-bf75-c153e8f13cae"
+					(reference "#PWR0211")
 					(unit 1)
 				)
 			)
@@ -21641,6 +21694,109 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 264.16 173.99 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8fa772eb-5a0b-43f6-ae91-3140072b81f6")
+		(property "Reference" "R69"
+			(at 264.16 171.704 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 263.906 176.276 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 264.16 172.212 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 264.16 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 264.16 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key Part Number" ""
+			(at 264.16 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402FR-0727RL"
+			(at 264.16 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 264.16 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 264.16 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de8b6d3b-81c3-4319-9570-bc7432ca9eb3")
+		)
+		(pin "2"
+			(uuid "093669e4-708f-47b6-8376-fd3ee5f85128")
+		)
+		(instances
+			(project "pico2-nx"
+				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/c34cce34-097a-49d0-bf75-c153e8f13cae"
+					(reference "R69")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 262.89 44.45 90)
 		(mirror x)
@@ -22305,6 +22461,79 @@
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/c34cce34-097a-49d0-bf75-c153e8f13cae"
 					(reference "R36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAS40-04")
+		(at 297.18 157.48 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "9d60cb55-dd1f-45a3-860e-276790ff9813")
+		(property "Reference" "D8"
+			(at 297.18 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAS40-04"
+			(at 297.18 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 303.53 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/85701/bas40v.pdf"
+			(at 300.228 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V 0.2A Dual Small Signal Schottky Diodes"
+			(at 297.18 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fd6155dd-ecad-4736-9ac5-81b75173fded")
+		)
+		(pin "1"
+			(uuid "dca91655-06ec-4a03-a3f3-678db9ff29d6")
+		)
+		(pin "3"
+			(uuid "053ba6fb-c0d5-4554-b408-bfb6199fc1ce")
+		)
+		(instances
+			(project ""
+				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/c34cce34-097a-49d0-bf75-c153e8f13cae"
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -23081,6 +23310,109 @@
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/c34cce34-097a-49d0-bf75-c153e8f13cae"
 					(reference "#PWR0129")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 279.4 173.99 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b6adee80-b3f2-482c-99a5-8730d5fa2400")
+		(property "Reference" "R83"
+			(at 279.4 171.704 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 279.146 176.276 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 279.4 172.212 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 279.4 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 279.4 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key Part Number" ""
+			(at 279.4 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402FR-0727RL"
+			(at 279.4 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 279.4 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 279.4 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db208a69-f8ef-42c9-bde1-460fd03b7cf2")
+		)
+		(pin "2"
+			(uuid "af8adee7-8246-40c6-905a-16abcb9693ea")
+		)
+		(instances
+			(project "pico2-nx"
+				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/c34cce34-097a-49d0-bf75-c153e8f13cae"
+					(reference "R83")
 					(unit 1)
 				)
 			)
@@ -25523,6 +25855,78 @@
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/c34cce34-097a-49d0-bf75-c153e8f13cae"
 					(reference "#PWR091")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAS40-04")
+		(at 297.18 180.34 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "f4ef8580-5055-4808-8511-048e6a57c91c")
+		(property "Reference" "D9"
+			(at 297.18 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAS40-04"
+			(at 297.18 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 303.53 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/85701/bas40v.pdf"
+			(at 300.228 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V 0.2A Dual Small Signal Schottky Diodes"
+			(at 297.18 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "09c67ac7-fb28-4a91-94e3-7160d43e72cb")
+		)
+		(pin "1"
+			(uuid "9f4a8206-6838-4403-8603-7c35860e417b")
+		)
+		(pin "3"
+			(uuid "87f42953-9e89-4f8a-b3df-ffd76f6fd0e1")
+		)
+		(instances
+			(project "pico2-nx"
+				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/c34cce34-097a-49d0-bf75-c153e8f13cae"
+					(reference "D9")
 					(unit 1)
 				)
 			)
