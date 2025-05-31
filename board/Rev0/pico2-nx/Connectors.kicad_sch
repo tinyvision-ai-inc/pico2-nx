@@ -12220,17 +12220,6 @@
 		)
 		(uuid "eba65d0e-e827-4be6-876a-332c262d7888")
 	)
-	(text "Hand solder"
-		(exclude_from_sim no)
-		(at 171.45 193.294 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ec98e4ac-2f62-4860-8efc-137ef9a1b90e")
-	)
 	(text "PMOD"
 		(exclude_from_sim no)
 		(at 194.691 124.46 90)
@@ -24004,7 +23993,7 @@
 				)
 			)
 		)
-		(property "Value" "FTSH-105-01-L-DV-007-K"
+		(property "Value" "FTSH-105-01-L-DV"
 			(at 176.53 175.26 0)
 			(effects
 				(font

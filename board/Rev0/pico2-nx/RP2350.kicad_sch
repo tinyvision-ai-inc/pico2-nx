@@ -10066,7 +10066,7 @@
 		)
 		(uuid "254ac602-7b05-4396-8fe2-706f9b676899")
 	)
-	(text "JST Debug Connector"
+	(text "JST SWD Debug Connector"
 		(exclude_from_sim no)
 		(at 146.05 73.914 0)
 		(effects
@@ -10462,7 +10462,7 @@
 		)
 		(uuid "d5341de1-3e6c-422a-835c-ff02f8fcf350")
 	)
-	(text "Although the level shifter has internal\npull-ups, they are relatively weak at\n40K. During RP boot, its internal\npull-downs are 50-80K, which would lead\nto an indeterminate logic level, if it\nweren't for the strong 10K external\npull-ups."
+	(text "Although the level shifter has internal\npull-ups, they are relatively weak at\n40K. During RP boot, its internal\npull-downs are 50-80K, which would lead\nto an indeterminate logic level, if it\nweren't for the stronger 10K external\npull-ups."
 		(exclude_from_sim no)
 		(at 31.75 30.734 0)
 		(effects
