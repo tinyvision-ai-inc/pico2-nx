@@ -15282,7 +15282,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 157.48 162.56 0)
 			(effects
 				(font
@@ -17778,7 +17778,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
 			(at 193.04 156.21 0)
 			(effects
 				(font
@@ -24001,7 +24001,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD"
+		(property "Footprint" ""
 			(at 175.26 184.15 0)
 			(effects
 				(font
@@ -24999,7 +24999,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "RP2350_60QFN_minimal:AMPHENOL_SFV22R-2STE1HLF"
 			(at 38.1 232.41 0)
 			(effects
 				(font
