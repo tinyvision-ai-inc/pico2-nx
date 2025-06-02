@@ -26749,7 +26749,7 @@
 				)
 			)
 		)
-		(property "Value" "W25Q128JVSSIQ"
+		(property "Value" "W25Q128JVSIM"
 			(at 218.44 27.94 0)
 			(effects
 				(font
@@ -26784,7 +26784,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "W25Q128JVSSIQ"
+		(property "MPN" "W25Q128JVSIM"
 			(at 209.55 38.1 0)
 			(effects
 				(font
