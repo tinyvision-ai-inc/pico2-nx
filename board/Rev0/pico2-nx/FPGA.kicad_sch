@@ -13004,7 +13004,7 @@
 		)
 		(uuid "4e06593c-67db-475d-8b2d-ae57f21252ac")
 	)
-	(text "Xcella RAM"
+	(text "DDR Octal SRAM"
 		(exclude_from_sim no)
 		(at 312.42 189.992 0)
 		(effects
