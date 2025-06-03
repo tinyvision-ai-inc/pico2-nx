@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "3f78ea9c-04fb-4995-93af-161ce91aa891")
 	(paper "A3")
+	(title_block
+		(title "PICO2-NX")
+		(rev "0.1")
+		(company "tinyVision.ai Inc.")
+	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
 			(pin_numbers hide)

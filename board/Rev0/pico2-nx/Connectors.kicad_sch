@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "729e0239-4ecc-424c-9e57-e74e459ff467")
 	(paper "A3")
+	(title_block
+		(title "PICO2-NX")
+		(rev "0.1")
+		(company "tinyVision.ai Inc.")
+	)
 	(lib_symbols
 		(symbol "Analog_Switch:CD4066BM"
 			(exclude_from_sim no)

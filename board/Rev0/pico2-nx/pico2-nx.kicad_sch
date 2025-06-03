@@ -6,6 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "PICO2-NX")
+		(date "2025-06-03")
+		(rev "0.1")
 		(company "tinyVision.ai Inc.")
 	)
 	(lib_symbols
