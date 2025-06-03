@@ -2936,6 +2936,17 @@
 		)
 		(uuid "930cd12a-4e29-40d0-8893-372551fff1b1")
 	)
+	(text "JP12, JP13 & JP14 are for measuring current. The\nfootprint is suitable for soldering a resistor across."
+		(exclude_from_sim no)
+		(at 166.624 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9fd77217-a7e1-4687-9526-8ddc67b07454")
+	)
 	(text "Alternate part: AP61102"
 		(exclude_from_sim no)
 		(at 93.98 102.87 0)
