@@ -997,6 +997,16 @@
 		)
 		(uuid "80c8aa3b-3fda-4121-a4f0-1fe728a989d7")
 	)
+	(wire
+		(pts
+			(xy 228.6 123.19) (xy 259.08 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8214e66c-14db-46a8-b23c-13d80d234e92")
+	)
 	(bus
 		(pts
 			(xy 279.4 220.98) (xy 279.4 125.73)
@@ -1106,6 +1116,16 @@
 			(type default)
 		)
 		(uuid "904eb712-4eed-4cb4-a610-ecf6aad39df4")
+	)
+	(wire
+		(pts
+			(xy 228.6 166.37) (xy 228.6 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "945547ee-1395-4382-9818-fec68c9e905e")
 	)
 	(wire
 		(pts
@@ -2657,6 +2677,16 @@
 			)
 			(uuid "3b7d571e-a643-452f-b51a-adb037de90c6")
 		)
+		(pin "FAULTn" input
+			(at 228.6 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6ca28b9b-fba5-4a1c-a60b-2ffb571e4ac6")
+		)
 		(instances
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9"
@@ -3360,6 +3390,16 @@
 				(justify left)
 			)
 			(uuid "92e4ac1e-39bb-40dd-a64e-b5da91e8ce50")
+		)
+		(pin "FAULTn" input
+			(at 259.08 123.19 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "33fef727-1a00-40bb-a487-eaa566761098")
 		)
 		(instances
 			(project "pico2-nx"

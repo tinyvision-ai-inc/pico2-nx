@@ -1627,6 +1627,12 @@
 		(uuid "d7b48b4b-82c4-45be-b431-96e71fbfcd67")
 	)
 	(junction
+		(at 234.95 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dbad01f6-8bb3-4640-8a87-5a93c00157aa")
+	)
+	(junction
 		(at 142.24 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2283,6 +2289,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 43.18) (xy 238.76 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fd6549f-0a0d-4582-aa0f-f5a913fa9271")
+	)
+	(wire
+		(pts
 			(xy 86.36 53.34) (xy 86.36 147.32)
 		)
 		(stroke
@@ -2584,7 +2600,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 43.18) (xy 236.22 43.18)
+			(xy 233.68 43.18) (xy 234.95 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2601,6 +2617,16 @@
 			(type default)
 		)
 		(uuid "ceed8b92-8bad-4deb-a161-131ba79175ea")
+	)
+	(wire
+		(pts
+			(xy 234.95 43.18) (xy 234.95 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d48efe1f-928c-4077-9ed6-8581571bd81f")
 	)
 	(wire
 		(pts
@@ -2695,7 +2721,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 137.16) (xy 236.22 137.16)
+			(xy 233.68 137.16) (xy 234.95 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2742,6 +2768,16 @@
 			(type default)
 		)
 		(uuid "f0c93039-138a-4ad6-9640-64db7632c42d")
+	)
+	(wire
+		(pts
+			(xy 234.95 39.37) (xy 234.95 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f58981af-c5a4-49ae-bffa-bfcbade59338")
 	)
 	(wire
 		(pts
@@ -3020,6 +3056,18 @@
 		)
 		(uuid "2e245a0d-0b8c-438f-ab4c-a592a34c5f84")
 	)
+	(hierarchical_label "FAULTn"
+		(shape input)
+		(at 238.76 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "beffcad3-f496-4555-b033-2b6c4165e9d4")
+	)
 	(hierarchical_label "FPGA_EN"
 		(shape input)
 		(at 80.01 107.95 180)
@@ -3094,6 +3142,72 @@
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/259c5351-60de-47b4-bd20-37b3e3d7393a"
 					(reference "#FLG013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 234.95 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0158d36d-f0a2-484f-8ec6-83ba89a36063")
+		(property "Reference" "#PWR0133"
+			(at 234.95 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "P3V3D"
+			(at 237.998 30.734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 234.95 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 234.95 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92034022-5849-4ee1-b099-0d12949f71d5")
+		)
+		(instances
+			(project "pico2-nx"
+				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/259c5351-60de-47b4-bd20-37b3e3d7393a"
+					(reference "#PWR0133")
 					(unit 1)
 				)
 			)
@@ -4327,7 +4441,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.diodes.com/datasheet/download/AP61100.pdf"
 			(at 88.9 86.36 0)
 			(effects
 				(font
@@ -5624,35 +5738,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 236.22 43.18 270)
+		(lib_id "Device:R_Small")
+		(at 234.95 36.83 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8234964f-22c7-4929-aadd-70d4fb6d18d6")
-		(property "Reference" "TP5"
-			(at 240.792 41.402 0)
+		(uuid "852a6053-b34e-4a64-8045-dea91850dd48")
+		(property "Reference" "R67"
+			(at 231.902 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "Value" "3V3"
-			(at 238.76 40.64 0)
+		(property "Value" "200K"
+			(at 231.394 37.592 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
-				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 236.22 48.26 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 234.95 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5661,7 +5773,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 236.22 48.26 0)
+			(at 234.95 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5669,8 +5781,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 236.22 43.18 0)
+		(property "Description" "Resistor, small symbol"
+			(at 234.95 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5678,173 +5790,16 @@
 				(hide yes)
 			)
 		)
-		(property "DEVICE MARKING" ""
-			(at 235.458 42.418 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DISTRIBUTOR" ""
-			(at 235.458 42.418 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DISTRIBUTOR ART. NBR." ""
-			(at 235.458 42.418 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 235.458 42.418 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER ART. NBR." ""
-			(at 235.458 42.418 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" ""
-			(at 235.458 42.418 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PRICE ESTIM. @ 100PCS" ""
-			(at 235.458 42.418 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" ""
-			(at 235.458 42.418 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "POWER RATING" ""
-			(at 235.458 42.418 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TOLERANCE" ""
-			(at 235.458 42.418 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "VOLTAGE RATING" ""
-			(at 235.458 42.418 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CERAMIC TYPE" ""
-			(at 235.458 42.418 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CURRENT RATING" ""
-			(at 235.458 42.418 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT" ""
-			(at 235.458 42.418 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ESR" ""
-			(at 235.458 42.418 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "FREQUENCY" ""
-			(at 235.458 42.418 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
+		(pin "2"
+			(uuid "faf61105-da56-425b-a112-89d73601cd15")
 		)
 		(pin "1"
-			(uuid "37cb78ac-d9fd-4faf-87a4-127005bd4855")
+			(uuid "05adaa0c-dc91-4f26-b592-ebc3306375d6")
 		)
 		(instances
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/259c5351-60de-47b4-bd20-37b3e3d7393a"
-					(reference "TP5")
+					(reference "R67")
 					(unit 1)
 				)
 			)
@@ -6154,7 +6109,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.diodes.com/datasheet/download/AP61100.pdf"
 			(at 88.9 43.18 0)
 			(effects
 				(font
@@ -6511,233 +6466,6 @@
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/259c5351-60de-47b4-bd20-37b3e3d7393a"
 					(reference "#FLG014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 236.22 137.16 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "afc5e7ec-8fa9-42bc-9124-bf7385d96189")
-		(property "Reference" "TP6"
-			(at 240.792 135.382 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "3V3"
-			(at 238.76 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 236.22 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 236.22 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 236.22 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DEVICE MARKING" ""
-			(at 235.458 136.398 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DISTRIBUTOR" ""
-			(at 235.458 136.398 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DISTRIBUTOR ART. NBR." ""
-			(at 235.458 136.398 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 235.458 136.398 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER ART. NBR." ""
-			(at 235.458 136.398 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" ""
-			(at 235.458 136.398 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PRICE ESTIM. @ 100PCS" ""
-			(at 235.458 136.398 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" ""
-			(at 235.458 136.398 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "POWER RATING" ""
-			(at 235.458 136.398 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TOLERANCE" ""
-			(at 235.458 136.398 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "VOLTAGE RATING" ""
-			(at 235.458 136.398 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CERAMIC TYPE" ""
-			(at 235.458 136.398 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CURRENT RATING" ""
-			(at 235.458 136.398 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT" ""
-			(at 235.458 136.398 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ESR" ""
-			(at 235.458 136.398 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "FREQUENCY" ""
-			(at 235.458 136.398 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f0cff29c-50bd-424c-876e-f79b16854f7c")
-		)
-		(instances
-			(project "pico2-nx"
-				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/259c5351-60de-47b4-bd20-37b3e3d7393a"
-					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -8673,7 +8401,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.diodes.com/datasheet/download/AP61100.pdf"
 			(at 88.9 137.16 0)
 			(effects
 				(font

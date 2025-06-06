@@ -15440,7 +15440,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.latticesemi.com/Products/FPGAandCPLD/CrossLink-NX"
 			(at 330.2 25.4 0)
 			(effects
 				(font
@@ -20132,7 +20132,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.latticesemi.com/Products/FPGAandCPLD/CrossLink-NX"
 			(at 330.2 71.12 0)
 			(effects
 				(font
@@ -20858,7 +20858,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.latticesemi.com/Products/FPGAandCPLD/CrossLink-NX"
 			(at 41.91 91.44 0)
 			(effects
 				(font
@@ -21369,7 +21369,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.latticesemi.com/Products/FPGAandCPLD/CrossLink-NX"
 			(at 41.91 35.56 0)
 			(effects
 				(font
@@ -22017,7 +22017,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.latticesemi.com/Products/FPGAandCPLD/CrossLink-NX"
 			(at 334.01 195.58 0)
 			(effects
 				(font
@@ -24714,7 +24714,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.latticesemi.com/Products/FPGAandCPLD/CrossLink-NX"
 			(at 41.91 212.09 0)
 			(effects
 				(font
@@ -28092,7 +28092,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.latticesemi.com/Products/FPGAandCPLD/CrossLink-NX"
 			(at 41.91 147.32 0)
 			(effects
 				(font
