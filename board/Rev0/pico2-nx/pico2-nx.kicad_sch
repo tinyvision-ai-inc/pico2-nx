@@ -3093,7 +3093,7 @@
 			)
 			(uuid "b4a67e92-08c4-49f0-bda1-e71da5d402f0")
 		)
-		(pin "SHARED_PMOD_EN" input
+		(pin "PORT_EN" input
 			(at 118.11 243.84 0)
 			(effects
 				(font
@@ -3341,7 +3341,7 @@
 			)
 			(uuid "99960572-8322-4bc1-bae6-c63505684cd8")
 		)
-		(pin "SHARED_PMOD_EN" output
+		(pin "PORT_EN" output
 			(at 302.26 125.73 270)
 			(effects
 				(font

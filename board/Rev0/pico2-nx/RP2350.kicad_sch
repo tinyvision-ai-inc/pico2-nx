@@ -6958,6 +6958,16 @@
 	)
 	(wire
 		(pts
+			(xy 284.48 137.16) (xy 287.02 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a245c89-d2ff-4a3e-a678-d9bc597d75af")
+	)
+	(wire
+		(pts
 			(xy 195.58 95.25) (xy 195.58 107.95)
 		)
 		(stroke
@@ -9668,16 +9678,6 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 137.16) (xy 288.29 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e77ca7bc-9c14-43e6-928f-b5908f9367b6")
-	)
-	(wire
-		(pts
 			(xy 279.4 64.77) (xy 279.4 74.93)
 		)
 		(stroke
@@ -11707,9 +11707,9 @@
 		)
 		(uuid "8c9fb36d-c15a-4a99-b711-ac928d011763")
 	)
-	(hierarchical_label "SHARED_PMOD_EN"
+	(hierarchical_label "PORT_EN"
 		(shape output)
-		(at 288.29 137.16 0)
+		(at 287.02 137.16 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
