@@ -5497,12 +5497,6 @@
 		(uuid "14a208df-c605-4163-b83e-53461afd7491")
 	)
 	(junction
-		(at 364.49 186.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "167ffd69-8489-4a7d-aa99-ebe64d6cf131")
-	)
-	(junction
 		(at 168.91 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5605,12 +5599,6 @@
 		(uuid "4fe59ac8-184e-4693-acef-c85fc6a5a37e")
 	)
 	(junction
-		(at 382.27 217.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5168d6d2-d5e1-42a8-a36e-e6a3a1e9d19f")
-	)
-	(junction
 		(at 314.96 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5663,12 +5651,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6ff214f8-25dc-42a1-8456-5620a4cb0a3c")
-	)
-	(junction
-		(at 68.58 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "723d2a70-3612-43c6-a513-de0276561d6c")
 	)
 	(junction
 		(at 294.64 87.63)
@@ -5783,12 +5765,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "af83ba26-e633-4e50-9682-edd7b957a8c1")
-	)
-	(junction
-		(at 76.2 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b11b8727-9d9a-4e34-b30d-2a8915d5dc6e")
 	)
 	(junction
 		(at 110.49 203.2)
@@ -6384,6 +6360,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 49.53) (xy 83.82 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "038056ca-b447-45d1-8907-5939eeff88b0")
+	)
+	(wire
+		(pts
 			(xy 168.91 104.14) (xy 168.91 102.87)
 		)
 		(stroke
@@ -6401,16 +6387,6 @@
 			(type default)
 		)
 		(uuid "04cfe9c6-d436-4256-a868-471c7ed455ea")
-	)
-	(wire
-		(pts
-			(xy 76.2 39.37) (xy 76.2 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05eafddf-d45f-4891-89f2-525857fd147a")
 	)
 	(wire
 		(pts
@@ -6444,7 +6420,7 @@
 	)
 	(wire
 		(pts
-			(xy 382.27 217.17) (xy 365.76 217.17)
+			(xy 365.76 217.17) (xy 369.57 217.17)
 		)
 		(stroke
 			(width 0)
@@ -6561,16 +6537,6 @@
 			(type default)
 		)
 		(uuid "0e3dad45-411f-440c-9908-09bdd1f0c672")
-	)
-	(wire
-		(pts
-			(xy 382.27 186.69) (xy 364.49 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ed33add-6b22-4f6a-a86c-3a32f85fb0bc")
 	)
 	(bus
 		(pts
@@ -6812,16 +6778,6 @@
 		)
 		(uuid "2036f1c4-08e6-4e3c-925e-e911c6c9b2ca")
 	)
-	(wire
-		(pts
-			(xy 76.2 40.64) (xy 68.58 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "205d5602-de3f-4fa2-98b6-54ab3e6370c7")
-	)
 	(bus
 		(pts
 			(xy 308.61 175.26) (xy 308.61 177.8)
@@ -6981,16 +6937,6 @@
 			(type default)
 		)
 		(uuid "2b2d3ac1-19ff-4669-8c14-c45e93b61fd4")
-	)
-	(wire
-		(pts
-			(xy 387.35 217.17) (xy 382.27 217.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b87d36f-68be-4d3c-8e8b-03fc1edcb71a")
 	)
 	(wire
 		(pts
@@ -7884,16 +7830,6 @@
 	)
 	(wire
 		(pts
-			(xy 382.27 199.39) (xy 382.27 217.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6876d93b-7a7d-493c-999e-32e16295c39c")
-	)
-	(wire
-		(pts
 			(xy 35.56 54.61) (xy 45.72 54.61)
 		)
 		(stroke
@@ -7931,16 +7867,6 @@
 			(type default)
 		)
 		(uuid "69cbd5fd-e24a-4b09-a021-c8b17fa47840")
-	)
-	(wire
-		(pts
-			(xy 76.2 43.18) (xy 76.2 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69df52c6-f688-4079-b972-4005af84e89e")
 	)
 	(wire
 		(pts
@@ -8291,16 +8217,6 @@
 			(type default)
 		)
 		(uuid "7fa9947d-9b84-4612-b6ea-7d101bbdb31c")
-	)
-	(wire
-		(pts
-			(xy 76.2 49.53) (xy 76.2 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80bd0d20-073b-4cf0-894b-9ca60e0a9793")
 	)
 	(wire
 		(pts
@@ -9484,16 +9400,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 49.53) (xy 83.82 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d198ed52-db98-42e2-adcb-7dd3578eb521")
-	)
-	(wire
-		(pts
 			(xy 53.34 43.18) (xy 53.34 40.64)
 		)
 		(stroke
@@ -9711,16 +9617,6 @@
 			(type default)
 		)
 		(uuid "e7b80314-65e6-48fd-ad2d-0e8fc1a126f3")
-	)
-	(wire
-		(pts
-			(xy 382.27 186.69) (xy 382.27 194.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e83da502-bb5f-46a6-a3bf-399fd97f5869")
 	)
 	(wire
 		(pts
@@ -11426,17 +11322,6 @@
 		)
 		(uuid "d77f14a9-af08-4900-b45b-987cfc45364c")
 	)
-	(label "RESETn"
-		(at 387.35 217.17 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "dbf30ba2-c3fd-4f59-85ff-cad25d9d09d7")
-	)
 	(label "SHARED_PMOD_B2"
 		(at 287.02 182.88 0)
 		(fields_autoplaced yes)
@@ -11624,6 +11509,18 @@
 			(justify left)
 		)
 		(uuid "05558f1d-241d-430d-8ce8-b01c74f26867")
+	)
+	(hierarchical_label "RESETn"
+		(shape input)
+		(at 81.28 49.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "10526823-feab-4476-861f-c9c29ad87815")
 	)
 	(hierarchical_label "DONE"
 		(shape input)
@@ -11840,6 +11737,18 @@
 			(justify left)
 		)
 		(uuid "c9e51bb5-0955-409d-ae58-06d681de2447")
+	)
+	(hierarchical_label "RESETn"
+		(shape input)
+		(at 369.57 217.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e857d7bf-87f6-4bbe-83ea-c88eef119b6d")
 	)
 	(hierarchical_label "USB_BOOTn"
 		(shape output)
@@ -13518,74 +13427,6 @@
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "#PWR0110")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 382.27 196.85 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2586fdb8-f19b-45e9-b2a4-9872726c0924")
-		(property "Reference" "R40"
-			(at 385.826 196.088 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 385.572 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 382.27 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 382.27 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 382.27 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "28edd655-f067-4a15-8202-82ff6dc3d257")
-		)
-		(pin "1"
-			(uuid "85790938-c266-4bcc-bb15-75ed55f4a33f")
-		)
-		(instances
-			(project "pico2-nx"
-				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
-					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -15532,71 +15373,6 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 76.2 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5796455b-0a00-44d6-953c-422aae7ddfde")
-		(property "Reference" "#PWR0178"
-			(at 76.2 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "P1V8D"
-			(at 74.168 35.306 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.2 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 76.2 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b7f52a22-cd96-4769-b2b2-42db5a569cfc")
-		)
-		(instances
-			(project "pico2-nx"
-				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
-					(reference "#PWR0178")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
 		(at 279.4 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16377,85 +16153,6 @@
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 76.2 45.72 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "65f4302c-7ec4-4b2e-900d-407d154ae36f")
-		(property "Reference" "R55"
-			(at 74.422 44.5516 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 74.422 46.863 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 76.2 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 76.2 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 76.2 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 76.2 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b56d9281-e176-4327-8976-579abd0b8a3c")
-		)
-		(pin "2"
-			(uuid "5972aaaf-0793-4d19-8a23-e05f5043b70d")
-		)
-		(instances
-			(project "pico2-nx"
-				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
-					(reference "R55")
 					(unit 1)
 				)
 			)
