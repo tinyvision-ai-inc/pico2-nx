@@ -17054,7 +17054,7 @@
 				)
 			)
 		)
-		(property "Value" "SN74CB3Q3257DGVR"
+		(property "Value" "74CB3Q3257BQX"
 			(at 233.68 134.62 0)
 			(effects
 				(font
@@ -17072,7 +17072,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74cb3q3257.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74CB3Q3257.pdf"
 			(at 232.41 139.7 0)
 			(effects
 				(font
@@ -18042,7 +18042,7 @@
 				)
 			)
 		)
-		(property "Value" "SN74CB3Q3257DGVR"
+		(property "Value" "74CB3Q3257BQX"
 			(at 233.68 160.02 0)
 			(effects
 				(font
@@ -18060,7 +18060,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74cb3q3257.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74CB3Q3257.pdf"
 			(at 232.41 165.1 0)
 			(effects
 				(font
@@ -27406,7 +27406,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SN74CB3Q3257DGVR"
+		(property "Value" "74CB3Q3257BQX"
 			(at 214.122 111.506 0)
 			(effects
 				(font
@@ -27424,7 +27424,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74cb3q3257.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74CB3Q3257.pdf"
 			(at 220.98 111.76 0)
 			(effects
 				(font
@@ -27654,7 +27654,7 @@
 				)
 			)
 		)
-		(property "Value" "SN74CB3Q3257DGVR"
+		(property "Value" "74CB3Q3257BQX"
 			(at 233.68 172.72 0)
 			(effects
 				(font
@@ -27672,7 +27672,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74cb3q3257.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74CB3Q3257.pdf"
 			(at 232.41 177.8 0)
 			(effects
 				(font
@@ -29265,7 +29265,7 @@
 				)
 			)
 		)
-		(property "Value" "SN74CB3Q3257DGVR"
+		(property "Value" "74CB3Q3257BQX"
 			(at 233.68 147.32 0)
 			(effects
 				(font
@@ -29283,7 +29283,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74cb3q3257.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74CB3Q3257.pdf"
 			(at 232.41 152.4 0)
 			(effects
 				(font
