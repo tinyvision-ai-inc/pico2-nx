@@ -11001,7 +11001,7 @@
 	)
 	(text_box "DSI"
 		(exclude_from_sim no)
-		(at 237.49 21.59 0)
+		(at 237.49 20.955 0)
 		(size 26.67 3.81)
 		(stroke
 			(width 0)
@@ -11016,6 +11016,60 @@
 			)
 		)
 		(uuid "2f6d1fba-2ce5-4fa7-b34c-b1d5a19547e2")
+	)
+	(text_box "I2C0"
+		(exclude_from_sim no)
+		(at 218.44 20.955 0)
+		(size 5.715 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3b0dad01-26d3-4dd8-b1fa-5f02bccca226")
+	)
+	(text_box "I2C1"
+		(exclude_from_sim no)
+		(at 227.965 20.955 0)
+		(size 5.715 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6e48591f-c699-479e-9132-4f303ca4c7d6")
+	)
+	(text_box "SWD"
+		(exclude_from_sim no)
+		(at 167.005 20.955 0)
+		(size 4.445 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e27bff5e-5c9a-41c0-8470-052e61cd2f82")
 	)
 	(text "PMOD"
 		(exclude_from_sim no)
@@ -11197,6 +11251,17 @@
 			(justify left top)
 		)
 		(uuid "838f6e7c-07cb-4068-b323-3f78e413ce81")
+	)
+	(text "Layout: these are side entry\nso should go on a board edge"
+		(exclude_from_sim no)
+		(at 239.268 239.268 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8ec33415-e184-4e9d-b4cc-f86193875993")
 	)
 	(text "Peripheral(Default)/Host Selection\nHost Mode: Solder open bridges,\ncut shorted bridges\nPeripheral: Default"
 		(exclude_from_sim no)

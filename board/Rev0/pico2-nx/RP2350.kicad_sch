@@ -10055,6 +10055,17 @@
 		)
 		(uuid "254ac602-7b05-4396-8fe2-706f9b676899")
 	)
+	(text "Layout: this is side entry\nso should go on a board edge"
+		(exclude_from_sim no)
+		(at 146.304 79.248 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2844abc0-4ca8-40cf-8b33-7ffd39c82f8d")
+	)
 	(text "JST SWD Debug Connector"
 		(exclude_from_sim no)
 		(at 146.05 76.454 0)
