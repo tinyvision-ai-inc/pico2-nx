@@ -21316,7 +21316,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TXS0108EPW"
+		(property "Value" "TXS0108ERGYR"
 			(at 96.1741 80.01 0)
 			(effects
 				(font
@@ -21325,7 +21325,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
+		(property "Footprint" ""
 			(at 93.98 78.74 0)
 			(effects
 				(font

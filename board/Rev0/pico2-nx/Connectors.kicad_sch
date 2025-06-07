@@ -6611,7 +6611,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 133.35) (xy 50.8 133.35)
+			(xy 58.42 133.35) (xy 50.8 133.35)
 		)
 		(stroke
 			(width 0)
@@ -6791,7 +6791,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 130.81) (xy 50.8 130.81)
+			(xy 58.42 130.81) (xy 50.8 130.81)
 		)
 		(stroke
 			(width 0)
@@ -11687,7 +11687,7 @@
 		(uuid "31eaecb1-671f-478b-90c9-147c1595aab6")
 	)
 	(label "SCL1"
-		(at 66.04 133.35 0)
+		(at 58.42 133.35 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11885,7 +11885,7 @@
 		(uuid "4c3978c5-1438-4dcc-ab46-6a7f8f54d6c9")
 	)
 	(label "SDA1"
-		(at 66.04 130.81 0)
+		(at 58.42 130.81 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14471,7 +14471,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TXS0108EPW"
+		(property "Value" "TXS0108ERGYR"
 			(at 376.8441 182.88 0)
 			(effects
 				(font
@@ -14480,7 +14480,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
+		(property "Footprint" ""
 			(at 374.65 181.61 0)
 			(effects
 				(font
@@ -17206,7 +17206,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TXS0108EPW"
+		(property "Value" "TXS0108ERGYR"
 			(at 376.8441 100.33 0)
 			(effects
 				(font
@@ -17215,7 +17215,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
+		(property "Footprint" ""
 			(at 374.65 99.06 0)
 			(effects
 				(font

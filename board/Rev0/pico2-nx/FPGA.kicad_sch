@@ -8351,7 +8351,7 @@
 		(uuid "a57adb39-9526-475f-bc39-5a9c1a0fb3f0")
 	)
 	(junction
-		(at 138.43 121.92)
+		(at 138.43 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a61b7630-a08f-4eef-9f5b-c61153748105")
@@ -8489,7 +8489,7 @@
 		(uuid "eac65807-6487-4f54-aedb-9178b4ab8564")
 	)
 	(junction
-		(at 138.43 130.81)
+		(at 138.43 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ecedd92e-49ba-4a78-982b-5d42326cb62d")
@@ -8757,7 +8757,7 @@
 		(uuid "48dccd72-0398-4793-9eea-eb29c98d1e5b")
 	)
 	(bus_entry
-		(at 166.37 128.27)
+		(at 166.37 133.35)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -9313,7 +9313,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 152.4) (xy 130.81 130.81)
+			(xy 130.81 152.4) (xy 130.81 135.89)
 		)
 		(stroke
 			(width 0)
@@ -9704,7 +9704,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 130.81) (xy 138.43 130.81)
+			(xy 130.81 135.89) (xy 138.43 135.89)
 		)
 		(stroke
 			(width 0)
@@ -10004,7 +10004,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 129.54) (xy 138.43 130.81)
+			(xy 138.43 134.62) (xy 138.43 135.89)
 		)
 		(stroke
 			(width 0)
@@ -10164,7 +10164,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 130.81) (xy 143.51 130.81)
+			(xy 138.43 135.89) (xy 143.51 135.89)
 		)
 		(stroke
 			(width 0)
@@ -10356,7 +10356,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 121.92) (xy 148.59 123.19)
+			(xy 148.59 127) (xy 148.59 128.27)
 		)
 		(stroke
 			(width 0)
@@ -11489,7 +11489,7 @@
 	)
 	(bus
 		(pts
-			(xy 166.37 111.76) (xy 166.37 128.27)
+			(xy 166.37 116.84) (xy 166.37 133.35)
 		)
 		(stroke
 			(width 0)
@@ -11639,7 +11639,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 100.33) (xy 219.71 100.33)
+			(xy 189.23 100.33) (xy 219.71 100.33)
 		)
 		(stroke
 			(width 0)
@@ -11929,7 +11929,7 @@
 	)
 	(bus
 		(pts
-			(xy 166.37 128.27) (xy 166.37 152.4)
+			(xy 166.37 133.35) (xy 166.37 152.4)
 		)
 		(stroke
 			(width 0)
@@ -12259,7 +12259,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 130.81) (xy 163.83 130.81)
+			(xy 153.67 135.89) (xy 163.83 135.89)
 		)
 		(stroke
 			(width 0)
@@ -13470,7 +13470,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 121.92) (xy 138.43 121.92)
+			(xy 148.59 127) (xy 138.43 127)
 		)
 		(stroke
 			(width 0)
@@ -14361,7 +14361,7 @@
 		(uuid "6ec9aed0-1b35-4849-b36c-717257a2015e")
 	)
 	(label "I2C1.SDA"
-		(at 154.94 130.81 0)
+		(at 154.94 135.89 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15298,7 +15298,7 @@
 	)
 	(hierarchical_label "I2C1{SCL SDA}"
 		(shape bidirectional)
-		(at 166.37 111.76 180)
+		(at 166.37 116.84 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16632,7 +16632,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 138.43 125.73 0)
+		(at 138.43 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16640,7 +16640,7 @@
 		(dnp no)
 		(uuid "1c4aceb0-2b18-4837-8edf-8339b0773dfa")
 		(property "Reference" "R80"
-			(at 134.62 124.206 0)
+			(at 134.62 129.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16648,7 +16648,7 @@
 			)
 		)
 		(property "Value" "4.7K"
-			(at 134.874 126.492 0)
+			(at 134.874 131.572 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16656,7 +16656,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 136.652 125.73 90)
+			(at 136.652 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16665,7 +16665,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 138.43 125.73 0)
+			(at 138.43 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16674,7 +16674,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 138.43 125.73 0)
+			(at 138.43 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16683,7 +16683,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" ""
-			(at 138.43 125.73 0)
+			(at 138.43 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16692,7 +16692,7 @@
 			)
 		)
 		(property "MPN" "RC0402FR-0727RL"
-			(at 138.43 125.73 0)
+			(at 138.43 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16701,7 +16701,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 138.43 125.73 0)
+			(at 138.43 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16710,7 +16710,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 138.43 125.73 0)
+			(at 138.43 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17054,7 +17054,7 @@
 				)
 			)
 		)
-		(property "Value" "SN74CB3Q3257"
+		(property "Value" "SN74CB3Q3257DGVR"
 			(at 233.68 134.62 0)
 			(effects
 				(font
@@ -18042,7 +18042,7 @@
 				)
 			)
 		)
-		(property "Value" "SN74CB3Q3257"
+		(property "Value" "SN74CB3Q3257DGVR"
 			(at 233.68 160.02 0)
 			(effects
 				(font
@@ -19694,7 +19694,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 195.58 104.14 180)
+		(at 189.23 104.14 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19702,7 +19702,7 @@
 		(dnp no)
 		(uuid "5a12a599-43a6-45e1-9fee-85212144fac0")
 		(property "Reference" "C85"
-			(at 199.898 101.854 0)
+			(at 193.548 101.854 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19711,7 +19711,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 200.66 106.68 0)
+			(at 194.31 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19720,7 +19720,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 194.6148 100.33 0)
+			(at 188.2648 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19729,7 +19729,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 195.58 104.14 0)
+			(at 189.23 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19738,7 +19738,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 195.58 104.14 0)
+			(at 189.23 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23353,7 +23353,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 195.58 107.95 0)
+		(at 189.23 107.95 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23362,7 +23362,7 @@
 		(dnp no)
 		(uuid "8288f821-a7bf-4c83-ad12-c79c72b4b19c")
 		(property "Reference" "#PWR0154"
-			(at 195.58 114.3 0)
+			(at 189.23 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23371,7 +23371,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 195.58 112.014 0)
+			(at 189.23 112.014 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23379,7 +23379,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 195.58 107.95 0)
+			(at 189.23 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23388,7 +23388,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 107.95 0)
+			(at 189.23 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23397,7 +23397,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 195.58 107.95 0)
+			(at 189.23 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23992,7 +23992,7 @@
 	)
 	(symbol
 		(lib_id "Custom:DMG1024UV-7")
-		(at 148.59 128.27 270)
+		(at 148.59 133.35 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24000,7 +24000,7 @@
 		(dnp no)
 		(uuid "8b459d14-8fb5-401b-aff4-3ce27162832c")
 		(property "Reference" "Q2"
-			(at 148.59 134.874 90)
+			(at 155.956 127.508 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24008,7 +24008,7 @@
 			)
 		)
 		(property "Value" "DMG1024UV-7"
-			(at 148.59 136.906 90)
+			(at 155.956 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24016,7 +24016,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-563"
-			(at 142.494 130.81 0)
+			(at 142.494 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24025,7 +24025,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31974.pdf"
-			(at 147.066 133.858 0)
+			(at 147.066 138.938 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24034,7 +24034,7 @@
 			)
 		)
 		(property "Description" "Dual N-Channel MOSFET"
-			(at 153.924 129.794 0)
+			(at 153.924 134.874 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26451,7 +26451,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 138.43 121.92 0)
+		(at 138.43 127 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -26460,7 +26460,7 @@
 		(dnp no)
 		(uuid "ba78e30d-1457-4539-8b88-fb4c0f880ada")
 		(property "Reference" "#PWR0208"
-			(at 138.43 125.73 0)
+			(at 138.43 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26469,7 +26469,7 @@
 			)
 		)
 		(property "Value" "P1V8D_FPGA"
-			(at 142.494 117.856 0)
+			(at 142.494 122.936 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26477,7 +26477,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 121.92 0)
+			(at 138.43 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26486,7 +26486,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 121.92 0)
+			(at 138.43 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26495,7 +26495,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 138.43 121.92 0)
+			(at 138.43 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27406,7 +27406,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SN74CB3Q3257"
+		(property "Value" "SN74CB3Q3257DGVR"
 			(at 214.122 111.506 0)
 			(effects
 				(font
@@ -27654,7 +27654,7 @@
 				)
 			)
 		)
-		(property "Value" "SN74CB3Q3257"
+		(property "Value" "SN74CB3Q3257DGVR"
 			(at 233.68 172.72 0)
 			(effects
 				(font
@@ -29265,7 +29265,7 @@
 				)
 			)
 		)
-		(property "Value" "SN74CB3Q3257"
+		(property "Value" "SN74CB3Q3257DGVR"
 			(at 233.68 147.32 0)
 			(effects
 				(font
@@ -29773,7 +29773,7 @@
 		(dnp no)
 		(uuid "ef590c1b-6ccb-4dc1-8388-d73d605dd808")
 		(property "Reference" "Q2"
-			(at 148.59 158.75 90)
+			(at 155.956 146.304 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29781,7 +29781,7 @@
 			)
 		)
 		(property "Value" "DMG1024UV-7"
-			(at 148.59 160.782 90)
+			(at 155.956 148.336 90)
 			(effects
 				(font
 					(size 1.27 1.27)
