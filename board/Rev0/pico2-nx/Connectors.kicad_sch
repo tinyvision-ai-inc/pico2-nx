@@ -5992,7 +5992,7 @@
 	)
 	(no_connect
 		(at 132.08 73.66)
-		(uuid "a5e08670-9dd6-4df6-9a98-79d161cce747")
+		(uuid "d9024696-681a-4334-9dea-1cd0556a0cf7")
 	)
 	(no_connect
 		(at 127 158.75)
@@ -8503,6 +8503,16 @@
 	)
 	(wire
 		(pts
+			(xy 290.83 247.65) (xy 294.64 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71bc1030-4685-4e45-b883-63051d2840ec")
+	)
+	(wire
+		(pts
 			(xy 365.76 50.8) (xy 372.11 50.8)
 		)
 		(stroke
@@ -8573,7 +8583,7 @@
 	)
 	(polyline
 		(pts
-			(xy 106.68 73.025) (xy 106.68 59.69)
+			(xy 106.68 73.66) (xy 106.68 59.69)
 		)
 		(stroke
 			(width 0)
@@ -8923,7 +8933,7 @@
 	)
 	(polyline
 		(pts
-			(xy 110.49 73.025) (xy 106.68 73.025)
+			(xy 110.49 73.66) (xy 106.68 73.66)
 		)
 		(stroke
 			(width 0)
@@ -10463,16 +10473,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 73.66) (xy 135.89 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d93eb498-937f-4b6a-b51a-45a0ea1e294d")
-	)
-	(wire
-		(pts
 			(xy 217.17 101.6) (xy 217.17 114.3)
 		)
 		(stroke
@@ -11040,6 +11040,16 @@
 			(type default)
 		)
 		(uuid "f9243a42-265b-4daf-8de1-97ef0bd5c243")
+	)
+	(wire
+		(pts
+			(xy 132.08 73.66) (xy 135.89 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f98808e1-4235-4cae-8bb0-137d9ff56ecf")
 	)
 	(wire
 		(pts
@@ -12304,17 +12314,6 @@
 		)
 		(uuid "5ab96ee9-4e45-4eff-afb2-cf7de092c5de")
 	)
-	(label "USB_BOOTn"
-		(at 127 91.44 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5b1a17f1-1755-4762-9b4b-c0b063507824")
-	)
 	(label "ADC0"
 		(at 289.56 180.34 180)
 		(fields_autoplaced yes)
@@ -12546,6 +12545,17 @@
 		)
 		(uuid "7f9214a0-577e-4951-8d0b-dc0c19850a8d")
 	)
+	(label "RP_BUTTONn"
+		(at 127 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8149d645-e620-444c-85bc-78c1be5312ea")
+	)
 	(label "JTAG.TMS"
 		(at 180.34 151.13 0)
 		(fields_autoplaced yes)
@@ -12633,6 +12643,17 @@
 			(justify left bottom)
 		)
 		(uuid "8d8a84b0-5dd8-43ea-b8c1-948ac92f8a57")
+	)
+	(label "USB_BOOTn"
+		(at 127 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8e50c244-2fde-4b9e-ba88-6be60547ffa9")
 	)
 	(label "SHARED_PMOD_B5"
 		(at 344.17 167.64 0)
@@ -13432,7 +13453,7 @@
 		(uuid "26516fe4-3b69-41f8-8ac9-12b8f3e34893")
 	)
 	(hierarchical_label "USB_BOOTn"
-		(shape input)
+		(shape output)
 		(at 294.64 234.95 0)
 		(fields_autoplaced yes)
 		(effects
@@ -13514,6 +13535,18 @@
 			(justify left)
 		)
 		(uuid "90ead963-83da-4a31-98ba-71380621b2bc")
+	)
+	(hierarchical_label "RP_BUTTONn"
+		(shape bidirectional)
+		(at 294.64 247.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "98cbf4c0-554f-4fa0-9891-3bd768a6a2fd")
 	)
 	(hierarchical_label "USB{D+ D-}"
 		(shape bidirectional)
@@ -19666,72 +19699,6 @@
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/c34cce34-097a-49d0-bf75-c153e8f13cae"
 					(reference "C78")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 127 71.12 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8664c73d-c074-4925-b94a-0e3bce0d23f6")
-		(property "Reference" "#PWR0193"
-			(at 127 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "P1V8D"
-			(at 120.65 71.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 127 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 127 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "954e16d7-d62d-4aa3-b3f0-9beea6ddff58")
-		)
-		(instances
-			(project "pico2-nx"
-				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/c34cce34-097a-49d0-bf75-c153e8f13cae"
-					(reference "#PWR0193")
 					(unit 1)
 				)
 			)

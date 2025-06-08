@@ -370,7 +370,7 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 125.73) (xy 298.45 240.03)
+			(xy 309.88 125.73) (xy 309.88 251.46)
 		)
 		(stroke
 			(width 0)
@@ -560,6 +560,16 @@
 	)
 	(wire
 		(pts
+			(xy 298.45 125.73) (xy 298.45 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "466112db-7825-4d5b-ba88-f39c75824624")
+	)
+	(wire
+		(pts
 			(xy 118.11 83.82) (xy 167.64 83.82)
 		)
 		(stroke
@@ -677,6 +687,16 @@
 			(type default)
 		)
 		(uuid "63e77aea-829e-427a-8d70-57b5bb9c3ade")
+	)
+	(wire
+		(pts
+			(xy 298.45 240.03) (xy 118.11 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6405dbb7-c665-4be0-96c6-63f82a35a8cf")
 	)
 	(wire
 		(pts
@@ -1110,7 +1130,7 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 240.03) (xy 118.11 240.03)
+			(xy 309.88 251.46) (xy 118.11 251.46)
 		)
 		(stroke
 			(width 0)
@@ -2356,8 +2376,8 @@
 			)
 			(uuid "43506ea1-f06a-4c71-8532-28c0f8cb6cd0")
 		)
-		(pin "USB_BOOTn" bidirectional
-			(at 118.11 240.03 0)
+		(pin "RP_BUTTONn" bidirectional
+			(at 118.11 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2435,6 +2455,16 @@
 				(justify right)
 			)
 			(uuid "b9e9d1dd-0760-47c3-8282-c51135a0c423")
+		)
+		(pin "USB_BOOTn" output
+			(at 118.11 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d3db53dd-0915-41f9-988b-625fb15252e1")
 		)
 		(instances
 			(project "pico2-nx"
@@ -2624,8 +2654,8 @@
 			)
 			(uuid "af223435-0fb1-4a42-a27e-79f56f7e4210")
 		)
-		(pin "USB_BOOTn" bidirectional
-			(at 298.45 125.73 270)
+		(pin "RP_BUTTONn" bidirectional
+			(at 309.88 125.73 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2683,6 +2713,16 @@
 				(justify left)
 			)
 			(uuid "33fef727-1a00-40bb-a487-eaa566761098")
+		)
+		(pin "USB_BOOTn" input
+			(at 298.45 125.73 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "69491cbf-b5c2-4e2c-a43e-a9fe0d767b40")
 		)
 		(instances
 			(project "pico2-nx"
