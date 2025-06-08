@@ -16316,8 +16316,8 @@
 				)
 			)
 		)
-		(property "Value" "1K"
-			(at 198.374 157.48 90)
+		(property "Value" "510"
+			(at 198.12 160.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
