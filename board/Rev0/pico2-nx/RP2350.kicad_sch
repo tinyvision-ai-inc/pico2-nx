@@ -11883,7 +11883,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "1471222c-12be-4025-a11d-9c89b532e3a7")
 		(property "Reference" "R71"
 			(at 66.802 44.5516 0)
@@ -11894,7 +11894,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DNF"
+		(property "Value" "10K"
 			(at 66.802 46.863 0)
 			(effects
 				(font
