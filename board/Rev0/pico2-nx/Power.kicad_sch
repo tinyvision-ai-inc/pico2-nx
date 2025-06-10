@@ -1626,12 +1626,6 @@
 		(uuid "d7b48b4b-82c4-45be-b431-96e71fbfcd67")
 	)
 	(junction
-		(at 234.95 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dbad01f6-8bb3-4640-8a87-5a93c00157aa")
-	)
-	(junction
 		(at 50.8 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2589,16 +2583,6 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 31.75) (xy 234.95 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e71717fd-cb35-43e7-a444-97dac67d9e56")
-	)
-	(wire
-		(pts
 			(xy 233.68 90.17) (xy 234.95 90.17)
 		)
 		(stroke
@@ -2626,16 +2610,6 @@
 			(type default)
 		)
 		(uuid "f02e06c0-3456-43df-ab79-cbc2d63bae72")
-	)
-	(wire
-		(pts
-			(xy 234.95 38.1) (xy 234.95 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f58981af-c5a4-49ae-bffa-bfcbade59338")
 	)
 	(wire
 		(pts
@@ -2883,72 +2857,6 @@
 			(justify right)
 		)
 		(uuid "e82a859d-3428-4c6c-b221-94055638aede")
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 234.95 31.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0158d36d-f0a2-484f-8ec6-83ba89a36063")
-		(property "Reference" "#PWR0133"
-			(at 234.95 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "P3V3D"
-			(at 237.998 28.194 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 234.95 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 234.95 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 234.95 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "92034022-5849-4ee1-b099-0d12949f71d5")
-		)
-		(instances
-			(project "pico2-nx"
-				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/259c5351-60de-47b4-bd20-37b3e3d7393a"
-					(reference "#PWR0133")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:VCC")
@@ -5350,74 +5258,6 @@
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/259c5351-60de-47b4-bd20-37b3e3d7393a"
 					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 234.95 35.56 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "852a6053-b34e-4a64-8045-dea91850dd48")
-		(property "Reference" "R67"
-			(at 231.902 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 231.394 36.322 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 234.95 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 234.95 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 234.95 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "faf61105-da56-425b-a112-89d73601cd15")
-		)
-		(pin "1"
-			(uuid "05adaa0c-dc91-4f26-b592-ebc3306375d6")
-		)
-		(instances
-			(project "pico2-nx"
-				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/259c5351-60de-47b4-bd20-37b3e3d7393a"
-					(reference "R67")
 					(unit 1)
 				)
 			)

@@ -11275,7 +11275,7 @@
 		)
 		(uuid "2f6d1fba-2ce5-4fa7-b34c-b1d5a19547e2")
 	)
-	(text_box "I2C0"
+	(text_box "I2C1"
 		(exclude_from_sim no)
 		(at 218.44 20.955 0)
 		(size 5.715 3.81)
@@ -11293,7 +11293,7 @@
 		)
 		(uuid "3b0dad01-26d3-4dd8-b1fa-5f02bccca226")
 	)
-	(text_box "I2C1"
+	(text_box "I2C0"
 		(exclude_from_sim no)
 		(at 227.965 20.955 0)
 		(size 5.715 3.81)
