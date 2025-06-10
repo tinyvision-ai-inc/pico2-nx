@@ -9899,7 +9899,7 @@
 	)
 	(text "Multi-Function IO"
 		(exclude_from_sim no)
-		(at 370.078 181.61 0)
+		(at 356.108 181.102 0)
 		(effects
 			(font
 				(size 2.54 2.54)

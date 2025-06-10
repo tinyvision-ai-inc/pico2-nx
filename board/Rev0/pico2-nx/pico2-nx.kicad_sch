@@ -1356,17 +1356,6 @@
 		)
 		(uuid d9652d61-f74a-49cb-ac72-6221289c4177)
 	)
-	(text "TODO:\n- additional ESD protection?\n- should 3.3V be a switcher or an LDO?\n"
-		(exclude_from_sim no)
-		(at 350.52 197.104 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0744c27d-ca3d-40a7-b789-d5e9ca9bcfc7")
-	)
 	(text "P1V8D"
 		(exclude_from_sim no)
 		(at 384.81 142.748 0)

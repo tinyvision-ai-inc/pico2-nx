@@ -2779,11 +2779,12 @@
 	)
 	(text "Ordering info: 0.5A current\nlimit and active high enable"
 		(exclude_from_sim no)
-		(at 217.17 56.642 0)
+		(at 206.756 56.388 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "cda69ad5-beee-47ef-8209-b3e54c40fb18")
 	)
