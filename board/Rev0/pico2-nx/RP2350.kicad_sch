@@ -5346,6 +5346,12 @@
 		(uuid "480e695c-8f52-4866-9642-bf649e7d5e76")
 	)
 	(junction
+		(at 364.49 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "482cd356-2f87-4cb8-94b3-4e8fce593d1a")
+	)
+	(junction
 		(at 68.58 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6217,16 +6223,6 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 53.34) (xy 349.25 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09f84a4a-21f1-4d73-8ce4-fde2f25db3f1")
-	)
-	(wire
-		(pts
 			(xy 195.58 107.95) (xy 215.9 107.95)
 		)
 		(stroke
@@ -6604,6 +6600,16 @@
 			(type default)
 		)
 		(uuid "253f9ece-6dac-4033-82cc-82e1afc0dde9")
+	)
+	(wire
+		(pts
+			(xy 347.98 53.34) (xy 347.98 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2548a1fa-7331-4844-b6bc-6e65b7305723")
 	)
 	(wire
 		(pts
@@ -8867,6 +8873,16 @@
 	)
 	(wire
 		(pts
+			(xy 349.25 53.34) (xy 347.98 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd031a97-85a9-4b2d-99ce-afe0fa7f0d74")
+	)
+	(wire
+		(pts
 			(xy 187.96 148.59) (xy 187.96 147.32)
 		)
 		(stroke
@@ -9227,6 +9243,16 @@
 	)
 	(wire
 		(pts
+			(xy 364.49 76.2) (xy 364.49 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2ac9604-0b58-4f63-8686-4530a7430943")
+	)
+	(wire
+		(pts
 			(xy 284.48 116.84) (xy 306.07 116.84)
 		)
 		(stroke
@@ -9454,6 +9480,16 @@
 			(type default)
 		)
 		(uuid "eae84793-8aae-4852-97f6-c96e4278b8a3")
+	)
+	(wire
+		(pts
+			(xy 347.98 74.93) (xy 364.49 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eae90ae2-b32d-4e4f-a229-e6cfcd6488fb")
 	)
 	(wire
 		(pts
@@ -9694,6 +9730,16 @@
 			(type default)
 		)
 		(uuid "fd2c0ca5-29b9-43ee-b928-d07fe72b7b67")
+	)
+	(wire
+		(pts
+			(xy 364.49 74.93) (xy 364.49 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fde119a1-71cf-427e-a3ba-2dcba0ae0640")
 	)
 	(bus
 		(pts
@@ -11652,7 +11698,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 364.49 73.66 0)
+		(at 364.49 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11660,7 +11706,7 @@
 		(dnp no)
 		(uuid "0a7dfbce-e6ba-42d7-8304-317baf2da10d")
 		(property "Reference" "#PWR0121"
-			(at 364.49 80.01 0)
+			(at 364.49 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11669,7 +11715,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 364.617 78.0542 0)
+			(at 364.617 80.5942 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11677,7 +11723,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 364.49 73.66 0)
+			(at 364.49 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11686,7 +11732,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 364.49 73.66 0)
+			(at 364.49 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11695,7 +11741,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 364.49 73.66 0)
+			(at 364.49 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14640,71 +14686,6 @@
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "U10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 339.09 53.34 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "48f55e7a-df0a-42ab-9738-c44c3847f73e")
-		(property "Reference" "#PWR0120"
-			(at 332.74 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 334.264 53.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 339.09 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 339.09 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 339.09 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4f2c1b3d-d5f8-42b5-918b-50095328dc1f")
-		)
-		(instances
-			(project "pico2-nx"
-				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
-					(reference "#PWR0120")
 					(unit 1)
 				)
 			)

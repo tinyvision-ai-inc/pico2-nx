@@ -2672,29 +2672,27 @@
 		)
 		(uuid "0616e5ba-6f81-46ee-bd21-1f2ebc01d0c0")
 	)
-	(text "R1 = (Vout/0.6 - 1)*R2"
+	(text "Vout = 0.6 * ((Ra/Rb) + 1)"
 		(exclude_from_sim no)
-		(at 124.46 108.204 0)
+		(at 138.176 67.564 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
 		)
-		(uuid "0e1addf6-0151-48c3-8253-39c6fef989d9")
+		(uuid "0273a31b-b36c-4079-869c-e527e65384a9")
 	)
-	(text "R1 = (Vout/0.6 - 1)*R2"
+	(text "Vout = 0.6 * ((Ra/Rb) + 1)"
 		(exclude_from_sim no)
-		(at 124.46 65.278 0)
+		(at 138.43 155.194 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
 		)
-		(uuid "30bdc184-b428-437e-9968-fa5a07270530")
+		(uuid "02f0081c-225d-439b-81cc-830be24a321a")
 	)
-	(text "Setpoint: 3.314V"
+	(text "Setpoint: 3.32V"
 		(exclude_from_sim no)
 		(at 147.32 88.9 0)
 		(effects
@@ -2777,6 +2775,16 @@
 		)
 		(uuid "9fd77217-a7e1-4687-9526-8ddc67b07454")
 	)
+	(text "Vout = 0.6 * ((Ra/Rb) + 1)"
+		(exclude_from_sim no)
+		(at 138.176 110.998 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ca5e8cd9-b0bc-4921-9627-a3c66dd00375")
+	)
 	(text "Ordering info: 0.5A current\nlimit and active high enable"
 		(exclude_from_sim no)
 		(at 206.756 56.388 0)
@@ -2787,17 +2795,6 @@
 			(justify left)
 		)
 		(uuid "cda69ad5-beee-47ef-8209-b3e54c40fb18")
-	)
-	(text "R1 = (Vout/0.6 - 1)*R2"
-		(exclude_from_sim no)
-		(at 124.714 153.162 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d95ccfec-ae74-4d23-987c-bae13f852d33")
 	)
 	(hierarchical_label "PWR_EN"
 		(shape input)
@@ -6024,7 +6021,7 @@
 		(dnp no)
 		(uuid "b8cf8299-6eac-45ba-9efe-5b12344056a8")
 		(property "Reference" "R26"
-			(at 146.05 153.924 0)
+			(at 153.162 153.924 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6032,7 +6029,7 @@
 			)
 		)
 		(property "Value" "294K"
-			(at 146.558 155.956 0)
+			(at 153.67 155.956 0)
 			(effects
 				(font
 					(size 1.27 1.27)

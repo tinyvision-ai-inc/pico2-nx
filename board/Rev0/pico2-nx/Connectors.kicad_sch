@@ -5787,7 +5787,7 @@
 		(uuid "84e836b5-d1c4-44fa-b42b-73431d7dc26b")
 	)
 	(junction
-		(at 209.55 240.03)
+		(at 255.27 276.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8575bdfa-f86a-4670-8fb5-a373eb058bf2")
@@ -7243,7 +7243,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 232.41) (xy 212.09 232.41)
+			(xy 251.46 269.24) (xy 257.81 269.24)
 		)
 		(stroke
 			(width 0)
@@ -7270,16 +7270,6 @@
 			(type default)
 		)
 		(uuid "26d12c08-c548-48d0-af23-de670099e74f")
-	)
-	(wire
-		(pts
-			(xy 205.74 259.08) (xy 205.74 266.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "274be624-5e70-4ef7-a8bb-fb653ace4c90")
 	)
 	(wire
 		(pts
@@ -8153,7 +8143,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 227.33) (xy 209.55 227.33)
+			(xy 257.81 264.16) (xy 255.27 264.16)
 		)
 		(stroke
 			(width 0)
@@ -8173,7 +8163,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 240.03) (xy 217.17 240.03)
+			(xy 255.27 276.86) (xy 262.89 276.86)
 		)
 		(stroke
 			(width 0)
@@ -8420,6 +8410,26 @@
 			(type default)
 		)
 		(uuid "69b78652-5433-4d9d-a554-2708fc6ca3b7")
+	)
+	(wire
+		(pts
+			(xy 251.46 261.62) (xy 251.46 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a219fe4-53f0-4954-8f84-7e838c6996a0")
+	)
+	(wire
+		(pts
+			(xy 205.74 261.62) (xy 205.74 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a3bfe84-c972-4610-98f8-32b941b33a4e")
 	)
 	(wire
 		(pts
@@ -8893,7 +8903,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 229.87) (xy 205.74 229.87)
+			(xy 257.81 266.7) (xy 251.46 266.7)
 		)
 		(stroke
 			(width 0)
@@ -10193,16 +10203,6 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 222.25) (xy 205.74 229.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce519698-be59-4d10-9971-faaa4e9d1086")
-	)
-	(wire
-		(pts
 			(xy 252.73 95.25) (xy 257.81 95.25)
 		)
 		(stroke
@@ -10303,7 +10303,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 234.95) (xy 212.09 234.95)
+			(xy 251.46 271.78) (xy 257.81 271.78)
 		)
 		(stroke
 			(width 0)
@@ -10623,7 +10623,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 227.33) (xy 209.55 240.03)
+			(xy 255.27 264.16) (xy 255.27 276.86)
 		)
 		(stroke
 			(width 0)
@@ -11525,7 +11525,7 @@
 	)
 	(text "Layout: these are side entry\nso should go on a board edge"
 		(exclude_from_sim no)
-		(at 199.898 246.888 0)
+		(at 219.202 253.492 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11560,7 +11560,7 @@
 	)
 	(text "I2C JST"
 		(exclude_from_sim no)
-		(at 203.962 215.138 0)
+		(at 226.06 246.126 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -12040,7 +12040,7 @@
 		(uuid "30e33c55-5a9c-4010-a9cc-8b1dcdf2d69c")
 	)
 	(label "I2C0.SCL"
-		(at 205.74 234.95 180)
+		(at 251.46 271.78 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12073,7 +12073,7 @@
 		(uuid "3309b56c-bd95-4718-ae28-9c2e88f9a4ad")
 	)
 	(label "I2C0.SDA"
-		(at 205.74 232.41 180)
+		(at 251.46 269.24 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15020,7 +15020,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 209.55 240.03 0)
+		(at 255.27 276.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15028,7 +15028,7 @@
 		(dnp no)
 		(uuid "1648b8cc-727e-400e-8c45-a5c8c0b94533")
 		(property "Reference" "#PWR076"
-			(at 209.55 246.38 0)
+			(at 255.27 283.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15037,7 +15037,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 209.677 244.4242 0)
+			(at 255.397 281.2542 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15046,7 +15046,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 240.03 0)
+			(at 255.27 276.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15055,7 +15055,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 240.03 0)
+			(at 255.27 276.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15064,7 +15064,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 209.55 240.03 0)
+			(at 255.27 276.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15944,7 +15944,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 205.74 259.08 0)
+		(at 205.74 254 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15952,7 +15952,7 @@
 		(dnp no)
 		(uuid "2976b544-93e3-44b9-8306-7750283cec8e")
 		(property "Reference" "#PWR07"
-			(at 205.74 259.08 0)
+			(at 205.74 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15961,7 +15961,7 @@
 			)
 		)
 		(property "Value" "P3V3D"
-			(at 205.74 255.524 0)
+			(at 205.74 250.444 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15969,7 +15969,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 205.74 259.08 0)
+			(at 205.74 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15978,7 +15978,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 259.08 0)
+			(at 205.74 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15987,7 +15987,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 205.74 259.08 0)
+			(at 205.74 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16068,6 +16068,75 @@
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/c34cce34-097a-49d0-bf75-c153e8f13cae"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 251.46 257.81 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "30254be7-33ff-4f4a-a2ea-1b129232d4af")
+		(property "Reference" "JP17"
+			(at 247.904 257.556 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Bridged"
+			(at 255.27 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 251.46 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 251.46 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 251.46 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2afb4001-3bc3-4268-b99b-d3dea3f5b516")
+		)
+		(pin "2"
+			(uuid "a3dd0fc8-a2e1-4ace-9ff5-795e6fa97353")
+		)
+		(instances
+			(project "pico2-nx"
+				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/c34cce34-097a-49d0-bf75-c153e8f13cae"
+					(reference "JP17")
 					(unit 1)
 				)
 			)
@@ -17134,7 +17203,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 205.74 222.25 0)
+		(at 251.46 254 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17142,7 +17211,7 @@
 		(dnp no)
 		(uuid "4e2ea084-7854-4197-a468-3f83bb435e6c")
 		(property "Reference" "#PWR0124"
-			(at 205.74 222.25 0)
+			(at 251.46 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17151,7 +17220,7 @@
 			)
 		)
 		(property "Value" "P3V3D"
-			(at 205.74 218.694 0)
+			(at 251.46 250.444 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17159,7 +17228,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 205.74 222.25 0)
+			(at 251.46 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17168,7 +17237,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 222.25 0)
+			(at 251.46 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17177,7 +17246,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 205.74 222.25 0)
+			(at 251.46 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22385,6 +22454,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 205.74 257.81 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "caf2e91b-d8c3-4e06-8cfe-d79c88672b7d")
+		(property "Reference" "JP18"
+			(at 202.184 257.556 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Bridged"
+			(at 209.55 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 205.74 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 205.74 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a7f8933-cc43-468f-b501-8f7bcdbef296")
+		)
+		(pin "2"
+			(uuid "08b38275-8284-4f3e-ad2a-e7db8166e3d4")
+		)
+		(instances
+			(project "pico2-nx"
+				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/c34cce34-097a-49d0-bf75-c153e8f13cae"
+					(reference "JP18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_02x05_Odd_Even")
 		(at 132.08 184.15 0)
 		(unit 1)
@@ -22987,7 +23125,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic_MountingPin:Conn_01x04_MountingPin")
-		(at 217.17 229.87 0)
+		(at 262.89 266.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22996,7 +23134,7 @@
 		(fields_autoplaced yes)
 		(uuid "d8cf5fcb-9d28-4a93-9fcd-7344441fdedc")
 		(property "Reference" "J9"
-			(at 219.71 230.2256 0)
+			(at 265.43 267.0556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23005,7 +23143,7 @@
 			)
 		)
 		(property "Value" "SM04B-SRSS-TB"
-			(at 219.71 232.7656 0)
+			(at 265.43 269.5956 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23014,7 +23152,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
-			(at 217.17 229.87 0)
+			(at 262.89 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23023,7 +23161,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 217.17 229.87 0)
+			(at 262.89 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23032,7 +23170,7 @@
 			)
 		)
 		(property "Description" "Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 217.17 229.87 0)
+			(at 262.89 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
