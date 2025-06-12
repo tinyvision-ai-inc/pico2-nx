@@ -12039,7 +12039,7 @@
 		)
 		(uuid "30e33c55-5a9c-4010-a9cc-8b1dcdf2d69c")
 	)
-	(label "I2C0.SCL"
+	(label "I2C1.SCL"
 		(at 251.46 271.78 180)
 		(fields_autoplaced yes)
 		(effects
@@ -12072,7 +12072,7 @@
 		)
 		(uuid "3309b56c-bd95-4718-ae28-9c2e88f9a4ad")
 	)
-	(label "I2C0.SDA"
+	(label "I2C1.SDA"
 		(at 251.46 269.24 180)
 		(fields_autoplaced yes)
 		(effects
