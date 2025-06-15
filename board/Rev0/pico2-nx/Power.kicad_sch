@@ -2651,27 +2651,6 @@
 		)
 		(uuid "fe4f9400-82fc-4b18-880f-eb9b5d1ddc86")
 	)
-	(text_box "Power Modes:\nOFF: EN < 0.9V, uA level current\nPWM Mode: 0.91 (type) < EN < P5V-200mV\nPFM Mode: P5V-200mV < EN < P5V"
-		(exclude_from_sim no)
-		(at 115.57 170.18 0)
-		(size 46.99 16.51)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type color)
-			(color 255 255 150 1)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "0616e5ba-6f81-46ee-bd21-1f2ebc01d0c0")
-	)
 	(text "Vout = 0.6 * ((Ra/Rb) + 1)"
 		(exclude_from_sim no)
 		(at 138.176 67.564 0)
