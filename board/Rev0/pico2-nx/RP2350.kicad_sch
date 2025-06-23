@@ -10350,7 +10350,7 @@
 		)
 		(uuid "e33225cd-c891-4896-a8a1-89d4b7142663")
 	)
-	(text "USB series termination close to RP2040"
+	(text "USB series termination close to RP2350"
 		(exclude_from_sim no)
 		(at 284.48 99.06 0)
 		(effects

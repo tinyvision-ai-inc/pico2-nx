@@ -10513,6 +10513,16 @@
 		)
 		(uuid "47e96ed5-cba6-49c4-893c-4da9100b48f2")
 	)
+	(polyline
+		(pts
+			(xy 118.745 104.14) (xy 128.905 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "481dab72-107e-4c57-80d7-91c9594bb741")
+	)
 	(wire
 		(pts
 			(xy 241.3 149.86) (xy 260.35 149.86)
@@ -10682,6 +10692,16 @@
 			(type default)
 		)
 		(uuid "51c4affa-cb54-4e2b-b8d6-0bb1ce598854")
+	)
+	(polyline
+		(pts
+			(xy 118.745 102.87) (xy 118.745 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51dbcdb8-5220-4c5b-88ef-aca1297388e7")
 	)
 	(wire
 		(pts
@@ -13958,6 +13978,17 @@
 			(justify left)
 		)
 		(uuid "f3c33c26-3614-4129-8d19-3ec305a93820")
+	)
+	(text "PWR_EN or LED_EN could alternatively be\nclock signals, e.g. for a CSI peripheral\nrequiring a reference clock. R78 & R84\nseries termination resistors close to\nthe FPGA."
+		(exclude_from_sim no)
+		(at 129.54 108.204 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fae8056b-6c66-43f3-82a8-e794c012cb56")
 	)
 	(label "RGB_MIPI.D2+"
 		(at 375.92 43.18 0)
