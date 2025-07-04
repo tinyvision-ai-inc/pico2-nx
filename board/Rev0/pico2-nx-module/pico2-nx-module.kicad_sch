@@ -1,0 +1,133 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "b75d5d5b-a423-49b6-bf7a-b3510d05dcb9")
+	(paper "A4")
+	(title_block
+		(title "PICO2-NX Module")
+		(rev "0.1")
+		(company "tinyVision.ai Inc.")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 149.86 101.6) (xy 168.91 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcecbc92-4918-4d4f-bebf-523472a523b9")
+	)
+	(sheet
+		(at 105.41 86.36)
+		(size 44.45 31.115)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1b67c31f-0685-4c48-8392-f0cedbea356b")
+		(property "Sheetname" "FPGA"
+			(at 105.41 85.6484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FPGA.kicad_sch"
+			(at 105.41 118.0596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "FPGA_EN" output
+			(at 149.86 101.6 0)
+			(uuid "237c461c-b107-463b-82e7-ed5c3887bf87")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "pico2-nx-module"
+				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 168.91 86.995)
+		(size 45.085 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dc18adda-138b-4027-8fdc-bfe0ade6b406")
+		(property "Sheetname" "Power"
+			(at 168.91 86.2834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 168.91 118.0596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "FPGA_EN" input
+			(at 168.91 101.6 180)
+			(uuid "1e50f7a2-43cb-4c20-890d-81ded176a749")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "pico2-nx-module"
+				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
