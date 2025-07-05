@@ -287,8 +287,8 @@
 		(uuid ab69f9db-a77b-483f-bc37-39862439e3ce)
 	)
 	(rectangle
-		(start 367.792 164.084)
-		(end 380.492 172.974)
+		(start 367.792 152.146)
+		(end 380.492 161.036)
 		(stroke
 			(width 0)
 			(type default)
@@ -297,18 +297,6 @@
 			(type none)
 		)
 		(uuid b77e0e3f-c7da-4796-bada-6d6e612e5c9c)
-	)
-	(rectangle
-		(start 367.792 151.384)
-		(end 380.492 160.274)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid d9652d61-f74a-49cb-ac72-6221289c4177)
 	)
 	(text "P1V8D"
 		(exclude_from_sim no)
@@ -322,7 +310,7 @@
 	)
 	(text "P1V1D"
 		(exclude_from_sim no)
-		(at 384.048 168.148 0)
+		(at 384.048 156.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -362,26 +350,6 @@
 		)
 		(uuid "8556204d-c2ed-4083-a68b-a6c409d978c2")
 	)
-	(text "1.0V\nSwitcher"
-		(exclude_from_sim no)
-		(at 374.65 156.21 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "88bd23ac-c325-4d05-a6a5-86953e493f87")
-	)
-	(text "P1VD_FPGA"
-		(exclude_from_sim no)
-		(at 386.588 155.194 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "9d807943-f85c-451b-bc0d-198052d0db9e")
-	)
 	(text "P3V3D"
 		(exclude_from_sim no)
 		(at 384.556 129.794 0)
@@ -394,7 +362,7 @@
 	)
 	(text "RP2350\nSwitcher"
 		(exclude_from_sim no)
-		(at 374.65 168.91 0)
+		(at 374.65 156.972 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -792,16 +760,6 @@
 		)
 		(uuid "570ae08f-c721-459a-ad6f-9d2dccb955a6")
 	)
-	(polyline
-		(pts
-			(xy 361.95 156.21) (xy 367.03 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "595a00ac-cab1-43ee-aa5a-fb8376ea135e")
-	)
 	(bus
 		(pts
 			(xy 294.64 125.73) (xy 294.64 236.22)
@@ -844,7 +802,7 @@
 	)
 	(polyline
 		(pts
-			(xy 381 168.91) (xy 386.08 168.91)
+			(xy 381 156.972) (xy 386.08 156.972)
 		)
 		(stroke
 			(width 0)
@@ -861,16 +819,6 @@
 			(type default)
 		)
 		(uuid "618d356a-fdb5-482f-8de6-f34315cd370f")
-	)
-	(polyline
-		(pts
-			(xy 367.03 156.21) (xy 368.3 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63e77aea-829e-427a-8d70-57b5bb9c3ade")
 	)
 	(wire
 		(pts
@@ -1034,7 +982,7 @@
 	)
 	(polyline
 		(pts
-			(xy 361.95 168.91) (xy 368.3 168.91)
+			(xy 361.95 156.972) (xy 368.3 156.972)
 		)
 		(stroke
 			(width 0)
@@ -1354,7 +1302,7 @@
 	)
 	(polyline
 		(pts
-			(xy 361.95 130.81) (xy 361.95 168.91)
+			(xy 361.95 130.81) (xy 361.95 156.972)
 		)
 		(stroke
 			(width 0)
@@ -1511,16 +1459,6 @@
 			(type default)
 		)
 		(uuid "fcca3900-9c78-4a00-863d-492988ac1206")
-	)
-	(polyline
-		(pts
-			(xy 381 156.21) (xy 386.08 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fde35997-8f14-42af-80e7-268b30fc16c0")
 	)
 	(label "I2C1.SDA"
 		(at 165.1 44.45 90)
