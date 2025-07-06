@@ -381,7 +381,7 @@
 		(uuid "fdf6fdd8-e6c3-442f-a5cd-c7c4d307fb43")
 	)
 	(junction
-		(at 186.69 95.25)
+		(at 187.96 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "04824909-1f0a-416b-ad8a-e74f52190acc")
@@ -393,7 +393,7 @@
 		(uuid "0bccc8d5-f804-4afb-8762-58b408e14a8f")
 	)
 	(junction
-		(at 163.83 87.63)
+		(at 165.1 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "18888494-1519-47db-9622-3eb7456dfa09")
@@ -435,16 +435,16 @@
 		(uuid "7c2d3f30-64cc-405f-b12b-3d7f30e47afa")
 	)
 	(junction
-		(at 160.02 91.44)
+		(at 161.29 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9c72ecf2-b8ab-4e55-bda3-bb0b563e9dea")
 	)
 	(junction
-		(at 186.69 162.56)
+		(at 187.96 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ae3b7363-4b9a-4624-be92-06a09b7fd99b")
+		(uuid "a719b732-008d-411a-86db-95f29353a888")
 	)
 	(junction
 		(at 167.64 83.82)
@@ -522,7 +522,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 95.25) (xy 186.69 95.25)
+			(xy 118.11 99.06) (xy 187.96 99.06)
 		)
 		(stroke
 			(width 0)
@@ -642,7 +642,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 162.56) (xy 201.93 162.56)
+			(xy 186.69 162.56) (xy 187.96 162.56)
 		)
 		(stroke
 			(width 0)
@@ -742,13 +742,23 @@
 	)
 	(bus
 		(pts
-			(xy 160.02 91.44) (xy 259.08 91.44)
+			(xy 161.29 95.25) (xy 259.08 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "530d092c-e056-4158-98b0-9cd07f5d48ea")
+	)
+	(wire
+		(pts
+			(xy 187.96 162.56) (xy 201.93 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53cf80ae-0f54-495b-b154-3dbe173c2be6")
 	)
 	(bus
 		(pts
@@ -762,13 +772,13 @@
 	)
 	(bus
 		(pts
-			(xy 294.64 125.73) (xy 294.64 236.22)
+			(xy 118.11 87.63) (xy 259.08 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5a60e6dd-7c20-4ae7-b510-ea243d6c5f25")
+		(uuid "5989d94d-a8a2-4e4b-aa30-f3c0db1b86d7")
 	)
 	(wire
 		(pts
@@ -852,7 +862,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 162.56) (xy 186.69 95.25)
+			(xy 187.96 162.56) (xy 187.96 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1032,7 +1042,7 @@
 	)
 	(bus
 		(pts
-			(xy 118.11 184.15) (xy 163.83 184.15)
+			(xy 118.11 184.15) (xy 165.1 184.15)
 		)
 		(stroke
 			(width 0)
@@ -1052,7 +1062,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 95.25) (xy 259.08 95.25)
+			(xy 187.96 99.06) (xy 259.08 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1072,7 +1082,7 @@
 	)
 	(bus
 		(pts
-			(xy 118.11 180.34) (xy 160.02 180.34)
+			(xy 118.11 180.34) (xy 161.29 180.34)
 		)
 		(stroke
 			(width 0)
@@ -1132,16 +1142,6 @@
 	)
 	(bus
 		(pts
-			(xy 294.64 236.22) (xy 118.11 236.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a955b5ca-5eb6-427c-8125-290cce90752a")
-	)
-	(bus
-		(pts
 			(xy 118.11 203.2) (xy 182.88 203.2)
 		)
 		(stroke
@@ -1162,7 +1162,7 @@
 	)
 	(bus
 		(pts
-			(xy 160.02 180.34) (xy 160.02 91.44)
+			(xy 161.29 180.34) (xy 161.29 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1172,7 +1172,7 @@
 	)
 	(bus
 		(pts
-			(xy 163.83 87.63) (xy 163.83 184.15)
+			(xy 165.1 91.44) (xy 165.1 184.15)
 		)
 		(stroke
 			(width 0)
@@ -1202,7 +1202,7 @@
 	)
 	(bus
 		(pts
-			(xy 163.83 87.63) (xy 259.08 87.63)
+			(xy 165.1 91.44) (xy 259.08 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1212,7 +1212,7 @@
 	)
 	(bus
 		(pts
-			(xy 118.11 91.44) (xy 160.02 91.44)
+			(xy 118.11 95.25) (xy 161.29 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1422,7 +1422,7 @@
 	)
 	(bus
 		(pts
-			(xy 118.11 87.63) (xy 163.83 87.63)
+			(xy 118.11 91.44) (xy 165.1 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2124,7 +2124,7 @@
 			)
 		)
 		(pin "SHARED_PMOD_A[0..7]" bidirectional
-			(at 118.11 87.63 0)
+			(at 118.11 91.44 0)
 			(uuid "1681b5b8-b4d2-4b6c-864a-c1f170500477")
 			(effects
 				(font
@@ -2134,7 +2134,7 @@
 			)
 		)
 		(pin "SHARED_PMOD_B[0..7]" bidirectional
-			(at 118.11 91.44 0)
+			(at 118.11 95.25 0)
 			(uuid "d0e6ae97-a1b2-47bc-bcaa-1caa7e868d16")
 			(effects
 				(font
@@ -2204,7 +2204,7 @@
 			)
 		)
 		(pin "FPGA_EN" input
-			(at 118.11 95.25 0)
+			(at 118.11 99.06 0)
 			(uuid "8f536c11-92c6-4c5d-9203-9f8d6cf05814")
 			(effects
 				(font
@@ -2216,6 +2216,16 @@
 		(pin "I2C0{SCL SDA}" bidirectional
 			(at 118.11 53.34 0)
 			(uuid "bae9f280-f908-43b3-ac20-6ea8490d3aab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART{TX RX CTS RTS}" bidirectional
+			(at 118.11 87.63 0)
+			(uuid "32deb43d-2745-41a9-9253-4de5a6d4409e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2395,16 +2405,6 @@
 				(justify right)
 			)
 		)
-		(pin "LED{R G B MONO}" input
-			(at 118.11 236.22 0)
-			(uuid "636e2e25-9e74-40d5-812b-3cae070a3837")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "RESETn" input
 			(at 118.11 217.17 0)
 			(uuid "43506ea1-f06a-4c71-8532-28c0f8cb6cd0")
@@ -2568,7 +2568,7 @@
 			)
 		)
 		(pin "SHARED_PMOD_A[0..7]" bidirectional
-			(at 259.08 87.63 180)
+			(at 259.08 91.44 180)
 			(uuid "123d805f-aa25-4940-b7dc-2d57f3fe41fc")
 			(effects
 				(font
@@ -2598,7 +2598,7 @@
 			)
 		)
 		(pin "SHARED_PMOD_B[0..7]" bidirectional
-			(at 259.08 91.44 180)
+			(at 259.08 95.25 180)
 			(uuid "867fccbf-1eed-4a9e-88c3-406ad71ab85f")
 			(effects
 				(font
@@ -2628,7 +2628,7 @@
 			)
 		)
 		(pin "FPGA_EN" output
-			(at 259.08 95.25 180)
+			(at 259.08 99.06 180)
 			(uuid "e82ed499-0eff-41cd-8977-7f27454adc2b")
 			(effects
 				(font
@@ -2677,8 +2677,8 @@
 				(justify left)
 			)
 		)
-		(pin "LED{R G B MONO}" output
-			(at 294.64 125.73 270)
+		(pin "UART{TX RX CTS RTS}" bidirectional
+			(at 259.08 87.63 180)
 			(uuid "5c36d30c-092b-4a04-8910-c4bfbee286d2")
 			(effects
 				(font
