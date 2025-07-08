@@ -8845,6 +8845,12 @@
 		(uuid "9a78bb0d-f189-4a83-af4f-85fd6eca6135")
 	)
 	(junction
+		(at 303.53 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d782b7a-d1ce-483e-ade3-62db72d7abac")
+	)
+	(junction
 		(at 322.58 203.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9426,16 +9432,6 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 115.57) (xy 318.77 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11db09f5-4f84-430b-a9ad-b3a701fea650")
-	)
-	(wire
-		(pts
 			(xy 250.19 162.56) (xy 261.62 162.56)
 		)
 		(stroke
@@ -9723,6 +9719,16 @@
 			(type default)
 		)
 		(uuid "216e07f6-f129-4776-9025-7de7a06d192b")
+	)
+	(wire
+		(pts
+			(xy 318.77 115.57) (xy 327.66 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2229a7b5-748f-4f84-b933-e348f6620308")
 	)
 	(wire
 		(pts
@@ -10748,6 +10754,16 @@
 	)
 	(wire
 		(pts
+			(xy 327.66 115.57) (xy 335.28 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d4796f6-eee6-4920-b59f-41542c85dfcf")
+	)
+	(wire
+		(pts
 			(xy 285.75 224.79) (xy 283.21 224.79)
 		)
 		(stroke
@@ -11145,6 +11161,16 @@
 			(type default)
 		)
 		(uuid "70546daf-233d-4de7-9f94-c4544ba2b4ed")
+	)
+	(wire
+		(pts
+			(xy 311.15 115.57) (xy 318.77 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70c53a8a-7e43-4515-ba1c-6084dedef855")
 	)
 	(wire
 		(pts
@@ -11861,16 +11887,6 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 115.57) (xy 327.66 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96716a1c-f17a-4fd8-abeb-90765eeb953f")
-	)
-	(wire
-		(pts
 			(xy 245.11 54.61) (xy 245.11 45.72)
 		)
 		(stroke
@@ -12149,16 +12165,6 @@
 			(type default)
 		)
 		(uuid "a842c7f3-3062-4d4c-a31e-df5b276017a3")
-	)
-	(wire
-		(pts
-			(xy 303.53 115.57) (xy 311.15 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8982d71-f69c-4148-902b-ac35b5487eb7")
 	)
 	(wire
 		(pts
@@ -12782,16 +12788,6 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 115.57) (xy 342.9 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb6bc3e6-0fc3-44ea-80c0-0b136c31b00c")
-	)
-	(wire
-		(pts
 			(xy 30.48 156.21) (xy 35.56 156.21)
 		)
 		(stroke
@@ -13153,6 +13149,16 @@
 	)
 	(wire
 		(pts
+			(xy 335.28 115.57) (xy 342.9 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e69216c2-f9e7-4b66-9ad3-9c0c42a1c347")
+	)
+	(wire
+		(pts
 			(xy 105.41 176.53) (xy 107.95 176.53)
 		)
 		(stroke
@@ -13220,6 +13226,16 @@
 			(type default)
 		)
 		(uuid "e8a9ff61-da5d-4e24-85aa-0691533bbed8")
+	)
+	(wire
+		(pts
+			(xy 303.53 115.57) (xy 311.15 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e921747e-d249-4ee6-b9dc-67d9b4955530")
 	)
 	(polyline
 		(pts
@@ -13301,16 +13317,6 @@
 			(type default)
 		)
 		(uuid "ee389894-725d-40e9-909e-6392dff8bd90")
-	)
-	(wire
-		(pts
-			(xy 327.66 115.57) (xy 335.28 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef2355cf-689d-4f7d-a5bd-1bbfd6f30dab")
 	)
 	(wire
 		(pts
@@ -13712,7 +13718,7 @@
 		)
 		(uuid "115a22c2-79b3-4271-b60f-5cffff233fef")
 	)
-	(label "FPGA_PMOD0"
+	(label "FPGA_PMOD2"
 		(at 157.48 175.26 180)
 		(effects
 			(font
@@ -13752,7 +13758,7 @@
 		)
 		(uuid "183330b3-bfe9-4979-a1cc-52b6b92d691f")
 	)
-	(label "FPGA_PMOD3"
+	(label "FPGA_PMOD1"
 		(at 228.6 170.18 180)
 		(effects
 			(font
@@ -13852,7 +13858,7 @@
 		)
 		(uuid "246c50a3-3309-4c61-8101-73e3b4a11a0c")
 	)
-	(label "FPGA_PMOD2"
+	(label "FPGA_PMOD0"
 		(at 228.6 177.8 180)
 		(effects
 			(font
@@ -13882,7 +13888,7 @@
 		)
 		(uuid "27af7100-08df-41d1-b091-c5d36d2aff83")
 	)
-	(label "FPGA_PMOD0"
+	(label "FPGA_PMOD2"
 		(at 106.68 39.37 0)
 		(effects
 			(font
@@ -14062,7 +14068,7 @@
 		)
 		(uuid "3ba7d4cb-4615-4fd4-9a16-cbceda41a94e")
 	)
-	(label "FPGA_PMOD1"
+	(label "FPGA_PMOD3"
 		(at 157.48 167.64 180)
 		(effects
 			(font
@@ -14382,7 +14388,7 @@
 		)
 		(uuid "61a3e644-2beb-4f97-bb6d-7bae6a2c9e3b")
 	)
-	(label "FPGA_PMOD6"
+	(label "FPGA_PMOD4"
 		(at 106.68 97.79 0)
 		(effects
 			(font
@@ -14392,7 +14398,7 @@
 		)
 		(uuid "63e7b518-3669-42de-bbee-ae1c46e6138c")
 	)
-	(label "FPGA_PMOD5"
+	(label "FPGA_PMOD7"
 		(at 106.68 72.39 0)
 		(effects
 			(font
@@ -14412,7 +14418,7 @@
 		)
 		(uuid "6aba7c61-e649-4fff-be1f-f54f04705338")
 	)
-	(label "FPGA_PMOD6"
+	(label "FPGA_PMOD4"
 		(at 228.6 175.26 180)
 		(effects
 			(font
@@ -14572,7 +14578,7 @@
 		)
 		(uuid "804d2a32-dba2-4db6-b60d-d6cb5bf35b6f")
 	)
-	(label "FPGA_PMOD7"
+	(label "FPGA_PMOD5"
 		(at 106.68 110.49 0)
 		(effects
 			(font
@@ -14732,7 +14738,7 @@
 		)
 		(uuid "92bc76a5-9ac9-418b-b872-04027150c93a")
 	)
-	(label "FPGA_PMOD5"
+	(label "FPGA_PMOD7"
 		(at 157.48 165.1 180)
 		(effects
 			(font
@@ -14892,7 +14898,7 @@
 		)
 		(uuid "a687d221-b184-4e8e-862e-36c34fa15a23")
 	)
-	(label "FPGA_PMOD1"
+	(label "FPGA_PMOD3"
 		(at 106.68 69.85 0)
 		(effects
 			(font
@@ -14942,7 +14948,7 @@
 		)
 		(uuid "b0c484d9-f88a-40f1-8292-b6fc6ba7a0cc")
 	)
-	(label "FPGA_PMOD3"
+	(label "FPGA_PMOD1"
 		(at 106.68 107.95 0)
 		(effects
 			(font
@@ -14982,7 +14988,7 @@
 		)
 		(uuid "b686883c-a6d1-437b-9a05-272fb8635c93")
 	)
-	(label "FPGA_PMOD4"
+	(label "FPGA_PMOD6"
 		(at 106.68 41.91 0)
 		(effects
 			(font
@@ -15052,7 +15058,7 @@
 		)
 		(uuid "bebe747e-2f89-4fb4-bf76-6047cfdec2dd")
 	)
-	(label "FPGA_PMOD4"
+	(label "FPGA_PMOD6"
 		(at 157.48 172.72 180)
 		(effects
 			(font
@@ -15272,7 +15278,7 @@
 		)
 		(uuid "da6d4f75-13f4-4bc2-9aea-0af4dc2a52ec")
 	)
-	(label "FPGA_PMOD2"
+	(label "FPGA_PMOD0"
 		(at 106.68 95.25 0)
 		(effects
 			(font
@@ -15432,7 +15438,7 @@
 		)
 		(uuid "ef67ca18-e232-41a0-9d6b-740ac0408448")
 	)
-	(label "FPGA_PMOD7"
+	(label "FPGA_PMOD5"
 		(at 228.6 167.64 180)
 		(effects
 			(font
@@ -24044,7 +24050,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 342.9 115.57 0)
+		(at 303.53 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24052,7 +24058,7 @@
 		(dnp no)
 		(uuid "930b125c-d839-4a5c-881f-302f81b6164f")
 		(property "Reference" "#PWR0155"
-			(at 342.9 115.57 0)
+			(at 303.53 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24061,7 +24067,7 @@
 			)
 		)
 		(property "Value" "P1VD_FPGA"
-			(at 342.9 112.014 0)
+			(at 303.53 112.014 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24069,7 +24075,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 342.9 115.57 0)
+			(at 303.53 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24078,7 +24084,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 342.9 115.57 0)
+			(at 303.53 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24087,7 +24093,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 342.9 115.57 0)
+			(at 303.53 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -4436,6 +4436,17 @@
 		)
 		(uuid "482e6db6-4c72-4d98-8a4f-1311ad2a9b3c")
 	)
+	(text "Not differential\npairs"
+		(exclude_from_sim no)
+		(at 40.894 150.114 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "76faffce-ad7e-4381-8860-3861c86996f8")
+	)
 	(text "JTAG"
 		(exclude_from_sim no)
 		(at 306.07 32.766 0)
@@ -4480,6 +4491,17 @@
 		)
 		(uuid "d65589d0-abb7-4353-ac3e-d53c6d9a548b")
 	)
+	(text "Not differential\npairs"
+		(exclude_from_sim no)
+		(at 129.032 149.098 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e1942154-6ede-4d46-8f7d-233f8a3b7d48")
+	)
 	(text "Route as differential pairs"
 		(exclude_from_sim no)
 		(at 243.332 100.33 0)
@@ -4490,6 +4512,17 @@
 			(justify right)
 		)
 		(uuid "e9589a9a-8cf3-4b5f-aad5-8fd2b1d99ac0")
+	)
+	(text "Not differential\npairs"
+		(exclude_from_sim no)
+		(at 128.778 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eda07683-b794-404c-8014-7ad7a4c2d3ae")
 	)
 	(junction
 		(at 322.58 46.99)
@@ -8954,7 +8987,7 @@
 		)
 		(uuid "0e7c78a4-ec49-416b-b695-a8cbd9aa50d7")
 	)
-	(label "FPGA_PMOD4"
+	(label "FPGA_PMOD6"
 		(at 57.15 177.8 0)
 		(effects
 			(font
@@ -9044,7 +9077,7 @@
 		)
 		(uuid "2721d0f3-8fa5-42c2-a3d1-36022ecbfb47")
 	)
-	(label "FPGA_PMOD1"
+	(label "FPGA_PMOD3"
 		(at 57.15 172.72 0)
 		(effects
 			(font
@@ -9174,7 +9207,7 @@
 		)
 		(uuid "3fdcf201-fe83-4132-9191-af27add4641d")
 	)
-	(label "FPGA_PMOD7"
+	(label "FPGA_PMOD5"
 		(at 185.42 172.72 180)
 		(effects
 			(font
@@ -9544,7 +9577,7 @@
 		)
 		(uuid "93cdf4ed-701f-4c62-b2d2-0f0dab6c9567")
 	)
-	(label "FPGA_PMOD2"
+	(label "FPGA_PMOD0"
 		(at 185.42 182.88 180)
 		(effects
 			(font
@@ -9704,7 +9737,7 @@
 		)
 		(uuid "b6b58faa-a7ca-4bc4-b82d-11901d394bec")
 	)
-	(label "FPGA_PMOD5"
+	(label "FPGA_PMOD7"
 		(at 57.15 170.18 0)
 		(effects
 			(font
@@ -9754,7 +9787,7 @@
 		)
 		(uuid "bbba6b0b-e8cf-4cd9-acaf-bdc8034acc1e")
 	)
-	(label "FPGA_PMOD0"
+	(label "FPGA_PMOD2"
 		(at 57.15 180.34 0)
 		(effects
 			(font
@@ -9824,7 +9857,7 @@
 		)
 		(uuid "d922fbb2-d14b-4a8f-9d3c-3d86c5fc3fff")
 	)
-	(label "FPGA_PMOD6"
+	(label "FPGA_PMOD4"
 		(at 185.42 180.34 180)
 		(effects
 			(font
@@ -9894,7 +9927,7 @@
 		)
 		(uuid "e7678d9b-f041-4ff5-bc85-7774f38b76f0")
 	)
-	(label "FPGA_PMOD3"
+	(label "FPGA_PMOD1"
 		(at 185.42 175.26 180)
 		(effects
 			(font
@@ -10334,13 +10367,12 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x30_Odd_Even"
+		(property "Value" "DF40C-60DS-0.4V(51)"
 			(at 85.09 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -12292,13 +12324,12 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x30_Odd_Even"
+		(property "Value" "DF40C-60DS-0.4V(51)"
 			(at 200.66 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
