@@ -5826,7 +5826,7 @@
 	)
 	(text "RF Module"
 		(exclude_from_sim no)
-		(at 88.392 111.76 0)
+		(at 88.392 106.68 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -7607,6 +7607,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 114.3) (xy 68.58 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14e202a2-fb94-434e-8283-7d55d6c7eb65")
+	)
+	(wire
+		(pts
 			(xy 284.48 170.18) (xy 306.07 170.18)
 		)
 		(stroke
@@ -8244,16 +8254,6 @@
 			(type default)
 		)
 		(uuid "421a7645-2884-4d01-85cf-969fb1d9744c")
-	)
-	(wire
-		(pts
-			(xy 88.9 119.38) (xy 88.9 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4285610a-6fcd-40a5-b8a8-cf8b93290ad1")
 	)
 	(wire
 		(pts
@@ -9127,6 +9127,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 123.19) (xy 88.9 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74048dc4-abb4-43e3-bf44-e9c53a885469")
+	)
+	(wire
+		(pts
 			(xy 213.36 43.18) (xy 213.36 44.45)
 		)
 		(stroke
@@ -9354,16 +9364,6 @@
 			(type default)
 		)
 		(uuid "824ec572-5a46-49b2-8803-10880e2bb61c")
-	)
-	(wire
-		(pts
-			(xy 68.58 119.38) (xy 68.58 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82ae8e27-662d-4d8a-854b-acec0018f192")
 	)
 	(wire
 		(pts
@@ -9814,6 +9814,16 @@
 			(type default)
 		)
 		(uuid "a1a9b213-d382-4cea-b5a7-db56e3d352f5")
+	)
+	(wire
+		(pts
+			(xy 68.58 123.19) (xy 68.58 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1b57319-0253-4134-ae49-6f566699662b")
 	)
 	(wire
 		(pts
@@ -10874,6 +10884,16 @@
 			(type default)
 		)
 		(uuid "ecb6e77d-ae78-4943-92d7-2304d7c9878a")
+	)
+	(wire
+		(pts
+			(xy 88.9 114.3) (xy 88.9 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eda33a86-41db-469b-beab-4f392ac778de")
 	)
 	(wire
 		(pts
@@ -13814,7 +13834,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Custom:rpi_rmc20452t"
 			(at 63.5 127 0)
 			(effects
 				(font
@@ -16171,6 +16191,109 @@
 			(project "pico2-nx"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
 					(reference "#PWR0102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 68.58 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5e81303a-12dc-4db5-ae85-cb9575ba30a6")
+		(property "Reference" "R30"
+			(at 64.77 117.856 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 65.024 120.142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 66.802 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 68.58 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key Part Number" ""
+			(at 68.58 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402FR-0727RL"
+			(at 68.58 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 68.58 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 68.58 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f993d592-0344-4ad8-bab6-81498dc29da9")
+		)
+		(pin "2"
+			(uuid "d924d6c4-4893-4b37-ab43-5563382ad98b")
+		)
+		(instances
+			(project "pico2-nx"
+				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -20146,6 +20269,109 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 88.9 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cc4bd477-c4ea-44d7-8c17-2a68bccf37f5")
+		(property "Reference" "R31"
+			(at 85.09 117.856 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 85.344 120.142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 87.122 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 88.9 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key Part Number" ""
+			(at 88.9 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402FR-0727RL"
+			(at 88.9 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 88.9 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 88.9 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c08c5ec1-3605-45f9-8ea3-6251f1d1b4e6")
+		)
+		(pin "2"
+			(uuid "31bbfe79-7ef9-4818-a593-242b3b2296ec")
+		)
+		(instances
+			(project "pico2-nx"
+				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9/e11037e3-ed4c-419c-97f7-6aa5d9674403"
+					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 132.08 241.3 0)
 		(unit 1)
@@ -20357,7 +20583,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 68.58 119.38 0)
+		(at 68.58 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20365,7 +20591,7 @@
 		(dnp no)
 		(uuid "d7121691-a701-464f-abdc-3fc671f993fd")
 		(property "Reference" "#PWR040"
-			(at 68.58 123.19 0)
+			(at 68.58 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20374,7 +20600,7 @@
 			)
 		)
 		(property "Value" "P1V8D"
-			(at 66.548 115.316 0)
+			(at 66.548 110.236 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20382,7 +20608,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 119.38 0)
+			(at 68.58 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20391,7 +20617,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 119.38 0)
+			(at 68.58 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20400,7 +20626,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 68.58 119.38 0)
+			(at 68.58 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20970,7 +21196,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 88.9 119.38 0)
+		(at 88.9 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20978,7 +21204,7 @@
 		(dnp no)
 		(uuid "e533d39e-89c8-491b-b307-eef8c2fc1aff")
 		(property "Reference" "#PWR041"
-			(at 88.9 123.19 0)
+			(at 88.9 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20987,7 +21213,7 @@
 			)
 		)
 		(property "Value" "P3V3D"
-			(at 91.186 115.316 0)
+			(at 91.186 110.236 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20995,7 +21221,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 119.38 0)
+			(at 88.9 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21004,7 +21230,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 119.38 0)
+			(at 88.9 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21013,7 +21239,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 88.9 119.38 0)
+			(at 88.9 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
