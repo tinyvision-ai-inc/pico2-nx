@@ -5732,8 +5732,7 @@
 			(type solid)
 		)
 		(fill
-			(type color)
-			(color 240 240 240 1)
+			(type none)
 		)
 		(uuid 9a4bd7af-42f5-4b3d-85df-76cd1186e39c)
 	)
