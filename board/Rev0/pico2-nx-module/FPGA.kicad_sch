@@ -8034,8 +8034,8 @@
 		)
 	)
 	(rectangle
-		(start 137.668 162.56)
-		(end 159.385 170.434)
+		(start 141.605 162.56)
+		(end 159.385 179.07)
 		(stroke
 			(width 0)
 			(type solid)
@@ -8048,22 +8048,8 @@
 		(uuid 1b8821c1-daeb-401d-91f8-88c2884a29cb)
 	)
 	(rectangle
-		(start 137.668 170.434)
-		(end 159.385 178.308)
-		(stroke
-			(width 0)
-			(type solid)
-			(color 190 190 190 1)
-		)
-		(fill
-			(type color)
-			(color 220 220 220 1)
-		)
-		(uuid 2c753c00-cba2-48b3-80d8-d71cfb0e7cb3)
-	)
-	(rectangle
-		(start 209.804 121.92)
-		(end 230.505 147.32)
+		(start 210.82 121.92)
+		(end 230.505 142.24)
 		(stroke
 			(width 0)
 			(type solid)
@@ -8076,7 +8062,7 @@
 		(uuid 615bfcf1-8227-4e64-bd93-0498f37549ad)
 	)
 	(rectangle
-		(start 137.668 101.6)
+		(start 141.605 101.6)
 		(end 159.385 162.56)
 		(stroke
 			(width 0)
@@ -8117,7 +8103,7 @@
 		(uuid c7980340-baf1-4821-b226-7720f07d84f9)
 	)
 	(rectangle
-		(start 209.804 147.32)
+		(start 210.82 142.24)
 		(end 230.505 181.61)
 		(stroke
 			(width 0)
@@ -8170,7 +8156,7 @@
 	)
 	(text "FPGA Flash"
 		(exclude_from_sim no)
-		(at 183.134 26.67 0)
+		(at 190.754 27.94 0)
 		(effects
 			(font
 				(size 1.778 1.778)
@@ -8210,9 +8196,31 @@
 		)
 		(uuid "2951c848-2cb9-4515-b1b8-64658003429d")
 	)
+	(text "or clock out"
+		(exclude_from_sim no)
+		(at 121.158 99.822 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2c4c1765-a1a7-4e5e-aae5-017ae7049cde")
+	)
+	(text "Also QSPI\nSD0..3"
+		(exclude_from_sim no)
+		(at 214.884 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "36a60888-ab8f-420d-8f5b-b66c135eb24d")
+	)
 	(text "Bank 0"
 		(exclude_from_sim no)
-		(at 146.558 165.608 0)
+		(at 150.876 178.054 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8220,15 +8228,16 @@
 		)
 		(uuid "47036e79-7d4a-4321-a7ed-67e47f9fa849")
 	)
-	(text "Bank 1"
+	(text "RP CLKOUT"
 		(exclude_from_sim no)
-		(at 146.304 175.26 0)
+		(at 124.968 160.528 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
-		(uuid "51689b74-2424-46f1-8b2f-e4546ce63de2")
+		(uuid "55d862e0-59be-4513-b477-6aebd13de10b")
 	)
 	(text "Bank 4"
 		(exclude_from_sim no)
@@ -8250,6 +8259,16 @@
 			(justify left bottom)
 		)
 		(uuid "61b1912b-3d09-470e-9d66-37247401bbc7")
+	)
+	(text "RP SCLK"
+		(exclude_from_sim no)
+		(at 129.032 175.768 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6819f338-0409-4e88-89e6-a0704fa81faa")
 	)
 	(text "FPGA Bank 4"
 		(exclude_from_sim no)
@@ -8360,17 +8379,6 @@
 		)
 		(uuid "c588143c-188f-4545-a558-d3fc47882c6f")
 	)
-	(text "Option 1) flash is single or dual mode and these pins\nare chip selects for other devices, which is compatible\nwith these pins having a WPn or HOLDn function.\nOption 2) flash is quad mode and no additional SPI\ndevices are connected to the bus."
-		(exclude_from_sim no)
-		(at 205.74 61.722 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d6d2b63f-0630-4127-96c1-019dde583e8a")
-	)
 	(text "TODO: Check footprints to see if the DF40\nconnector symbols should be flipped."
 		(exclude_from_sim no)
 		(at 194.31 186.436 0)
@@ -8395,7 +8403,7 @@
 	)
 	(text "Bank 0"
 		(exclude_from_sim no)
-		(at 215.138 141.986 0)
+		(at 219.202 123.698 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8453,7 +8461,7 @@
 		(uuid "0188d0c5-4cdf-445d-9b2f-f2be85129c2d")
 	)
 	(junction
-		(at 190.5 31.75)
+		(at 198.12 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "03d75f46-62fd-4903-ab16-ef8fbdd6483a")
@@ -8639,7 +8647,7 @@
 		(uuid "442e0186-b413-4e39-ae78-7b5fc105eaa2")
 	)
 	(junction
-		(at 161.29 45.72)
+		(at 168.91 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "47ae8d6f-ad86-45b5-8998-3637eac69fa5")
@@ -8855,7 +8863,7 @@
 		(uuid "9ee06909-0599-4d03-b946-439465deac7d")
 	)
 	(junction
-		(at 248.92 38.1)
+		(at 245.11 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a2bc699b-35c2-4ce5-91ab-c14366f8495a")
@@ -9331,16 +9339,6 @@
 			(type default)
 		)
 		(uuid "0c344107-b04d-49df-a088-b70acf823c91")
-	)
-	(wire
-		(pts
-			(xy 90.17 62.23) (xy 106.68 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c6b8763-706d-4296-9524-63c4bd7e058b")
 	)
 	(wire
 		(pts
@@ -10285,7 +10283,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 39.37) (xy 238.76 38.1)
+			(xy 234.95 40.64) (xy 234.95 39.37)
 		)
 		(stroke
 			(width 0)
@@ -10315,7 +10313,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 45.72) (xy 161.29 45.72)
+			(xy 165.1 46.99) (xy 168.91 46.99)
 		)
 		(stroke
 			(width 0)
@@ -10515,7 +10513,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 50.8) (xy 238.76 44.45)
+			(xy 234.95 52.07) (xy 234.95 45.72)
 		)
 		(stroke
 			(width 0)
@@ -10635,7 +10633,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 38.1) (xy 248.92 38.1)
+			(xy 234.95 39.37) (xy 245.11 39.37)
 		)
 		(stroke
 			(width 0)
@@ -10706,7 +10704,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 53.34) (xy 248.92 53.34)
+			(xy 210.82 54.61) (xy 245.11 54.61)
 		)
 		(stroke
 			(width 0)
@@ -10796,7 +10794,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 50.8) (xy 238.76 50.8)
+			(xy 210.82 52.07) (xy 234.95 52.07)
 		)
 		(stroke
 			(width 0)
@@ -10876,7 +10874,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 31.75) (xy 190.5 31.75)
+			(xy 184.15 33.02) (xy 198.12 33.02)
 		)
 		(stroke
 			(width 0)
@@ -10963,6 +10961,16 @@
 			(type default)
 		)
 		(uuid "6710d63c-1639-4aeb-8219-d22c17530a94")
+	)
+	(wire
+		(pts
+			(xy 90.17 59.69) (xy 106.68 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "674061be-bab0-40a3-88ae-de03df0f1228")
 	)
 	(wire
 		(pts
@@ -11093,6 +11101,16 @@
 			(type default)
 		)
 		(uuid "6d94f279-9652-4dab-916e-5d53b88d898c")
+	)
+	(wire
+		(pts
+			(xy 106.68 62.23) (xy 90.17 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d9c4dc7-efc9-41b0-ad7f-f1e4bd5f54f1")
 	)
 	(wire
 		(pts
@@ -11307,7 +11325,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 38.1) (xy 248.92 39.37)
+			(xy 245.11 39.37) (xy 245.11 40.64)
 		)
 		(stroke
 			(width 0)
@@ -11548,7 +11566,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 40.64) (xy 161.29 45.72)
+			(xy 168.91 41.91) (xy 168.91 46.99)
 		)
 		(stroke
 			(width 0)
@@ -11618,7 +11636,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 43.18) (xy 205.74 43.18)
+			(xy 210.82 44.45) (xy 213.36 44.45)
 		)
 		(stroke
 			(width 0)
@@ -11695,16 +11713,6 @@
 			(type default)
 		)
 		(uuid "8cead483-d301-4f22-b9c5-1479572f57cc")
-	)
-	(wire
-		(pts
-			(xy 90.17 59.69) (xy 106.68 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d60d3e6-903a-4169-997b-dc2406155cd6")
 	)
 	(polyline
 		(pts
@@ -11879,7 +11887,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 53.34) (xy 248.92 44.45)
+			(xy 245.11 54.61) (xy 245.11 45.72)
 		)
 		(stroke
 			(width 0)
@@ -11916,6 +11924,16 @@
 			(type default)
 		)
 		(uuid "974a5910-a999-42b7-97a1-d289c743a62e")
+	)
+	(wire
+		(pts
+			(xy 198.12 59.69) (xy 198.12 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97ec49bb-e779-4a57-9ce9-155b3d9df490")
 	)
 	(wire
 		(pts
@@ -11989,7 +12007,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 45.72) (xy 177.8 45.72)
+			(xy 168.91 46.99) (xy 185.42 46.99)
 		)
 		(stroke
 			(width 0)
@@ -12135,6 +12153,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 71 42 255 1)
 		)
 		(uuid "a78e10d1-0783-4a0b-8a8d-d8716baa63c1")
 	)
@@ -12230,7 +12249,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 36.83) (xy 248.92 38.1)
+			(xy 245.11 38.1) (xy 245.11 39.37)
 		)
 		(stroke
 			(width 0)
@@ -12610,7 +12629,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 50.8) (xy 177.8 50.8)
+			(xy 165.1 52.07) (xy 185.42 52.07)
 		)
 		(stroke
 			(width 0)
@@ -13101,7 +13120,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 31.75) (xy 190.5 38.1)
+			(xy 198.12 33.02) (xy 198.12 39.37)
 		)
 		(stroke
 			(width 0)
@@ -13161,7 +13180,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 45.72) (xy 205.74 45.72)
+			(xy 210.82 46.99) (xy 213.36 46.99)
 		)
 		(stroke
 			(width 0)
@@ -13382,7 +13401,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 33.02) (xy 161.29 35.56)
+			(xy 168.91 34.29) (xy 168.91 36.83)
 		)
 		(stroke
 			(width 0)
@@ -13570,7 +13589,7 @@
 		)
 		(uuid "ff57f13e-2bcb-4d73-873b-832d10a84544")
 	)
-	(label "PB70B"
+	(label "SHARED_PMOD_B5"
 		(at 107.95 189.23 0)
 		(effects
 			(font
@@ -13590,7 +13609,7 @@
 		)
 		(uuid "0320bc7c-9b44-4479-ae23-ecb2ee97483f")
 	)
-	(label "DPHY0.D1+"
+	(label "RGB_MIPI.D1+"
 		(at 261.62 116.84 0)
 		(effects
 			(font
@@ -13600,8 +13619,8 @@
 		)
 		(uuid "0522d3c5-e691-4c00-8d76-bceff017d523")
 	)
-	(label "PR11A"
-		(at 157.48 175.26 180)
+	(label "QSPI.SCLK"
+		(at 228.6 149.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13610,7 +13629,7 @@
 		)
 		(uuid "087f683f-868f-450b-980d-fde7120f253f")
 	)
-	(label "PB26B|PCLKC"
+	(label "HSTX3"
 		(at 157.48 119.38 180)
 		(effects
 			(font
@@ -13630,7 +13649,7 @@
 		)
 		(uuid "0933ecba-bd54-4939-95d5-79e59a582da3")
 	)
-	(label "DPHY0.D1-"
+	(label "RGB_MIPI.D1-"
 		(at 261.62 114.3 0)
 		(effects
 			(font
@@ -13670,7 +13689,7 @@
 		)
 		(uuid "0cd8efd8-bb2d-4035-b9bd-5e801700dc25")
 	)
-	(label "PB68A|PCLKT"
+	(label "SHARED_PMOD_B4"
 		(at 107.95 181.61 0)
 		(effects
 			(font
@@ -13680,7 +13699,7 @@
 		)
 		(uuid "0dcb6128-c33f-44d8-acf2-925fc0134ee2")
 	)
-	(label "PT59B|DONE"
+	(label "DONE"
 		(at 106.68 44.45 0)
 		(effects
 			(font
@@ -13690,7 +13709,7 @@
 		)
 		(uuid "0e86399f-6747-4475-946f-cce9aa757ada")
 	)
-	(label "PB58B"
+	(label "SHARED_PMOD_A1"
 		(at 107.95 158.75 0)
 		(effects
 			(font
@@ -13700,8 +13719,8 @@
 		)
 		(uuid "115a22c2-79b3-4271-b60f-5cffff233fef")
 	)
-	(label "PT57A|INITN"
-		(at 228.6 124.46 180)
+	(label "FPGA_PMOD2"
+		(at 157.48 175.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13730,7 +13749,7 @@
 		)
 		(uuid "17285d04-dbf4-4475-850a-c933bfa87678")
 	)
-	(label "PB30A|PCLKT"
+	(label "HSTX6"
 		(at 121.92 251.46 0)
 		(effects
 			(font
@@ -13740,17 +13759,7 @@
 		)
 		(uuid "183330b3-bfe9-4979-a1cc-52b6b92d691f")
 	)
-	(label "PT65A|MD3"
-		(at 228.6 144.78 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "18632950-0d1a-4c6c-820e-dbf5fec1c29c")
-	)
-	(label "PR13A|PCLKT"
+	(label "FPGA_PMOD1"
 		(at 228.6 170.18 180)
 		(effects
 			(font
@@ -13770,7 +13779,7 @@
 		)
 		(uuid "1a7ab009-c314-4c9c-9c7e-6b5b689f783b")
 	)
-	(label "DPHY0.D1+"
+	(label "RGB_MIPI.D1+"
 		(at 381 39.37 0)
 		(effects
 			(font
@@ -13780,8 +13789,8 @@
 		)
 		(uuid "1b0cebab-8347-414d-ad1a-d2b49f8aa3df")
 	)
-	(label "PR5B|TDO|SSO"
-		(at 228.6 157.48 180)
+	(label "TDI"
+		(at 228.6 160.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13790,7 +13799,7 @@
 		)
 		(uuid "1c705577-6b50-4175-9de2-25ed7a9b37bc")
 	)
-	(label "PB24B"
+	(label "HSTX1"
 		(at 121.92 238.76 0)
 		(effects
 			(font
@@ -13800,8 +13809,8 @@
 		)
 		(uuid "1e0d8e3f-68ba-4220-bcb2-80b593f1d5c2")
 	)
-	(label "PT57B|PROGRAMN"
-		(at 106.68 41.91 0)
+	(label "EXT_QSPI.SD3"
+		(at 106.68 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13810,7 +13819,7 @@
 		)
 		(uuid "1e695c47-d339-4bdf-b170-600d76fb58bd")
 	)
-	(label "DPHY1.CLK+"
+	(label "EXT_MIPI.CLK+"
 		(at 261.62 160.02 0)
 		(effects
 			(font
@@ -13820,7 +13829,7 @@
 		)
 		(uuid "21046cc0-ecd8-4362-b79c-99c379a6428b")
 	)
-	(label "PB22B"
+	(label "MIPI_IO.PWR_EN"
 		(at 121.92 233.68 0)
 		(effects
 			(font
@@ -13830,7 +13839,7 @@
 		)
 		(uuid "22f8d8db-282e-47a7-87bb-cd1325c49e80")
 	)
-	(label "DPHY0.D1-"
+	(label "RGB_MIPI.D1-"
 		(at 381 41.91 0)
 		(effects
 			(font
@@ -13840,7 +13849,7 @@
 		)
 		(uuid "23da5ef3-8dfc-4aec-9f69-fa3e21010500")
 	)
-	(label "PB28A"
+	(label "HSTX4"
 		(at 121.92 246.38 0)
 		(effects
 			(font
@@ -13850,7 +13859,7 @@
 		)
 		(uuid "246c50a3-3309-4c61-8101-73e3b4a11a0c")
 	)
-	(label "PR7A|SDA"
+	(label "FPGA_PMOD0"
 		(at 228.6 177.8 180)
 		(effects
 			(font
@@ -13860,7 +13869,7 @@
 		)
 		(uuid "261dd87c-c909-4222-a640-671596b99f37")
 	)
-	(label "PB60B|PCLKC"
+	(label "SHARED_PMOD_A6"
 		(at 107.95 163.83 0)
 		(effects
 			(font
@@ -13870,7 +13879,7 @@
 		)
 		(uuid "266aab8b-53cc-4898-afce-8dea42dcb0fb")
 	)
-	(label "PB20B|PCLKC"
+	(label "SDA1"
 		(at 157.48 142.24 180)
 		(effects
 			(font
@@ -13880,8 +13889,8 @@
 		)
 		(uuid "27af7100-08df-41d1-b091-c5d36d2aff83")
 	)
-	(label "PT67A"
-		(at 106.68 69.85 0)
+	(label "FPGA_PMOD2"
+		(at 106.68 39.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13890,7 +13899,17 @@
 		)
 		(uuid "287cb9f3-ad60-4ae8-a172-850a58640091")
 	)
-	(label "PR9B"
+	(label "EXT_QSPI.SD2"
+		(at 106.68 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "28a459dc-8556-4502-a56d-b90e9e26cc0f")
+	)
+	(label "MIPI_IO.LED_EN"
 		(at 106.68 100.33 0)
 		(effects
 			(font
@@ -13900,7 +13919,7 @@
 		)
 		(uuid "28d38c70-f3b7-4450-938a-ec8d7b9a7e53")
 	)
-	(label "PB30B|PCLKC"
+	(label "HSTX7"
 		(at 121.92 254 0)
 		(effects
 			(font
@@ -13910,8 +13929,8 @@
 		)
 		(uuid "2a2ccb87-7b13-44ca-9c41-fbc80b7bb71c")
 	)
-	(label "PT63A|MISO|MD1"
-		(at 228.6 139.7 180)
+	(label "EXT_QSPI.SCK"
+		(at 228.6 127 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13920,7 +13939,7 @@
 		)
 		(uuid "2b67ad5f-1c40-4066-9404-798b1d9af787")
 	)
-	(label "PB24A"
+	(label "HSTX0"
 		(at 157.48 129.54 180)
 		(effects
 			(font
@@ -13930,7 +13949,7 @@
 		)
 		(uuid "2ce3e970-8884-480f-ad33-402380104785")
 	)
-	(label "DPHY1.CLK+"
+	(label "EXT_MIPI.CLK+"
 		(at 381 74.93 0)
 		(effects
 			(font
@@ -13940,7 +13959,7 @@
 		)
 		(uuid "2ce684aa-b3d0-4b1b-aa9a-ade58aeb4b72")
 	)
-	(label "PB56A|PCLKT"
+	(label "SHARED_PMOD_A2"
 		(at 107.95 151.13 0)
 		(effects
 			(font
@@ -13950,7 +13969,7 @@
 		)
 		(uuid "2f194236-65aa-4e85-99f5-94c2c8ec52d2")
 	)
-	(label "PR11A"
+	(label "MULTI_FN"
 		(at 106.68 102.87 0)
 		(effects
 			(font
@@ -13960,8 +13979,8 @@
 		)
 		(uuid "3030239b-e453-46bd-80ce-9d3090acf621")
 	)
-	(label "PT57B|PROGRAMN"
-		(at 228.6 127 180)
+	(label "DONE"
+		(at 228.6 124.46 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13970,7 +13989,7 @@
 		)
 		(uuid "3121703f-7398-41d0-a88d-67e6a7b65e31")
 	)
-	(label "DPHY0.D0+"
+	(label "RGB_MIPI.D0+"
 		(at 381 34.29 0)
 		(effects
 			(font
@@ -13980,7 +13999,7 @@
 		)
 		(uuid "31be164d-c853-4841-9fd8-eed7797d5c0f")
 	)
-	(label "DPHY1.D1+"
+	(label "EXT_MIPI.D1+"
 		(at 261.62 167.64 0)
 		(effects
 			(font
@@ -14000,7 +14019,7 @@
 		)
 		(uuid "3297d34e-4444-4a2a-b862-837e727d8ec2")
 	)
-	(label "PB16B"
+	(label "SCL1"
 		(at 121.92 218.44 0)
 		(effects
 			(font
@@ -14010,7 +14029,7 @@
 		)
 		(uuid "36bba7f3-b1ac-4ecd-9f82-7d5c4f272411")
 	)
-	(label "DPHY1.CLK-"
+	(label "EXT_MIPI.CLK-"
 		(at 261.62 162.56 0)
 		(effects
 			(font
@@ -14030,7 +14049,7 @@
 		)
 		(uuid "3aaa7f7e-c1a6-4135-9193-34fce9681016")
 	)
-	(label "PB70A"
+	(label "SHARED_PMOD_B7"
 		(at 107.95 186.69 0)
 		(effects
 			(font
@@ -14040,8 +14059,8 @@
 		)
 		(uuid "3b7d4a4b-d9b7-4f29-90c0-e10ebca8aff4")
 	)
-	(label "PT61B|MOSI|MD0"
-		(at 205.74 43.18 0)
+	(label "EXT_QSPI.MOSI"
+		(at 213.36 44.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14050,7 +14069,7 @@
 		)
 		(uuid "3ba7d4cb-4615-4fd4-9a16-cbceda41a94e")
 	)
-	(label "PT67A"
+	(label "FPGA_PMOD3"
 		(at 157.48 167.64 180)
 		(effects
 			(font
@@ -14060,7 +14079,7 @@
 		)
 		(uuid "3c703672-38d3-4da5-a5ed-70911dc3a272")
 	)
-	(label "PR11B|PCLKT"
+	(label "QSPI.SCLK"
 		(at 106.68 105.41 0)
 		(effects
 			(font
@@ -14080,8 +14099,8 @@
 		)
 		(uuid "3f3ba33a-2b88-4cb7-a694-e086d66d5c5d")
 	)
-	(label "PT63B|MD2"
-		(at 106.68 59.69 0)
+	(label "EXT_QSPI.CSn"
+		(at 106.68 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14100,8 +14119,8 @@
 		)
 		(uuid "403bc332-3115-4d77-aeae-194e9cc6547c")
 	)
-	(label "PR9A|TCK|SCLK"
-		(at 228.6 154.94 180)
+	(label "TMS"
+		(at 228.6 157.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14120,7 +14139,7 @@
 		)
 		(uuid "41fde1dc-5f44-4c5c-8cdf-a76e8a922b93")
 	)
-	(label "DPHY0.D2+"
+	(label "RGB_MIPI.D2+"
 		(at 381 44.45 0)
 		(effects
 			(font
@@ -14130,7 +14149,17 @@
 		)
 		(uuid "425134ae-6ca0-4b2d-8bf8-2fff4dfc03c6")
 	)
-	(label "PB24A"
+	(label "EXT_QSPI.SD3"
+		(at 228.6 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "44b979c3-e659-4a8d-8714-62e52fa14bfb")
+	)
+	(label "HSTX0"
 		(at 121.92 236.22 0)
 		(effects
 			(font
@@ -14140,7 +14169,7 @@
 		)
 		(uuid "45803c65-9a52-4b48-a85f-e71ebce11d88")
 	)
-	(label "PB68A|PCLKT"
+	(label "SHARED_PMOD_B4"
 		(at 190.5 114.3 0)
 		(effects
 			(font
@@ -14150,7 +14179,7 @@
 		)
 		(uuid "45fa0064-3329-4c1a-b39e-74d2a046c935")
 	)
-	(label "PB18A|PCLKT"
+	(label "SDA0"
 		(at 121.92 220.98 0)
 		(effects
 			(font
@@ -14160,7 +14189,7 @@
 		)
 		(uuid "48113207-395e-4819-8a01-275d810d9d5a")
 	)
-	(label "PB42B|PCLKC"
+	(label "PB42B"
 		(at 384.81 207.01 0)
 		(effects
 			(font
@@ -14170,8 +14199,8 @@
 		)
 		(uuid "4840147e-c8c0-45a8-bb1d-c95d87b1821f")
 	)
-	(label "PT61A|MCSN|PCLKT"
-		(at 228.6 134.62 180)
+	(label "EXT_QSPI.MOSI"
+		(at 228.6 132.08 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14180,7 +14209,7 @@
 		)
 		(uuid "487c5771-59c0-4b9f-8100-b176868b9a36")
 	)
-	(label "DPHY1.D0-"
+	(label "EXT_MIPI.D0-"
 		(at 261.62 177.8 0)
 		(effects
 			(font
@@ -14190,7 +14219,7 @@
 		)
 		(uuid "4a10bf85-ed50-404d-9270-123adada1d2f")
 	)
-	(label "DPHY0.D0-"
+	(label "RGB_MIPI.D0-"
 		(at 261.62 106.68 0)
 		(effects
 			(font
@@ -14210,17 +14239,7 @@
 		)
 		(uuid "4c4dde29-ef21-4297-b078-29cdb694e773")
 	)
-	(label "PT65A|MD3"
-		(at 106.68 62.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4d624e91-62da-46b9-ab41-4c8d0f140415")
-	)
-	(label "PB60A|PCLKT"
+	(label "SHARED_PMOD_A4"
 		(at 190.5 144.78 0)
 		(effects
 			(font
@@ -14230,7 +14249,17 @@
 		)
 		(uuid "4ddf6694-4366-44e4-a3f4-7d3a17a9cd7c")
 	)
-	(label "PT61A|MCSN|PCLKT"
+	(label "EXT_QSPI.SD3"
+		(at 213.36 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4f60d2ee-c9a6-46d5-9446-d53b0583492b")
+	)
+	(label "FLASH_CSn"
 		(at 106.68 52.07 0)
 		(effects
 			(font
@@ -14250,7 +14279,7 @@
 		)
 		(uuid "52ac1fd8-ee52-407d-90e8-04a2b1ec06c5")
 	)
-	(label "DPHY0.CLK+"
+	(label "RGB_MIPI.CLK+"
 		(at 381 29.21 0)
 		(effects
 			(font
@@ -14270,7 +14299,7 @@
 		)
 		(uuid "52c002f3-cd3b-47da-b2c2-83282b2c27ad")
 	)
-	(label "PB60A|PCLKT"
+	(label "SHARED_PMOD_A4"
 		(at 107.95 161.29 0)
 		(effects
 			(font
@@ -14280,7 +14309,7 @@
 		)
 		(uuid "53413166-94bb-4faf-9060-23906e048c6e")
 	)
-	(label "PB26A|PCLKT"
+	(label "HSTX2"
 		(at 157.48 121.92 180)
 		(effects
 			(font
@@ -14290,7 +14319,7 @@
 		)
 		(uuid "5368626c-ef5c-4ebb-846d-e6914e75f9a2")
 	)
-	(label "DPHY0.D3-"
+	(label "RGB_MIPI.D3-"
 		(at 381 52.07 0)
 		(effects
 			(font
@@ -14300,7 +14329,7 @@
 		)
 		(uuid "54f6ccae-d79b-4bab-b0a2-0a8cf5d3f336")
 	)
-	(label "DPHY1.D3+"
+	(label "EXT_MIPI.D3+"
 		(at 381 95.25 0)
 		(effects
 			(font
@@ -14310,7 +14339,7 @@
 		)
 		(uuid "563f9a0d-737c-4168-b62e-d257373de927")
 	)
-	(label "DPHY1.D2+"
+	(label "EXT_MIPI.D2+"
 		(at 261.62 152.4 0)
 		(effects
 			(font
@@ -14320,7 +14349,7 @@
 		)
 		(uuid "5a52802d-e559-451e-bca8-1324b7c95603")
 	)
-	(label "PB30A|PCLKT"
+	(label "HSTX6"
 		(at 157.48 106.68 180)
 		(effects
 			(font
@@ -14330,7 +14359,7 @@
 		)
 		(uuid "5b718c3c-f12b-4e06-84c6-fe4e815042bb")
 	)
-	(label "PB22A"
+	(label "QSPI.CSn"
 		(at 121.92 231.14 0)
 		(effects
 			(font
@@ -14340,7 +14369,7 @@
 		)
 		(uuid "5dd38b8f-544c-46e4-81fb-ca794d6e4df6")
 	)
-	(label "PB58A"
+	(label "SHARED_PMOD_A3"
 		(at 107.95 156.21 0)
 		(effects
 			(font
@@ -14350,7 +14379,7 @@
 		)
 		(uuid "5f75f269-71b7-45cc-a39b-acd5bdf78f69")
 	)
-	(label "PB20A|PCLKT"
+	(label "FPGA_CLK"
 		(at 121.92 226.06 0)
 		(effects
 			(font
@@ -14360,7 +14389,7 @@
 		)
 		(uuid "61a3e644-2beb-4f97-bb6d-7bae6a2c9e3b")
 	)
-	(label "PR7B|SCL"
+	(label "FPGA_PMOD4"
 		(at 106.68 97.79 0)
 		(effects
 			(font
@@ -14370,8 +14399,8 @@
 		)
 		(uuid "63e7b518-3669-42de-bbee-ae1c46e6138c")
 	)
-	(label "PT65B|MCSNO|MSDO"
-		(at 106.68 67.31 0)
+	(label "FPGA_PMOD7"
+		(at 106.68 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14379,16 +14408,6 @@
 			(justify left bottom)
 		)
 		(uuid "64b693ee-9b7c-4c64-bd2d-085bd0aa3855")
-	)
-	(label "PT65A|MD3"
-		(at 205.74 53.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "684ec70f-e62f-4eb7-8c44-246236489b54")
 	)
 	(label "SRAM_CEN"
 		(at 280.67 245.11 180)
@@ -14400,7 +14419,7 @@
 		)
 		(uuid "6aba7c61-e649-4fff-be1f-f54f04705338")
 	)
-	(label "PR7B|SCL"
+	(label "FPGA_PMOD4"
 		(at 228.6 175.26 180)
 		(effects
 			(font
@@ -14410,8 +14429,8 @@
 		)
 		(uuid "6d21e3cb-88bd-47a8-91ca-8ba3ff936857")
 	)
-	(label "PT61B|MOSI|MD0"
-		(at 228.6 137.16 180)
+	(label "EXT_QSPI.MISO"
+		(at 228.6 134.62 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14420,7 +14439,7 @@
 		)
 		(uuid "70f1692b-896f-409c-84d1-7f99668afcb1")
 	)
-	(label "PB60B|PCLKC"
+	(label "SHARED_PMOD_A6"
 		(at 190.5 142.24 0)
 		(effects
 			(font
@@ -14430,7 +14449,7 @@
 		)
 		(uuid "73916e4d-7a1f-43b2-91ef-74c70f9036f7")
 	)
-	(label "PB18B|PCLKC"
+	(label "FPGA_CLK"
 		(at 157.48 149.86 180)
 		(effects
 			(font
@@ -14460,7 +14479,7 @@
 		)
 		(uuid "76ec390b-e3e1-4b09-8199-d7801d21a2ae")
 	)
-	(label "PB70A"
+	(label "SHARED_PMOD_B7"
 		(at 190.5 106.68 0)
 		(effects
 			(font
@@ -14470,8 +14489,8 @@
 		)
 		(uuid "7790b1af-b858-4c9a-a345-8b1331154f3f")
 	)
-	(label "PR5A|TDI|SSI"
-		(at 228.6 160.02 180)
+	(label "TDO"
+		(at 228.6 162.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14480,7 +14499,17 @@
 		)
 		(uuid "78555db9-72a0-48a2-8fc1-71b6b783bc65")
 	)
-	(label "DPHY1.D1-"
+	(label "EXT_QSPI.SD2"
+		(at 213.36 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "78aff243-bf80-422c-a643-143a103d0262")
+	)
+	(label "EXT_MIPI.D1-"
 		(at 381 87.63 0)
 		(effects
 			(font
@@ -14490,7 +14519,7 @@
 		)
 		(uuid "79151e24-7828-4fd8-9c16-33244d35c4c6")
 	)
-	(label "PB42A|PCLKT"
+	(label "PB42A"
 		(at 384.81 204.47 0)
 		(effects
 			(font
@@ -14500,7 +14529,7 @@
 		)
 		(uuid "79a3f144-cfc9-4b81-acae-267b2c85ce68")
 	)
-	(label "DPHY1.D0+"
+	(label "EXT_MIPI.D0+"
 		(at 261.62 175.26 0)
 		(effects
 			(font
@@ -14510,7 +14539,7 @@
 		)
 		(uuid "7d59e7dc-121d-4107-aead-1a5f4227d2f8")
 	)
-	(label "PB68B|PCLKC"
+	(label "SHARED_PMOD_B6"
 		(at 190.5 111.76 0)
 		(effects
 			(font
@@ -14520,7 +14549,7 @@
 		)
 		(uuid "7d6eb392-595b-4256-be7c-85689eedbb53")
 	)
-	(label "PB56B|PCLKC"
+	(label "SHARED_PMOD_A0"
 		(at 107.95 153.67 0)
 		(effects
 			(font
@@ -14530,7 +14559,7 @@
 		)
 		(uuid "7d868eec-5a8d-4b15-9bf0-d9732b8dd89a")
 	)
-	(label "PB66A|PCLKT"
+	(label "SHARED_PMOD_B3"
 		(at 190.5 121.92 0)
 		(effects
 			(font
@@ -14540,7 +14569,7 @@
 		)
 		(uuid "80278eb0-38be-4cf6-b324-4161f392bec4")
 	)
-	(label "DPHY1.D3-"
+	(label "EXT_MIPI.D3-"
 		(at 381 97.79 0)
 		(effects
 			(font
@@ -14550,7 +14579,7 @@
 		)
 		(uuid "804d2a32-dba2-4db6-b60d-d6cb5bf35b6f")
 	)
-	(label "PR13B|PCLKT"
+	(label "FPGA_PMOD5"
 		(at 106.68 110.49 0)
 		(effects
 			(font
@@ -14560,8 +14589,8 @@
 		)
 		(uuid "8064f7ed-2f72-43d1-8d52-d95f0ebb25c3")
 	)
-	(label "PT63A|MISO|MD1"
-		(at 205.74 45.72 0)
+	(label "EXT_QSPI.MISO"
+		(at 213.36 46.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14570,7 +14599,7 @@
 		)
 		(uuid "806ada88-864d-4d93-b0c6-7aceaca61afb")
 	)
-	(label "DPHY0.D2-"
+	(label "RGB_MIPI.D2-"
 		(at 381 46.99 0)
 		(effects
 			(font
@@ -14580,7 +14609,7 @@
 		)
 		(uuid "82cd0c6b-a975-42d7-9e00-34cda7e6df4d")
 	)
-	(label "PB16B"
+	(label "QSPI.CSn"
 		(at 157.48 157.48 180)
 		(effects
 			(font
@@ -14590,8 +14619,8 @@
 		)
 		(uuid "835d7597-68c4-4bc5-8c5a-21a01ef0afdb")
 	)
-	(label "PT59B|DONE"
-		(at 228.6 132.08 180)
+	(label "FLASH_CSn"
+		(at 228.6 129.54 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14600,7 +14629,7 @@
 		)
 		(uuid "8485f4f5-d23b-4ae9-972e-24d93adfd479")
 	)
-	(label "PB26A|PCLKT"
+	(label "HSTX2"
 		(at 121.92 241.3 0)
 		(effects
 			(font
@@ -14610,7 +14639,7 @@
 		)
 		(uuid "8736d6c3-3631-425b-86e2-5dc21700a953")
 	)
-	(label "PB70B"
+	(label "SHARED_PMOD_B5"
 		(at 190.5 104.14 0)
 		(effects
 			(font
@@ -14620,7 +14649,7 @@
 		)
 		(uuid "87c08b00-cb5d-4f27-883a-d7320097de19")
 	)
-	(label "PB62B"
+	(label "SHARED_PMOD_A5"
 		(at 190.5 134.62 0)
 		(effects
 			(font
@@ -14630,7 +14659,7 @@
 		)
 		(uuid "88139cd1-cc27-4e08-a04d-266584016d07")
 	)
-	(label "DPHY0.CLK-"
+	(label "RGB_MIPI.CLK-"
 		(at 261.62 121.92 0)
 		(effects
 			(font
@@ -14640,7 +14669,7 @@
 		)
 		(uuid "88b5a85a-8aa2-467f-98ea-3d5403fc1cbf")
 	)
-	(label "PB16A"
+	(label "SDA1"
 		(at 121.92 215.9 0)
 		(effects
 			(font
@@ -14650,7 +14679,7 @@
 		)
 		(uuid "8ac01b7d-a16b-4c10-b799-b727671e3cf2")
 	)
-	(label "PB16A"
+	(label "MIPI_IO.PWR_EN"
 		(at 157.48 160.02 180)
 		(effects
 			(font
@@ -14660,7 +14689,7 @@
 		)
 		(uuid "8b41dbde-aa50-4d73-89e7-41f8886eeb6c")
 	)
-	(label "PB62B"
+	(label "SHARED_PMOD_A5"
 		(at 107.95 168.91 0)
 		(effects
 			(font
@@ -14670,7 +14699,7 @@
 		)
 		(uuid "8c0ee56c-22ba-42b0-a097-8f7b726286d8")
 	)
-	(label "PB28B"
+	(label "HSTX5"
 		(at 157.48 111.76 180)
 		(effects
 			(font
@@ -14680,7 +14709,7 @@
 		)
 		(uuid "8d805423-6a0e-496c-90fd-3740fc4f91d2")
 	)
-	(label "PB18A|PCLKT"
+	(label "IRQn"
 		(at 157.48 152.4 180)
 		(effects
 			(font
@@ -14690,7 +14719,7 @@
 		)
 		(uuid "8e9d58c3-97e8-4ca0-a068-804c31b4d4be")
 	)
-	(label "PB56B|PCLKC"
+	(label "SHARED_PMOD_A0"
 		(at 190.5 157.48 0)
 		(effects
 			(font
@@ -14700,7 +14729,7 @@
 		)
 		(uuid "8fdec98e-b8f3-403c-a6c3-c592cede09d5")
 	)
-	(label "PB22A"
+	(label "SCL0"
 		(at 157.48 137.16 180)
 		(effects
 			(font
@@ -14710,7 +14739,7 @@
 		)
 		(uuid "92bc76a5-9ac9-418b-b872-04027150c93a")
 	)
-	(label "PT67B"
+	(label "FPGA_PMOD7"
 		(at 157.48 165.1 180)
 		(effects
 			(font
@@ -14720,7 +14749,7 @@
 		)
 		(uuid "92fda4ef-4646-4cf6-a10f-7bd73422ceb3")
 	)
-	(label "PB30B|PCLKC"
+	(label "HSTX7"
 		(at 157.48 104.14 180)
 		(effects
 			(font
@@ -14730,7 +14759,7 @@
 		)
 		(uuid "966e2d15-e775-49ed-bb23-27e85768dbb8")
 	)
-	(label "PB56A|PCLKT"
+	(label "SHARED_PMOD_A2"
 		(at 190.5 160.02 0)
 		(effects
 			(font
@@ -14740,7 +14769,7 @@
 		)
 		(uuid "969c4ee1-8e94-45de-9687-46afb7cda882")
 	)
-	(label "PR9A|TCK|SCLK"
+	(label "TCK"
 		(at 106.68 118.11 0)
 		(effects
 			(font
@@ -14760,7 +14789,7 @@
 		)
 		(uuid "985dcd0a-5356-4dd3-9fcd-15986e9487f1")
 	)
-	(label "PB58B"
+	(label "SHARED_PMOD_A1"
 		(at 190.5 149.86 0)
 		(effects
 			(font
@@ -14770,7 +14799,7 @@
 		)
 		(uuid "987768b7-1a14-40e4-90d1-461fee8c7945")
 	)
-	(label "PR5A|TDI|SSI"
+	(label "TDI"
 		(at 106.68 123.19 0)
 		(effects
 			(font
@@ -14780,7 +14809,7 @@
 		)
 		(uuid "999ab754-22a0-4da3-8e0c-5c68d691d9e5")
 	)
-	(label "PR3B|TMS|SCSN"
+	(label "TMS"
 		(at 106.68 120.65 0)
 		(effects
 			(font
@@ -14800,7 +14829,7 @@
 		)
 		(uuid "9c6deb3b-5974-48f0-a690-50c2320ab1ed")
 	)
-	(label "DPHY1.D0+"
+	(label "EXT_MIPI.D0+"
 		(at 381 80.01 0)
 		(effects
 			(font
@@ -14810,8 +14839,8 @@
 		)
 		(uuid "9db9b4b0-3a86-4767-a775-b1fe174c9837")
 	)
-	(label "PT59A|MCLK|PCLKT"
-		(at 157.48 50.8 180)
+	(label "EXT_QSPI.SCK"
+		(at 165.1 52.07 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14840,7 +14869,7 @@
 		)
 		(uuid "a10e3585-6ef0-4ddf-a54d-9f88319d37e5")
 	)
-	(label "DPHY0.D3+"
+	(label "RGB_MIPI.D3+"
 		(at 381 49.53 0)
 		(effects
 			(font
@@ -14870,8 +14899,8 @@
 		)
 		(uuid "a687d221-b184-4e8e-862e-36c34fa15a23")
 	)
-	(label "PT57A|INITN"
-		(at 106.68 39.37 0)
+	(label "FPGA_PMOD3"
+		(at 106.68 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14880,7 +14909,7 @@
 		)
 		(uuid "a6a6f3ca-63e7-418e-8725-2cc39da3ee23")
 	)
-	(label "PT63B|MD2"
+	(label "EXT_QSPI.CSn"
 		(at 228.6 142.24 180)
 		(effects
 			(font
@@ -14890,7 +14919,7 @@
 		)
 		(uuid "abc85f51-9429-4acf-a3f9-ac813ffee69a")
 	)
-	(label "DPHY1.D2-"
+	(label "EXT_MIPI.D2-"
 		(at 261.62 154.94 0)
 		(effects
 			(font
@@ -14900,7 +14929,7 @@
 		)
 		(uuid "ac662d9f-9b9d-4066-a9d4-b48d4b5b1078")
 	)
-	(label "DPHY1.D3-"
+	(label "EXT_MIPI.D3-"
 		(at 261.62 147.32 0)
 		(effects
 			(font
@@ -14910,7 +14939,7 @@
 		)
 		(uuid "afcaad4e-1c74-4288-a6b0-3512fdc02bac")
 	)
-	(label "DPHY1.D1+"
+	(label "EXT_MIPI.D1+"
 		(at 381 85.09 0)
 		(effects
 			(font
@@ -14920,7 +14949,7 @@
 		)
 		(uuid "b0c484d9-f88a-40f1-8292-b6fc6ba7a0cc")
 	)
-	(label "PR13A|PCLKT"
+	(label "FPGA_PMOD1"
 		(at 106.68 107.95 0)
 		(effects
 			(font
@@ -14930,7 +14959,7 @@
 		)
 		(uuid "b369e029-2cca-4613-a36d-01366c02cd40")
 	)
-	(label "DPHY1.D2+"
+	(label "EXT_MIPI.D2+"
 		(at 381 90.17 0)
 		(effects
 			(font
@@ -14950,7 +14979,7 @@
 		)
 		(uuid "b615803a-3c42-4128-9a78-b7872c563a30")
 	)
-	(label "PB58A"
+	(label "SHARED_PMOD_A3"
 		(at 190.5 152.4 0)
 		(effects
 			(font
@@ -14960,8 +14989,8 @@
 		)
 		(uuid "b686883c-a6d1-437b-9a05-272fb8635c93")
 	)
-	(label "PT67B"
-		(at 106.68 72.39 0)
+	(label "FPGA_PMOD6"
+		(at 106.68 41.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14970,7 +14999,7 @@
 		)
 		(uuid "b6acc343-3211-416d-9c7e-c69340e31cdd")
 	)
-	(label "PB26B|PCLKC"
+	(label "HSTX3"
 		(at 121.92 243.84 0)
 		(effects
 			(font
@@ -14980,7 +15009,7 @@
 		)
 		(uuid "b70a0489-74db-4223-a27f-bd7cda660b99")
 	)
-	(label "PB68B|PCLKC"
+	(label "SHARED_PMOD_B6"
 		(at 107.95 184.15 0)
 		(effects
 			(font
@@ -14990,7 +15019,7 @@
 		)
 		(uuid "b7fe3a3f-e137-4e20-b00a-6507a1b67180")
 	)
-	(label "PB22B"
+	(label "SDA0"
 		(at 157.48 134.62 180)
 		(effects
 			(font
@@ -15000,7 +15029,7 @@
 		)
 		(uuid "b8f6e351-f36f-4049-b177-26ce79a8dac2")
 	)
-	(label "PB66A|PCLKT"
+	(label "SHARED_PMOD_B3"
 		(at 107.95 176.53 0)
 		(effects
 			(font
@@ -15010,7 +15039,7 @@
 		)
 		(uuid "ba754cd4-f864-4dc9-8b31-6e0d7806618d")
 	)
-	(label "PB66B|PCLKC"
+	(label "SHARED_PMOD_B1"
 		(at 190.5 119.38 0)
 		(effects
 			(font
@@ -15030,8 +15059,8 @@
 		)
 		(uuid "bebe747e-2f89-4fb4-bf76-6047cfdec2dd")
 	)
-	(label "PT65B|MCSNO|MSDO"
-		(at 228.6 147.32 180)
+	(label "FPGA_PMOD6"
+		(at 157.48 172.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15040,7 +15069,7 @@
 		)
 		(uuid "c1859354-dfdc-4897-8016-e7efdd08b879")
 	)
-	(label "PT63A|MISO|MD1"
+	(label "EXT_QSPI.MISO"
 		(at 106.68 57.15 0)
 		(effects
 			(font
@@ -15050,7 +15079,7 @@
 		)
 		(uuid "c351294f-0943-43fa-a3d4-6b9fe7fb4306")
 	)
-	(label "DPHY0.D2+"
+	(label "RGB_MIPI.D2+"
 		(at 261.62 132.08 0)
 		(effects
 			(font
@@ -15060,8 +15089,8 @@
 		)
 		(uuid "c3cebc4c-8d2a-4d81-85be-ff1b4286267f")
 	)
-	(label "PR11B|PCLKT"
-		(at 157.48 172.72 180)
+	(label "MULTI_FN"
+		(at 228.6 147.32 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15070,7 +15099,7 @@
 		)
 		(uuid "c5630726-3260-4506-8b98-8fc9c68dc974")
 	)
-	(label "PT59A|MCLK|PCLKT"
+	(label "EXT_QSPI.SCK"
 		(at 106.68 49.53 0)
 		(effects
 			(font
@@ -15080,7 +15109,7 @@
 		)
 		(uuid "c5b4ecad-4704-4a69-b1a9-6d07d267edba")
 	)
-	(label "PB18B|PCLKC"
+	(label "SCL0"
 		(at 121.92 223.52 0)
 		(effects
 			(font
@@ -15090,7 +15119,7 @@
 		)
 		(uuid "c6f1b6b5-4377-4aae-8a3c-3a943e900538")
 	)
-	(label "PB64A"
+	(label "SHARED_PMOD_B2"
 		(at 190.5 129.54 0)
 		(effects
 			(font
@@ -15100,7 +15129,7 @@
 		)
 		(uuid "c707e486-c1c9-4908-b5ea-9cf655b260ad")
 	)
-	(label "DPHY0.D0-"
+	(label "RGB_MIPI.D0-"
 		(at 381 36.83 0)
 		(effects
 			(font
@@ -15120,17 +15149,7 @@
 		)
 		(uuid "cb8d303f-0851-471e-9524-0ae238453b94")
 	)
-	(label "PT59A|MCLK|PCLKT"
-		(at 228.6 129.54 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "cd5778f4-ef52-4425-8ea9-2ea70f89870d")
-	)
-	(label "PB64A"
+	(label "SHARED_PMOD_B2"
 		(at 107.95 171.45 0)
 		(effects
 			(font
@@ -15140,7 +15159,7 @@
 		)
 		(uuid "cebb9f56-31f1-40a7-a198-28c96a3f2de0")
 	)
-	(label "DPHY0.D3+"
+	(label "RGB_MIPI.D3+"
 		(at 261.62 139.7 0)
 		(effects
 			(font
@@ -15150,7 +15169,7 @@
 		)
 		(uuid "d0aeb02c-40be-4eaa-9eea-ab96a383c481")
 	)
-	(label "PB24B"
+	(label "HSTX1"
 		(at 157.48 127 180)
 		(effects
 			(font
@@ -15160,7 +15179,7 @@
 		)
 		(uuid "d10280b4-d074-4e6d-9972-be8e489299f2")
 	)
-	(label "PB28B"
+	(label "HSTX5"
 		(at 121.92 248.92 0)
 		(effects
 			(font
@@ -15170,7 +15189,7 @@
 		)
 		(uuid "d11e11d1-548f-442f-8488-f00bfd2e04a4")
 	)
-	(label "DPHY1.D0-"
+	(label "EXT_MIPI.D0-"
 		(at 381 82.55 0)
 		(effects
 			(font
@@ -15180,7 +15199,7 @@
 		)
 		(uuid "d2e0e288-7718-4ef6-8d8b-0974a62f3fa6")
 	)
-	(label "DPHY1.CLK-"
+	(label "EXT_MIPI.CLK-"
 		(at 381 77.47 0)
 		(effects
 			(font
@@ -15190,8 +15209,8 @@
 		)
 		(uuid "d4da872d-fdac-4b98-a11d-391691d505aa")
 	)
-	(label "PR9B"
-		(at 228.6 152.4 180)
+	(label "MIPI_IO.LED_EN"
+		(at 228.6 144.78 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15200,7 +15219,7 @@
 		)
 		(uuid "d60605c3-783d-4c88-a5cd-5be2f8a98166")
 	)
-	(label "PB42A|PCLKT"
+	(label "PB42A"
 		(at 190.5 170.18 0)
 		(effects
 			(font
@@ -15210,7 +15229,7 @@
 		)
 		(uuid "d6570473-48d4-485f-a53b-99e5ffe758d2")
 	)
-	(label "PB20B|PCLKC"
+	(label "IRQn"
 		(at 121.92 228.6 0)
 		(effects
 			(font
@@ -15220,8 +15239,18 @@
 		)
 		(uuid "d8d7166a-031c-4004-bfe5-bf69b689d351")
 	)
-	(label "PR3B|TMS|SCSN"
-		(at 228.6 162.56 180)
+	(label "EXT_QSPI.SD2"
+		(at 228.6 137.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d9153da5-62c5-4a74-9279-25c63d1e73dd")
+	)
+	(label "TCK"
+		(at 228.6 154.94 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15230,7 +15259,7 @@
 		)
 		(uuid "d9561b7d-3289-4f50-8891-d5689bc221c0")
 	)
-	(label "PB62A"
+	(label "SHARED_PMOD_A7"
 		(at 190.5 137.16 0)
 		(effects
 			(font
@@ -15250,7 +15279,7 @@
 		)
 		(uuid "da6d4f75-13f4-4bc2-9aea-0af4dc2a52ec")
 	)
-	(label "PR7A|SDA"
+	(label "FPGA_PMOD0"
 		(at 106.68 95.25 0)
 		(effects
 			(font
@@ -15260,7 +15289,7 @@
 		)
 		(uuid "db28d19f-6761-4006-9826-f534d9c20303")
 	)
-	(label "PT61B|MOSI|MD0"
+	(label "EXT_QSPI.MOSI"
 		(at 106.68 54.61 0)
 		(effects
 			(font
@@ -15280,7 +15309,7 @@
 		)
 		(uuid "db87ce10-a380-42cd-8d72-7c9e7811852c")
 	)
-	(label "DPHY1.D1-"
+	(label "EXT_MIPI.D1-"
 		(at 261.62 170.18 0)
 		(effects
 			(font
@@ -15290,7 +15319,7 @@
 		)
 		(uuid "dd38406b-0140-476c-8dc0-0d32fc611d80")
 	)
-	(label "PB20A|PCLKT"
+	(label "SCL1"
 		(at 157.48 144.78 180)
 		(effects
 			(font
@@ -15310,8 +15339,8 @@
 		)
 		(uuid "e0c1c0e9-6c62-46cc-8f8d-2de090f80e64")
 	)
-	(label "PT61A|MCSN|PCLKT"
-		(at 157.48 45.72 180)
+	(label "FLASH_CSn"
+		(at 165.1 46.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15320,7 +15349,7 @@
 		)
 		(uuid "e0d0da95-9ccd-4814-82a5-db66fee44ac7")
 	)
-	(label "PB64B"
+	(label "SHARED_PMOD_B0"
 		(at 107.95 173.99 0)
 		(effects
 			(font
@@ -15330,7 +15359,7 @@
 		)
 		(uuid "e2feefba-da54-496e-af5a-017ad89b2916")
 	)
-	(label "DPHY1.D2-"
+	(label "EXT_MIPI.D2-"
 		(at 381 92.71 0)
 		(effects
 			(font
@@ -15340,7 +15369,7 @@
 		)
 		(uuid "e573e10d-ed2b-4aca-a8a4-bb9b4ce1139e")
 	)
-	(label "PB28A"
+	(label "HSTX4"
 		(at 157.48 114.3 180)
 		(effects
 			(font
@@ -15360,7 +15389,7 @@
 		)
 		(uuid "eb5ea25d-3f2f-4e9e-acb3-fa4451c3b95f")
 	)
-	(label "DPHY0.CLK+"
+	(label "RGB_MIPI.CLK+"
 		(at 261.62 124.46 0)
 		(effects
 			(font
@@ -15370,7 +15399,7 @@
 		)
 		(uuid "ed88e281-efd7-4909-b877-4b52e44e46f4")
 	)
-	(label "DPHY0.CLK-"
+	(label "RGB_MIPI.CLK-"
 		(at 381 31.75 0)
 		(effects
 			(font
@@ -15380,7 +15409,7 @@
 		)
 		(uuid "ee44e4d0-a7b0-48c7-b8fb-69d11b5d908c")
 	)
-	(label "PB62A"
+	(label "SHARED_PMOD_A7"
 		(at 107.95 166.37 0)
 		(effects
 			(font
@@ -15390,7 +15419,7 @@
 		)
 		(uuid "eef07caa-2ce6-4584-a63e-9166a958c432")
 	)
-	(label "PB42B|PCLKC"
+	(label "PB42B"
 		(at 190.5 172.72 0)
 		(effects
 			(font
@@ -15400,7 +15429,7 @@
 		)
 		(uuid "ef57a54f-9c2a-46b3-aa46-83ae02081053")
 	)
-	(label "DPHY0.D0+"
+	(label "RGB_MIPI.D0+"
 		(at 261.62 109.22 0)
 		(effects
 			(font
@@ -15410,7 +15439,7 @@
 		)
 		(uuid "ef67ca18-e232-41a0-9d6b-740ac0408448")
 	)
-	(label "PR13B|PCLKT"
+	(label "FPGA_PMOD5"
 		(at 228.6 167.64 180)
 		(effects
 			(font
@@ -15430,7 +15459,7 @@
 		)
 		(uuid "f06e393d-6177-4b9f-b227-2fe2cf42a78e")
 	)
-	(label "DPHY0.D3-"
+	(label "RGB_MIPI.D3-"
 		(at 261.62 137.16 0)
 		(effects
 			(font
@@ -15440,7 +15469,7 @@
 		)
 		(uuid "f3dc07e9-1212-43de-835a-cfcf8eea2ecb")
 	)
-	(label "PB66B|PCLKC"
+	(label "SHARED_PMOD_B1"
 		(at 107.95 179.07 0)
 		(effects
 			(font
@@ -15450,7 +15479,7 @@
 		)
 		(uuid "f41f0666-dacb-44b7-be7d-6fba5c73a02d")
 	)
-	(label "PB64B"
+	(label "SHARED_PMOD_B0"
 		(at 190.5 127 0)
 		(effects
 			(font
@@ -15461,7 +15490,7 @@
 		(uuid "f4e59b3f-3296-4148-afc8-bb5e032e471e")
 	)
 	(label "JTAG_EN"
-		(at 228.6 149.86 180)
+		(at 228.6 152.4 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15470,17 +15499,7 @@
 		)
 		(uuid "f7eab1c9-2ced-4e84-96c2-41860fb9b4a8")
 	)
-	(label "PT63B|MD2"
-		(at 205.74 50.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f9ecf681-5178-4a79-9ac3-82f63dac8dbd")
-	)
-	(label "PR5B|TDO|SSO"
+	(label "TDO"
 		(at 106.68 125.73 0)
 		(effects
 			(font
@@ -15500,7 +15519,7 @@
 		)
 		(uuid "fc41b2d4-f2cd-4dd5-93ae-f28fc34f5891")
 	)
-	(label "DPHY1.D3+"
+	(label "EXT_MIPI.D3+"
 		(at 261.62 144.78 0)
 		(effects
 			(font
@@ -15510,7 +15529,7 @@
 		)
 		(uuid "fcd6de02-cf0f-4ed7-9a66-ebc7b59be20a")
 	)
-	(label "DPHY0.D2-"
+	(label "RGB_MIPI.D2-"
 		(at 261.62 129.54 0)
 		(effects
 			(font
@@ -15627,7 +15646,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pico:IND_BLM15_0402_MUR-M"
 			(at 302.26 148.59 0)
 			(effects
 				(font
@@ -15931,7 +15950,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pico:IND_BLM15_0402_MUR-M"
 			(at 288.29 29.21 0)
 			(effects
 				(font
@@ -17042,7 +17061,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pico:IND_BLM15_0402_MUR-M"
 			(at 288.29 74.93 0)
 			(effects
 				(font
@@ -17275,7 +17294,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pico:DF40C60DP04V51"
 			(at 242.57 139.7 0)
 			(effects
 				(font
@@ -17717,7 +17736,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pico:BGA121N50P11X11_600X600X100"
 			(at 327.66 72.39 0)
 			(effects
 				(font
@@ -18504,7 +18523,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pico:BGA121N50P11X11_600X600X100"
 			(at 39.37 213.36 0)
 			(effects
 				(font
@@ -18951,7 +18970,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pico:BGA121N50P11X11_600X600X100"
 			(at 39.37 148.59 0)
 			(effects
 				(font
@@ -19397,7 +19416,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pico:IND_BLM15_0402_MUR-M"
 			(at 288.29 82.55 0)
 			(effects
 				(font
@@ -19906,7 +19925,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pico:BGA121N50P11X11_600X600X100"
 			(at 396.24 115.57 0)
 			(effects
 				(font
@@ -20688,7 +20707,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pico:DF40C60DP04V51"
 			(at 173.99 139.7 0)
 			(effects
 				(font
@@ -21263,7 +21282,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pico:IND_BLM15_0402_MUR-M"
 			(at 302.26 130.81 0)
 			(effects
 				(font
@@ -21700,7 +21719,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pico:BGA121N50P11X11_600X600X100"
 			(at 331.47 196.85 0)
 			(effects
 				(font
@@ -22348,7 +22367,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pico:BGA121N50P11X11_600X600X100"
 			(at 396.24 143.51 0)
 			(effects
 				(font
@@ -22976,7 +22995,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 190.5 31.75 0)
+		(at 198.12 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22984,7 +23003,7 @@
 		(dnp no)
 		(uuid "85192f3e-a7c9-4aac-bb71-75e5235079e1")
 		(property "Reference" "#PWR045"
-			(at 190.5 31.75 0)
+			(at 198.12 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22993,7 +23012,7 @@
 			)
 		)
 		(property "Value" "P3V3D_FPGA"
-			(at 190.5 28.194 0)
+			(at 198.12 29.464 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23001,7 +23020,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 31.75 0)
+			(at 198.12 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23010,7 +23029,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 31.75 0)
+			(at 198.12 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23019,7 +23038,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 190.5 31.75 0)
+			(at 198.12 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23270,7 +23289,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pico:BGA121N50P11X11_600X600X100"
 			(at 39.37 36.83 0)
 			(effects
 				(font
@@ -23760,7 +23779,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 176.53 39.37 0)
+		(at 184.15 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23768,7 +23787,7 @@
 		(dnp no)
 		(uuid "8aec26b8-43b9-4af6-b5c5-57cc1a65aaac")
 		(property "Reference" "#PWR041"
-			(at 176.53 45.72 0)
+			(at 184.15 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23777,7 +23796,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 172.72 40.64 0)
+			(at 180.34 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23785,7 +23804,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 176.53 39.37 0)
+			(at 184.15 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23794,7 +23813,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 39.37 0)
+			(at 184.15 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23803,7 +23822,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 176.53 39.37 0)
+			(at 184.15 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24097,7 +24116,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 248.92 36.83 0)
+		(at 245.11 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24105,7 +24124,7 @@
 		(dnp no)
 		(uuid "9316c157-6ce0-4118-b8c6-89e06503d1a4")
 		(property "Reference" "#PWR053"
-			(at 248.92 36.83 0)
+			(at 245.11 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24114,7 +24133,7 @@
 			)
 		)
 		(property "Value" "P3V3D_FPGA"
-			(at 249.174 33.274 0)
+			(at 245.364 34.544 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24122,7 +24141,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 248.92 36.83 0)
+			(at 245.11 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24131,7 +24150,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.92 36.83 0)
+			(at 245.11 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24140,7 +24159,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 248.92 36.83 0)
+			(at 245.11 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24229,7 +24248,7 @@
 	)
 	(symbol
 		(lib_id "UPduino_v3.0:W25Q32JVSS-Memory_Flash")
-		(at 190.5 48.26 0)
+		(at 198.12 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24237,7 +24256,7 @@
 		(dnp no)
 		(uuid "958c22b8-1a72-41c7-997c-1057781c1c7e")
 		(property "Reference" "U4"
-			(at 194.31 35.56 0)
+			(at 201.93 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24245,7 +24264,7 @@
 			)
 		)
 		(property "Value" "W25Q128JVPIQ"
-			(at 199.39 38.1 0)
+			(at 207.01 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24253,7 +24272,7 @@
 			)
 		)
 		(property "Footprint" "Package_SON:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4.3mm"
-			(at 190.5 48.26 0)
+			(at 198.12 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24262,7 +24281,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.winbond.com/hq/product/code-storage-flash-memory/serial-nor-flash/?__locale=en&partNo=W25Q128JV"
-			(at 190.5 48.26 0)
+			(at 198.12 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24271,7 +24290,7 @@
 			)
 		)
 		(property "Description" "IC FLASH 128MBIT SPI/QUAD 8SOIC"
-			(at 190.5 48.26 0)
+			(at 198.12 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24280,7 +24299,7 @@
 			)
 		)
 		(property "MPN" "W25Q128JVPIQ"
-			(at 190.5 48.26 0)
+			(at 198.12 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24289,7 +24308,7 @@
 			)
 		)
 		(property "Manufacturer" "Winbond Elec"
-			(at 190.5 48.26 0)
+			(at 198.12 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24298,7 +24317,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 190.5 48.26 0)
+			(at 198.12 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24341,7 +24360,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 176.53 35.56 0)
+		(at 184.15 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24349,7 +24368,7 @@
 		(dnp no)
 		(uuid "96515c90-bc9b-4bb3-aad6-74200200ae5c")
 		(property "Reference" "C18"
-			(at 172.212 33.528 0)
+			(at 179.832 34.798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24358,7 +24377,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 170.942 37.846 0)
+			(at 178.562 39.116 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24367,7 +24386,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 177.4952 39.37 0)
+			(at 185.1152 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24376,7 +24395,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 176.53 35.56 0)
+			(at 184.15 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24385,7 +24404,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 176.53 35.56 0)
+			(at 184.15 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24435,7 +24454,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pico:IND_BLM15_0402_MUR-M"
 			(at 288.29 91.44 0)
 			(effects
 				(font
@@ -24918,7 +24937,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 161.29 38.1 0)
+		(at 168.91 39.37 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -24927,7 +24946,7 @@
 		(dnp no)
 		(uuid "9dd1a034-8fa2-4a19-9c1b-e4e2a6cbbe98")
 		(property "Reference" "R9"
-			(at 164.084 37.338 0)
+			(at 171.704 38.608 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24935,7 +24954,7 @@
 			)
 		)
 		(property "Value" "4.7K"
-			(at 164.592 39.116 0)
+			(at 172.212 40.386 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24943,7 +24962,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 161.29 38.1 0)
+			(at 168.91 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24952,7 +24971,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 161.29 38.1 0)
+			(at 168.91 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24961,7 +24980,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 161.29 38.1 0)
+			(at 168.91 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25121,7 +25140,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 190.5 58.42 0)
+		(at 198.12 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25129,7 +25148,7 @@
 		(dnp no)
 		(uuid "a2ca32ac-4161-4c27-ada6-c6a7369f21f8")
 		(property "Reference" "#PWR046"
-			(at 190.5 64.77 0)
+			(at 198.12 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25138,7 +25157,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 186.69 59.69 0)
+			(at 194.31 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25146,7 +25165,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 58.42 0)
+			(at 198.12 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25155,7 +25174,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 58.42 0)
+			(at 198.12 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25164,7 +25183,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 190.5 58.42 0)
+			(at 198.12 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25281,7 +25300,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pico:BGA121N50P11X11_600X600X100"
 			(at 39.37 92.71 0)
 			(effects
 				(font
@@ -26796,7 +26815,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pico:BGA24_APS6408L-3OBM-BA_APY"
 			(at 250.19 199.39 0)
 			(effects
 				(font
@@ -27118,7 +27137,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 161.29 33.02 0)
+		(at 168.91 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27126,7 +27145,7 @@
 		(dnp no)
 		(uuid "d4c240b3-018d-4905-9612-d47fe76a7a84")
 		(property "Reference" "#PWR034"
-			(at 161.29 33.02 0)
+			(at 168.91 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27135,7 +27154,7 @@
 			)
 		)
 		(property "Value" "P3V3D_FPGA"
-			(at 161.29 29.464 0)
+			(at 168.91 30.734 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27143,7 +27162,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 161.29 33.02 0)
+			(at 168.91 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27152,7 +27171,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 33.02 0)
+			(at 168.91 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27161,7 +27180,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 161.29 33.02 0)
+			(at 168.91 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27676,7 +27695,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pico:IND_BLM15_0402_MUR-M"
 			(at 288.29 36.83 0)
 			(effects
 				(font
@@ -27846,7 +27865,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pico:BGA121N50P11X11_600X600X100"
 			(at 327.66 26.67 0)
 			(effects
 				(font
@@ -28466,7 +28485,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 238.76 41.91 180)
+		(at 234.95 43.18 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28474,7 +28493,7 @@
 		(dnp no)
 		(uuid "ec0645d8-7e43-43ba-a0c6-9b84a21be9cd")
 		(property "Reference" "R33"
-			(at 242.062 40.894 0)
+			(at 238.252 42.164 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28482,7 +28501,7 @@
 			)
 		)
 		(property "Value" "4.7K"
-			(at 242.316 42.672 0)
+			(at 238.506 43.942 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28490,7 +28509,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 238.76 41.91 0)
+			(at 234.95 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28499,7 +28518,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 238.76 41.91 0)
+			(at 234.95 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28508,7 +28527,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 238.76 41.91 0)
+			(at 234.95 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28665,7 +28684,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 248.92 41.91 180)
+		(at 245.11 43.18 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28673,7 +28692,7 @@
 		(dnp no)
 		(uuid "edfa2107-0846-4d04-afce-cda7df3540b2")
 		(property "Reference" "R51"
-			(at 252.476 40.894 0)
+			(at 248.666 42.164 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28681,7 +28700,7 @@
 			)
 		)
 		(property "Value" "4.7K"
-			(at 252.73 42.926 0)
+			(at 248.92 44.196 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28689,7 +28708,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 248.92 41.91 0)
+			(at 245.11 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28698,7 +28717,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 248.92 41.91 0)
+			(at 245.11 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28707,7 +28726,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 248.92 41.91 0)
+			(at 245.11 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28823,7 +28842,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pico:IND_BLM15_0402_MUR-M"
 			(at 288.29 45.72 0)
 			(effects
 				(font

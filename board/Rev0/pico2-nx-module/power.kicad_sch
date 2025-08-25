@@ -2046,7 +2046,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 180.34 95.25 0)
 			(effects
 				(font
@@ -2605,7 +2605,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pico:DFE201610E"
 			(at 160.02 95.25 0)
 			(effects
 				(font
