@@ -15646,7 +15646,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pico:IND_BLM15_0402_MUR-M"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 302.26 148.59 0)
 			(effects
 				(font
@@ -15950,7 +15950,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pico:IND_BLM15_0402_MUR-M"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 288.29 29.21 0)
 			(effects
 				(font
@@ -17061,7 +17061,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pico:IND_BLM15_0402_MUR-M"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 288.29 74.93 0)
 			(effects
 				(font
@@ -19416,7 +19416,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pico:IND_BLM15_0402_MUR-M"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 288.29 82.55 0)
 			(effects
 				(font
@@ -21282,7 +21282,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pico:IND_BLM15_0402_MUR-M"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 302.26 130.81 0)
 			(effects
 				(font
@@ -24454,7 +24454,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pico:IND_BLM15_0402_MUR-M"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 288.29 91.44 0)
 			(effects
 				(font
@@ -27695,7 +27695,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pico:IND_BLM15_0402_MUR-M"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 288.29 36.83 0)
 			(effects
 				(font
@@ -28842,7 +28842,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pico:IND_BLM15_0402_MUR-M"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 288.29 45.72 0)
 			(effects
 				(font
