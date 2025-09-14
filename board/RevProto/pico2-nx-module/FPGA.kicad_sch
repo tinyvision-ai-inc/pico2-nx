@@ -13756,7 +13756,7 @@
 		)
 		(uuid "0320bc7c-9b44-4479-ae23-ecb2ee97483f")
 	)
-	(label "RGB_MIPI.D1+"
+	(label "DPHY0.D1+"
 		(at 261.62 116.84 0)
 		(effects
 			(font
@@ -13796,7 +13796,7 @@
 		)
 		(uuid "0933ecba-bd54-4939-95d5-79e59a582da3")
 	)
-	(label "RGB_MIPI.D1-"
+	(label "DPHY0.D1-"
 		(at 261.62 114.3 0)
 		(effects
 			(font
@@ -13936,7 +13936,7 @@
 		)
 		(uuid "1a7ab009-c314-4c9c-9c7e-6b5b689f783b")
 	)
-	(label "RGB_MIPI.D1+"
+	(label "DPHY0.D1+"
 		(at 381 39.37 0)
 		(effects
 			(font
@@ -13976,7 +13976,7 @@
 		)
 		(uuid "1e695c47-d339-4bdf-b170-600d76fb58bd")
 	)
-	(label "EXT_MIPI.CLK+"
+	(label "DPHY1.CLK+"
 		(at 261.62 160.02 0)
 		(effects
 			(font
@@ -13996,7 +13996,7 @@
 		)
 		(uuid "22f8d8db-282e-47a7-87bb-cd1325c49e80")
 	)
-	(label "RGB_MIPI.D1-"
+	(label "DPHY0.D1-"
 		(at 381 41.91 0)
 		(effects
 			(font
@@ -14106,7 +14106,7 @@
 		)
 		(uuid "2ce3e970-8884-480f-ad33-402380104785")
 	)
-	(label "EXT_MIPI.CLK+"
+	(label "DPHY1.CLK+"
 		(at 381 74.93 0)
 		(effects
 			(font
@@ -14146,7 +14146,7 @@
 		)
 		(uuid "3121703f-7398-41d0-a88d-67e6a7b65e31")
 	)
-	(label "RGB_MIPI.D0+"
+	(label "DPHY0.D0+"
 		(at 381 34.29 0)
 		(effects
 			(font
@@ -14156,7 +14156,7 @@
 		)
 		(uuid "31be164d-c853-4841-9fd8-eed7797d5c0f")
 	)
-	(label "EXT_MIPI.D1+"
+	(label "DPHY1.D1+"
 		(at 261.62 167.64 0)
 		(effects
 			(font
@@ -14186,7 +14186,7 @@
 		)
 		(uuid "36bba7f3-b1ac-4ecd-9f82-7d5c4f272411")
 	)
-	(label "EXT_MIPI.CLK-"
+	(label "DPHY1.CLK-"
 		(at 261.62 162.56 0)
 		(effects
 			(font
@@ -14296,7 +14296,7 @@
 		)
 		(uuid "41fde1dc-5f44-4c5c-8cdf-a76e8a922b93")
 	)
-	(label "RGB_MIPI.D2+"
+	(label "DPHY0.D2+"
 		(at 381 44.45 0)
 		(effects
 			(font
@@ -14366,7 +14366,7 @@
 		)
 		(uuid "487c5771-59c0-4b9f-8100-b176868b9a36")
 	)
-	(label "EXT_MIPI.D0-"
+	(label "DPHY1.D0-"
 		(at 261.62 177.8 0)
 		(effects
 			(font
@@ -14376,7 +14376,7 @@
 		)
 		(uuid "4a10bf85-ed50-404d-9270-123adada1d2f")
 	)
-	(label "RGB_MIPI.D0-"
+	(label "DPHY0.D0-"
 		(at 261.62 106.68 0)
 		(effects
 			(font
@@ -14436,7 +14436,7 @@
 		)
 		(uuid "52ac1fd8-ee52-407d-90e8-04a2b1ec06c5")
 	)
-	(label "RGB_MIPI.CLK+"
+	(label "DPHY0.CLK+"
 		(at 381 29.21 0)
 		(effects
 			(font
@@ -14476,7 +14476,7 @@
 		)
 		(uuid "5368626c-ef5c-4ebb-846d-e6914e75f9a2")
 	)
-	(label "RGB_MIPI.D3-"
+	(label "DPHY0.D3-"
 		(at 381 52.07 0)
 		(effects
 			(font
@@ -14486,7 +14486,7 @@
 		)
 		(uuid "54f6ccae-d79b-4bab-b0a2-0a8cf5d3f336")
 	)
-	(label "EXT_MIPI.D3+"
+	(label "DPHY1.D3+"
 		(at 381 95.25 0)
 		(effects
 			(font
@@ -14496,7 +14496,7 @@
 		)
 		(uuid "563f9a0d-737c-4168-b62e-d257373de927")
 	)
-	(label "EXT_MIPI.D2+"
+	(label "DPHY1.D2+"
 		(at 261.62 152.4 0)
 		(effects
 			(font
@@ -14676,7 +14676,7 @@
 		)
 		(uuid "78aff243-bf80-422c-a643-143a103d0262")
 	)
-	(label "EXT_MIPI.D1-"
+	(label "DPHY1.D1-"
 		(at 381 87.63 0)
 		(effects
 			(font
@@ -14696,7 +14696,7 @@
 		)
 		(uuid "79a3f144-cfc9-4b81-acae-267b2c85ce68")
 	)
-	(label "EXT_MIPI.D0+"
+	(label "DPHY1.D0+"
 		(at 261.62 175.26 0)
 		(effects
 			(font
@@ -14736,7 +14736,7 @@
 		)
 		(uuid "80278eb0-38be-4cf6-b324-4161f392bec4")
 	)
-	(label "EXT_MIPI.D3-"
+	(label "DPHY1.D3-"
 		(at 381 97.79 0)
 		(effects
 			(font
@@ -14766,7 +14766,7 @@
 		)
 		(uuid "806ada88-864d-4d93-b0c6-7aceaca61afb")
 	)
-	(label "RGB_MIPI.D2-"
+	(label "DPHY0.D2-"
 		(at 381 46.99 0)
 		(effects
 			(font
@@ -14826,7 +14826,7 @@
 		)
 		(uuid "88139cd1-cc27-4e08-a04d-266584016d07")
 	)
-	(label "RGB_MIPI.CLK-"
+	(label "DPHY0.CLK-"
 		(at 261.62 121.92 0)
 		(effects
 			(font
@@ -14996,7 +14996,7 @@
 		)
 		(uuid "9c6deb3b-5974-48f0-a690-50c2320ab1ed")
 	)
-	(label "EXT_MIPI.D0+"
+	(label "DPHY1.D0+"
 		(at 381 80.01 0)
 		(effects
 			(font
@@ -15036,7 +15036,7 @@
 		)
 		(uuid "a10e3585-6ef0-4ddf-a54d-9f88319d37e5")
 	)
-	(label "RGB_MIPI.D3+"
+	(label "DPHY0.D3+"
 		(at 381 49.53 0)
 		(effects
 			(font
@@ -15076,7 +15076,7 @@
 		)
 		(uuid "a6a6f3ca-63e7-418e-8725-2cc39da3ee23")
 	)
-	(label "EXT_MIPI.D2-"
+	(label "DPHY1.D2-"
 		(at 261.62 154.94 0)
 		(effects
 			(font
@@ -15086,7 +15086,7 @@
 		)
 		(uuid "ac662d9f-9b9d-4066-a9d4-b48d4b5b1078")
 	)
-	(label "EXT_MIPI.D3-"
+	(label "DPHY1.D3-"
 		(at 261.62 147.32 0)
 		(effects
 			(font
@@ -15096,7 +15096,7 @@
 		)
 		(uuid "afcaad4e-1c74-4288-a6b0-3512fdc02bac")
 	)
-	(label "EXT_MIPI.D1+"
+	(label "DPHY1.D1+"
 		(at 381 85.09 0)
 		(effects
 			(font
@@ -15116,7 +15116,7 @@
 		)
 		(uuid "b369e029-2cca-4613-a36d-01366c02cd40")
 	)
-	(label "EXT_MIPI.D2+"
+	(label "DPHY1.D2+"
 		(at 381 90.17 0)
 		(effects
 			(font
@@ -15236,7 +15236,7 @@
 		)
 		(uuid "c351294f-0943-43fa-a3d4-6b9fe7fb4306")
 	)
-	(label "RGB_MIPI.D2+"
+	(label "DPHY0.D2+"
 		(at 261.62 132.08 0)
 		(effects
 			(font
@@ -15286,7 +15286,7 @@
 		)
 		(uuid "c707e486-c1c9-4908-b5ea-9cf655b260ad")
 	)
-	(label "RGB_MIPI.D0-"
+	(label "DPHY0.D0-"
 		(at 381 36.83 0)
 		(effects
 			(font
@@ -15316,7 +15316,7 @@
 		)
 		(uuid "cebb9f56-31f1-40a7-a198-28c96a3f2de0")
 	)
-	(label "RGB_MIPI.D3+"
+	(label "DPHY0.D3+"
 		(at 261.62 139.7 0)
 		(effects
 			(font
@@ -15346,7 +15346,7 @@
 		)
 		(uuid "d11e11d1-548f-442f-8488-f00bfd2e04a4")
 	)
-	(label "EXT_MIPI.D0-"
+	(label "DPHY1.D0-"
 		(at 381 82.55 0)
 		(effects
 			(font
@@ -15356,7 +15356,7 @@
 		)
 		(uuid "d2e0e288-7718-4ef6-8d8b-0974a62f3fa6")
 	)
-	(label "EXT_MIPI.CLK-"
+	(label "DPHY1.CLK-"
 		(at 381 77.47 0)
 		(effects
 			(font
@@ -15456,7 +15456,7 @@
 		)
 		(uuid "db87ce10-a380-42cd-8d72-7c9e7811852c")
 	)
-	(label "EXT_MIPI.D1-"
+	(label "DPHY1.D1-"
 		(at 261.62 170.18 0)
 		(effects
 			(font
@@ -15506,7 +15506,7 @@
 		)
 		(uuid "e2feefba-da54-496e-af5a-017ad89b2916")
 	)
-	(label "EXT_MIPI.D2-"
+	(label "DPHY1.D2-"
 		(at 381 92.71 0)
 		(effects
 			(font
@@ -15536,7 +15536,7 @@
 		)
 		(uuid "eb5ea25d-3f2f-4e9e-acb3-fa4451c3b95f")
 	)
-	(label "RGB_MIPI.CLK+"
+	(label "DPHY0.CLK+"
 		(at 261.62 124.46 0)
 		(effects
 			(font
@@ -15546,7 +15546,7 @@
 		)
 		(uuid "ed88e281-efd7-4909-b877-4b52e44e46f4")
 	)
-	(label "RGB_MIPI.CLK-"
+	(label "DPHY0.CLK-"
 		(at 381 31.75 0)
 		(effects
 			(font
@@ -15576,7 +15576,7 @@
 		)
 		(uuid "ef57a54f-9c2a-46b3-aa46-83ae02081053")
 	)
-	(label "RGB_MIPI.D0+"
+	(label "DPHY0.D0+"
 		(at 261.62 109.22 0)
 		(effects
 			(font
@@ -15606,7 +15606,7 @@
 		)
 		(uuid "f06e393d-6177-4b9f-b227-2fe2cf42a78e")
 	)
-	(label "RGB_MIPI.D3-"
+	(label "DPHY0.D3-"
 		(at 261.62 137.16 0)
 		(effects
 			(font
@@ -15666,7 +15666,7 @@
 		)
 		(uuid "fc41b2d4-f2cd-4dd5-93ae-f28fc34f5891")
 	)
-	(label "EXT_MIPI.D3+"
+	(label "DPHY1.D3+"
 		(at 261.62 144.78 0)
 		(effects
 			(font
@@ -15676,7 +15676,7 @@
 		)
 		(uuid "fcd6de02-cf0f-4ed7-9a66-ebc7b59be20a")
 	)
-	(label "RGB_MIPI.D2-"
+	(label "DPHY0.D2-"
 		(at 261.62 129.54 0)
 		(effects
 			(font
