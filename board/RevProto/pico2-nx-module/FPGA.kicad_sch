@@ -8193,7 +8193,7 @@
 	)
 	(rectangle
 		(start 141.605 162.56)
-		(end 159.385 179.07)
+		(end 159.385 177.8)
 		(stroke
 			(width 0)
 			(type solid)
@@ -8365,20 +8365,9 @@
 		)
 		(uuid "2c4c1765-a1a7-4e5e-aae5-017ae7049cde")
 	)
-	(text "Also QSPI\nSD0..3"
-		(exclude_from_sim no)
-		(at 214.884 157.48 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "36a60888-ab8f-420d-8f5b-b66c135eb24d")
-	)
 	(text "Bank 0"
 		(exclude_from_sim no)
-		(at 150.876 178.054 0)
+		(at 151.638 176.784 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13747,7 +13736,7 @@
 		)
 		(uuid "ff57f13e-2bcb-4d73-873b-832d10a84544")
 	)
-	(label "SHARED_PMOD_B5"
+	(label "PB70B"
 		(at 107.95 189.23 0)
 		(effects
 			(font
@@ -13777,7 +13766,7 @@
 		)
 		(uuid "0522d3c5-e691-4c00-8d76-bceff017d523")
 	)
-	(label "QSPI.SCLK"
+	(label "PR9B"
 		(at 228.6 149.86 180)
 		(effects
 			(font
@@ -13787,7 +13776,7 @@
 		)
 		(uuid "087f683f-868f-450b-980d-fde7120f253f")
 	)
-	(label "HSTX3"
+	(label "PB26B"
 		(at 157.48 119.38 180)
 		(effects
 			(font
@@ -13827,6 +13816,16 @@
 		)
 		(uuid "0b6a9905-4c71-4c2d-b91b-99244f3d7161")
 	)
+	(label "PR11B"
+		(at 228.6 144.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0c9954ef-e5e2-4480-84d8-3291d50aaee2")
+	)
 	(label "SRAM_DQ1"
 		(at 384.81 219.71 0)
 		(effects
@@ -13847,7 +13846,7 @@
 		)
 		(uuid "0cd8efd8-bb2d-4035-b9bd-5e801700dc25")
 	)
-	(label "SHARED_PMOD_B4"
+	(label "PB68A"
 		(at 107.95 181.61 0)
 		(effects
 			(font
@@ -13867,7 +13866,7 @@
 		)
 		(uuid "0e86399f-6747-4475-946f-cce9aa757ada")
 	)
-	(label "SHARED_PMOD_A1"
+	(label "PB58B"
 		(at 107.95 158.75 0)
 		(effects
 			(font
@@ -13877,7 +13876,7 @@
 		)
 		(uuid "115a22c2-79b3-4271-b60f-5cffff233fef")
 	)
-	(label "FPGA_PMOD2"
+	(label "PT57A"
 		(at 157.48 175.26 180)
 		(effects
 			(font
@@ -13907,7 +13906,7 @@
 		)
 		(uuid "17285d04-dbf4-4475-850a-c933bfa87678")
 	)
-	(label "HSTX6"
+	(label "PB30A"
 		(at 121.92 251.46 0)
 		(effects
 			(font
@@ -13917,7 +13916,7 @@
 		)
 		(uuid "183330b3-bfe9-4979-a1cc-52b6b92d691f")
 	)
-	(label "FPGA_PMOD1"
+	(label "PR13A"
 		(at 228.6 170.18 180)
 		(effects
 			(font
@@ -13957,7 +13956,7 @@
 		)
 		(uuid "1c705577-6b50-4175-9de2-25ed7a9b37bc")
 	)
-	(label "HSTX1"
+	(label "PB24B"
 		(at 121.92 238.76 0)
 		(effects
 			(font
@@ -13967,7 +13966,7 @@
 		)
 		(uuid "1e0d8e3f-68ba-4220-bcb2-80b593f1d5c2")
 	)
-	(label "EXT_QSPI.SD3"
+	(label "SD3"
 		(at 106.68 62.23 0)
 		(effects
 			(font
@@ -13987,7 +13986,7 @@
 		)
 		(uuid "21046cc0-ecd8-4362-b79c-99c379a6428b")
 	)
-	(label "MIPI_IO.PWR_EN"
+	(label "PB22B"
 		(at 121.92 233.68 0)
 		(effects
 			(font
@@ -14007,7 +14006,7 @@
 		)
 		(uuid "23da5ef3-8dfc-4aec-9f69-fa3e21010500")
 	)
-	(label "HSTX4"
+	(label "PB28A"
 		(at 121.92 246.38 0)
 		(effects
 			(font
@@ -14017,7 +14016,7 @@
 		)
 		(uuid "246c50a3-3309-4c61-8101-73e3b4a11a0c")
 	)
-	(label "FPGA_PMOD0"
+	(label "PR7A"
 		(at 228.6 177.8 180)
 		(effects
 			(font
@@ -14027,7 +14026,7 @@
 		)
 		(uuid "261dd87c-c909-4222-a640-671596b99f37")
 	)
-	(label "SHARED_PMOD_A6"
+	(label "PB60B"
 		(at 107.95 163.83 0)
 		(effects
 			(font
@@ -14037,7 +14036,7 @@
 		)
 		(uuid "266aab8b-53cc-4898-afce-8dea42dcb0fb")
 	)
-	(label "SDA1"
+	(label "PB16A"
 		(at 157.48 142.24 180)
 		(effects
 			(font
@@ -14047,7 +14046,7 @@
 		)
 		(uuid "27af7100-08df-41d1-b091-c5d36d2aff83")
 	)
-	(label "FPGA_PMOD2"
+	(label "PT57A"
 		(at 106.68 39.37 0)
 		(effects
 			(font
@@ -14057,7 +14056,7 @@
 		)
 		(uuid "287cb9f3-ad60-4ae8-a172-850a58640091")
 	)
-	(label "EXT_QSPI.SD2"
+	(label "SD2"
 		(at 106.68 59.69 0)
 		(effects
 			(font
@@ -14067,7 +14066,7 @@
 		)
 		(uuid "28a459dc-8556-4502-a56d-b90e9e26cc0f")
 	)
-	(label "MIPI_IO.LED_EN"
+	(label "PR9B"
 		(at 106.68 100.33 0)
 		(effects
 			(font
@@ -14077,7 +14076,7 @@
 		)
 		(uuid "28d38c70-f3b7-4450-938a-ec8d7b9a7e53")
 	)
-	(label "HSTX7"
+	(label "PB30B"
 		(at 121.92 254 0)
 		(effects
 			(font
@@ -14087,7 +14086,7 @@
 		)
 		(uuid "2a2ccb87-7b13-44ca-9c41-fbc80b7bb71c")
 	)
-	(label "EXT_QSPI.SCK"
+	(label "SCLK"
 		(at 228.6 127 180)
 		(effects
 			(font
@@ -14097,7 +14096,7 @@
 		)
 		(uuid "2b67ad5f-1c40-4066-9404-798b1d9af787")
 	)
-	(label "HSTX0"
+	(label "PB24A"
 		(at 157.48 129.54 180)
 		(effects
 			(font
@@ -14117,7 +14116,7 @@
 		)
 		(uuid "2ce684aa-b3d0-4b1b-aa9a-ade58aeb4b72")
 	)
-	(label "SHARED_PMOD_A2"
+	(label "PB56A"
 		(at 107.95 151.13 0)
 		(effects
 			(font
@@ -14127,7 +14126,7 @@
 		)
 		(uuid "2f194236-65aa-4e85-99f5-94c2c8ec52d2")
 	)
-	(label "MULTI_FN"
+	(label "PR11A"
 		(at 106.68 102.87 0)
 		(effects
 			(font
@@ -14177,7 +14176,7 @@
 		)
 		(uuid "3297d34e-4444-4a2a-b862-837e727d8ec2")
 	)
-	(label "SCL1"
+	(label "PB16B"
 		(at 121.92 218.44 0)
 		(effects
 			(font
@@ -14207,7 +14206,7 @@
 		)
 		(uuid "3aaa7f7e-c1a6-4135-9193-34fce9681016")
 	)
-	(label "SHARED_PMOD_B7"
+	(label "PB70A"
 		(at 107.95 186.69 0)
 		(effects
 			(font
@@ -14217,7 +14216,7 @@
 		)
 		(uuid "3b7d4a4b-d9b7-4f29-90c0-e10ebca8aff4")
 	)
-	(label "EXT_QSPI.MOSI"
+	(label "MOSI"
 		(at 213.36 44.45 0)
 		(effects
 			(font
@@ -14227,7 +14226,7 @@
 		)
 		(uuid "3ba7d4cb-4615-4fd4-9a16-cbceda41a94e")
 	)
-	(label "FPGA_PMOD3"
+	(label "PT67A"
 		(at 157.48 167.64 180)
 		(effects
 			(font
@@ -14237,7 +14236,7 @@
 		)
 		(uuid "3c703672-38d3-4da5-a5ed-70911dc3a272")
 	)
-	(label "QSPI.SCLK"
+	(label "PR11B"
 		(at 106.68 105.41 0)
 		(effects
 			(font
@@ -14257,7 +14256,7 @@
 		)
 		(uuid "3f3ba33a-2b88-4cb7-a694-e086d66d5c5d")
 	)
-	(label "EXT_QSPI.CSn"
+	(label "PT65B"
 		(at 106.68 67.31 0)
 		(effects
 			(font
@@ -14307,7 +14306,7 @@
 		)
 		(uuid "425134ae-6ca0-4b2d-8bf8-2fff4dfc03c6")
 	)
-	(label "EXT_QSPI.SD3"
+	(label "SD3"
 		(at 228.6 139.7 180)
 		(effects
 			(font
@@ -14317,7 +14316,7 @@
 		)
 		(uuid "44b979c3-e659-4a8d-8714-62e52fa14bfb")
 	)
-	(label "HSTX0"
+	(label "PB24A"
 		(at 121.92 236.22 0)
 		(effects
 			(font
@@ -14327,7 +14326,7 @@
 		)
 		(uuid "45803c65-9a52-4b48-a85f-e71ebce11d88")
 	)
-	(label "SHARED_PMOD_B4"
+	(label "PB68A"
 		(at 190.5 114.3 0)
 		(effects
 			(font
@@ -14337,7 +14336,7 @@
 		)
 		(uuid "45fa0064-3329-4c1a-b39e-74d2a046c935")
 	)
-	(label "SDA0"
+	(label "PB18A"
 		(at 121.92 220.98 0)
 		(effects
 			(font
@@ -14357,7 +14356,7 @@
 		)
 		(uuid "4840147e-c8c0-45a8-bb1d-c95d87b1821f")
 	)
-	(label "EXT_QSPI.MOSI"
+	(label "MOSI"
 		(at 228.6 132.08 180)
 		(effects
 			(font
@@ -14397,7 +14396,7 @@
 		)
 		(uuid "4c4dde29-ef21-4297-b078-29cdb694e773")
 	)
-	(label "SHARED_PMOD_A4"
+	(label "PB60A"
 		(at 190.5 144.78 0)
 		(effects
 			(font
@@ -14407,7 +14406,7 @@
 		)
 		(uuid "4ddf6694-4366-44e4-a3f4-7d3a17a9cd7c")
 	)
-	(label "EXT_QSPI.SD3"
+	(label "SD3"
 		(at 213.36 54.61 0)
 		(effects
 			(font
@@ -14457,7 +14456,7 @@
 		)
 		(uuid "52c002f3-cd3b-47da-b2c2-83282b2c27ad")
 	)
-	(label "SHARED_PMOD_A4"
+	(label "PB60A"
 		(at 107.95 161.29 0)
 		(effects
 			(font
@@ -14467,7 +14466,7 @@
 		)
 		(uuid "53413166-94bb-4faf-9060-23906e048c6e")
 	)
-	(label "HSTX2"
+	(label "PB26A"
 		(at 157.48 121.92 180)
 		(effects
 			(font
@@ -14507,7 +14506,7 @@
 		)
 		(uuid "5a52802d-e559-451e-bca8-1324b7c95603")
 	)
-	(label "HSTX6"
+	(label "PB30A"
 		(at 157.48 106.68 180)
 		(effects
 			(font
@@ -14517,7 +14516,7 @@
 		)
 		(uuid "5b718c3c-f12b-4e06-84c6-fe4e815042bb")
 	)
-	(label "QSPI.CSn"
+	(label "PB22A"
 		(at 121.92 231.14 0)
 		(effects
 			(font
@@ -14527,7 +14526,7 @@
 		)
 		(uuid "5dd38b8f-544c-46e4-81fb-ca794d6e4df6")
 	)
-	(label "SHARED_PMOD_A3"
+	(label "PB58A"
 		(at 107.95 156.21 0)
 		(effects
 			(font
@@ -14537,7 +14536,7 @@
 		)
 		(uuid "5f75f269-71b7-45cc-a39b-acd5bdf78f69")
 	)
-	(label "FPGA_CLK"
+	(label "PB20A"
 		(at 121.92 226.06 0)
 		(effects
 			(font
@@ -14547,7 +14546,7 @@
 		)
 		(uuid "61a3e644-2beb-4f97-bb6d-7bae6a2c9e3b")
 	)
-	(label "FPGA_PMOD4"
+	(label "PR7B"
 		(at 106.68 97.79 0)
 		(effects
 			(font
@@ -14557,7 +14556,7 @@
 		)
 		(uuid "63e7b518-3669-42de-bbee-ae1c46e6138c")
 	)
-	(label "FPGA_PMOD7"
+	(label "PT67B"
 		(at 106.68 72.39 0)
 		(effects
 			(font
@@ -14577,7 +14576,7 @@
 		)
 		(uuid "6aba7c61-e649-4fff-be1f-f54f04705338")
 	)
-	(label "FPGA_PMOD4"
+	(label "PR7B"
 		(at 228.6 175.26 180)
 		(effects
 			(font
@@ -14587,7 +14586,7 @@
 		)
 		(uuid "6d21e3cb-88bd-47a8-91ca-8ba3ff936857")
 	)
-	(label "EXT_QSPI.MISO"
+	(label "MISO"
 		(at 228.6 134.62 180)
 		(effects
 			(font
@@ -14597,7 +14596,17 @@
 		)
 		(uuid "70f1692b-896f-409c-84d1-7f99668afcb1")
 	)
-	(label "SHARED_PMOD_A6"
+	(label "PR11A"
+		(at 228.6 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "734df4a1-07fe-415b-b133-e8986681121b")
+	)
+	(label "PB60B"
 		(at 190.5 142.24 0)
 		(effects
 			(font
@@ -14607,7 +14616,7 @@
 		)
 		(uuid "73916e4d-7a1f-43b2-91ef-74c70f9036f7")
 	)
-	(label "FPGA_CLK"
+	(label "PB20A"
 		(at 157.48 149.86 180)
 		(effects
 			(font
@@ -14637,7 +14646,7 @@
 		)
 		(uuid "76ec390b-e3e1-4b09-8199-d7801d21a2ae")
 	)
-	(label "SHARED_PMOD_B7"
+	(label "PB70A"
 		(at 190.5 106.68 0)
 		(effects
 			(font
@@ -14657,7 +14666,7 @@
 		)
 		(uuid "78555db9-72a0-48a2-8fc1-71b6b783bc65")
 	)
-	(label "EXT_QSPI.SD2"
+	(label "SD2"
 		(at 213.36 52.07 0)
 		(effects
 			(font
@@ -14697,7 +14706,7 @@
 		)
 		(uuid "7d59e7dc-121d-4107-aead-1a5f4227d2f8")
 	)
-	(label "SHARED_PMOD_B6"
+	(label "PB68B"
 		(at 190.5 111.76 0)
 		(effects
 			(font
@@ -14707,7 +14716,7 @@
 		)
 		(uuid "7d6eb392-595b-4256-be7c-85689eedbb53")
 	)
-	(label "SHARED_PMOD_A0"
+	(label "PB56B"
 		(at 107.95 153.67 0)
 		(effects
 			(font
@@ -14717,7 +14726,7 @@
 		)
 		(uuid "7d868eec-5a8d-4b15-9bf0-d9732b8dd89a")
 	)
-	(label "SHARED_PMOD_B3"
+	(label "PB66A"
 		(at 190.5 121.92 0)
 		(effects
 			(font
@@ -14737,7 +14746,7 @@
 		)
 		(uuid "804d2a32-dba2-4db6-b60d-d6cb5bf35b6f")
 	)
-	(label "FPGA_PMOD5"
+	(label "PR13B"
 		(at 106.68 110.49 0)
 		(effects
 			(font
@@ -14747,7 +14756,7 @@
 		)
 		(uuid "8064f7ed-2f72-43d1-8d52-d95f0ebb25c3")
 	)
-	(label "EXT_QSPI.MISO"
+	(label "MISO"
 		(at 213.36 46.99 0)
 		(effects
 			(font
@@ -14767,7 +14776,7 @@
 		)
 		(uuid "82cd0c6b-a975-42d7-9e00-34cda7e6df4d")
 	)
-	(label "QSPI.CSn"
+	(label "PB22A"
 		(at 157.48 157.48 180)
 		(effects
 			(font
@@ -14787,7 +14796,7 @@
 		)
 		(uuid "8485f4f5-d23b-4ae9-972e-24d93adfd479")
 	)
-	(label "HSTX2"
+	(label "PB26A"
 		(at 121.92 241.3 0)
 		(effects
 			(font
@@ -14797,7 +14806,7 @@
 		)
 		(uuid "8736d6c3-3631-425b-86e2-5dc21700a953")
 	)
-	(label "SHARED_PMOD_B5"
+	(label "PB70B"
 		(at 190.5 104.14 0)
 		(effects
 			(font
@@ -14807,7 +14816,7 @@
 		)
 		(uuid "87c08b00-cb5d-4f27-883a-d7320097de19")
 	)
-	(label "SHARED_PMOD_A5"
+	(label "PB62B"
 		(at 190.5 134.62 0)
 		(effects
 			(font
@@ -14827,7 +14836,7 @@
 		)
 		(uuid "88b5a85a-8aa2-467f-98ea-3d5403fc1cbf")
 	)
-	(label "SDA1"
+	(label "PB16A"
 		(at 121.92 215.9 0)
 		(effects
 			(font
@@ -14837,7 +14846,7 @@
 		)
 		(uuid "8ac01b7d-a16b-4c10-b799-b727671e3cf2")
 	)
-	(label "MIPI_IO.PWR_EN"
+	(label "PB22B"
 		(at 157.48 160.02 180)
 		(effects
 			(font
@@ -14847,7 +14856,7 @@
 		)
 		(uuid "8b41dbde-aa50-4d73-89e7-41f8886eeb6c")
 	)
-	(label "SHARED_PMOD_A5"
+	(label "PB62B"
 		(at 107.95 168.91 0)
 		(effects
 			(font
@@ -14857,7 +14866,7 @@
 		)
 		(uuid "8c0ee56c-22ba-42b0-a097-8f7b726286d8")
 	)
-	(label "HSTX5"
+	(label "PB28B"
 		(at 157.48 111.76 180)
 		(effects
 			(font
@@ -14867,7 +14876,7 @@
 		)
 		(uuid "8d805423-6a0e-496c-90fd-3740fc4f91d2")
 	)
-	(label "IRQn"
+	(label "PB20B"
 		(at 157.48 152.4 180)
 		(effects
 			(font
@@ -14877,7 +14886,7 @@
 		)
 		(uuid "8e9d58c3-97e8-4ca0-a068-804c31b4d4be")
 	)
-	(label "SHARED_PMOD_A0"
+	(label "PB56B"
 		(at 190.5 157.48 0)
 		(effects
 			(font
@@ -14887,7 +14896,7 @@
 		)
 		(uuid "8fdec98e-b8f3-403c-a6c3-c592cede09d5")
 	)
-	(label "SCL0"
+	(label "PB18B"
 		(at 157.48 137.16 180)
 		(effects
 			(font
@@ -14897,7 +14906,7 @@
 		)
 		(uuid "92bc76a5-9ac9-418b-b872-04027150c93a")
 	)
-	(label "FPGA_PMOD7"
+	(label "PT67B"
 		(at 157.48 165.1 180)
 		(effects
 			(font
@@ -14907,7 +14916,7 @@
 		)
 		(uuid "92fda4ef-4646-4cf6-a10f-7bd73422ceb3")
 	)
-	(label "HSTX7"
+	(label "PB30B"
 		(at 157.48 104.14 180)
 		(effects
 			(font
@@ -14917,7 +14926,7 @@
 		)
 		(uuid "966e2d15-e775-49ed-bb23-27e85768dbb8")
 	)
-	(label "SHARED_PMOD_A2"
+	(label "PB56A"
 		(at 190.5 160.02 0)
 		(effects
 			(font
@@ -14947,7 +14956,7 @@
 		)
 		(uuid "985dcd0a-5356-4dd3-9fcd-15986e9487f1")
 	)
-	(label "SHARED_PMOD_A1"
+	(label "PB58B"
 		(at 190.5 149.86 0)
 		(effects
 			(font
@@ -14997,7 +15006,7 @@
 		)
 		(uuid "9db9b4b0-3a86-4767-a775-b1fe174c9837")
 	)
-	(label "EXT_QSPI.SCK"
+	(label "SCLK"
 		(at 165.1 52.07 180)
 		(effects
 			(font
@@ -15057,7 +15066,7 @@
 		)
 		(uuid "a687d221-b184-4e8e-862e-36c34fa15a23")
 	)
-	(label "FPGA_PMOD3"
+	(label "PT67A"
 		(at 106.68 69.85 0)
 		(effects
 			(font
@@ -15066,16 +15075,6 @@
 			(justify left bottom)
 		)
 		(uuid "a6a6f3ca-63e7-418e-8725-2cc39da3ee23")
-	)
-	(label "EXT_QSPI.CSn"
-		(at 228.6 142.24 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "abc85f51-9429-4acf-a3f9-ac813ffee69a")
 	)
 	(label "EXT_MIPI.D2-"
 		(at 261.62 154.94 0)
@@ -15107,7 +15106,7 @@
 		)
 		(uuid "b0c484d9-f88a-40f1-8292-b6fc6ba7a0cc")
 	)
-	(label "FPGA_PMOD1"
+	(label "PR13A"
 		(at 106.68 107.95 0)
 		(effects
 			(font
@@ -15137,7 +15136,7 @@
 		)
 		(uuid "b615803a-3c42-4128-9a78-b7872c563a30")
 	)
-	(label "SHARED_PMOD_A3"
+	(label "PB58A"
 		(at 190.5 152.4 0)
 		(effects
 			(font
@@ -15147,7 +15146,7 @@
 		)
 		(uuid "b686883c-a6d1-437b-9a05-272fb8635c93")
 	)
-	(label "FPGA_PMOD6"
+	(label "PROGRAMn"
 		(at 106.68 41.91 0)
 		(effects
 			(font
@@ -15157,7 +15156,7 @@
 		)
 		(uuid "b6acc343-3211-416d-9c7e-c69340e31cdd")
 	)
-	(label "HSTX3"
+	(label "PB26B"
 		(at 121.92 243.84 0)
 		(effects
 			(font
@@ -15167,7 +15166,7 @@
 		)
 		(uuid "b70a0489-74db-4223-a27f-bd7cda660b99")
 	)
-	(label "SHARED_PMOD_B6"
+	(label "PB68B"
 		(at 107.95 184.15 0)
 		(effects
 			(font
@@ -15177,7 +15176,7 @@
 		)
 		(uuid "b7fe3a3f-e137-4e20-b00a-6507a1b67180")
 	)
-	(label "SDA0"
+	(label "PB18A"
 		(at 157.48 134.62 180)
 		(effects
 			(font
@@ -15187,7 +15186,7 @@
 		)
 		(uuid "b8f6e351-f36f-4049-b177-26ce79a8dac2")
 	)
-	(label "SHARED_PMOD_B3"
+	(label "PB66A"
 		(at 107.95 176.53 0)
 		(effects
 			(font
@@ -15197,7 +15196,7 @@
 		)
 		(uuid "ba754cd4-f864-4dc9-8b31-6e0d7806618d")
 	)
-	(label "SHARED_PMOD_B1"
+	(label "PB66B"
 		(at 190.5 119.38 0)
 		(effects
 			(font
@@ -15217,7 +15216,7 @@
 		)
 		(uuid "bebe747e-2f89-4fb4-bf76-6047cfdec2dd")
 	)
-	(label "FPGA_PMOD6"
+	(label "PT65B"
 		(at 157.48 172.72 180)
 		(effects
 			(font
@@ -15227,7 +15226,7 @@
 		)
 		(uuid "c1859354-dfdc-4897-8016-e7efdd08b879")
 	)
-	(label "EXT_QSPI.MISO"
+	(label "MISO"
 		(at 106.68 57.15 0)
 		(effects
 			(font
@@ -15247,8 +15246,8 @@
 		)
 		(uuid "c3cebc4c-8d2a-4d81-85be-ff1b4286267f")
 	)
-	(label "MULTI_FN"
-		(at 228.6 147.32 180)
+	(label "PROGRAMn"
+		(at 228.6 142.24 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15257,7 +15256,7 @@
 		)
 		(uuid "c5630726-3260-4506-8b98-8fc9c68dc974")
 	)
-	(label "EXT_QSPI.SCK"
+	(label "SCLK"
 		(at 106.68 49.53 0)
 		(effects
 			(font
@@ -15267,7 +15266,7 @@
 		)
 		(uuid "c5b4ecad-4704-4a69-b1a9-6d07d267edba")
 	)
-	(label "SCL0"
+	(label "PB18B"
 		(at 121.92 223.52 0)
 		(effects
 			(font
@@ -15277,7 +15276,7 @@
 		)
 		(uuid "c6f1b6b5-4377-4aae-8a3c-3a943e900538")
 	)
-	(label "SHARED_PMOD_B2"
+	(label "PB64A"
 		(at 190.5 129.54 0)
 		(effects
 			(font
@@ -15307,7 +15306,7 @@
 		)
 		(uuid "cb8d303f-0851-471e-9524-0ae238453b94")
 	)
-	(label "SHARED_PMOD_B2"
+	(label "PB64A"
 		(at 107.95 171.45 0)
 		(effects
 			(font
@@ -15327,7 +15326,7 @@
 		)
 		(uuid "d0aeb02c-40be-4eaa-9eea-ab96a383c481")
 	)
-	(label "HSTX1"
+	(label "PB24B"
 		(at 157.48 127 180)
 		(effects
 			(font
@@ -15337,7 +15336,7 @@
 		)
 		(uuid "d10280b4-d074-4e6d-9972-be8e489299f2")
 	)
-	(label "HSTX5"
+	(label "PB28B"
 		(at 121.92 248.92 0)
 		(effects
 			(font
@@ -15367,16 +15366,6 @@
 		)
 		(uuid "d4da872d-fdac-4b98-a11d-391691d505aa")
 	)
-	(label "MIPI_IO.LED_EN"
-		(at 228.6 144.78 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d60605c3-783d-4c88-a5cd-5be2f8a98166")
-	)
 	(label "PB42A"
 		(at 190.5 170.18 0)
 		(effects
@@ -15387,7 +15376,7 @@
 		)
 		(uuid "d6570473-48d4-485f-a53b-99e5ffe758d2")
 	)
-	(label "IRQn"
+	(label "PB20B"
 		(at 121.92 228.6 0)
 		(effects
 			(font
@@ -15397,7 +15386,7 @@
 		)
 		(uuid "d8d7166a-031c-4004-bfe5-bf69b689d351")
 	)
-	(label "EXT_QSPI.SD2"
+	(label "SD2"
 		(at 228.6 137.16 180)
 		(effects
 			(font
@@ -15417,7 +15406,7 @@
 		)
 		(uuid "d9561b7d-3289-4f50-8891-d5689bc221c0")
 	)
-	(label "SHARED_PMOD_A7"
+	(label "PB62A"
 		(at 190.5 137.16 0)
 		(effects
 			(font
@@ -15437,7 +15426,7 @@
 		)
 		(uuid "da6d4f75-13f4-4bc2-9aea-0af4dc2a52ec")
 	)
-	(label "FPGA_PMOD0"
+	(label "PR7A"
 		(at 106.68 95.25 0)
 		(effects
 			(font
@@ -15447,7 +15436,7 @@
 		)
 		(uuid "db28d19f-6761-4006-9826-f534d9c20303")
 	)
-	(label "EXT_QSPI.MOSI"
+	(label "MOSI"
 		(at 106.68 54.61 0)
 		(effects
 			(font
@@ -15477,7 +15466,7 @@
 		)
 		(uuid "dd38406b-0140-476c-8dc0-0d32fc611d80")
 	)
-	(label "SCL1"
+	(label "PB16B"
 		(at 157.48 144.78 180)
 		(effects
 			(font
@@ -15507,7 +15496,7 @@
 		)
 		(uuid "e0d0da95-9ccd-4814-82a5-db66fee44ac7")
 	)
-	(label "SHARED_PMOD_B0"
+	(label "PB64B"
 		(at 107.95 173.99 0)
 		(effects
 			(font
@@ -15527,7 +15516,7 @@
 		)
 		(uuid "e573e10d-ed2b-4aca-a8a4-bb9b4ce1139e")
 	)
-	(label "HSTX4"
+	(label "PB28A"
 		(at 157.48 114.3 180)
 		(effects
 			(font
@@ -15567,7 +15556,7 @@
 		)
 		(uuid "ee44e4d0-a7b0-48c7-b8fb-69d11b5d908c")
 	)
-	(label "SHARED_PMOD_A7"
+	(label "PB62A"
 		(at 107.95 166.37 0)
 		(effects
 			(font
@@ -15597,7 +15586,7 @@
 		)
 		(uuid "ef67ca18-e232-41a0-9d6b-740ac0408448")
 	)
-	(label "FPGA_PMOD5"
+	(label "PR13B"
 		(at 228.6 167.64 180)
 		(effects
 			(font
@@ -15627,7 +15616,7 @@
 		)
 		(uuid "f3dc07e9-1212-43de-835a-cfcf8eea2ecb")
 	)
-	(label "SHARED_PMOD_B1"
+	(label "PB66B"
 		(at 107.95 179.07 0)
 		(effects
 			(font
@@ -15637,7 +15626,7 @@
 		)
 		(uuid "f41f0666-dacb-44b7-be7d-6fba5c73a02d")
 	)
-	(label "SHARED_PMOD_B0"
+	(label "PB64B"
 		(at 190.5 127 0)
 		(effects
 			(font
