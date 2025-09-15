@@ -8354,17 +8354,6 @@
 		)
 		(uuid "2951c848-2cb9-4515-b1b8-64658003429d")
 	)
-	(text "or clock out"
-		(exclude_from_sim no)
-		(at 121.158 99.822 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2c4c1765-a1a7-4e5e-aae5-017ae7049cde")
-	)
 	(text "Bank 0"
 		(exclude_from_sim no)
 		(at 151.638 176.784 0)
@@ -8377,7 +8366,7 @@
 	)
 	(text "RP CLKOUT"
 		(exclude_from_sim no)
-		(at 124.968 160.528 0)
+		(at 114.046 160.782 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8409,7 +8398,7 @@
 	)
 	(text "RP SCLK"
 		(exclude_from_sim no)
-		(at 129.032 175.768 0)
+		(at 117.856 176.022 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8448,17 +8437,6 @@
 			(justify left)
 		)
 		(uuid "83807feb-d5a8-4f9f-a98e-e700e5e2daec")
-	)
-	(text "Layout: Length match SRAM_CLK to data lanes within 0.1mm"
-		(exclude_from_sim no)
-		(at 328.422 248.666 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8a9d621f-fe89-4423-824c-22746f6de732")
 	)
 	(text "P5VD_AON if\nconnected backwards!"
 		(exclude_from_sim no)
@@ -8525,17 +8503,6 @@
 			(justify left)
 		)
 		(uuid "c588143c-188f-4545-a558-d3fc47882c6f")
-	)
-	(text "TODO: Check footprints to see if the DF40\nconnector symbols should be flipped."
-		(exclude_from_sim no)
-		(at 194.31 186.436 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d85db9bd-271d-4a44-8118-8a5a0067ec40")
 	)
 	(text "FPGA Bank 1"
 		(exclude_from_sim no)
@@ -27443,7 +27410,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.apmemory.com/cn/downloadFiles/0324112221jz592656"
 			(at 250.19 199.39 0)
 			(effects
 				(font
