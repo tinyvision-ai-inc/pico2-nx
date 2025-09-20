@@ -13774,7 +13774,7 @@
 		(uuid "093689d8-ff4d-4274-aeb5-aa1cd70a9bb4")
 	)
 	(label "SRAM_DQ7"
-		(at 384.81 234.95 0)
+		(at 384.81 222.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13793,8 +13793,8 @@
 		)
 		(uuid "0c9954ef-e5e2-4480-84d8-3291d50aaee2")
 	)
-	(label "SRAM_DQ1"
-		(at 384.81 219.71 0)
+	(label "SRAM_DQ0"
+		(at 384.81 201.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13854,7 +13854,7 @@
 		(uuid "161a406b-444a-4c2a-8848-033dd62e09fb")
 	)
 	(label "SRAM_CEN"
-		(at 384.81 237.49 0)
+		(at 384.81 217.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13863,8 +13863,18 @@
 		)
 		(uuid "1637dedc-274e-4c7b-86ce-cb2f049ae2a0")
 	)
-	(label "SRAM_DQ2"
-		(at 384.81 222.25 0)
+	(label "PB52A"
+		(at 384.81 229.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "170873bb-5bd8-49df-92f0-a65c321c1bc6")
+	)
+	(label "SRAM_DQ1"
+		(at 384.81 204.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13893,7 +13903,7 @@
 		)
 		(uuid "1953d605-546d-426b-85bb-d1af96748abb")
 	)
-	(label "PB40A"
+	(label "PB50A"
 		(at 190.5 165.1 0)
 		(effects
 			(font
@@ -14134,7 +14144,7 @@
 		(uuid "31e5199d-e457-4b82-a4f9-79f18c7363bc")
 	)
 	(label "SRAM_DQ5"
-		(at 384.81 229.87 0)
+		(at 384.81 212.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14163,7 +14173,7 @@
 		)
 		(uuid "37985c31-bf11-418f-bde6-66f10b7bf819")
 	)
-	(label "PB40B"
+	(label "PB50B"
 		(at 190.5 167.64 0)
 		(effects
 			(font
@@ -14214,7 +14224,7 @@
 		(uuid "3ca39929-5705-4eaa-ac57-5c8ec916a61a")
 	)
 	(label "SRAM_DQ4"
-		(at 384.81 227.33 0)
+		(at 384.81 209.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14233,8 +14243,8 @@
 		)
 		(uuid "3fdb89bd-a25d-4002-8c0f-919bff32e2a3")
 	)
-	(label "SRAM_DQ0"
-		(at 384.81 217.17 0)
+	(label "SRAM_DQ2"
+		(at 384.81 199.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14252,16 +14262,6 @@
 			(justify right bottom)
 		)
 		(uuid "40c8cd8d-542f-4a60-9b52-0787d7f7c8a7")
-	)
-	(label "PB40B"
-		(at 384.81 201.93 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "41fde1dc-5f44-4c5c-8cdf-a76e8a922b93")
 	)
 	(label "DPHY0.D2+"
 		(at 381 44.45 0)
@@ -14312,16 +14312,6 @@
 			(justify left bottom)
 		)
 		(uuid "48113207-395e-4819-8a01-275d810d9d5a")
-	)
-	(label "PB42B"
-		(at 384.81 207.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4840147e-c8c0-45a8-bb1d-c95d87b1821f")
 	)
 	(label "MOSI"
 		(at 228.6 132.08 180)
@@ -14393,6 +14383,16 @@
 		)
 		(uuid "5049d439-c906-44e5-8299-12a86ce7ba09")
 	)
+	(label "PB50A"
+		(at 384.81 224.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "50b08dc5-0b50-4cdf-bf62-7f0177e7e270")
+	)
 	(label "SRAM_DQ6"
 		(at 289.56 219.71 0)
 		(effects
@@ -14443,6 +14443,16 @@
 		)
 		(uuid "5368626c-ef5c-4ebb-846d-e6914e75f9a2")
 	)
+	(label "PB50B"
+		(at 384.81 227.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "54afc444-73b5-45d6-87d2-204711341a0c")
+	)
 	(label "DPHY0.D3-"
 		(at 381 52.07 0)
 		(effects
@@ -14462,6 +14472,16 @@
 			(justify left bottom)
 		)
 		(uuid "563f9a0d-737c-4168-b62e-d257373de927")
+	)
+	(label "PB52B"
+		(at 384.81 232.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "59a92c3e-732c-44d0-8f11-e61dabfc59d2")
 	)
 	(label "DPHY1.D2+"
 		(at 261.62 152.4 0)
@@ -14594,7 +14614,7 @@
 		(uuid "7437297d-ed81-4c28-98c0-ed7be477fa98")
 	)
 	(label "SRAM_DQ3"
-		(at 384.81 224.79 0)
+		(at 384.81 207.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14604,7 +14624,7 @@
 		(uuid "75d81dc6-6ea5-40f7-87be-ddc307171e2e")
 	)
 	(label "SRAM_CLK_N"
-		(at 384.81 212.09 0)
+		(at 384.81 237.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14652,16 +14672,6 @@
 			(justify left bottom)
 		)
 		(uuid "79151e24-7828-4fd8-9c16-33244d35c4c6")
-	)
-	(label "PB42A"
-		(at 384.81 204.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "79a3f144-cfc9-4b81-acae-267b2c85ce68")
 	)
 	(label "DPHY1.D0+"
 		(at 261.62 175.26 0)
@@ -14984,7 +14994,7 @@
 		(uuid "9efad892-104a-4e16-94c4-db6bda960469")
 	)
 	(label "SRAM_DQ6"
-		(at 384.81 232.41 0)
+		(at 384.81 219.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15012,16 +15022,6 @@
 			(justify left bottom)
 		)
 		(uuid "a4ca9c33-77c4-4e6d-adfd-88da0a34f155")
-	)
-	(label "PB40A"
-		(at 384.81 199.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a4e1bbbf-a459-46a6-a05b-d34ab32254de")
 	)
 	(label "SRAM_DQ7"
 		(at 289.56 217.17 0)
@@ -15333,7 +15333,7 @@
 		)
 		(uuid "d4da872d-fdac-4b98-a11d-391691d505aa")
 	)
-	(label "PB42A"
+	(label "PB52A"
 		(at 190.5 170.18 0)
 		(effects
 			(font
@@ -15384,7 +15384,7 @@
 		(uuid "da0e693a-5a4f-4f99-9dc4-caca8b465eae")
 	)
 	(label "SRAM_CLK_P"
-		(at 384.81 209.55 0)
+		(at 384.81 234.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15533,7 +15533,7 @@
 		)
 		(uuid "eef07caa-2ce6-4584-a63e-9166a958c432")
 	)
-	(label "PB42B"
+	(label "PB52B"
 		(at 190.5 172.72 0)
 		(effects
 			(font
