@@ -8870,7 +8870,7 @@
 		(uuid "26c64e48-72ca-444f-b860-f729debecdbc")
 	)
 	(label "UART.TX"
-		(at 104.14 170.18 0)
+		(at 104.14 175.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9280,7 +9280,7 @@
 		(uuid "8606e165-bc40-4f7f-a7a5-f96b4548a528")
 	)
 	(label "UART.CTS"
-		(at 104.14 175.26 0)
+		(at 104.14 172.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9430,7 +9430,7 @@
 		(uuid "aca346a4-dc98-4c6d-89da-82ff864430a1")
 	)
 	(label "UART.RX"
-		(at 104.14 172.72 0)
+		(at 104.14 177.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9720,7 +9720,7 @@
 		(uuid "ed021a9c-6994-478d-a2ed-e7accce7e7b0")
 	)
 	(label "UART.RTS"
-		(at 104.14 177.8 0)
+		(at 104.14 170.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
