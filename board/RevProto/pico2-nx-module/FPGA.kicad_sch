@@ -8303,8 +8303,8 @@
 		(uuid e38a2edc-ccc6-4b57-b5d9-7f7ddddd157e)
 	)
 	(rectangle
-		(start 156.21 162.56)
-		(end 135.255 101.6)
+		(start 135.255 101.6)
+		(end 156.21 162.56)
 		(stroke
 			(width 0)
 			(type solid)
@@ -13717,7 +13717,7 @@
 		)
 		(uuid "ff57f13e-2bcb-4d73-873b-832d10a84544")
 	)
-	(label "PB70B"
+	(label "PB70N"
 		(at 107.95 189.23 0)
 		(effects
 			(font
@@ -13797,7 +13797,7 @@
 		)
 		(uuid "0b6a9905-4c71-4c2d-b91b-99244f3d7161")
 	)
-	(label "PR11B"
+	(label "PR11P"
 		(at 153.67 172.72 180)
 		(effects
 			(font
@@ -13827,7 +13827,7 @@
 		)
 		(uuid "0cd8efd8-bb2d-4035-b9bd-5e801700dc25")
 	)
-	(label "PB68A"
+	(label "PB68P"
 		(at 107.95 181.61 0)
 		(effects
 			(font
@@ -13847,7 +13847,7 @@
 		)
 		(uuid "0e86399f-6747-4475-946f-cce9aa757ada")
 	)
-	(label "PB58B"
+	(label "PB58N"
 		(at 107.95 158.75 0)
 		(effects
 			(font
@@ -13907,7 +13907,7 @@
 		)
 		(uuid "183330b3-bfe9-4979-a1cc-52b6b92d691f")
 	)
-	(label "PR13A"
+	(label "PR13N"
 		(at 153.67 167.64 180)
 		(effects
 			(font
@@ -14017,7 +14017,7 @@
 		)
 		(uuid "261dd87c-c909-4222-a640-671596b99f37")
 	)
-	(label "PB60B"
+	(label "PB60N"
 		(at 107.95 163.83 0)
 		(effects
 			(font
@@ -14107,7 +14107,7 @@
 		)
 		(uuid "2ce684aa-b3d0-4b1b-aa9a-ade58aeb4b72")
 	)
-	(label "PB56A"
+	(label "PB56P"
 		(at 107.95 151.13 0)
 		(effects
 			(font
@@ -14117,7 +14117,7 @@
 		)
 		(uuid "2f194236-65aa-4e85-99f5-94c2c8ec52d2")
 	)
-	(label "PR11A"
+	(label "PR11P"
 		(at 106.68 102.87 0)
 		(effects
 			(font
@@ -14197,7 +14197,7 @@
 		)
 		(uuid "3aaa7f7e-c1a6-4135-9193-34fce9681016")
 	)
-	(label "PB70A"
+	(label "PB70P"
 		(at 107.95 186.69 0)
 		(effects
 			(font
@@ -14227,7 +14227,7 @@
 		)
 		(uuid "3c703672-38d3-4da5-a5ed-70911dc3a272")
 	)
-	(label "PR11B"
+	(label "PR11N"
 		(at 106.68 105.41 0)
 		(effects
 			(font
@@ -14307,8 +14307,8 @@
 		)
 		(uuid "45803c65-9a52-4b48-a85f-e71ebce11d88")
 	)
-	(label "PB68A"
-		(at 153.67 144.78 180)
+	(label "PB68P"
+		(at 153.67 152.4 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14367,8 +14367,8 @@
 		)
 		(uuid "4c4dde29-ef21-4297-b078-29cdb694e773")
 	)
-	(label "PB60A"
-		(at 153.67 160.02 180)
+	(label "PB60P"
+		(at 153.67 114.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14437,7 +14437,7 @@
 		)
 		(uuid "52c002f3-cd3b-47da-b2c2-83282b2c27ad")
 	)
-	(label "PB60A"
+	(label "PB60P"
 		(at 107.95 161.29 0)
 		(effects
 			(font
@@ -14527,7 +14527,7 @@
 		)
 		(uuid "5dd38b8f-544c-46e4-81fb-ca794d6e4df6")
 	)
-	(label "PB58A"
+	(label "PB58P"
 		(at 107.95 156.21 0)
 		(effects
 			(font
@@ -14597,7 +14597,7 @@
 		)
 		(uuid "70f1692b-896f-409c-84d1-7f99668afcb1")
 	)
-	(label "PR11A"
+	(label "PR11N"
 		(at 153.67 175.26 180)
 		(effects
 			(font
@@ -14607,8 +14607,8 @@
 		)
 		(uuid "734df4a1-07fe-415b-b133-e8986681121b")
 	)
-	(label "PB60B"
-		(at 153.67 157.48 180)
+	(label "PB60N"
+		(at 153.67 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14647,8 +14647,8 @@
 		)
 		(uuid "76ec390b-e3e1-4b09-8199-d7801d21a2ae")
 	)
-	(label "PB70A"
-		(at 153.67 152.4 180)
+	(label "PB70N"
+		(at 153.67 160.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14697,8 +14697,8 @@
 		)
 		(uuid "7d59e7dc-121d-4107-aead-1a5f4227d2f8")
 	)
-	(label "PB68B"
-		(at 153.67 142.24 180)
+	(label "PB68N"
+		(at 153.67 149.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14707,7 +14707,7 @@
 		)
 		(uuid "7d6eb392-595b-4256-be7c-85689eedbb53")
 	)
-	(label "PB56B"
+	(label "PB56N"
 		(at 107.95 153.67 0)
 		(effects
 			(font
@@ -14717,8 +14717,8 @@
 		)
 		(uuid "7d868eec-5a8d-4b15-9bf0-d9732b8dd89a")
 	)
-	(label "PB66A"
-		(at 153.67 137.16 180)
+	(label "PB66P"
+		(at 153.67 144.78 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14737,7 +14737,7 @@
 		)
 		(uuid "804d2a32-dba2-4db6-b60d-d6cb5bf35b6f")
 	)
-	(label "PR13B"
+	(label "PR13N"
 		(at 106.68 110.49 0)
 		(effects
 			(font
@@ -14797,8 +14797,8 @@
 		)
 		(uuid "8736d6c3-3631-425b-86e2-5dc21700a953")
 	)
-	(label "PB70B"
-		(at 153.67 149.86 180)
+	(label "PB70P"
+		(at 153.67 157.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14807,8 +14807,8 @@
 		)
 		(uuid "87c08b00-cb5d-4f27-883a-d7320097de19")
 	)
-	(label "PB62B"
-		(at 153.67 114.3 180)
+	(label "PB62N"
+		(at 153.67 129.54 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14847,7 +14847,7 @@
 		)
 		(uuid "8b41dbde-aa50-4d73-89e7-41f8886eeb6c")
 	)
-	(label "PB62B"
+	(label "PB62N"
 		(at 107.95 168.91 0)
 		(effects
 			(font
@@ -14877,8 +14877,8 @@
 		)
 		(uuid "8e9d58c3-97e8-4ca0-a068-804c31b4d4be")
 	)
-	(label "PB56B"
-		(at 153.67 106.68 180)
+	(label "PB56N"
+		(at 153.67 121.92 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14917,8 +14917,8 @@
 		)
 		(uuid "966e2d15-e775-49ed-bb23-27e85768dbb8")
 	)
-	(label "PB56A"
-		(at 153.67 104.14 180)
+	(label "PB56P"
+		(at 153.67 119.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14947,8 +14947,8 @@
 		)
 		(uuid "985dcd0a-5356-4dd3-9fcd-15986e9487f1")
 	)
-	(label "PB58B"
-		(at 153.67 121.92 180)
+	(label "PB58P"
+		(at 153.67 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15087,7 +15087,7 @@
 		)
 		(uuid "b0c484d9-f88a-40f1-8292-b6fc6ba7a0cc")
 	)
-	(label "PR13A"
+	(label "PR13P"
 		(at 106.68 107.95 0)
 		(effects
 			(font
@@ -15117,8 +15117,8 @@
 		)
 		(uuid "b615803a-3c42-4128-9a78-b7872c563a30")
 	)
-	(label "PB58A"
-		(at 153.67 119.38 180)
+	(label "PB58N"
+		(at 153.67 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15147,7 +15147,7 @@
 		)
 		(uuid "b70a0489-74db-4223-a27f-bd7cda660b99")
 	)
-	(label "PB68B"
+	(label "PB68N"
 		(at 107.95 184.15 0)
 		(effects
 			(font
@@ -15167,7 +15167,7 @@
 		)
 		(uuid "b8f6e351-f36f-4049-b177-26ce79a8dac2")
 	)
-	(label "PB66A"
+	(label "PB66P"
 		(at 107.95 176.53 0)
 		(effects
 			(font
@@ -15177,8 +15177,8 @@
 		)
 		(uuid "ba754cd4-f864-4dc9-8b31-6e0d7806618d")
 	)
-	(label "PB66B"
-		(at 153.67 134.62 180)
+	(label "PB66N"
+		(at 153.67 142.24 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15257,8 +15257,8 @@
 		)
 		(uuid "c6f1b6b5-4377-4aae-8a3c-3a943e900538")
 	)
-	(label "PB64A"
-		(at 153.67 127 180)
+	(label "PB64N"
+		(at 153.67 134.62 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15287,7 +15287,7 @@
 		)
 		(uuid "cb8d303f-0851-471e-9524-0ae238453b94")
 	)
-	(label "PB64A"
+	(label "PB64P"
 		(at 107.95 171.45 0)
 		(effects
 			(font
@@ -15387,8 +15387,8 @@
 		)
 		(uuid "d9561b7d-3289-4f50-8891-d5689bc221c0")
 	)
-	(label "PB62A"
-		(at 153.67 111.76 180)
+	(label "PB62P"
+		(at 153.67 127 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15477,7 +15477,7 @@
 		)
 		(uuid "e0d0da95-9ccd-4814-82a5-db66fee44ac7")
 	)
-	(label "PB64B"
+	(label "PB64N"
 		(at 107.95 173.99 0)
 		(effects
 			(font
@@ -15537,7 +15537,7 @@
 		)
 		(uuid "ee44e4d0-a7b0-48c7-b8fb-69d11b5d908c")
 	)
-	(label "PB62A"
+	(label "PB62P"
 		(at 107.95 166.37 0)
 		(effects
 			(font
@@ -15567,7 +15567,7 @@
 		)
 		(uuid "ef67ca18-e232-41a0-9d6b-740ac0408448")
 	)
-	(label "PR13B"
+	(label "PR13P"
 		(at 153.67 165.1 180)
 		(effects
 			(font
@@ -15597,7 +15597,7 @@
 		)
 		(uuid "f3dc07e9-1212-43de-835a-cfcf8eea2ecb")
 	)
-	(label "PB66B"
+	(label "PB66N"
 		(at 107.95 179.07 0)
 		(effects
 			(font
@@ -15607,8 +15607,8 @@
 		)
 		(uuid "f41f0666-dacb-44b7-be7d-6fba5c73a02d")
 	)
-	(label "PB64B"
-		(at 153.67 129.54 180)
+	(label "PB64P"
+		(at 153.67 137.16 180)
 		(effects
 			(font
 				(size 1.27 1.27)
