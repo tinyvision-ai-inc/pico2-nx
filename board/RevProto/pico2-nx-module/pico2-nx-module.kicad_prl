@@ -1,10 +1,12 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 17,
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [],
-    "hidden_nets": [],
+    "hidden_nets": [
+      "/FPGA/PR7A"
+    ],
     "high_contrast_mode": 0,
     "net_color_mode": 0,
     "opacity": {
@@ -16,17 +18,17 @@
       "zones": 0.6399999856948853
     },
     "selection_filter": {
-      "dimensions": false,
-      "footprints": false,
-      "graphics": false,
-      "keepouts": false,
+      "dimensions": true,
+      "footprints": true,
+      "graphics": true,
+      "keepouts": true,
       "lockedItems": true,
-      "otherItems": false,
-      "pads": false,
-      "text": false,
+      "otherItems": true,
+      "pads": true,
+      "text": true,
       "tracks": true,
-      "vias": false,
-      "zones": false
+      "vias": true,
+      "zones": true
     },
     "visible_items": [
       "vias",
@@ -38,14 +40,12 @@
       "footprint_values",
       "footprint_references",
       "tracks",
-      "drc_errors",
       "bitmaps",
       "pads",
       "zones",
-      "drc_warnings",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_00000000_02020447",
+    "visible_layers": "00000000_00000000_00000000_02020445",
     "zone_display_mode": 0
   },
   "git": {

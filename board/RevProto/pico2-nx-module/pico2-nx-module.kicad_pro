@@ -479,9 +479,9 @@
       {
         "bus_width": 12,
         "clearance": 0.127,
-        "diff_pair_gap": 0.1143,
+        "diff_pair_gap": 0.1397,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.127,
+        "diff_pair_width": 0.103378,
         "line_style": 0,
         "microvia_diameter": 0.254,
         "microvia_drill": 0.1524,
@@ -489,7 +489,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.127,
+        "track_width": 0.156464,
         "via_diameter": 0.254,
         "via_drill": 0.1524,
         "wire_width": 6
@@ -747,6 +747,94 @@
       {
         "netclass": "mipi",
         "pattern": "/FPGA/PR11P"
+      },
+      {
+        "netclass": "mipi",
+        "pattern": "/FPGA/DPHY1.D1+"
+      },
+      {
+        "netclass": "mipi",
+        "pattern": "/FPGA/DPHY1.D1-"
+      },
+      {
+        "netclass": "mipi",
+        "pattern": "/FPGA/DPHY1.D3+"
+      },
+      {
+        "netclass": "mipi",
+        "pattern": "/FPGA/DPHY1.D3-"
+      },
+      {
+        "netclass": "mipi",
+        "pattern": "/FPGA/PB22N"
+      },
+      {
+        "netclass": "mipi",
+        "pattern": "/FPGA/PB22P"
+      },
+      {
+        "netclass": "mipi",
+        "pattern": "/FPGA/PB20N"
+      },
+      {
+        "netclass": "mipi",
+        "pattern": "/FPGA/PB20P"
+      },
+      {
+        "netclass": "mipi",
+        "pattern": "/FPGA/PB16N"
+      },
+      {
+        "netclass": "mipi",
+        "pattern": "/FPGA/PB16P"
+      },
+      {
+        "netclass": "mipi",
+        "pattern": "/FPGA/PB18N"
+      },
+      {
+        "netclass": "mipi",
+        "pattern": "/FPGA/PB18P"
+      },
+      {
+        "netclass": "mipi",
+        "pattern": "/FPGA/PB24P"
+      },
+      {
+        "netclass": "mipi",
+        "pattern": "/FPGA/PB24N"
+      },
+      {
+        "netclass": "mipi",
+        "pattern": "/FPGA/PB26P"
+      },
+      {
+        "netclass": "mipi",
+        "pattern": "/FPGA/PB26N"
+      },
+      {
+        "netclass": "mipi",
+        "pattern": "/FPGA/PB28P"
+      },
+      {
+        "netclass": "mipi",
+        "pattern": "/FPGA/PB28N"
+      },
+      {
+        "netclass": "mipi",
+        "pattern": "/FPGA/PB30P"
+      },
+      {
+        "netclass": "mipi",
+        "pattern": "/FPGA/PB30N"
+      },
+      {
+        "netclass": "mipi",
+        "pattern": "/FPGA/SRAM_CLK_N"
+      },
+      {
+        "netclass": "mipi",
+        "pattern": "/FPGA/SRAM_CLK_P"
       }
     ]
   },

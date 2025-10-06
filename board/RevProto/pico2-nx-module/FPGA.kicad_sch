@@ -8206,34 +8206,6 @@
 		(uuid 1b8821c1-daeb-401d-91f8-88c2884a29cb)
 	)
 	(rectangle
-		(start 210.82 172.72)
-		(end 230.505 179.578)
-		(stroke
-			(width 0)
-			(type solid)
-			(color 192 192 192 1)
-		)
-		(fill
-			(type color)
-			(color 255 255 255 1)
-		)
-		(uuid 317dcd6c-8f2b-4d52-bd6d-9024c1e16997)
-	)
-	(rectangle
-		(start 210.82 121.92)
-		(end 230.505 147.32)
-		(stroke
-			(width 0)
-			(type solid)
-			(color 192 192 192 1)
-		)
-		(fill
-			(type color)
-			(color 255 255 255 1)
-		)
-		(uuid 615bfcf1-8227-4e64-bd93-0498f37549ad)
-	)
-	(rectangle
 		(start 187.452 101.6)
 		(end 205.105 162.56)
 		(stroke
@@ -8273,20 +8245,6 @@
 			(color 255 232 215 1)
 		)
 		(uuid c7980340-baf1-4821-b226-7720f07d84f9)
-	)
-	(rectangle
-		(start 210.82 147.32)
-		(end 230.505 172.72)
-		(stroke
-			(width 0)
-			(type solid)
-			(color 190 190 190 1)
-		)
-		(fill
-			(type color)
-			(color 220 220 220 1)
-		)
-		(uuid dc305eee-c561-4d96-99cd-7afdfbd15861)
 	)
 	(rectangle
 		(start 259.715 100.965)
@@ -8368,16 +8326,6 @@
 		)
 		(uuid "2951c848-2cb9-4515-b1b8-64658003429d")
 	)
-	(text "Bank 0"
-		(exclude_from_sim no)
-		(at 220.218 178.816 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "42a7f279-ed08-4fe3-ad83-3ed1883d13fd")
-	)
 	(text "Bank 1"
 		(exclude_from_sim no)
 		(at 145.796 177.038 0)
@@ -8440,16 +8388,6 @@
 			(justify left bottom)
 		)
 		(uuid "6f7bcfee-f97c-4809-a2b0-1a9ad6a302ea")
-	)
-	(text "Bank 1"
-		(exclude_from_sim no)
-		(at 220.218 171.704 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "75dcfda5-4c35-470f-ba9b-3dc4c72561f4")
 	)
 	(text "Series termination\nresistors near FPGA."
 		(exclude_from_sim no)
@@ -13748,7 +13686,7 @@
 		(uuid "0522d3c5-e691-4c00-8d76-bceff017d523")
 	)
 	(label "PR9B"
-		(at 228.6 149.86 180)
+		(at 228.6 157.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13757,8 +13695,8 @@
 		)
 		(uuid "087f683f-868f-450b-980d-fde7120f253f")
 	)
-	(label "PB26B"
-		(at 189.23 144.78 0)
+	(label "PB26N"
+		(at 189.23 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13788,7 +13726,7 @@
 		(uuid "093689d8-ff4d-4274-aeb5-aa1cd70a9bb4")
 	)
 	(label "SRAM_DQ7"
-		(at 384.81 222.25 0)
+		(at 384.81 212.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13798,7 +13736,7 @@
 		(uuid "0b6a9905-4c71-4c2d-b91b-99244f3d7161")
 	)
 	(label "PR11P"
-		(at 153.67 172.72 180)
+		(at 153.67 175.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13808,7 +13746,7 @@
 		(uuid "0c9954ef-e5e2-4480-84d8-3291d50aaee2")
 	)
 	(label "SRAM_DQ0"
-		(at 384.81 201.93 0)
+		(at 384.81 207.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13858,7 +13796,7 @@
 		(uuid "115a22c2-79b3-4271-b60f-5cffff233fef")
 	)
 	(label "PT57A"
-		(at 228.6 144.78 180)
+		(at 228.6 124.46 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13897,7 +13835,7 @@
 		)
 		(uuid "17285d04-dbf4-4475-850a-c933bfa87678")
 	)
-	(label "PB30A"
+	(label "PB30P"
 		(at 121.92 251.46 0)
 		(effects
 			(font
@@ -13908,7 +13846,7 @@
 		(uuid "183330b3-bfe9-4979-a1cc-52b6b92d691f")
 	)
 	(label "PR13N"
-		(at 153.67 167.64 180)
+		(at 153.67 165.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13938,7 +13876,7 @@
 		(uuid "1b0cebab-8347-414d-ad1a-d2b49f8aa3df")
 	)
 	(label "TDI"
-		(at 228.6 160.02 180)
+		(at 228.6 127 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13947,7 +13885,7 @@
 		)
 		(uuid "1c705577-6b50-4175-9de2-25ed7a9b37bc")
 	)
-	(label "PB24B"
+	(label "PB24N"
 		(at 121.92 238.76 0)
 		(effects
 			(font
@@ -13977,7 +13915,7 @@
 		)
 		(uuid "21046cc0-ecd8-4362-b79c-99c379a6428b")
 	)
-	(label "PB22B"
+	(label "PB22N"
 		(at 121.92 233.68 0)
 		(effects
 			(font
@@ -13997,7 +13935,7 @@
 		)
 		(uuid "23da5ef3-8dfc-4aec-9f69-fa3e21010500")
 	)
-	(label "PB28A"
+	(label "PB28P"
 		(at 121.92 246.38 0)
 		(effects
 			(font
@@ -14008,7 +13946,7 @@
 		(uuid "246c50a3-3309-4c61-8101-73e3b4a11a0c")
 	)
 	(label "PR7A"
-		(at 228.6 170.18 180)
+		(at 228.6 154.94 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14027,8 +13965,8 @@
 		)
 		(uuid "266aab8b-53cc-4898-afce-8dea42dcb0fb")
 	)
-	(label "PB16A"
-		(at 189.23 121.92 0)
+	(label "PB16P"
+		(at 189.23 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14067,7 +14005,7 @@
 		)
 		(uuid "28d38c70-f3b7-4450-938a-ec8d7b9a7e53")
 	)
-	(label "PB30B"
+	(label "PB30N"
 		(at 121.92 254 0)
 		(effects
 			(font
@@ -14078,7 +14016,7 @@
 		(uuid "2a2ccb87-7b13-44ca-9c41-fbc80b7bb71c")
 	)
 	(label "SCLK"
-		(at 228.6 127 180)
+		(at 228.6 162.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14087,8 +14025,8 @@
 		)
 		(uuid "2b67ad5f-1c40-4066-9404-798b1d9af787")
 	)
-	(label "PB24A"
-		(at 189.23 134.62 0)
+	(label "PB24P"
+		(at 189.23 157.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14128,7 +14066,7 @@
 		(uuid "3030239b-e453-46bd-80ce-9d3090acf621")
 	)
 	(label "DONE"
-		(at 228.6 124.46 180)
+		(at 228.6 134.62 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14158,7 +14096,7 @@
 		(uuid "31e5199d-e457-4b82-a4f9-79f18c7363bc")
 	)
 	(label "SRAM_DQ5"
-		(at 384.81 212.09 0)
+		(at 384.81 201.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14167,7 +14105,7 @@
 		)
 		(uuid "3297d34e-4444-4a2a-b862-837e727d8ec2")
 	)
-	(label "PB16B"
+	(label "PB16N"
 		(at 121.92 218.44 0)
 		(effects
 			(font
@@ -14218,7 +14156,7 @@
 		(uuid "3ba7d4cb-4615-4fd4-9a16-cbceda41a94e")
 	)
 	(label "PT67A"
-		(at 228.6 177.8 180)
+		(at 228.6 144.78 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14238,7 +14176,7 @@
 		(uuid "3ca39929-5705-4eaa-ac57-5c8ec916a61a")
 	)
 	(label "SRAM_DQ4"
-		(at 384.81 209.55 0)
+		(at 384.81 219.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14258,7 +14196,7 @@
 		(uuid "3fdb89bd-a25d-4002-8c0f-919bff32e2a3")
 	)
 	(label "SRAM_DQ2"
-		(at 384.81 199.39 0)
+		(at 384.81 209.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14268,7 +14206,7 @@
 		(uuid "403bc332-3115-4d77-aeae-194e9cc6547c")
 	)
 	(label "TMS"
-		(at 228.6 157.48 180)
+		(at 228.6 139.7 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14288,7 +14226,7 @@
 		(uuid "425134ae-6ca0-4b2d-8bf8-2fff4dfc03c6")
 	)
 	(label "SD3"
-		(at 228.6 139.7 180)
+		(at 228.6 167.64 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14297,7 +14235,7 @@
 		)
 		(uuid "44b979c3-e659-4a8d-8714-62e52fa14bfb")
 	)
-	(label "PB24A"
+	(label "PB24P"
 		(at 121.92 236.22 0)
 		(effects
 			(font
@@ -14317,7 +14255,7 @@
 		)
 		(uuid "45fa0064-3329-4c1a-b39e-74d2a046c935")
 	)
-	(label "PB18A"
+	(label "PB18P"
 		(at 121.92 220.98 0)
 		(effects
 			(font
@@ -14328,7 +14266,7 @@
 		(uuid "48113207-395e-4819-8a01-275d810d9d5a")
 	)
 	(label "MOSI"
-		(at 228.6 132.08 180)
+		(at 228.6 160.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14447,8 +14385,8 @@
 		)
 		(uuid "53413166-94bb-4faf-9060-23906e048c6e")
 	)
-	(label "PB26A"
-		(at 189.23 142.24 0)
+	(label "PB26P"
+		(at 189.23 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14507,8 +14445,8 @@
 		)
 		(uuid "5a52802d-e559-451e-bca8-1324b7c95603")
 	)
-	(label "PB30A"
-		(at 189.23 157.48 0)
+	(label "PB30P"
+		(at 189.23 137.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14517,7 +14455,7 @@
 		)
 		(uuid "5b718c3c-f12b-4e06-84c6-fe4e815042bb")
 	)
-	(label "PB22A"
+	(label "PB22P"
 		(at 121.92 231.14 0)
 		(effects
 			(font
@@ -14537,7 +14475,7 @@
 		)
 		(uuid "5f75f269-71b7-45cc-a39b-acd5bdf78f69")
 	)
-	(label "PB20A"
+	(label "PB20P"
 		(at 121.92 226.06 0)
 		(effects
 			(font
@@ -14578,7 +14516,7 @@
 		(uuid "6aba7c61-e649-4fff-be1f-f54f04705338")
 	)
 	(label "PR7B"
-		(at 228.6 167.64 180)
+		(at 228.6 152.4 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14588,7 +14526,7 @@
 		(uuid "6d21e3cb-88bd-47a8-91ca-8ba3ff936857")
 	)
 	(label "MISO"
-		(at 228.6 134.62 180)
+		(at 228.6 175.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14598,7 +14536,7 @@
 		(uuid "70f1692b-896f-409c-84d1-7f99668afcb1")
 	)
 	(label "PR11N"
-		(at 153.67 175.26 180)
+		(at 153.67 172.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14617,8 +14555,8 @@
 		)
 		(uuid "73916e4d-7a1f-43b2-91ef-74c70f9036f7")
 	)
-	(label "PB20A"
-		(at 189.23 114.3 0)
+	(label "PB20P"
+		(at 189.23 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14628,7 +14566,7 @@
 		(uuid "7437297d-ed81-4c28-98c0-ed7be477fa98")
 	)
 	(label "SRAM_DQ3"
-		(at 384.81 207.01 0)
+		(at 384.81 222.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14638,7 +14576,7 @@
 		(uuid "75d81dc6-6ea5-40f7-87be-ddc307171e2e")
 	)
 	(label "SRAM_CLK_N"
-		(at 384.81 237.49 0)
+		(at 384.81 234.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14658,7 +14596,7 @@
 		(uuid "7790b1af-b858-4c9a-a345-8b1331154f3f")
 	)
 	(label "TDO"
-		(at 228.6 162.56 180)
+		(at 228.6 129.54 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14767,8 +14705,8 @@
 		)
 		(uuid "82cd0c6b-a975-42d7-9e00-34cda7e6df4d")
 	)
-	(label "PB22A"
-		(at 189.23 106.68 0)
+	(label "PB22P"
+		(at 189.23 152.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14778,7 +14716,7 @@
 		(uuid "835d7597-68c4-4bc5-8c5a-21a01ef0afdb")
 	)
 	(label "FLASH_CSn"
-		(at 228.6 129.54 180)
+		(at 228.6 170.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14787,7 +14725,7 @@
 		)
 		(uuid "8485f4f5-d23b-4ae9-972e-24d93adfd479")
 	)
-	(label "PB26A"
+	(label "PB26P"
 		(at 121.92 241.3 0)
 		(effects
 			(font
@@ -14827,7 +14765,7 @@
 		)
 		(uuid "88b5a85a-8aa2-467f-98ea-3d5403fc1cbf")
 	)
-	(label "PB16A"
+	(label "PB16P"
 		(at 121.92 215.9 0)
 		(effects
 			(font
@@ -14837,8 +14775,8 @@
 		)
 		(uuid "8ac01b7d-a16b-4c10-b799-b727671e3cf2")
 	)
-	(label "PB22B"
-		(at 189.23 104.14 0)
+	(label "PB22N"
+		(at 189.23 149.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14857,8 +14795,8 @@
 		)
 		(uuid "8c0ee56c-22ba-42b0-a097-8f7b726286d8")
 	)
-	(label "PB28B"
-		(at 189.23 152.4 0)
+	(label "PB28N"
+		(at 189.23 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14867,8 +14805,8 @@
 		)
 		(uuid "8d805423-6a0e-496c-90fd-3740fc4f91d2")
 	)
-	(label "PB20B"
-		(at 189.23 111.76 0)
+	(label "PB20N"
+		(at 189.23 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14887,8 +14825,8 @@
 		)
 		(uuid "8fdec98e-b8f3-403c-a6c3-c592cede09d5")
 	)
-	(label "PB18B"
-		(at 189.23 127 0)
+	(label "PB18N"
+		(at 189.23 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14898,7 +14836,7 @@
 		(uuid "92bc76a5-9ac9-418b-b872-04027150c93a")
 	)
 	(label "PT67B"
-		(at 228.6 175.26 180)
+		(at 228.6 142.24 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14907,8 +14845,8 @@
 		)
 		(uuid "92fda4ef-4646-4cf6-a10f-7bd73422ceb3")
 	)
-	(label "PB30B"
-		(at 189.23 160.02 0)
+	(label "PB30N"
+		(at 189.23 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15008,7 +14946,7 @@
 		(uuid "9efad892-104a-4e16-94c4-db6bda960469")
 	)
 	(label "SRAM_DQ6"
-		(at 384.81 219.71 0)
+		(at 384.81 199.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15137,7 +15075,7 @@
 		)
 		(uuid "b6acc343-3211-416d-9c7e-c69340e31cdd")
 	)
-	(label "PB26B"
+	(label "PB26N"
 		(at 121.92 243.84 0)
 		(effects
 			(font
@@ -15157,8 +15095,8 @@
 		)
 		(uuid "b7fe3a3f-e137-4e20-b00a-6507a1b67180")
 	)
-	(label "PB18A"
-		(at 189.23 129.54 0)
+	(label "PB18P"
+		(at 189.23 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15198,7 +15136,7 @@
 		(uuid "bebe747e-2f89-4fb4-bf76-6047cfdec2dd")
 	)
 	(label "PT65B"
-		(at 228.6 147.32 180)
+		(at 228.6 149.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15228,7 +15166,7 @@
 		(uuid "c3cebc4c-8d2a-4d81-85be-ff1b4286267f")
 	)
 	(label "PROGRAMn"
-		(at 228.6 142.24 180)
+		(at 228.6 132.08 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15247,7 +15185,7 @@
 		)
 		(uuid "c5b4ecad-4704-4a69-b1a9-6d07d267edba")
 	)
-	(label "PB18B"
+	(label "PB18N"
 		(at 121.92 223.52 0)
 		(effects
 			(font
@@ -15307,8 +15245,8 @@
 		)
 		(uuid "d0aeb02c-40be-4eaa-9eea-ab96a383c481")
 	)
-	(label "PB24B"
-		(at 189.23 137.16 0)
+	(label "PB24N"
+		(at 189.23 160.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15317,7 +15255,7 @@
 		)
 		(uuid "d10280b4-d074-4e6d-9972-be8e489299f2")
 	)
-	(label "PB28B"
+	(label "PB28N"
 		(at 121.92 248.92 0)
 		(effects
 			(font
@@ -15357,7 +15295,7 @@
 		)
 		(uuid "d6570473-48d4-485f-a53b-99e5ffe758d2")
 	)
-	(label "PB20B"
+	(label "PB20N"
 		(at 121.92 228.6 0)
 		(effects
 			(font
@@ -15368,7 +15306,7 @@
 		(uuid "d8d7166a-031c-4004-bfe5-bf69b689d351")
 	)
 	(label "SD2"
-		(at 228.6 137.16 180)
+		(at 228.6 177.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15378,7 +15316,7 @@
 		(uuid "d9153da5-62c5-4a74-9279-25c63d1e73dd")
 	)
 	(label "TCK"
-		(at 228.6 154.94 180)
+		(at 228.6 147.32 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15398,7 +15336,7 @@
 		(uuid "da0e693a-5a4f-4f99-9dc4-caca8b465eae")
 	)
 	(label "SRAM_CLK_P"
-		(at 384.81 234.95 0)
+		(at 384.81 237.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15447,8 +15385,8 @@
 		)
 		(uuid "dd38406b-0140-476c-8dc0-0d32fc611d80")
 	)
-	(label "PB16B"
-		(at 189.23 119.38 0)
+	(label "PB16N"
+		(at 189.23 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15497,8 +15435,8 @@
 		)
 		(uuid "e573e10d-ed2b-4aca-a8a4-bb9b4ce1139e")
 	)
-	(label "PB28A"
-		(at 189.23 149.86 0)
+	(label "PB28P"
+		(at 189.23 144.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15568,7 +15506,7 @@
 		(uuid "ef67ca18-e232-41a0-9d6b-740ac0408448")
 	)
 	(label "PR13P"
-		(at 153.67 165.1 180)
+		(at 153.67 167.64 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15618,7 +15556,7 @@
 		(uuid "f4e59b3f-3296-4148-afc8-bb5e032e471e")
 	)
 	(label "JTAG_EN"
-		(at 228.6 152.4 180)
+		(at 228.6 137.16 180)
 		(effects
 			(font
 				(size 1.27 1.27)
