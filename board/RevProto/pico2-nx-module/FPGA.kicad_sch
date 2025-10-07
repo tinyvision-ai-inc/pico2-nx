@@ -13935,7 +13935,7 @@
 		)
 		(uuid "246c50a3-3309-4c61-8101-73e3b4a11a0c")
 	)
-	(label "PR7A"
+	(label "PR7P"
 		(at 228.6 154.94 180)
 		(effects
 			(font
@@ -14145,7 +14145,7 @@
 		)
 		(uuid "3ba7d4cb-4615-4fd4-9a16-cbceda41a94e")
 	)
-	(label "PT67A"
+	(label "PT67P"
 		(at 228.6 144.78 180)
 		(effects
 			(font
@@ -14475,7 +14475,7 @@
 		)
 		(uuid "61a3e644-2beb-4f97-bb6d-7bae6a2c9e3b")
 	)
-	(label "PR7B"
+	(label "PR7N"
 		(at 106.68 97.79 0)
 		(effects
 			(font
@@ -14485,7 +14485,7 @@
 		)
 		(uuid "63e7b518-3669-42de-bbee-ae1c46e6138c")
 	)
-	(label "PT67B"
+	(label "PT67N"
 		(at 106.68 72.39 0)
 		(effects
 			(font
@@ -14505,7 +14505,7 @@
 		)
 		(uuid "6aba7c61-e649-4fff-be1f-f54f04705338")
 	)
-	(label "PR7B"
+	(label "PR7N"
 		(at 228.6 152.4 180)
 		(effects
 			(font
@@ -14825,7 +14825,7 @@
 		)
 		(uuid "92bc76a5-9ac9-418b-b872-04027150c93a")
 	)
-	(label "PT67B"
+	(label "PT67N"
 		(at 228.6 142.24 180)
 		(effects
 			(font
@@ -14975,7 +14975,7 @@
 		)
 		(uuid "a687d221-b184-4e8e-862e-36c34fa15a23")
 	)
-	(label "PT67A"
+	(label "PT67P"
 		(at 106.68 69.85 0)
 		(effects
 			(font
@@ -15335,7 +15335,7 @@
 		)
 		(uuid "da6d4f75-13f4-4bc2-9aea-0af4dc2a52ec")
 	)
-	(label "PR7A"
+	(label "PR7P"
 		(at 106.68 95.25 0)
 		(effects
 			(font
