@@ -8477,16 +8477,6 @@
 		)
 		(uuid "eb552b35-25c5-44e8-9a7d-7435159b43a2")
 	)
-	(text "Bank 0"
-		(exclude_from_sim no)
-		(at 219.202 123.698 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ec1f72e2-d31f-40af-8047-ac1547e5ac01")
-	)
 	(text "FPGA Bank 0"
 		(exclude_from_sim no)
 		(at 44.958 29.972 0)
