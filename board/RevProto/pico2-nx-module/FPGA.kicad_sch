@@ -8206,6 +8206,34 @@
 		(uuid 1b8821c1-daeb-401d-91f8-88c2884a29cb)
 	)
 	(rectangle
+		(start 210.82 165.1)
+		(end 231.775 172.72)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 190 190 190 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 255 1)
+		)
+		(uuid 2dc0ede9-30ad-4840-aabc-205028bc3dba)
+	)
+	(rectangle
+		(start 210.82 172.72)
+		(end 231.775 180.34)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 190 190 190 1)
+		)
+		(fill
+			(type color)
+			(color 220 220 220 1)
+		)
+		(uuid 4c5c6fd3-4617-4e4a-af49-1d5977e6321d)
+	)
+	(rectangle
 		(start 187.452 101.6)
 		(end 205.105 162.56)
 		(stroke
@@ -8388,6 +8416,26 @@
 			(justify left bottom)
 		)
 		(uuid "6f7bcfee-f97c-4809-a2b0-1a9ad6a302ea")
+	)
+	(text "Bank 0"
+		(exclude_from_sim no)
+		(at 221.361 171.958 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "73538053-4aa8-4140-ab82-66dd4bd52310")
+	)
+	(text "Bank 1"
+		(exclude_from_sim no)
+		(at 221.361 179.578 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "78b307ad-189c-4d5d-8a0a-b961d1dfea81")
 	)
 	(text "Series termination\nresistors near FPGA."
 		(exclude_from_sim no)
@@ -13676,7 +13724,7 @@
 		(uuid "0522d3c5-e691-4c00-8d76-bceff017d523")
 	)
 	(label "PR9B"
-		(at 228.6 157.48 180)
+		(at 228.6 127 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13866,7 +13914,7 @@
 		(uuid "1b0cebab-8347-414d-ad1a-d2b49f8aa3df")
 	)
 	(label "TDI"
-		(at 228.6 127 180)
+		(at 228.6 142.24 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13936,7 +13984,7 @@
 		(uuid "246c50a3-3309-4c61-8101-73e3b4a11a0c")
 	)
 	(label "PR7P"
-		(at 228.6 154.94 180)
+		(at 228.6 175.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14006,7 +14054,7 @@
 		(uuid "2a2ccb87-7b13-44ca-9c41-fbc80b7bb71c")
 	)
 	(label "SCLK"
-		(at 228.6 162.56 180)
+		(at 228.6 139.7 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14146,7 +14194,7 @@
 		(uuid "3ba7d4cb-4615-4fd4-9a16-cbceda41a94e")
 	)
 	(label "PT67P"
-		(at 228.6 144.78 180)
+		(at 228.6 167.64 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14196,7 +14244,7 @@
 		(uuid "403bc332-3115-4d77-aeae-194e9cc6547c")
 	)
 	(label "TMS"
-		(at 228.6 139.7 180)
+		(at 228.6 149.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14216,7 +14264,7 @@
 		(uuid "425134ae-6ca0-4b2d-8bf8-2fff4dfc03c6")
 	)
 	(label "SD3"
-		(at 228.6 167.64 180)
+		(at 228.6 147.32 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14256,7 +14304,7 @@
 		(uuid "48113207-395e-4819-8a01-275d810d9d5a")
 	)
 	(label "MOSI"
-		(at 228.6 160.02 180)
+		(at 228.6 137.16 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14506,7 +14554,7 @@
 		(uuid "6aba7c61-e649-4fff-be1f-f54f04705338")
 	)
 	(label "PR7N"
-		(at 228.6 152.4 180)
+		(at 228.6 177.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14516,7 +14564,7 @@
 		(uuid "6d21e3cb-88bd-47a8-91ca-8ba3ff936857")
 	)
 	(label "MISO"
-		(at 228.6 175.26 180)
+		(at 228.6 160.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14586,7 +14634,7 @@
 		(uuid "7790b1af-b858-4c9a-a345-8b1331154f3f")
 	)
 	(label "TDO"
-		(at 228.6 129.54 180)
+		(at 228.6 144.78 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14706,7 +14754,7 @@
 		(uuid "835d7597-68c4-4bc5-8c5a-21a01ef0afdb")
 	)
 	(label "FLASH_CSn"
-		(at 228.6 170.18 180)
+		(at 228.6 157.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14826,7 +14874,7 @@
 		(uuid "92bc76a5-9ac9-418b-b872-04027150c93a")
 	)
 	(label "PT67N"
-		(at 228.6 142.24 180)
+		(at 228.6 170.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15126,7 +15174,7 @@
 		(uuid "bebe747e-2f89-4fb4-bf76-6047cfdec2dd")
 	)
 	(label "PT65B"
-		(at 228.6 149.86 180)
+		(at 228.6 129.54 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15296,7 +15344,7 @@
 		(uuid "d8d7166a-031c-4004-bfe5-bf69b689d351")
 	)
 	(label "SD2"
-		(at 228.6 177.8 180)
+		(at 228.6 162.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15306,7 +15354,7 @@
 		(uuid "d9153da5-62c5-4a74-9279-25c63d1e73dd")
 	)
 	(label "TCK"
-		(at 228.6 147.32 180)
+		(at 228.6 154.94 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15546,7 +15594,7 @@
 		(uuid "f4e59b3f-3296-4148-afc8-bb5e032e471e")
 	)
 	(label "JTAG_EN"
-		(at 228.6 137.16 180)
+		(at 228.6 152.4 180)
 		(effects
 			(font
 				(size 1.27 1.27)
