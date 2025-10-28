@@ -27262,7 +27262,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pico:BGA24_APS6408L-3OBM-BA_APY"
+		(property "Footprint" "Package_BGA:BGA-24_6x8mm_Layout5x5_P1.0mm"
 			(at 250.19 199.39 0)
 			(effects
 				(font
