@@ -2,7 +2,7 @@
 (rule "BGA neckdown"
     (constraint track_width (min 3mil) (opt 4.2mil))
     (constraint clearance (min 3mil) (opt 4.5mil))
-    (condition "A.enclosedByArea('BGA')"))
+    (condition "A.enclosedByArea('BGA') && B.NetName != 'GND' && B.NetName != 'P1V8D_FPGA'"))
 (rule "Differential pair clearance"
-    (condition "A.inDiffPair('*') && !AB.isCoupledDiffPair() && B.NetName!='GND' && B.Type != 'Pad' && !A.intersectsArea('BGA')")
+    (condition "A.inDiffPair('*') && !AB.isCoupledDiffPair() && B.NetName!='GND' && B.NetName!='' && !A.intersectsArea('BGA')")
     (constraint clearance (min 12.75mil)))
