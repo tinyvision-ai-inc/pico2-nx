@@ -1,0 +1,4 @@
+(version 1)
+(rule "Differential pair clearance"
+    (condition "A.inDiffPair('*') && !AB.isCoupledDiffPair() && B.NetName!='GND' && B.Type != 'Pad'")
+    (constraint clearance (min 12.75mil)))
