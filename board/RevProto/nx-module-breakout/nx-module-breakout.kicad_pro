@@ -483,7 +483,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.1905,
+        "clearance": 0.127,
         "diff_pair_gap": 0.1524,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.13335,
@@ -500,7 +500,7 @@
         "wire_width": 6
       },
       {
-        "clearance": 0.1905,
+        "clearance": 0.127,
         "diff_pair_gap": 0.2032,
         "diff_pair_width": 0.122936,
         "microvia_diameter": 0.508,
