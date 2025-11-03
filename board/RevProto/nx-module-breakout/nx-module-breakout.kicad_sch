@@ -21150,7 +21150,7 @@
 		(dnp no)
 		(uuid "ceb23dd0-6869-4f46-b11d-b6a35f5c6da3")
 		(property "Reference" "R5"
-			(at 256.921 69.85 90)
+			(at 257.81 68.326 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21158,7 +21158,7 @@
 			)
 		)
 		(property "Value" "56K"
-			(at 259.207 69.596 90)
+			(at 258.064 70.612 0)
 			(effects
 				(font
 					(size 1.27 1.27)
