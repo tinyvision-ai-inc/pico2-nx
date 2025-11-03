@@ -7635,6 +7635,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 80.01) (xy 261.62 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04716eb1-cf50-46ad-be91-61d49306b862")
+	)
+	(wire
+		(pts
 			(xy 130.81 180.34) (xy 130.81 151.13)
 		)
 		(stroke
@@ -8142,6 +8152,16 @@
 			(type default)
 		)
 		(uuid "274ade20-5010-4a1d-aaa0-512908dbe4d8")
+	)
+	(wire
+		(pts
+			(xy 261.62 53.34) (xy 261.62 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27b34d5f-84ed-4d75-89e0-3ec408fb6e11")
 	)
 	(wire
 		(pts
@@ -9562,6 +9582,16 @@
 			(type default)
 		)
 		(uuid "8fbe807f-5bc3-4f00-aa9c-943165344bf0")
+	)
+	(wire
+		(pts
+			(xy 261.62 64.77) (xy 261.62 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "901a0a33-c413-4e75-b910-a079bb42c76f")
 	)
 	(wire
 		(pts
@@ -11373,6 +11403,16 @@
 		)
 		(uuid "258b84fe-7b72-4942-810c-c7913336d5d5")
 	)
+	(label "FPGA_EN"
+		(at 261.62 80.01 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "27df0fe4-e293-4098-811e-a3096109965d")
+	)
 	(label "MISO"
 		(at 240.03 82.55 270)
 		(effects
@@ -12022,6 +12062,16 @@
 			(justify right bottom)
 		)
 		(uuid "6dbff0dd-6f59-402a-abbc-aaf62146950a")
+	)
+	(label "P5VD_AON"
+		(at 261.62 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6ed67bc9-707b-4aa2-b6b6-560dff872bbc")
 	)
 	(label "P3V3D"
 		(at 381 38.1 0)
@@ -15923,6 +15973,77 @@
 			(project "nx-module-breakout"
 				(path "/c4309d17-8b44-40eb-9117-2333970d29f8"
 					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 261.62 60.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5aa3c4ac-ae34-4b3e-aa38-f521d3f1f944")
+		(property "Reference" "JP7"
+			(at 264.16 59.6899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SolderJumper_2_Bridged"
+			(at 264.16 62.2299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 261.62 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 261.62 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 261.62 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb19b460-e326-4040-8633-0a7f9a1f9a39")
+		)
+		(pin "2"
+			(uuid "1dc6dc55-591e-4934-a861-051b42a41c2d")
+		)
+		(instances
+			(project ""
+				(path "/c4309d17-8b44-40eb-9117-2333970d29f8"
+					(reference "JP7")
 					(unit 1)
 				)
 			)
@@ -20898,6 +21019,109 @@
 			(project "nx-module-breakout"
 				(path "/c4309d17-8b44-40eb-9117-2333970d29f8"
 					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 261.62 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ceb23dd0-6869-4f46-b11d-b6a35f5c6da3")
+		(property "Reference" "R5"
+			(at 256.921 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "56K"
+			(at 259.207 70.866 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 261.62 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 261.62 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 261.62 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key Part Number" ""
+			(at 261.62 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402FR-0727RL"
+			(at 261.62 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 261.62 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 261.62 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "284d403c-8d8e-4e57-9986-c7912632630e")
+		)
+		(pin "2"
+			(uuid "c8545ab2-7c40-4391-88a8-23f3584ad360")
+		)
+		(instances
+			(project "nx-module-breakout"
+				(path "/c4309d17-8b44-40eb-9117-2333970d29f8"
+					(reference "R5")
 					(unit 1)
 				)
 			)
