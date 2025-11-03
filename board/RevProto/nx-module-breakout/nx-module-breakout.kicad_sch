@@ -7390,6 +7390,12 @@
 		(uuid "3bee5f08-958d-463d-bb67-f31581cc0a32")
 	)
 	(junction
+		(at 261.62 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "44169d67-390a-4e49-8b63-f853f00f8ed8")
+	)
+	(junction
 		(at 113.03 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7632,16 +7638,6 @@
 			(type default)
 		)
 		(uuid "03f1833f-aafe-4c60-90db-7799655dcfdf")
-	)
-	(wire
-		(pts
-			(xy 261.62 80.01) (xy 261.62 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04716eb1-cf50-46ad-be91-61d49306b862")
 	)
 	(wire
 		(pts
@@ -7912,6 +7908,16 @@
 			(type default)
 		)
 		(uuid "17ccb1da-1801-4814-9b19-a3f8ec8ab445")
+	)
+	(wire
+		(pts
+			(xy 271.78 76.2) (xy 274.32 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17f640d4-3914-4507-918a-c078871bb9eb")
 	)
 	(wire
 		(pts
@@ -9585,7 +9591,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 64.77) (xy 261.62 68.58)
+			(xy 261.62 64.77) (xy 261.62 67.31)
 		)
 		(stroke
 			(width 0)
@@ -10565,6 +10571,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 76.2) (xy 264.16 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db6bc69c-ae90-4803-acb1-31d349745bfb")
+	)
+	(wire
+		(pts
 			(xy 256.54 125.73) (xy 246.38 125.73)
 		)
 		(stroke
@@ -10772,6 +10788,16 @@
 			(type default)
 		)
 		(uuid "ea4c7acf-c938-43ea-bbc0-2faa9ec39de0")
+	)
+	(wire
+		(pts
+			(xy 259.08 76.2) (xy 261.62 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecd50700-0f19-49cc-b643-d1721341ab26")
 	)
 	(wire
 		(pts
@@ -11072,6 +11098,16 @@
 			(type default)
 		)
 		(uuid "fac5d219-23d4-443e-ad5c-b40c9caddb58")
+	)
+	(wire
+		(pts
+			(xy 261.62 76.2) (xy 261.62 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe30a251-4bf2-4d87-812a-703f5e382502")
 	)
 	(wire
 		(pts
@@ -11404,7 +11440,7 @@
 		(uuid "258b84fe-7b72-4942-810c-c7913336d5d5")
 	)
 	(label "FPGA_EN"
-		(at 261.62 80.01 270)
+		(at 259.08 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12822,6 +12858,16 @@
 			(justify right bottom)
 		)
 		(uuid "c99a2e14-5d0d-4927-bea7-381863772075")
+	)
+	(label "SHUTDOWNn"
+		(at 274.32 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ca1c135f-15ba-4c8e-bc72-adc3304ea932")
 	)
 	(label "PB22N"
 		(at 236.22 238.76 270)
@@ -17087,6 +17133,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 267.97 76.2 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7402c99b-7bff-4fee-85f1-3ba0ee7794e9")
+		(property "Reference" "JP8"
+			(at 267.97 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Bridged"
+			(at 269.2399 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 267.97 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 267.97 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 267.97 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11326b49-2bc2-4185-a263-74e4a3c98dcd")
+		)
+		(pin "2"
+			(uuid "22f3e4ea-4805-45fe-ba8a-75c695bc379e")
+		)
+		(instances
+			(project "nx-module-breakout"
+				(path "/c4309d17-8b44-40eb-9117-2333970d29f8"
+					(reference "JP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_02x15_Odd_Even")
 		(at 226.06 224.79 270)
 		(unit 1)
@@ -21026,7 +21142,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 261.62 71.12 0)
+		(at 261.62 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21034,7 +21150,7 @@
 		(dnp no)
 		(uuid "ceb23dd0-6869-4f46-b11d-b6a35f5c6da3")
 		(property "Reference" "R5"
-			(at 256.921 71.12 90)
+			(at 256.921 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21042,7 +21158,7 @@
 			)
 		)
 		(property "Value" "56K"
-			(at 259.207 70.866 90)
+			(at 259.207 69.596 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21050,7 +21166,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 261.62 71.12 0)
+			(at 261.62 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21059,7 +21175,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 261.62 71.12 0)
+			(at 261.62 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21068,7 +21184,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 261.62 71.12 0)
+			(at 261.62 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21077,7 +21193,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" ""
-			(at 261.62 71.12 0)
+			(at 261.62 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21086,7 +21202,7 @@
 			)
 		)
 		(property "MPN" "RC0402FR-0727RL"
-			(at 261.62 71.12 0)
+			(at 261.62 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21095,7 +21211,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 261.62 71.12 0)
+			(at 261.62 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21104,7 +21220,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 261.62 71.12 0)
+			(at 261.62 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
