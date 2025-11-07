@@ -21599,7 +21599,7 @@
 		(layer "Edge.Cuts")
 		(uuid "e8ad4f23-cd3c-48f9-95d1-dada10f32895")
 	)
-	(gr_text "Rev 0"
+	(gr_text "Rev 1"
 		(at 126.1 76.845 0)
 		(layer "F.SilkS")
 		(uuid "7064c15e-7b7d-422e-a6db-7b74332ca5c0")
@@ -21637,7 +21637,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "1417.3228 mils"
+		(gr_text "36 mm"
 			(at 118 119.66 0)
 			(layer "Dwgs.User")
 			(uuid "46b0b14f-713c-470d-911b-9e67978ed0e4")
@@ -21675,7 +21675,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "354.3307 mils"
+		(gr_text "9 mm"
 			(at 96.65 95.5 90)
 			(layer "Dwgs.User")
 			(uuid "596e750b-b002-4da3-b336-901460b4d8e1")
@@ -21712,7 +21712,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "370.0787 mils"
+		(gr_text "9.4000 mm"
 			(at 138.55 74.7 90)
 			(layer "Dwgs.User")
 			(uuid "6352d8f3-6db1-491a-ac61-5e7da992b2d3")
@@ -21750,7 +21750,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "708.6614 mils"
+		(gr_text "18 mm"
 			(at 109 110.5 0)
 			(layer "Dwgs.User")
 			(uuid "7e96cc4b-2778-4ca8-8d8b-011660fe1afa")
@@ -21788,7 +21788,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "1181.1024 mils"
+		(gr_text "30 mm"
 			(at 141.85 85 90)
 			(layer "Dwgs.User")
 			(uuid "9f074319-9549-489d-9b2d-20a9ef80f9f3")
@@ -21826,7 +21826,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "651.5748 mils"
+		(gr_text "16.55 mm"
 			(at 108.275 106.24 0)
 			(layer "Dwgs.User")
 			(uuid "ba22f20f-5d21-454a-bda0-83164fd73290")
@@ -21864,7 +21864,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "370.0787 mils"
+		(gr_text "9.4 mm"
 			(at 96.65 74.7 90)
 			(layer "Dwgs.User")
 			(uuid "d4587fe2-b61a-4ef4-bab2-0bf634db5baa")
@@ -21902,7 +21902,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "1248.0315 mils"
+		(gr_text "31.7 mm"
 			(at 115.85 114.66 0)
 			(layer "Dwgs.User")
 			(uuid "e3c7501c-da40-44cf-aa74-9ca75fce6b19")
@@ -21940,7 +21940,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "98.4252 mils"
+		(gr_text "2.5 mm"
 			(at 101.25 100.15 0)
 			(layer "Dwgs.User")
 			(uuid "eb2ed25a-2f9d-43c3-8e0e-9483c8555fb0")
@@ -21977,7 +21977,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "51.1811 mils"
+		(gr_text "1.3000 mm"
 			(at 112.95 99.35 90)
 			(layer "Dwgs.User")
 			(uuid "f2a6f1fa-ea3a-436a-952b-28ef1ba3189a")
