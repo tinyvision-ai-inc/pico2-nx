@@ -502,14 +502,42 @@
         "line_style": 0,
         "microvia_diameter": 0.254,
         "microvia_drill": 0.1524,
-        "name": "mipi",
+        "name": "100",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.0762,
         "via_diameter": 0.254,
         "via_drill": 0.1524,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.0762,
+        "diff_pair_gap": 0.1397,
+        "diff_pair_width": 0.118618,
+        "microvia_diameter": 0.254,
+        "microvia_drill": 0.1524,
+        "name": "100_internal",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.0762,
+        "via_diameter": 0.254,
+        "via_drill": 0.1524
+      },
+      {
+        "clearance": 0.0762,
+        "diff_pair_gap": 0.1397,
+        "diff_pair_width": 0.118618,
+        "microvia_diameter": 0.254,
+        "microvia_drill": 0.1524,
+        "name": "50_internal",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.190246,
+        "via_diameter": 0.254,
+        "via_drill": 0.1524
       }
     ],
     "meta": {
@@ -525,43 +553,43 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "mipi",
+        "netclass": "100",
         "pattern": "/FPGA/EXT_MIPI.CLK+"
       },
       {
-        "netclass": "mipi",
+        "netclass": "100",
         "pattern": "/FPGA/EXT_MIPI.CLK-"
       },
       {
-        "netclass": "mipi",
+        "netclass": "100",
         "pattern": "/FPGA/EXT_MIPI.D0+"
       },
       {
-        "netclass": "mipi",
+        "netclass": "100",
         "pattern": "/FPGA/EXT_MIPI.D0-"
       },
       {
-        "netclass": "mipi",
+        "netclass": "100",
         "pattern": "/FPGA/EXT_MIPI.D1+"
       },
       {
-        "netclass": "mipi",
+        "netclass": "100",
         "pattern": "/FPGA/EXT_MIPI.D1-"
       },
       {
-        "netclass": "mipi",
+        "netclass": "100",
         "pattern": "/FPGA/EXT_MIPI.D2+"
       },
       {
-        "netclass": "mipi",
+        "netclass": "100",
         "pattern": "/FPGA/EXT_MIPI.D2-"
       },
       {
-        "netclass": "mipi",
+        "netclass": "100",
         "pattern": "/FPGA/EXT_MIPI.D3+"
       },
       {
-        "netclass": "mipi",
+        "netclass": "100",
         "pattern": "/FPGA/EXT_MIPI.D3-"
       },
       {
@@ -629,212 +657,292 @@
         "pattern": "GND"
       },
       {
-        "netclass": "mipi",
+        "netclass": "100",
         "pattern": "/FPGA/RGB_MIPI.D0-"
       },
       {
-        "netclass": "mipi",
+        "netclass": "100",
         "pattern": "/FPGA/RGB_MIPI.D0+"
       },
       {
-        "netclass": "mipi",
+        "netclass": "100",
         "pattern": "/FPGA/RGB_MIPI.D1-"
       },
       {
-        "netclass": "mipi",
+        "netclass": "100",
         "pattern": "/FPGA/RGB_MIPI.D1+"
       },
       {
-        "netclass": "mipi",
+        "netclass": "100",
         "pattern": "/FPGA/RGB_MIPI.CLK-"
       },
       {
-        "netclass": "mipi",
+        "netclass": "100",
         "pattern": "/FPGA/RGB_MIPI.CLK+"
       },
       {
-        "netclass": "mipi",
+        "netclass": "100",
         "pattern": "/FPGA/RGB_MIPI.D2-"
       },
       {
-        "netclass": "mipi",
+        "netclass": "100",
         "pattern": "/FPGA/RGB_MIPI.D2+"
       },
       {
-        "netclass": "mipi",
+        "netclass": "100",
         "pattern": "/FPGA/RGB_MIPI.D3-"
       },
       {
-        "netclass": "mipi",
+        "netclass": "100",
         "pattern": "/FPGA/RGB_MIPI.D3+"
       },
       {
-        "netclass": "mipi",
+        "netclass": "100",
         "pattern": "/FPGA/PB56P"
       },
       {
-        "netclass": "mipi",
+        "netclass": "100",
         "pattern": "/FPGA/PB56N"
       },
       {
-        "netclass": "mipi",
+        "netclass": "100",
         "pattern": "/FPGA/PB62P"
       },
       {
-        "netclass": "mipi",
+        "netclass": "100",
         "pattern": "/FPGA/PB62N"
       },
       {
-        "netclass": "mipi",
+        "netclass": "100",
         "pattern": "/FPGA/PB58P"
       },
       {
-        "netclass": "mipi",
+        "netclass": "100",
         "pattern": "/FPGA/PB58N"
       },
       {
-        "netclass": "mipi",
+        "netclass": "100",
         "pattern": "/FPGA/PB64P"
       },
       {
-        "netclass": "mipi",
+        "netclass": "100",
         "pattern": "/FPGA/PB64N"
       },
       {
-        "netclass": "mipi",
+        "netclass": "100",
         "pattern": "/FPGA/PB66P"
       },
       {
-        "netclass": "mipi",
+        "netclass": "100",
         "pattern": "/FPGA/PB66N"
       },
       {
-        "netclass": "mipi",
+        "netclass": "100",
         "pattern": "/FPGA/PB68P"
       },
       {
-        "netclass": "mipi",
+        "netclass": "100",
         "pattern": "/FPGA/PB68N"
       },
       {
-        "netclass": "mipi",
+        "netclass": "100",
         "pattern": "/FPGA/PB70P"
       },
       {
-        "netclass": "mipi",
+        "netclass": "100",
         "pattern": "/FPGA/PB70N"
       },
       {
-        "netclass": "mipi",
+        "netclass": "100",
         "pattern": "/FPGA/PB60P"
       },
       {
-        "netclass": "mipi",
+        "netclass": "100",
         "pattern": "/FPGA/PB60N"
       },
       {
-        "netclass": "mipi",
+        "netclass": "100",
         "pattern": "/FPGA/PR13N"
       },
       {
-        "netclass": "mipi",
+        "netclass": "100",
         "pattern": "/FPGA/PR13P"
       },
       {
-        "netclass": "mipi",
+        "netclass": "100",
         "pattern": "/FPGA/PR11N"
       },
       {
-        "netclass": "mipi",
+        "netclass": "100",
         "pattern": "/FPGA/PR11P"
       },
       {
-        "netclass": "mipi",
+        "netclass": "100",
         "pattern": "/FPGA/DPHY1.D1+"
       },
       {
-        "netclass": "mipi",
+        "netclass": "100",
         "pattern": "/FPGA/DPHY1.D1-"
       },
       {
-        "netclass": "mipi",
+        "netclass": "100",
         "pattern": "/FPGA/DPHY1.D3+"
       },
       {
-        "netclass": "mipi",
+        "netclass": "100",
         "pattern": "/FPGA/DPHY1.D3-"
       },
       {
-        "netclass": "mipi",
+        "netclass": "100",
         "pattern": "/FPGA/PB22N"
       },
       {
-        "netclass": "mipi",
+        "netclass": "100",
         "pattern": "/FPGA/PB22P"
       },
       {
-        "netclass": "mipi",
+        "netclass": "100",
         "pattern": "/FPGA/PB20N"
       },
       {
-        "netclass": "mipi",
+        "netclass": "100",
         "pattern": "/FPGA/PB20P"
       },
       {
-        "netclass": "mipi",
+        "netclass": "100",
         "pattern": "/FPGA/PB16N"
       },
       {
-        "netclass": "mipi",
+        "netclass": "100",
         "pattern": "/FPGA/PB16P"
       },
       {
-        "netclass": "mipi",
+        "netclass": "100",
         "pattern": "/FPGA/PB18N"
       },
       {
-        "netclass": "mipi",
+        "netclass": "100",
         "pattern": "/FPGA/PB18P"
       },
       {
-        "netclass": "mipi",
+        "netclass": "100",
         "pattern": "/FPGA/PB24P"
       },
       {
-        "netclass": "mipi",
+        "netclass": "100",
         "pattern": "/FPGA/PB24N"
       },
       {
-        "netclass": "mipi",
+        "netclass": "100",
         "pattern": "/FPGA/PB26P"
       },
       {
-        "netclass": "mipi",
+        "netclass": "100",
         "pattern": "/FPGA/PB26N"
       },
       {
-        "netclass": "mipi",
+        "netclass": "100",
         "pattern": "/FPGA/PB28P"
       },
       {
-        "netclass": "mipi",
+        "netclass": "100",
         "pattern": "/FPGA/PB28N"
       },
       {
-        "netclass": "mipi",
+        "netclass": "100",
         "pattern": "/FPGA/PB30P"
       },
       {
-        "netclass": "mipi",
+        "netclass": "100",
         "pattern": "/FPGA/PB30N"
       },
       {
-        "netclass": "mipi",
+        "netclass": "100",
         "pattern": "/FPGA/SRAM_CLK_N"
       },
       {
-        "netclass": "mipi",
+        "netclass": "100",
         "pattern": "/FPGA/SRAM_CLK_P"
+      },
+      {
+        "netclass": "100_internal",
+        "pattern": "/FPGA/PB58N"
+      },
+      {
+        "netclass": "100_internal",
+        "pattern": "/FPGA/PB58P"
+      },
+      {
+        "netclass": "100_internal",
+        "pattern": "/FPGA/PB60N"
+      },
+      {
+        "netclass": "100_internal",
+        "pattern": "/FPGA/PB60P"
+      },
+      {
+        "netclass": "100_internal",
+        "pattern": "/FPGA/SRAM_CLK_N"
+      },
+      {
+        "netclass": "100_internal",
+        "pattern": "/FPGA/SRAM_CLK_P"
+      },
+      {
+        "netclass": "50_internal",
+        "pattern": "/FPGA/SRAM_DQ2"
+      },
+      {
+        "netclass": "50_internal",
+        "pattern": "/FPGA/SRAM_DQ1"
+      },
+      {
+        "netclass": "50_internal",
+        "pattern": "/FPGA/SRAM_DQ0"
+      },
+      {
+        "netclass": "50_internal",
+        "pattern": "/FPGA/SRAM_DQ3"
+      },
+      {
+        "netclass": "50_internal",
+        "pattern": "/FPGA/SRAM_DQ4"
+      },
+      {
+        "netclass": "50_internal",
+        "pattern": "/FPGA/SRAM_DQ7"
+      },
+      {
+        "netclass": "50_internal",
+        "pattern": "/FPGA/SRAM_DQ6"
+      },
+      {
+        "netclass": "50_internal",
+        "pattern": "/FPGA/SRAM_DQ5"
+      },
+      {
+        "netclass": "50_internal",
+        "pattern": "/FPGA/SRAM_RW"
+      },
+      {
+        "netclass": "50_internal",
+        "pattern": "/FPGA/PT57A"
+      },
+      {
+        "netclass": "50_internal",
+        "pattern": "/FPGA/PB52B"
+      },
+      {
+        "netclass": "50_internal",
+        "pattern": "/FPGA/PB52A"
+      },
+      {
+        "netclass": "50_internal",
+        "pattern": "/FPGA/PB50B"
+      },
+      {
+        "netclass": "50_internal",
+        "pattern": "/FPGA/PB50A"
       }
     ]
   },
