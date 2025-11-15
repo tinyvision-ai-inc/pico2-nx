@@ -23688,12 +23688,12 @@
 				(type solid)
 			)
 		)
-		(column_widths 15.75 15.75 15.75 15.75 15.75)
+		(column_widths 18.93 15.75 15.75 15.75 15.75)
 		(row_heights 3 3 3 3 3 3 3 3 3 3 3 3 3 3)
 		(cells
 			(table_cell ""
 				(start 24.75 124.75)
-				(end 40.5 127.75)
+				(end 43.68 127.75)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "Dwgs.User")
@@ -23706,8 +23706,8 @@
 				)
 			)
 			(table_cell "Impedance"
-				(start 40.5 124.75)
-				(end 56.25 127.75)
+				(start 43.68 124.75)
+				(end 59.43 127.75)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "Dwgs.User")
@@ -23720,8 +23720,8 @@
 				)
 			)
 			(table_cell ""
-				(start 56.25 124.75)
-				(end 72 127.75)
+				(start 59.43 124.75)
+				(end 75.18 127.75)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "Dwgs.User")
@@ -23734,8 +23734,8 @@
 				)
 			)
 			(table_cell ""
-				(start 72 124.75)
-				(end 87.75 127.75)
+				(start 75.18 124.75)
+				(end 90.93 127.75)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "Dwgs.User")
@@ -23748,8 +23748,8 @@
 				)
 			)
 			(table_cell ""
-				(start 87.75 124.75)
-				(end 103.5 127.75)
+				(start 90.93 124.75)
+				(end 106.68 127.75)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "Dwgs.User")
@@ -23763,7 +23763,7 @@
 			)
 			(table_cell "Layer"
 				(start 24.75 127.75)
-				(end 40.5 130.75)
+				(end 43.68 130.75)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "Dwgs.User")
@@ -23776,8 +23776,8 @@
 				)
 			)
 			(table_cell "Single End"
-				(start 40.5 127.75)
-				(end 56.25 130.75)
+				(start 43.68 127.75)
+				(end 59.43 130.75)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "Dwgs.User")
@@ -23790,8 +23790,8 @@
 				)
 			)
 			(table_cell "Differential"
-				(start 56.25 127.75)
-				(end 72 130.75)
+				(start 59.43 127.75)
+				(end 75.18 130.75)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "Dwgs.User")
@@ -23804,8 +23804,8 @@
 				)
 			)
 			(table_cell "Width"
-				(start 72 127.75)
-				(end 87.75 130.75)
+				(start 75.18 127.75)
+				(end 90.93 130.75)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "Dwgs.User")
@@ -23818,8 +23818,8 @@
 				)
 			)
 			(table_cell "Spacing"
-				(start 87.75 127.75)
-				(end 103.5 130.75)
+				(start 90.93 127.75)
+				(end 106.68 130.75)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "Dwgs.User")
@@ -23831,9 +23831,9 @@
 					(justify left)
 				)
 			)
-			(table_cell "F.Cu"
+			(table_cell "F.Cu & B.Cu"
 				(start 24.75 130.75)
-				(end 40.5 133.75)
+				(end 43.68 133.75)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "Dwgs.User")
@@ -23846,8 +23846,8 @@
 				)
 			)
 			(table_cell "50 ohm"
-				(start 40.5 130.75)
-				(end 56.25 133.75)
+				(start 43.68 130.75)
+				(end 59.43 133.75)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "Dwgs.User")
@@ -23860,8 +23860,8 @@
 				)
 			)
 			(table_cell ""
-				(start 56.25 130.75)
-				(end 72 133.75)
+				(start 59.43 130.75)
+				(end 75.18 133.75)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "Dwgs.User")
@@ -23874,8 +23874,8 @@
 				)
 			)
 			(table_cell "6.16 mils"
-				(start 72 130.75)
-				(end 87.75 133.75)
+				(start 75.18 130.75)
+				(end 90.93 133.75)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "Dwgs.User")
@@ -23888,8 +23888,8 @@
 				)
 			)
 			(table_cell ""
-				(start 87.75 130.75)
-				(end 103.5 133.75)
+				(start 90.93 130.75)
+				(end 106.68 133.75)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "Dwgs.User")
@@ -23901,9 +23901,9 @@
 					(justify left)
 				)
 			)
-			(table_cell "In2.Cu"
+			(table_cell "In1.Cu & In4.Cu"
 				(start 24.75 133.75)
-				(end 40.5 136.75)
+				(end 43.68 136.75)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "Dwgs.User")
@@ -23916,8 +23916,8 @@
 				)
 			)
 			(table_cell "50 ohm"
-				(start 40.5 133.75)
-				(end 56.25 136.75)
+				(start 43.68 133.75)
+				(end 59.43 136.75)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "Dwgs.User")
@@ -23930,8 +23930,8 @@
 				)
 			)
 			(table_cell ""
-				(start 56.25 133.75)
-				(end 72 136.75)
+				(start 59.43 133.75)
+				(end 75.18 136.75)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "Dwgs.User")
@@ -23943,9 +23943,9 @@
 					(justify left)
 				)
 			)
-			(table_cell "7.49 mils"
-				(start 72 133.75)
-				(end 87.75 136.75)
+			(table_cell "4.65 mils"
+				(start 75.18 133.75)
+				(end 90.93 136.75)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "Dwgs.User")
@@ -23958,8 +23958,8 @@
 				)
 			)
 			(table_cell ""
-				(start 87.75 133.75)
-				(end 103.5 136.75)
+				(start 90.93 133.75)
+				(end 106.68 136.75)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "Dwgs.User")
@@ -23971,9 +23971,9 @@
 					(justify left)
 				)
 			)
-			(table_cell "In4.Cu"
+			(table_cell "In2.Cu & In3.Cu"
 				(start 24.75 136.75)
-				(end 40.5 139.75)
+				(end 43.68 139.75)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "Dwgs.User")
@@ -23986,8 +23986,8 @@
 				)
 			)
 			(table_cell "50 ohm"
-				(start 40.5 136.75)
-				(end 56.25 139.75)
+				(start 43.68 136.75)
+				(end 59.43 139.75)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "Dwgs.User")
@@ -24000,8 +24000,8 @@
 				)
 			)
 			(table_cell ""
-				(start 56.25 136.75)
-				(end 72 139.75)
+				(start 59.43 136.75)
+				(end 75.18 139.75)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "Dwgs.User")
@@ -24013,9 +24013,9 @@
 					(justify left)
 				)
 			)
-			(table_cell "4.65 mils"
-				(start 72 136.75)
-				(end 87.75 139.75)
+			(table_cell "7.49 mils"
+				(start 75.18 136.75)
+				(end 90.93 139.75)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "Dwgs.User")
@@ -24028,8 +24028,8 @@
 				)
 			)
 			(table_cell ""
-				(start 87.75 136.75)
-				(end 103.5 139.75)
+				(start 90.93 136.75)
+				(end 106.68 139.75)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "Dwgs.User")
@@ -24041,9 +24041,9 @@
 					(justify left)
 				)
 			)
-			(table_cell "B.Cu"
+			(table_cell ""
 				(start 24.75 139.75)
-				(end 40.5 142.75)
+				(end 43.68 142.75)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "Dwgs.User")
@@ -24055,9 +24055,9 @@
 					(justify left)
 				)
 			)
-			(table_cell "50 ohm"
-				(start 40.5 139.75)
-				(end 56.25 142.75)
+			(table_cell ""
+				(start 43.68 139.75)
+				(end 59.43 142.75)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "Dwgs.User")
@@ -24070,8 +24070,8 @@
 				)
 			)
 			(table_cell ""
-				(start 56.25 139.75)
-				(end 72 142.75)
+				(start 59.43 139.75)
+				(end 75.18 142.75)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "Dwgs.User")
@@ -24083,9 +24083,9 @@
 					(justify left)
 				)
 			)
-			(table_cell "6.16 mils"
-				(start 72 139.75)
-				(end 87.75 142.75)
+			(table_cell ""
+				(start 75.18 139.75)
+				(end 90.93 142.75)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "Dwgs.User")
@@ -24098,8 +24098,8 @@
 				)
 			)
 			(table_cell ""
-				(start 87.75 139.75)
-				(end 103.5 142.75)
+				(start 90.93 139.75)
+				(end 106.68 142.75)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "Dwgs.User")
@@ -24113,7 +24113,7 @@
 			)
 			(table_cell ""
 				(start 24.75 142.75)
-				(end 40.5 145.75)
+				(end 43.68 145.75)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "Dwgs.User")
@@ -24126,8 +24126,8 @@
 				)
 			)
 			(table_cell ""
-				(start 40.5 142.75)
-				(end 56.25 145.75)
+				(start 43.68 142.75)
+				(end 59.43 145.75)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "Dwgs.User")
@@ -24140,8 +24140,8 @@
 				)
 			)
 			(table_cell ""
-				(start 56.25 142.75)
-				(end 72 145.75)
+				(start 59.43 142.75)
+				(end 75.18 145.75)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "Dwgs.User")
@@ -24154,8 +24154,8 @@
 				)
 			)
 			(table_cell ""
-				(start 72 142.75)
-				(end 87.75 145.75)
+				(start 75.18 142.75)
+				(end 90.93 145.75)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "Dwgs.User")
@@ -24168,8 +24168,8 @@
 				)
 			)
 			(table_cell ""
-				(start 87.75 142.75)
-				(end 103.5 145.75)
+				(start 90.93 142.75)
+				(end 106.68 145.75)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "Dwgs.User")
@@ -24181,9 +24181,9 @@
 					(justify left)
 				)
 			)
-			(table_cell "F.Cu"
+			(table_cell "F.Cu & B.Cu"
 				(start 24.75 145.75)
-				(end 40.5 148.75)
+				(end 43.68 148.75)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "Dwgs.User")
@@ -24196,8 +24196,8 @@
 				)
 			)
 			(table_cell ""
-				(start 40.5 145.75)
-				(end 56.25 148.75)
+				(start 43.68 145.75)
+				(end 59.43 148.75)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "Dwgs.User")
@@ -24210,8 +24210,8 @@
 				)
 			)
 			(table_cell "100 ohm"
-				(start 56.25 145.75)
-				(end 72 148.75)
+				(start 59.43 145.75)
+				(end 75.18 148.75)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "Dwgs.User")
@@ -24224,8 +24224,8 @@
 				)
 			)
 			(table_cell "4.07 mils"
-				(start 72 145.75)
-				(end 87.75 148.75)
+				(start 75.18 145.75)
+				(end 90.93 148.75)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "Dwgs.User")
@@ -24238,8 +24238,8 @@
 				)
 			)
 			(table_cell "5.5 mils"
-				(start 87.75 145.75)
-				(end 103.5 148.75)
+				(start 90.93 145.75)
+				(end 106.68 148.75)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "Dwgs.User")
@@ -24251,9 +24251,9 @@
 					(justify left)
 				)
 			)
-			(table_cell "In2.Cu"
+			(table_cell "In2.Cu & In3.Cu"
 				(start 24.75 148.75)
-				(end 40.5 151.75)
+				(end 43.68 151.75)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "Dwgs.User")
@@ -24266,8 +24266,8 @@
 				)
 			)
 			(table_cell ""
-				(start 40.5 148.75)
-				(end 56.25 151.75)
+				(start 43.68 148.75)
+				(end 59.43 151.75)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "Dwgs.User")
@@ -24280,8 +24280,8 @@
 				)
 			)
 			(table_cell "100 ohm"
-				(start 56.25 148.75)
-				(end 72 151.75)
+				(start 59.43 148.75)
+				(end 75.18 151.75)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "Dwgs.User")
@@ -24294,8 +24294,8 @@
 				)
 			)
 			(table_cell "4.67 mils"
-				(start 72 148.75)
-				(end 87.75 151.75)
+				(start 75.18 148.75)
+				(end 90.93 151.75)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "Dwgs.User")
@@ -24308,8 +24308,8 @@
 				)
 			)
 			(table_cell "5.5 mils"
-				(start 87.75 148.75)
-				(end 103.5 151.75)
+				(start 90.93 148.75)
+				(end 106.68 151.75)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "Dwgs.User")
@@ -24321,9 +24321,9 @@
 					(justify left)
 				)
 			)
-			(table_cell "B.Cu"
+			(table_cell ""
 				(start 24.75 151.75)
-				(end 40.5 154.75)
+				(end 43.68 154.75)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "Dwgs.User")
@@ -24336,8 +24336,8 @@
 				)
 			)
 			(table_cell ""
-				(start 40.5 151.75)
-				(end 56.25 154.75)
+				(start 43.68 151.75)
+				(end 59.43 154.75)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "Dwgs.User")
@@ -24349,9 +24349,9 @@
 					(justify left)
 				)
 			)
-			(table_cell "100 ohm"
-				(start 56.25 151.75)
-				(end 72 154.75)
+			(table_cell ""
+				(start 59.43 151.75)
+				(end 75.18 154.75)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "Dwgs.User")
@@ -24363,9 +24363,9 @@
 					(justify left)
 				)
 			)
-			(table_cell "4.07 mils"
-				(start 72 151.75)
-				(end 87.75 154.75)
+			(table_cell ""
+				(start 75.18 151.75)
+				(end 90.93 154.75)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "Dwgs.User")
@@ -24377,9 +24377,9 @@
 					(justify left)
 				)
 			)
-			(table_cell "5.5 mils"
-				(start 87.75 151.75)
-				(end 103.5 154.75)
+			(table_cell ""
+				(start 90.93 151.75)
+				(end 106.68 154.75)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "Dwgs.User")
@@ -24393,7 +24393,7 @@
 			)
 			(table_cell ""
 				(start 24.75 154.75)
-				(end 40.5 157.75)
+				(end 43.68 157.75)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "Dwgs.User")
@@ -24406,8 +24406,8 @@
 				)
 			)
 			(table_cell ""
-				(start 40.5 154.75)
-				(end 56.25 157.75)
+				(start 43.68 154.75)
+				(end 59.43 157.75)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "Dwgs.User")
@@ -24420,8 +24420,8 @@
 				)
 			)
 			(table_cell ""
-				(start 56.25 154.75)
-				(end 72 157.75)
+				(start 59.43 154.75)
+				(end 75.18 157.75)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "Dwgs.User")
@@ -24434,8 +24434,8 @@
 				)
 			)
 			(table_cell ""
-				(start 72 154.75)
-				(end 87.75 157.75)
+				(start 75.18 154.75)
+				(end 90.93 157.75)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "Dwgs.User")
@@ -24448,8 +24448,8 @@
 				)
 			)
 			(table_cell ""
-				(start 87.75 154.75)
-				(end 103.5 157.75)
+				(start 90.93 154.75)
+				(end 106.68 157.75)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "Dwgs.User")
@@ -24463,7 +24463,7 @@
 			)
 			(table_cell ""
 				(start 24.75 157.75)
-				(end 40.5 160.75)
+				(end 43.68 160.75)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "Dwgs.User")
@@ -24476,8 +24476,8 @@
 				)
 			)
 			(table_cell ""
-				(start 40.5 157.75)
-				(end 56.25 160.75)
+				(start 43.68 157.75)
+				(end 59.43 160.75)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "Dwgs.User")
@@ -24490,8 +24490,8 @@
 				)
 			)
 			(table_cell ""
-				(start 56.25 157.75)
-				(end 72 160.75)
+				(start 59.43 157.75)
+				(end 75.18 160.75)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "Dwgs.User")
@@ -24504,8 +24504,8 @@
 				)
 			)
 			(table_cell ""
-				(start 72 157.75)
-				(end 87.75 160.75)
+				(start 75.18 157.75)
+				(end 90.93 160.75)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "Dwgs.User")
@@ -24518,8 +24518,8 @@
 				)
 			)
 			(table_cell ""
-				(start 87.75 157.75)
-				(end 103.5 160.75)
+				(start 90.93 157.75)
+				(end 106.68 160.75)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "Dwgs.User")
@@ -24533,7 +24533,7 @@
 			)
 			(table_cell ""
 				(start 24.75 160.75)
-				(end 40.5 163.75)
+				(end 43.68 163.75)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "Dwgs.User")
@@ -24546,8 +24546,8 @@
 				)
 			)
 			(table_cell ""
-				(start 40.5 160.75)
-				(end 56.25 163.75)
+				(start 43.68 160.75)
+				(end 59.43 163.75)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "Dwgs.User")
@@ -24560,8 +24560,8 @@
 				)
 			)
 			(table_cell ""
-				(start 56.25 160.75)
-				(end 72 163.75)
+				(start 59.43 160.75)
+				(end 75.18 163.75)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "Dwgs.User")
@@ -24574,8 +24574,8 @@
 				)
 			)
 			(table_cell ""
-				(start 72 160.75)
-				(end 87.75 163.75)
+				(start 75.18 160.75)
+				(end 90.93 163.75)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "Dwgs.User")
@@ -24588,8 +24588,8 @@
 				)
 			)
 			(table_cell ""
-				(start 87.75 160.75)
-				(end 103.5 163.75)
+				(start 90.93 160.75)
+				(end 106.68 163.75)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "Dwgs.User")
@@ -24603,7 +24603,7 @@
 			)
 			(table_cell ""
 				(start 24.75 163.75)
-				(end 40.5 166.75)
+				(end 43.68 166.75)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "Dwgs.User")
@@ -24616,8 +24616,8 @@
 				)
 			)
 			(table_cell ""
-				(start 40.5 163.75)
-				(end 56.25 166.75)
+				(start 43.68 163.75)
+				(end 59.43 166.75)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "Dwgs.User")
@@ -24630,8 +24630,8 @@
 				)
 			)
 			(table_cell ""
-				(start 56.25 163.75)
-				(end 72 166.75)
+				(start 59.43 163.75)
+				(end 75.18 166.75)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "Dwgs.User")
@@ -24644,8 +24644,8 @@
 				)
 			)
 			(table_cell ""
-				(start 72 163.75)
-				(end 87.75 166.75)
+				(start 75.18 163.75)
+				(end 90.93 166.75)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "Dwgs.User")
@@ -24658,8 +24658,8 @@
 				)
 			)
 			(table_cell ""
-				(start 87.75 163.75)
-				(end 103.5 166.75)
+				(start 90.93 163.75)
+				(end 106.68 166.75)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "Dwgs.User")
@@ -24699,7 +24699,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "36 mm"
+		(gr_text "1417.3228 mils"
 			(at 118 119.66 0)
 			(layer "Dwgs.User")
 			(uuid "46b0b14f-713c-470d-911b-9e67978ed0e4")
@@ -24737,7 +24737,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "9 mm"
+		(gr_text "354.3307 mils"
 			(at 96.65 95.5 90)
 			(layer "Dwgs.User")
 			(uuid "596e750b-b002-4da3-b336-901460b4d8e1")
@@ -24774,7 +24774,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "9.4000 mm"
+		(gr_text "370.0787 mils"
 			(at 138.55 74.7 90)
 			(layer "Dwgs.User")
 			(uuid "6352d8f3-6db1-491a-ac61-5e7da992b2d3")
@@ -24812,7 +24812,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "18 mm"
+		(gr_text "708.6614 mils"
 			(at 109 110.5 0)
 			(layer "Dwgs.User")
 			(uuid "7e96cc4b-2778-4ca8-8d8b-011660fe1afa")
@@ -24850,7 +24850,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "30 mm"
+		(gr_text "1181.1024 mils"
 			(at 141.85 85 90)
 			(layer "Dwgs.User")
 			(uuid "9f074319-9549-489d-9b2d-20a9ef80f9f3")
@@ -24888,7 +24888,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "16.55 mm"
+		(gr_text "651.5748 mils"
 			(at 108.275 106.24 0)
 			(layer "Dwgs.User")
 			(uuid "ba22f20f-5d21-454a-bda0-83164fd73290")
@@ -24926,7 +24926,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "9.4 mm"
+		(gr_text "370.0787 mils"
 			(at 96.65 74.7 90)
 			(layer "Dwgs.User")
 			(uuid "d4587fe2-b61a-4ef4-bab2-0bf634db5baa")
@@ -24964,7 +24964,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "31.7 mm"
+		(gr_text "1248.0315 mils"
 			(at 115.85 114.66 0)
 			(layer "Dwgs.User")
 			(uuid "e3c7501c-da40-44cf-aa74-9ca75fce6b19")
@@ -25002,7 +25002,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "2.5 mm"
+		(gr_text "98.4252 mils"
 			(at 101.25 100.15 0)
 			(layer "Dwgs.User")
 			(uuid "eb2ed25a-2f9d-43c3-8e0e-9483c8555fb0")
@@ -25039,7 +25039,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "1.3000 mm"
+		(gr_text "51.1811 mils"
 			(at 112.95 99.35 90)
 			(layer "Dwgs.User")
 			(uuid "f2a6f1fa-ea3a-436a-952b-28ef1ba3189a")
