@@ -951,10 +951,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "TESTGB/",
-      "pos_files": "",
+      "plot": "OutputFiles/Gerber/",
+      "pos_files": "OutputFiles/Assembly/",
       "specctra_dsn": "",
-      "step": "pico2-nx-module.step",
+      "step": "OutputFiles/Misc/pico2-nx-module.step",
       "svg": "",
       "vrml": ""
     },
