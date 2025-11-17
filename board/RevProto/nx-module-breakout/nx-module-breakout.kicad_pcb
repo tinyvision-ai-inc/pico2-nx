@@ -19062,7 +19062,7 @@
 			(justify left top)
 		)
 	)
-	(gr_text "0.0762 mm / 0.0000 mm"
+	(gr_text "0.0889 mm / 0.0889 mm"
 		(at 204.8 33.7 0)
 		(layer "Dwgs.User")
 		(uuid "adf628fa-826f-439a-9d12-f9a04f77bcb6")
